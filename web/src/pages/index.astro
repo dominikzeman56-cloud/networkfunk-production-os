@@ -28,14 +28,14 @@ const bars = Array.from({ length: 24 }, (_, i) => 6 + Math.round(Math.abs(Math.s
         <div class="hud-stage">STAGE {currentTrack.stageIdx + 1} / 5 · {currentTrack.stage.toUpperCase()}</div>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; margin-bottom: 20px;">
+    <div class="dash-hero-grid">
         <div class="hud-hero-card">
             <div class="hud-bracket tl"></div>
             <div class="hud-bracket tr"></div>
             <div class="hud-bracket bl"></div>
             <div class="hud-bracket br"></div>
 
-            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px;">
+            <div class="dash-fields-grid">
                 <div>
                     <div class="hud-field-label">TRACK</div>
                     <div class="hud-field-value">{currentTrack.name}</div>
@@ -56,7 +56,7 @@ const bars = Array.from({ length: 24 }, (_, i) => 6 + Math.round(Math.abs(Math.s
 
             <div style="height: 1px; background: linear-gradient(90deg, var(--color-accent-700), transparent); margin-bottom: 16px;"></div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="dash-goal-grid">
                 <div>
                     <div class="hud-field-label">TODAY'S GOAL</div>
                     <div style="font-size: 14px; line-height: 1.5;">{currentTrack.goal}</div>
@@ -79,7 +79,7 @@ const bars = Array.from({ length: 24 }, (_, i) => 6 + Math.round(Math.abs(Math.s
         </div>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+    <div class="dash-stats-grid">
         <div class="hud-panel">
             <div class="hud-panel-label">SESSION STATUS</div>
             <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px;">
@@ -121,3 +121,19 @@ const bars = Array.from({ length: 24 }, (_, i) => 6 + Math.round(Math.abs(Math.s
         </div>
     </div>
 </Layout>
+
+<style>
+    .dash-hero-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; margin-bottom: 20px; }
+    .dash-fields-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px; }
+    .dash-goal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .dash-stats-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+
+    @media (max-width: 900px) {
+        .dash-hero-grid { grid-template-columns: 1fr; }
+        .dash-stats-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+        .dash-fields-grid { grid-template-columns: 1fr 1fr; }
+        .dash-goal-grid { grid-template-columns: 1fr; }
+    }
+</style>

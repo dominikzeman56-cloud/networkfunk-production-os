@@ -48,7 +48,7 @@ const categories = [
     </div>
 
     <div class="hud-panel-label" style="margin-bottom: 12px;">KATEGORIE</div>
-    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 12px; margin-bottom: 24px;">
         {categories.map(cat => (
             <a href={`/presets/${cat.slug}`} class="card elev-sm" style="text-decoration: none; color: inherit; text-align: center; align-items: center;">
                 <span class="card-title" style="font-size: 14px;">{cat.name}</span>
