@@ -108,6 +108,9 @@ function markdownToHtml(markdown: string): string {
   html = html.replace(/^##\s+(.+)$/gm, '<h2>$1</h2>');
   html = html.replace(/^#\s+(.+)$/gm, '<h1>$1</h1>');
 
+  // Horizontal rules
+  html = html.replace(/^---+$/gm, '<hr>');
+
   // Bold
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 

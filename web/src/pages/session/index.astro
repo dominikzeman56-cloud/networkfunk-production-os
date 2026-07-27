@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const sessionDir = 'D:/ObsidianVault/networkfunk-production-os/Session-Management';
+const sessionFiles = fs.readdirSync(sessionDir)
+  .filter(f => f.endsWith('.md') && !f.startsWith('Index') && !f.includes('Template'))
+  .map(f => {
+    const filePath = path.join(sessionDir, f);
+    const content = fs.readFileSync(filePath, 'utf8');
+    const titleMatch = content.match(/^#\s+(.+)$/m);
+    return {
+      slug: f.replace('.md', ''),
+      title: titleMatch ? titleMatch[1] : f.replace('.md', ''),
+      excerpt: content.replace(/^#.*$/m, '').replace(/^\s*---\s*/, '').trim().slice(0, 140).trim() + '…'
+    };
+  });
+---
+
+<Layout title="Session" module="SESSION">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">SESSION MANAGEMENT</div>
+            <div class="hud-page-title">Session Planner</div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px;">
+        {sessionFiles.map(s => (
+            <a href={`/session/${s.slug}`} class="card elev-sm" style="text-decoration: none; color: inherit;">
+                <span class="card-kicker">Session</span>
+                <span class="card-title">{s.title}</span>
+                <p class="card-body">{s.excerpt}</p>
+            </a>
+        ))}
+    </div>
+</Layout>

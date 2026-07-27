@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const producerDir = 'D:/ObsidianVault/networkfunk-production-os/Producer-Knowledge';
+const producerFiles = fs.readdirSync(producerDir)
+  .filter(f => f.endsWith('.md') && !f.startsWith('Index') && !f.includes('Template'))
+  .map(f => {
+    const filePath = path.join(producerDir, f);
+    const content = fs.readFileSync(filePath, 'utf8');
+    const titleMatch = content.match(/^#\s+(.+)$/m);
+    return {
+      slug: f.replace('.md', ''),
+      title: titleMatch ? titleMatch[1] : f.replace('.md', ''),
+      excerpt: content.replace(/^#.*$/m, '').replace(/^\s*---\s*/, '').trim().slice(0, 140).trim() + '…'
+    };
+  });
+---
+
+<Layout title="Producer" module="PRODUCER">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">PRODUCER PHILOSOPHY</div>
+            <div class="hud-page-title">Producer Knowledge</div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px;">
+        {producerFiles.map(p => (
+            <a href={`/producer/${p.slug}`} class="card elev-sm" style="text-decoration: none; color: inherit;">
+                <span class="card-kicker">Producer</span>
+                <span class="card-title">{p.title}</span>
+                <p class="card-body">{p.excerpt}</p>
+            </a>
+        ))}
+    </div>
+</Layout>

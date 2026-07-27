@@ -1,22 +1,16 @@
 ---
-// NPOS Presets Index - Česká verze
-const title = "Předlohy - NPOS";
-
-// Seru1 a Serum 2 preset cesty
-const serum1Path = 'D:/VST/Xfer/Serum Presets/Presets';
-const serum2Path = 'D:/VST/Xfer/Serum 2 Presets/Presets';
-
+import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Načtení presetů
+const serum1Path = 'D:/VST/Xfer/Serum Presets/Presets';
+const serum2Path = 'D:/VST/Xfer/Serum 2 Presets/Presets';
+
 function loadPresets(dir: string, version: string): any[] {
   if (!fs.existsSync(dir)) return [];
-
-  const files = fs.readdirSync(dir);
-  return files
+  return fs.readdirSync(dir)
     .filter(f => f.endsWith('.serum') || f.endsWith('.xsr'))
-    .slice(0, 20) // Omezit pro rychlost
+    .slice(0, 20)
     .map(f => ({
       name: f.replace(/\.serum$/i, '').replace(/\.xsr$/i, ''),
       version,
@@ -29,88 +23,47 @@ const presets = [
   ...loadPresets(serum2Path, 'Serum 2')
 ].slice(0, 30);
 
-// Kategorie presetů
 const categories = [
-  { name: 'Bass', slug: 'bass' },
-  { name: 'Lead', slug: 'lead' },
-  { name: 'FX', slug: 'fx' },
-  { name: 'Pad', slug: 'pad' },
-  { name: 'Texture', slug: 'texture' },
+  { name: 'Basy', slug: 'bass' },
+  { name: 'Ledy', slug: 'lead' },
+  { name: 'Efekty', slug: 'fx' },
+  { name: 'Pady', slug: 'pad' },
+  { name: 'Textury', slug: 'texture' },
 ];
-
-const categoryMap: Record<string, string> = {
-  'bass': 'Basy',
-  'lead': 'Ledy',
-  'fx': 'Efekty',
-  'pad': 'Pady',
-  'texture': 'Textury'
-};
 ---
 
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title}</title>
-    <script is:inline src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root { --primary: #10b981; --primary-hover: #059669; }
-        body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
-    </style>
-</head>
-<body class="min-h-screen flex flex-col">
-    <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-bold text-emerald-500">NPOS</a>
-                <nav class="flex gap-2 text-sm">
-                    <a href="/" class="px-3 py-1 rounded hover:bg-gray-700">Hlavní stránka</a>
-                    <a href="/framework" class="px-3 py-1 rounded hover:bg-gray-700">Framework</a>
-                    <a href="/knowledge" class="px-3 py-1 rounded hover:bg-gray-700">Znalosti</a>
-                    <a href="/presets" class="px-3 py-1 rounded bg-gray-700 text-white">Předlohy</a>
-                    <a href="http://localhost:8501" target="_blank" class="px-3 py-1 rounded bg-emerald-700 text-white">Nástroje</a>
-                </nav>
-            </div>
+<Layout title="Předlohy" module="PRESETS">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">SERUM PRESET ANALYSIS</div>
+            <div class="hud-page-title">Presety</div>
         </div>
-    </header>
+    </div>
 
-    <main class="flex-grow container mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold mb-8 text-emerald-400">Serum Předlohy</h1>
+    <div class="hud-panel" style="margin-bottom: 20px;">
+        <div style="display: flex; gap: 10px;">
+            <input type="text" placeholder="Hledat preset..." class="input" style="flex: 1;">
+            <button class="btn btn-primary">Hledat</button>
+        </div>
+    </div>
 
-        <section class="mb-8">
-            <div class="flex gap-4 mb-6">
-                <input type="text" placeholder="Hledat preset..." class="flex-1 bg-gray-800 border border-gray-700 rounded px-4 py-2">
-                <button class="px-6 py-2 bg-emerald-700 hover:bg-emerald-600 rounded text-white">Hledat</button>
+    <div class="hud-panel-label" style="margin-bottom: 12px;">KATEGORIE</div>
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px;">
+        {categories.map(cat => (
+            <a href={`/presets/${cat.slug}`} class="card elev-sm" style="text-decoration: none; color: inherit; text-align: center; align-items: center;">
+                <span class="card-title" style="font-size: 14px;">{cat.name}</span>
+            </a>
+        ))}
+    </div>
+
+    <div class="hud-panel-label" style="margin-bottom: 12px;">POSLEDNÍ PŘIDANÉ PRESETY</div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px;">
+        {presets.slice(0, 18).map(p => (
+            <div class="card elev-sm">
+                <span class="card-title" style="font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title={p.name}>{p.name}</span>
+                <span class="tag tag-neutral" style="align-self: flex-start;">{p.version}</span>
             </div>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold mb-4 text-emerald-400">Kategorie</h2>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-                {categories.map(cat => (
-                    <a href={`/presets/${cat.slug}`} class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition border border-gray-700 text-center">
-                        <h3 class="font-semibold text-emerald-400">{categoryMap[cat.slug]}</h3>
-                    </a>
-                ))}
-            </div>
-        </section>
-
-        <section>
-            <h2 class="text-2xl font-bold mb-4 text-emerald-400">Poslední přidané presety</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                {presets.slice(0, 12).map((p, i) => (
-                    <div class="bg-gray-800 p-3 rounded border border-gray-700">
-                        <h3 class="text-sm font-medium truncate" title={p.name}>{p.name}</h3>
-                        <p class="text-xs text-gray-500 mt-1">{p.version}</p>
-                    </div>
-                ))}
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-400">
-        <p>Neurofunk Production OS | NPOS v0.1.0</p>
-    </footer>
-</body>
-</html>
+        ))}
+        {presets.length === 0 && <p class="text-muted">Žádné presety nenalezeny — zkontroluj cestu k Serum knihovně.</p>}
+    </div>
+</Layout>

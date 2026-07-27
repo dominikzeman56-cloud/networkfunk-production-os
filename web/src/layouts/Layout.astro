@@ -1,6 +1,29 @@
 ---
-// Layout component for NPOS
-const { title } = Astro.props;
+import '../styles/nocturne.css';
+import '../styles/hud.css';
+
+interface Props {
+  title: string;
+  module: string;
+  bpm?: string;
+  trackKey?: string;
+  autosave?: string;
+  showMiniWave?: boolean;
+}
+
+const { title, module, bpm = '174', trackKey = 'Fm', autosave = '2m ago', showMiniWave = true } = Astro.props;
+const path = Astro.url.pathname;
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+
+const navItems = [
+  { href: '/', label: 'DASHBOARD' },
+  { href: '/build-sheet', label: 'BUILD SHEET' },
+  { href: '/session', label: 'SESSION' },
+  { href: '/producer', label: 'PRODUCER' },
+  { href: '/framework', label: 'FRAMEWORK' },
+  { href: '/knowledge', label: 'KNOWLEDGE' },
+  { href: '/presets', label: 'PRESETS' },
+];
 ---
 
 <!DOCTYPE html>
@@ -9,50 +32,50 @@ const { title } = Astro.props;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} - NPOS</title>
-    <script is:inline src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root {
-            --primary: #10b981;
-            --primary-hover: #059669;
-        }
-        body {
-            background-color: #0f172a;
-            color: #f1f5f9;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-        a:hover { color: var(--primary); }
-        h1, h2, h3 { color: var(--primary); }
-    </style>
 </head>
-<body class="min-h-screen flex flex-col">
-    <!-- Header -->
-    <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-bold text-emerald-500 hover:text-emerald-400 transition">
-                    NPOS
-                </a>
-                <nav class="flex gap-2">
-                    <a href="/" class="px-3 py-1 rounded hover:bg-gray-700">Dashboard</a>
-                    <a href="/framework" class="px-3 py-1 rounded hover:bg-gray-700">Framework</a>
-                    <a href="/knowledge" class="px-3 py-1 rounded hover:bg-gray-700">Knowledge</a>
-                    <a href="/presets" class="px-3 py-1 rounded hover:bg-gray-700">Presets</a>
-                    <a href="http://localhost:8501" target="_blank" class="px-3 py-1 rounded bg-emerald-700 hover:bg-emerald-600 text-white">
-                        Tools
-                    </a>
-                </nav>
+<body>
+    <div class="hud-app">
+        <div class="hud-grid-layer"></div>
+        <div class="hud-scanline-wrap"><div class="hud-scanline-sweep"></div></div>
+
+        <div class="hud-topbar">
+            <div class="hud-brand">
+                <span class="hud-brand-dot"></span>
+                <span class="hud-brand-name">NPOS<span class="slash">/</span><span class="ctrl">CTRL</span></span>
+            </div>
+
+            <nav class="hud-nav">
+                {navItems.map(item => (
+                    <a href={item.href} class="btn" aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
+                ))}
+            </nav>
+
+            <div class="hud-topright">
+                {showMiniWave && <canvas data-hud-miniwave width="120" height="28"></canvas>}
+                <div class="hud-sync">
+                    <span class="hud-sync-dot"></span>
+                    SYNCED · <span data-hud-clock>--:--:--</span>
+                </div>
             </div>
         </div>
-    </header>
 
-    <!-- Main Content -->
-    <main class="flex-grow container mx-auto px-4 py-8">
-        <slot />
-    </main>
+        <div class="hud-statusbar">
+            <span>MODULE // {module}</span>
+            <span class="fill"></span>
+            <span>BPM {bpm}</span>
+            <span class="sep">|</span>
+            <span>KEY {trackKey}</span>
+            <span class="sep">|</span>
+            <span>AUTOSAVE {autosave.toUpperCase()}</span>
+            <span class="sep">|</span>
+            <span class="link-ok">● LINK OK</span>
+        </div>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-400">
-        <p>Neurofunk Production OS | NPOS v0.1.0</p>
-    </footer>
+        <div class="hud-content">
+            <slot />
+        </div>
+    </div>
+
+    <script src="../scripts/hud.js"></script>
 </body>
 </html>

@@ -1,131 +1,123 @@
 ---
-// NPOS Dashboard - Česká verze
-const title = "NPOS - Neurofunk Production OS";
+import Layout from '../layouts/Layout.astro';
 
-// Load framework docs
-import fs from 'node:fs';
-import path from 'node:path';
-
-const frameworkDir = 'D:/ObsidianVault/networkfunk-production-os/Framework';
-const frameworkFiles = fs.readdirSync(frameworkDir)
-  .filter(f => f.endsWith('.md'))
-  .map(f => ({
-    slug: f.replace('.md', ''),
-    title: fs.readFileSync(path.join(frameworkDir, f), 'utf8').match(/^#\s+(.+)$/m)?.[1] || f.replace('.md', '')
-  }));
-
-const knowledgeDir = 'D:/ObsidianVault/networkfunk-production-os/Knowledge';
-const knowledgeFiles = fs.readdirSync(knowledgeDir)
-  .filter(f => f.endsWith('.md'))
-  .map(f => ({
-    slug: f.replace('.md', ''),
-    title: fs.readFileSync(path.join(knowledgeDir, f), 'utf8').match(/^#\s+(.+)$/m)?.[1] || f.replace('.md', '')
-  }));
-
-// Sample current track data
 const currentTrack = {
   name: 'Neonlight Reflux',
+  artist: 'Vlastní projekt',
+  version: 'v1',
   stage: 'Aranžmá',
+  stageIdx: 2,
   goal: 'Opravit Bass Movement',
-  problem: 'Slabý low-end v dropu'
+  problem: 'Slabý low-end v dropu',
+  reference: { track: 'Static', artist: 'Burr Oak' },
+  sessionFocus: 'ARRANGEMENT',
 };
+
+const sessionSteps = ['Sound Design', 'Arrangement', 'Mixing', 'Mastering', 'Export'];
+const activeStep = 'Arrangement';
+
+const bars = Array.from({ length: 24 }, (_, i) => 6 + Math.round(Math.abs(Math.sin(i * 0.7)) * 30));
 ---
 
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title}</title>
-    <script is:inline src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root { --primary: #10b981; --primary-hover: #059669; }
-        body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
-    </style>
-</head>
-<body class="min-h-screen flex flex-col">
-    <!-- Header -->
-    <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-bold text-emerald-500">NPOS</a>
-                <nav class="flex gap-2 text-sm">
-                    <a href="#dashboard" class="px-3 py-1 rounded hover:bg-gray-700">Hlavní stránka</a>
-                    <a href="/framework" class="px-3 py-1 rounded hover:bg-gray-700">Framework</a>
-                    <a href="/knowledge" class="px-3 py-1 rounded hover:bg-gray-700">Znalosti</a>
-                    <a href="/presets" class="px-3 py-1 rounded hover:bg-gray-700">Předlohy</a>
-                    <a href="http://localhost:8501" target="_blank" class="px-3 py-1 rounded bg-emerald-700 text-white">Nástroje</a>
-                </nav>
+<Layout title="Dashboard" module="DASHBOARD" bpm="174" trackKey="Fm">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">PRODUCTION HOME · SESSION HUD</div>
+            <div class="hud-page-title">Current Track</div>
+        </div>
+        <div class="hud-stage">STAGE {currentTrack.stageIdx + 1} / 5 · {currentTrack.stage.toUpperCase()}</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; margin-bottom: 20px;">
+        <div class="hud-hero-card">
+            <div class="hud-bracket tl"></div>
+            <div class="hud-bracket tr"></div>
+            <div class="hud-bracket bl"></div>
+            <div class="hud-bracket br"></div>
+
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px;">
+                <div>
+                    <div class="hud-field-label">TRACK</div>
+                    <div class="hud-field-value">{currentTrack.name}</div>
+                </div>
+                <div>
+                    <div class="hud-field-label">ARTIST</div>
+                    <div class="hud-field-value">{currentTrack.artist}</div>
+                </div>
+                <div>
+                    <div class="hud-field-label">VERSION</div>
+                    <div class="hud-field-value" style="font-variant-numeric: tabular-nums;">{currentTrack.version}</div>
+                </div>
+                <div>
+                    <div class="hud-field-label">TEMPO / KEY</div>
+                    <div class="hud-field-value" style="font-variant-numeric: tabular-nums;">174 · Fm</div>
+                </div>
+            </div>
+
+            <div style="height: 1px; background: linear-gradient(90deg, var(--color-accent-700), transparent); margin-bottom: 16px;"></div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div>
+                    <div class="hud-field-label">TODAY'S GOAL</div>
+                    <div style="font-size: 14px; line-height: 1.5;">{currentTrack.goal}</div>
+                </div>
+                <div>
+                    <div class="hud-field-label">CURRENT PROBLEM</div>
+                    <div style="font-size: 14px; line-height: 1.5; color: var(--color-accent-300);">{currentTrack.problem}</div>
+                </div>
             </div>
         </div>
-    </header>
 
-    <!-- Main -->
-    <main class="flex-grow container mx-auto px-4 py-8">
-        <!-- Current Track -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-            <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
-                <h2 class="text-lg font-semibold mb-3 text-emerald-400">Aktuální track</h2>
-                <div class="space-y-2">
-                    <p><span class="text-gray-500">Track:</span> <span class="font-medium">{currentTrack.name}</span></p>
-                    <p><span class="text-gray-500">Fáze:</span> <span class="font-medium">{currentTrack.stage}</span></p>
-                </div>
+        <div class="hud-panel">
+            <div class="hud-panel-label">REFERENCE ON DECK</div>
+            <div style="font-family: var(--font-heading); font-size: 18px; margin-bottom: 4px;">{currentTrack.reference.track}</div>
+            <div style="font-size: 12px; color: var(--color-neutral-300); margin-bottom: 16px;">{currentTrack.reference.artist}</div>
+            <div class="hud-bars" style="margin-bottom: 16px;">
+                {bars.map(h => <div class="bar" style={`height:${h}px`}></div>)}
             </div>
-            <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
-                <h2 class="text-lg font-semibold mb-3 text-emerald-400">Dnešní cíl</h2>
-                <p class="text-xl">{currentTrack.goal}</p>
-                <p class="text-red-400 mt-2">Problém: {currentTrack.problem}</p>
-            </div>
-            <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
-                <h2 class="text-lg font-semibold mb-3 text-emerald-400">Rychlé odkazy</h2>
-                <div class="space-y-1">
-                    <a href="/framework/Decision-Tree" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Strom rozhodování</a>
-                    <a href="/framework/Workflow-Map" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Workflow mapa</a>
-                    <a href="/framework/Checklists" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Checklisty</a>
-                </div>
-            </div>
-        </section>
+            <span class="tag tag-accent">SESSION FOCUS: {currentTrack.sessionFocus}</span>
+        </div>
+    </div>
 
-        <!-- Recent Knowledge -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4 text-emerald-400">Nové znalosti</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {knowledgeFiles.slice(0, 3).map(k => (
-                    <a href={`/knowledge/${k.slug}`} class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
-                        <h3 class="text-lg font-semibold text-emerald-400 mb-2">{k.title}</h3>
-                        <p class="text-sm text-gray-400">Článek z inženýrské znalosti</p>
-                    </a>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+        <div class="hud-panel">
+            <div class="hud-panel-label">SESSION STATUS</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px;">
+                {sessionSteps.map(step => (
+                    <span class={`tag ${step === activeStep ? 'tag-accent' : 'tag-neutral'}`}>{step}</span>
                 ))}
             </div>
-        </section>
+            <div style="font-size: 12px; color: var(--color-neutral-300);">Last step: intro riser automation</div>
+            <div style="font-size: 12px; color: var(--color-text);">Next: rebuild drop transient layer</div>
+        </div>
 
-        <!-- Tools -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4 text-emerald-400">NPOS nástroje</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <a href="http://localhost:8501" target="_blank" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
-                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">🎥 Video workshop processor</h3>
-                    <p class="text-gray-300">Nahrajte workshop videa pro přepis a shrnutí.</p>
-                </a>
-                <a href="/presets" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
-                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">🎹 Serum preset analyzátor</h3>
-                    <p class="text-gray-300">Analyzujte Serum preset a extrahujte produkční vzory.</p>
-                </a>
-                <a href="http://localhost:8501" target="_blank" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
-                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">📊 Frekvenční kalkulačka</h3>
-                    <p class="text-gray-300">Spočítejte optimální frekvenční rozsahy pro neurofunk bass.</p>
-                </a>
-                <a href="http://localhost:8501" target="_blank" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
-                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">🔊 LUFS měřák</h3>
-                    <p class="text-gray-300">Zkontrolujte hlasitostní standardy pro streaming platformy.</p>
-                </a>
+        <div class="hud-panel">
+            <div class="hud-panel-label">RECENT NOTES</div>
+            <div style="font-size: 12px; margin-bottom: 8px;"><span style="color: var(--color-accent-300);">Breakthrough —</span> parallel comb filter fixed Reese phase smear.</div>
+            <div style="font-size: 12px;"><span style="color: var(--color-neutral-300);">Issue —</span> snare buried under mid bass in chorus.</div>
+        </div>
+
+        <div class="hud-panel">
+            <div class="hud-panel-label">DAILY PRIORITIES</div>
+            <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12px;">
+                <div>▣ Review yesterday's progress</div>
+                <div>▣ Set one session objective</div>
+                <div>▢ Load reference track</div>
+                <div>▢ Define next concrete step</div>
+                <div>▢ Save progress before leaving</div>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-400">
-        <p>Neurofunk Production OS | NPOS v0.1.0</p>
-    </footer>
-</body>
-</html>
+    <div class="hud-panel" style="margin-top: 20px;">
+        <div class="hud-panel-label">FAST ACTIONS</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <a href="/build-sheet" class="btn btn-secondary" style="font-size: 12px;">01 · Start New Project</a>
+            <a href="/session" class="btn btn-secondary" style="font-size: 12px;">02 · Plan the Session</a>
+            <a href="/producer" class="btn btn-secondary" style="font-size: 12px;">03 · Producer Philosophy</a>
+            <a href="/presets" class="btn btn-secondary" style="font-size: 12px;">04 · Analyse Reference Preset</a>
+            <a href="/session/Weekly-Review" class="btn btn-secondary" style="font-size: 12px;">05 · Weekly Review</a>
+            <button class="btn btn-ghost" disabled style="font-size: 12px;">06 · Ask AI for Next Step</button>
+        </div>
+    </div>
+</Layout>

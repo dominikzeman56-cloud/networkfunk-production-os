@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import fs from 'node:fs';
+import { parseMarkdownString } from '../lib/markdown';
+
+const filePath = 'D:/ObsidianVault/networkfunk-production-os/Build-Sheet.md';
+const parsed = parseMarkdownString(fs.readFileSync(filePath, 'utf8'), filePath);
+---
+
+<Layout title="Build Sheet" module="BUILD SHEET">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">NEW PROJECT BRIEF</div>
+            <div class="hud-page-title">{parsed.title}</div>
+        </div>
+    </div>
+    <article class="hud-panel" style="max-width: 860px;">
+        <div class="prose" set:html={parsed.content} />
+    </article>
+</Layout>
+
+<style>
+    .prose :global(h1) { font-size: 22px; margin-top: 0; }
+    .prose :global(h2) { font-size: 18px; margin-top: 24px; color: var(--color-accent-300); }
+    .prose :global(h3) { font-size: 15px; margin-top: 18px; }
+    .prose :global(p) { font-size: 14px; line-height: 1.7; color: var(--color-text); }
+    .prose :global(li) { font-size: 14px; line-height: 1.6; margin-left: 4px; }
+    .prose :global(ul) { padding-left: 20px; margin: 0 0 12px; }
+    .prose :global(blockquote) { border-left: 2px solid var(--color-accent); margin: 0 0 12px; padding-left: 12px; color: var(--color-neutral-300); }
+    .prose :global(hr) { border: none; border-top: 1px solid var(--color-divider); margin: 16px 0; }
+</style>

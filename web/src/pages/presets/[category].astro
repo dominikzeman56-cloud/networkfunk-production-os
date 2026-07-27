@@ -1,61 +1,36 @@
 ---
-// NPOS Presets Category - Česká verze
+import Layout from '../../layouts/Layout.astro';
+
 export async function getStaticPaths() {
   const categories = ['bass', 'lead', 'fx', 'pad', 'texture'];
   return categories.map(category => ({ params: { category } }));
 }
 
 const { category } = Astro.params;
-
-const title = "Předlohy - " + category;
+const categoryMap: Record<string, string> = {
+  bass: 'Basy', lead: 'Ledy', fx: 'Efekty', pad: 'Pady', texture: 'Textury',
+};
+const label = categoryMap[category as string] || category;
 
 const presets: any[] = [];
 // Presety se budou načítat podle kategorie
 ---
 
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title} - NPOS</title>
-    <script is:inline src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root { --primary: #10b981; --primary-hover: #059669; }
-        body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
-    </style>
-</head>
-<body class="min-h-screen flex flex-col">
-    <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-bold text-emerald-500">NPOS</a>
-                <nav class="flex gap-2 text-sm">
-                    <a href="/" class="px-3 py-1 rounded hover:bg-gray-700">Hlavní stránka</a>
-                    <a href="/framework" class="px-3 py-1 rounded hover:bg-gray-700">Framework</a>
-                    <a href="/knowledge" class="px-3 py-1 rounded hover:bg-gray-700">Znalosti</a>
-                    <a href="/presets" class="px-3 py-1 rounded bg-gray-700 text-white">Předlohy</a>
-                    <a href="http://localhost:8501" target="_blank" class="px-3 py-1 rounded bg-emerald-700 text-white">Nástroje</a>
-                </nav>
+<Layout title={`Předlohy - ${label}`} module="PRESETS">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">SERUM PRESET ANALYSIS</div>
+            <div class="hud-page-title">{label}</div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px;">
+        {presets.map((p: any) => (
+            <div class="card elev-sm">
+                <span class="card-title" style="font-size: 13px;" title={p.name}>{p.name}</span>
+                <span class="tag tag-neutral" style="align-self: flex-start;">{p.version}</span>
             </div>
-        </div>
-    </header>
-
-    <main class="flex-grow container mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold mb-8 text-emerald-400">{category} Presety</h1>
-
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {presets.map((p, i) => (
-                <div class="bg-gray-800 p-3 rounded border border-gray-700">
-                    <h3 class="text-sm font-medium truncate" title={p.name}>{p.name}</h3>
-                    <p class="text-xs text-gray-500 mt-1">{p.version}</p>
-                </div>
-            ))}
-        </div>
-    </main>
-
-    <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-400">
-        <p>Neurofunk Production OS | NPOS v0.1.0</p>
-    </footer>
-</body>
-</html>
+        ))}
+        {presets.length === 0 && <p class="text-muted">Zatím žádné presety v této kategorii — analýza podle kategorie ještě není napojená.</p>}
+    </div>
+</Layout>
