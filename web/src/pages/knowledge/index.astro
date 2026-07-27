@@ -1,0 +1,112 @@
+---
+// NPOS Knowledge Index - Česká verze
+const title = "Znalosti - NPOS";
+
+const fs = require('fs');
+const path = require('path');
+
+const knowledgeDir = 'D:/ObsidianVault/networkfunk-production-os/Knowledge';
+const knowledgeFiles = fs.readdirSync(knowledgeDir)
+  .filter(f => f.endsWith('.md') && !f.startsWith('Index'))
+  .map(f => {
+    const filePath = path.join(knowledgeDir, f);
+    const content = fs.readFileSync(filePath, 'utf8');
+    const titleMatch = content.match(/^#\s+(.+)$/m);
+    return {
+      slug: f.replace('.md', ''),
+      title: titleMatch ? titleMatch[1] : f.replace('.md', ''),
+      content: content.substring(0, 150) + '...'
+    };
+  });
+
+const categories = [
+  { name: 'Bass Engineering', slug: 'bass-engineering' },
+  { name: 'Drum Engineering', slug: 'drum-engineering' },
+  { name: 'Arrangement', slug: 'arrangement' },
+  { name: 'Composition', slug: 'composition' },
+  { name: 'FX', slug: 'fx' },
+  { name: 'Dynamics', slug: 'dynamics' },
+  { name: 'EQ', slug: 'eq' },
+  { name: 'Stereo', slug: 'stereo' },
+  { name: 'Mixing System', slug: 'mixing-system' },
+  { name: 'Mastering', slug: 'mastering' },
+  { name: 'Low-End System', slug: 'low-end-system' },
+  { name: 'Troubleshooting', slug: 'troubleshooting' },
+];
+
+const categoryMap: Record<string, string> = {
+  'bass-engineering': 'Inženýrství basu',
+  'drum-engineering': 'Inženýrství bicích',
+  'arrangement': 'Aranžmá',
+  'composition': 'Kompozice',
+  'fx': 'Efekty',
+  'dynamics': 'Dynamika',
+  'eq': 'Ekvalizace',
+  'stereo': 'Stereo',
+  'mixing-system': 'Mixovací systém',
+  'mastering': 'Mastering',
+  'low-end-system': 'Systém low-end',
+  'troubleshooting': 'Řešení problémů'
+};
+---
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --primary: #10b981; --primary-hover: #059669; }
+        body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-emerald-500">NPOS</a>
+                <nav class="flex gap-2 text-sm">
+                    <a href="/" class="px-3 py-1 rounded hover:bg-gray-700">Hlavní stránka</a>
+                    <a href="/framework" class="px-3 py-1 rounded hover:bg-gray-700">Framework</a>
+                    <a href="/knowledge" class="px-3 py-1 rounded bg-gray-700 text-white">Znalosti</a>
+                    <a href="/presets" class="px-3 py-1 rounded hover:bg-gray-700">Předlohy</a>
+                    <a href="http://localhost:8501" target="_blank" class="px-3 py-1 rounded bg-emerald-700 text-white">Nástroje</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-8 text-emerald-400">Znalostní báze</h1>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4 text-emerald-400">Kategorie</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {categories.map(cat => (
+                    <a href="/knowledge/{cat.slug}" class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition border border-gray-700">
+                        <h3 class="font-semibold text-emerald-400">{categoryMap[cat.slug] || cat.name}</h3>
+                    </a>
+                ))}
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-4 text-emerald-400">Všechny články</h2>
+            <div class="space-y-2">
+                {knowledgeFiles.map(k => (
+                    <a href="/knowledge/{k.slug}" class="block p-4 bg-gray-800 rounded hover:bg-gray-700 transition border border-gray-700">
+                        <h3 class="font-semibold text-emerald-400">{k.title}</h3>
+                        <p class="text-sm text-gray-400 mt-1">{k.content}</p>
+                    </a>
+                ))}
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-400">
+        <p>Neurofunk Production OS | NPOS v0.1.0</p>
+    </footer>
+</body>
+</html>

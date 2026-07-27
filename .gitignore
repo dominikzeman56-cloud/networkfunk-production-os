@@ -1,0 +1,18 @@
+.aider*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Astro
+node_modules/
+web/dist/
+web/.astro/
+
+# Test / build artifacts
+sanity_output.txt
+
+# OS
+.DS_Store
+Thumbs.db

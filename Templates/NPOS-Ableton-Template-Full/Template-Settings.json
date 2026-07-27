@@ -1,0 +1,84 @@
+{
+  "project": {
+    "name": "NPOS Neurofunk Template",
+    "tempo": 174,
+    "timeSignature": { "numerator": 4, "denominator": 4 },
+    "key": "Dm",
+    "sampleRate": 44100,
+    "bufferSize": 256
+  },
+  "audioTracks": [
+    { "name": "Kick", "color": "#FF4444", "output": "Audio", "pan": 0, "volume": 0.8 },
+    { "name": "Snare", "color": "#FF6644", "output": "Audio", "pan": 0, "volume": 0.75 },
+    { "name": "Hi-Hats", "color": "#FFAA44", "output": "Audio", "pan": -0.15, "volume": 0.65 },
+    { "name": "Percussion", "color": "#44AA44", "output": "Audio", "pan": 0.15, "volume": 0.7 }
+  ],
+  "midiTracks": [
+    { "name": "Bass Sub", "color": "#4444FF", "output": "Ext. Out 1", "pan": 0, "volume": 0.85 },
+    { "name": "Bass Body", "color": "#4466FF", "output": "Ext. Out 1", "pan": 0, "volume": 0.8 },
+    { "name": "Bass Modulation", "color": "#4488FF", "output": "Ext. Out 1", "pan": 0, "volume": 0.7 },
+    { "name": "Bass Texture", "color": "#44AAFF", "output": "Ext. Out 1", "pan": 0, "volume": 0.6 },
+    { "name": "Atmosphere", "color": "#44CC44", "output": "Ext. Out 2", "pan": -0.2, "volume": 0.55 },
+    { "name": "FX", "color": "#CC44CC", "output": "Ext. Out 2", "pan": 0, "volume": 0.5 }
+  ],
+  "returns": [
+    { "name": "Reverb Short", "color": "#666666", "volume": 0.5 },
+    { "name": "Reverb Long", "color": "#777777", "volume": 0.4 },
+    { "name": "Delay", "color": "#888888", "volume": 0.45 },
+    { "name": "Saturation Bus", "color": "#555555", "volume": 0.6 }
+  ],
+  "effectChains": {
+    "kick": [
+      { "type": "Eq8", "params": { "HighPass": 25, "Band1_Frequency": 60, "Band1_Gain": 3, "Band2_Frequency": 3000, "Band2_Gain": 2, "Band3_Frequency": 8000, "Band3_Gain": 1 } },
+      { "type": "Saturation", "params": { "Drive": 5, "Mix": 30 } },
+      { "type": "Compressor", "params": { "Ratio": 4, "Threshold": -12, "Attack": 0.1, "Release": 80, "Makeup": 6 } },
+      { "type": "Limiter", "params": { "Ceiling": -1, "InputGain": 0 } }
+    ],
+    "snare": [
+      { "type": "Eq8", "params": { "HighPass": 80, "Band1_Frequency": 200, "Band1_Gain": -3, "Band2_Frequency": 3000, "Band2_Gain": 4, "Band3_Frequency": 10000, "Band3_Gain": 2 } },
+      { "type": "Saturation", "params": { "Drive": 10, "Mix": 40 } },
+      { "type": "Compressor", "params": { "Ratio": 6, "Threshold": -18, "Attack": 0.1, "Release": 100, "Makeup": 8 } },
+      { "type": "Reverb", "params": { "Size": 0.3, "DecayTime": 1.2, "Mix": 25, "Predelay": 10 } }
+    ],
+    "bassSub": [
+      { "type": "Eq8", "params": { "HighPass": 25, "Band1_Frequency": 50, "Band1_Gain": 0 } },
+      { "type": "Limiter", "params": { "Ceiling": -1, "InputGain": 0 } }
+    ],
+    "bassBody": [
+      { "type": "Eq8", "params": { "HighPass": 40, "Band1_Frequency": 100, "Band1_Gain": 0, "Band2_Frequency": 250, "Band2_Gain": -3, "Band3_Frequency": 2000, "Band3_Gain": 2 } },
+      { "type": "Saturation", "params": { "Drive": 8, "Mix": 35 } },
+      { "type": "Compressor", "params": { "Ratio": 2.5, "Threshold": -15, "Attack": 10, "Release": 200, "Makeup": 4 } }
+    ],
+    "bassModulation": [
+      { "type": "AutoFilter", "params": { "Frequency": 200, "Resonance": 30, "Drive": 5, "LFO_Rate": 0.5 } },
+      { "type": "Saturation", "params": { "Drive": 6, "Mix": 30 } }
+    ],
+    "bassTexture": [
+      { "type": "Noise", "params": { "Type": "Pink", "Level": 40 } },
+      { "type": "Eq8", "params": { "HighPass": 200, "Band1_Frequency": 3000, "Band1_Gain": -3, "Band2_Frequency": 8000, "Band2_Gain": 2 } },
+      { "type": "Overdrive", "params": { "Drive": 15, "Mix": 40 } }
+    ],
+    "reverbShort": [
+      { "type": "Reverb", "params": { "Size": 0.25, "DecayTime": 0.8, "Diffusion": 50, "Mix": 30, "Predelay": 5 } },
+      { "type": "Eq8", "params": { "HighPass": 100, "Band1_Frequency": 2000, "Band1_Gain": -2 } }
+    ],
+    "reverbLong": [
+      { "type": "Reverb", "params": { "Size": 0.7, "DecayTime": 3.0, "Diffusion": 70, "Mix": 40, "Predelay": 20 } },
+      { "type": "Eq8", "params": { "HighPass": 50, "Band1_Frequency": 10000, "Band1_Gain": 1 } }
+    ],
+    "delay": [
+      { "type": "PingPongDelay", "params": { "Time": "1/8", "Feedback": 35, "Mix": 30, "Filter": 3000 } }
+    ],
+    "saturationBus": [
+      { "type": "Saturation", "params": { "Drive": 12, "Mix": 50 } },
+      { "type": "Eq8", "params": { "HighPass": 30, "Band1_Frequency": 100, "Band1_Gain": -2 } },
+      { "type": "Compressor", "params": { "Ratio": 2, "Threshold": -12, "Attack": 10, "Release": 150 } }
+    ]
+  },
+  "sends": {
+    "Reverb Short": { "Kick": 15, "Snare": 20, "Hi-Hats": 5, "Percussion": 10 },
+    "Reverb Long": { "Snare": 10, "Atmosphere": 25, "FX": 15 },
+    "Delay": { "Hi-Hats": 15, "FX": 20, "Lead": 15 },
+    "Saturation Bus": { "Kick": 10, "Snare": 10, "Bass Body": 15 }
+  }
+}

@@ -1,0 +1,131 @@
+---
+// NPOS Dashboard - Česká verze
+const title = "NPOS - Neurofunk Production OS";
+
+// Load framework docs
+import fs from 'node:fs';
+import path from 'node:path';
+
+const frameworkDir = 'D:/ObsidianVault/networkfunk-production-os/Framework';
+const frameworkFiles = fs.readdirSync(frameworkDir)
+  .filter(f => f.endsWith('.md'))
+  .map(f => ({
+    slug: f.replace('.md', ''),
+    title: fs.readFileSync(path.join(frameworkDir, f), 'utf8').match(/^#\s+(.+)$/m)?.[1] || f.replace('.md', '')
+  }));
+
+const knowledgeDir = 'D:/ObsidianVault/networkfunk-production-os/Knowledge';
+const knowledgeFiles = fs.readdirSync(knowledgeDir)
+  .filter(f => f.endsWith('.md'))
+  .map(f => ({
+    slug: f.replace('.md', ''),
+    title: fs.readFileSync(path.join(knowledgeDir, f), 'utf8').match(/^#\s+(.+)$/m)?.[1] || f.replace('.md', '')
+  }));
+
+// Sample current track data
+const currentTrack = {
+  name: 'Neonlight Reflux',
+  stage: 'Aranžmá',
+  goal: 'Opravit Bass Movement',
+  problem: 'Slabý low-end v dropu'
+};
+---
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --primary: #10b981; --primary-hover: #059669; }
+        body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-emerald-500">NPOS</a>
+                <nav class="flex gap-2 text-sm">
+                    <a href="#dashboard" class="px-3 py-1 rounded hover:bg-gray-700">Hlavní stránka</a>
+                    <a href="/framework" class="px-3 py-1 rounded hover:bg-gray-700">Framework</a>
+                    <a href="/knowledge" class="px-3 py-1 rounded hover:bg-gray-700">Znalosti</a>
+                    <a href="/presets" class="px-3 py-1 rounded hover:bg-gray-700">Předlohy</a>
+                    <a href="http://localhost:8501" target="_blank" class="px-3 py-1 rounded bg-emerald-700 text-white">Nástroje</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <!-- Current Track -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                <h2 class="text-lg font-semibold mb-3 text-emerald-400">Aktuální track</h2>
+                <div class="space-y-2">
+                    <p><span class="text-gray-500">Track:</span> <span class="font-medium">{currentTrack.name}</span></p>
+                    <p><span class="text-gray-500">Fáze:</span> <span class="font-medium">{currentTrack.stage}</span></p>
+                </div>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                <h2 class="text-lg font-semibold mb-3 text-emerald-400">Dnešní cíl</h2>
+                <p class="text-xl">{currentTrack.goal}</p>
+                <p class="text-red-400 mt-2">Problém: {currentTrack.problem}</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                <h2 class="text-lg font-semibold mb-3 text-emerald-400">Rychlé odkazy</h2>
+                <div class="space-y-1">
+                    <a href="/framework/decision-tree" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Strom rozhodování</a>
+                    <a href="/framework/workflow-map" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Workflow mapa</a>
+                    <a href="/framework/checklists" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Checklisty</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Knowledge -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-emerald-400">Nové znalosti</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {knowledgeFiles.slice(0, 3).map(k => (
+                    <a href={`/knowledge/{k.slug}`} class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
+                        <h3 class="text-lg font-semibold text-emerald-400 mb-2">{k.title}</h3>
+                        <p class="text-sm text-gray-400">Článek z inženýrské znalosti</p>
+                    </a>
+                ))}
+            </div>
+        </section>
+
+        <!-- Tools -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-emerald-400">NPOS nástroje</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a href="http://localhost:8501" target="_blank" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
+                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">🎥 Video workshop processor</h3>
+                    <p class="text-gray-300">Nahrajte workshop videa pro přepis a shrnutí.</p>
+                </a>
+                <a href="/presets" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
+                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">🎹 Serum preset analyzátor</h3>
+                    <p class="text-gray-300">Analyzujte Serum preset a extrahujte produkční vzory.</p>
+                </a>
+                <a href="http://localhost:8501" target="_blank" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
+                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">📊 Frekvenční kalkulačka</h3>
+                    <p class="text-gray-300">Spočítejte optimální frekvenční rozsahy pro neurofunk bass.</p>
+                </a>
+                <a href="http://localhost:8501" target="_blank" class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition block border border-gray-700">
+                    <h3 class="text-xl font-semibold mb-2 text-emerald-400">🔊 LUFS měřák</h3>
+                    <p class="text-gray-300">Zkontrolujte hlasitostní standardy pro streaming platformy.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-400">
+        <p>Neurofunk Production OS | NPOS v0.1.0</p>
+    </footer>
+</body>
+</html>
