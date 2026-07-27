@@ -1,0 +1,42 @@
+{
+  "$schema": "session",
+  "version": 1,
+
+  "currentProject": "neonlight-reflux",
+
+  "projects": {
+    "neonlight-reflux": {
+      "name": "Neonlight Reflux",
+      "artist": "Vlastní projekt",
+      "version": "v1",
+      "tempo": 174,
+      "key": "Fm",
+      "stage": "Arrangement",
+      "stageIdx": 2,
+      "totalStages": 5,
+      "stages": ["Sound Design", "Arrangement", "Mixing", "Mastering", "Export"],
+      "goal": "Opravit Bass Movement",
+      "problem": "Slabý low-end v dropu",
+      "reference": {
+        "track": "Static",
+        "artist": "Burr Oak"
+      },
+      "sessionFocus": "ARRANGEMENT",
+      "lastStep": "Intro riser automation",
+      "nextStep": "Rebuild drop transient layer",
+      "notes": [
+        { "type": "breakthrough", "text": "Parallel comb filter fixed Reese phase smear." },
+        { "type": "issue", "text": "Snare buried under mid bass in chorus." }
+      ],
+      "priorities": [
+        { "done": true, "text": "Review yesterday's progress" },
+        { "done": true, "text": "Set one session objective" },
+        { "done": false, "text": "Load reference track" },
+        { "done": false, "text": "Define next concrete step" },
+        { "done": false, "text": "Save progress before leaving" }
+      ],
+      "createdAt": "2026-07-20",
+      "updatedAt": "2026-07-27"
+    }
+  }
+}

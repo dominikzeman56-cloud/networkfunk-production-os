@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { AbletonLiveControl } from '../components/AbletonLiveControl';
+---
+
+<Layout title="Live Control" module="LIVE CONTROL" showMiniWave={false}>
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">ABLETON LIVE REMOTE</div>
+            <div class="hud-page-title">Live Control</div>
+        </div>
+    </div>
+
+    <div class="hud-panel" style="max-width: 720px;">
+        <AbletonLiveControl client:load />
+    </div>
+</Layout>

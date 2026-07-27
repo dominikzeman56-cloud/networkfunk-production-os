@@ -56,6 +56,22 @@ const categories = [
         ))}
     </div>
 
+    <div class="hud-panel analyze-card" style="margin-bottom: 24px;">
+        <div class="hud-panel-label">AUDIO ANALYSIS</div>
+        <p style="font-size: 13px; color: var(--color-neutral-300); margin-bottom: 12px;">Drop audio file path to analyze key, tempo, spectral balance, loudness, stereo field.</p>
+        <div style="display: flex; gap: 10px; margin-bottom: 12px;">
+            <input type="text" id="analyze-path" class="input" style="flex: 1;" placeholder="D:/path/to/track.mp3">
+            <select id="analyze-tool" class="input" style="width: 160px;">
+                <option value="full_analysis">Full Analysis</option>
+                <option value="spectral_features">Spectral</option>
+                <option value="harmonic_analysis">Harmonic</option>
+                <option value="rhythm_analysis">Rhythm</option>
+            </select>
+            <button class="btn btn-primary" id="btn-analyze">Analyze</button>
+        </div>
+        <div id="analyze-output" class="analyze-output" hidden></div>
+    </div>
+
     <div class="hud-panel-label" style="margin-bottom: 12px;">POSLEDNÍ PŘIDANÉ PRESETY</div>
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px;">
         {presets.slice(0, 18).map(p => (
@@ -67,3 +83,120 @@ const categories = [
         {presets.length === 0 && <p class="text-muted">Žádné presety nenalezeny — zkontroluj cestu k Serum knihovně.</p>}
     </div>
 </Layout>
+
+<script>
+  const API = 'http://localhost:3099';
+  const btnAnalyze = document.getElementById('btn-analyze');
+  const output = document.getElementById('analyze-output');
+
+  btnAnalyze?.addEventListener('click', async () => {
+    const filePath = document.getElementById('analyze-path').value.trim();
+    const tool = document.getElementById('analyze-tool').value;
+    if (!filePath) return;
+
+    output.hidden = false;
+    output.innerHTML = '<div style="color: var(--color-accent-300);">Analyzing...</div>';
+    btnAnalyze.disabled = true;
+
+    try {
+      const r = await fetch(`${API}/api/analyze`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath, tool }),
+      });
+      const json = await r.json();
+      if (!r.ok) {
+        output.innerHTML = `<div style="color: var(--color-neutral-400);">${json.error || 'Analysis failed'}</div>`;
+        return;
+      }
+      renderAnalysis(json.data);
+    } catch {
+      output.innerHTML = '<div style="color: var(--color-neutral-400);">Server offline. Start: <code>cd server && npm start</code></div>';
+    } finally {
+      btnAnalyze.disabled = false;
+    }
+  });
+
+  function renderAnalysis(data) {
+    if (!data) { output.innerHTML = '<div>No data</div>'; return; }
+
+    if (typeof data === 'string' || data.text) {
+      const text = typeof data === 'string' ? data : data.text;
+      const splitIdx = text.indexOf('── Time-Series Data');
+      const summary = splitIdx > -1 ? text.slice(0, splitIdx) : text;
+      const series = splitIdx > -1 ? text.slice(splitIdx) : '';
+      output.innerHTML = `<pre style="font-size: 12px; white-space: pre-wrap; line-height: 1.5;">${summary}</pre>` +
+        (series ? `<details><summary style="font-size: 11px; color: var(--color-neutral-400); cursor: pointer;">${series.split('\n')[0]}</summary><pre style="font-size: 10px; max-height: 300px; overflow: auto; margin-top: 8px; padding: 8px; background: var(--color-neutral-950); border-radius: var(--radius-sm); white-space: pre;">${series}</pre></details>` : '');
+      return;
+    }
+
+    let html = '<div class="analysis-grid">';
+
+    if (data.harmonic) {
+      const h = data.harmonic;
+      html += `<div class="analysis-section">
+        <div class="analysis-label">KEY & HARMONY</div>
+        <div class="analysis-value">${h.key?.key || '?'} ${h.key?.scale || ''}</div>
+        <div class="analysis-detail">Confidence: ${h.key?.confidence ? (h.key.confidence * 100).toFixed(0) + '%' : '?'}</div>
+      </div>`;
+    }
+
+    if (data.rhythm) {
+      const r = data.rhythm;
+      html += `<div class="analysis-section">
+        <div class="analysis-label">TEMPO</div>
+        <div class="analysis-value">${r.tempo?.bpm ? r.tempo.bpm.toFixed(1) : '?'} BPM</div>
+        <div class="analysis-detail">Stability: ${r.tempo?.stability ? (r.tempo.stability * 100).toFixed(0) + '%' : '?'}</div>
+      </div>`;
+    }
+
+    if (data.spectral) {
+      const s = data.spectral;
+      html += `<div class="analysis-section">
+        <div class="analysis-label">SPECTRAL</div>
+        <div class="analysis-detail">Brightness: ${s.brightness?.mean?.toFixed(2) || '?'}</div>
+        <div class="analysis-detail">Richness: ${s.richness?.mean?.toFixed(2) || '?'}</div>
+      </div>`;
+    }
+
+    if (data.loudness) {
+      const l = data.loudness;
+      html += `<div class="analysis-section">
+        <div class="analysis-label">LOUDNESS</div>
+        <div class="analysis-detail">RMS: ${l.rms?.mean?.toFixed(2) || '?'} dB</div>
+        <div class="analysis-detail">Peak: ${l.peak?.toFixed(2) || '?'} dB</div>
+        <div class="analysis-detail">Dynamic range: ${l.dynamic_range?.toFixed(1) || '?'} dB</div>
+      </div>`;
+    }
+
+    if (data.stereo) {
+      const st = data.stereo;
+      html += `<div class="analysis-section">
+        <div class="analysis-label">STEREO FIELD</div>
+        <div class="analysis-detail">Width: ${st.width?.mean?.toFixed(2) || '?'}</div>
+        <div class="analysis-detail">Correlation: ${st.correlation?.mean?.toFixed(2) || '?'}</div>
+        <div class="analysis-detail">Mono compat: ${st.mono_compatibility?.toFixed(2) || '?'}</div>
+      </div>`;
+    }
+
+    html += '</div>';
+
+    // Raw JSON toggle
+    html += `<details style="margin-top: 12px;">
+      <summary style="font-size: 11px; color: var(--color-neutral-400); cursor: pointer;">Raw JSON</summary>
+      <pre style="font-size: 10px; max-height: 300px; overflow: auto; margin-top: 8px; padding: 8px; background: var(--color-neutral-950); border-radius: var(--radius-sm);">${JSON.stringify(data, null, 2)}</pre>
+    </details>`;
+
+    output.innerHTML = html;
+  }
+</script>
+
+<style>
+  .analyze-card { border-color: var(--color-accent-800); }
+  .analyze-output { padding-top: 12px; border-top: 1px solid var(--color-neutral-800); margin-top: 4px; }
+  .analysis-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+  .analysis-section { padding: 12px; border: 1px solid var(--color-neutral-800); border-radius: var(--radius-sm); background: var(--color-neutral-950); }
+  .analysis-label { font-size: 10px; letter-spacing: 0.1em; color: var(--color-accent-300); margin-bottom: 6px; }
+  .analysis-value { font-family: var(--font-heading); font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+  .analysis-detail { font-size: 12px; color: var(--color-neutral-300); margin-bottom: 2px; }
+</style>

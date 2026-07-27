@@ -1,31 +1,211 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import fs from 'node:fs';
-import { parseMarkdownString } from '../lib/markdown';
-
-const filePath = 'D:/ObsidianVault/networkfunk-production-os/Build-Sheet.md';
-const parsed = parseMarkdownString(fs.readFileSync(filePath, 'utf8'), filePath);
 ---
 
 <Layout title="Build Sheet" module="BUILD SHEET">
     <div class="hud-page-head">
         <div>
             <div class="hud-eyebrow">NEW PROJECT BRIEF</div>
-            <div class="hud-page-title">{parsed.title}</div>
+            <div class="hud-page-title">Build Sheet</div>
         </div>
+        <div class="hud-stage" id="save-status">DRAFT</div>
     </div>
-    <article class="hud-panel" style="max-width: 860px;">
-        <div class="prose" set:html={parsed.content} />
-    </article>
+
+    <form id="build-sheet-form" class="sheet-form" onsubmit="return false;">
+        <div class="sheet-cols">
+            <div class="sheet-col">
+                <div class="sheet-section">
+                    <div class="hud-panel-label">PROJECT</div>
+                    <div class="field"><label>Project Name</label><input class="input" name="projectName" placeholder="e.g. Neonlight Reflux"></div>
+                    <div class="field-row">
+                        <div class="field" style="flex:1"><label>Tempo</label><input class="input" name="tempo" type="number" placeholder="174"></div>
+                        <div class="field" style="flex:1"><label>Key</label><input class="input" name="key" placeholder="Fm"></div>
+                    </div>
+                    <div class="field"><label>Date</label><input class="input" name="date" type="date"></div>
+                </div>
+
+                <div class="sheet-section">
+                    <div class="hud-panel-label">MOOD / ENERGY</div>
+                    <div class="field"><label>Mood</label><input class="input" name="mood" placeholder="Dark, aggressive, rolling"></div>
+                    <div class="field"><label>Energy (1-10)</label><input class="input" name="energy" type="range" min="1" max="10" value="8" style="accent-color: var(--color-accent);"></div>
+                </div>
+
+                <div class="sheet-section">
+                    <div class="hud-panel-label">MAIN IDEA</div>
+                    <div class="field"><label>Main idea / hook</label><textarea class="input" name="mainIdea" rows="2" placeholder="What makes this track unique?"></textarea></div>
+                    <div class="field"><label>What must NOT happen</label><textarea class="input" name="mustNot" rows="2" placeholder="Avoid boring breakdown, weak drop"></textarea></div>
+                </div>
+            </div>
+
+            <div class="sheet-col">
+                <div class="sheet-section">
+                    <div class="hud-panel-label">REFERENCES</div>
+                    <div class="field"><label>Reference Track 1</label><input class="input" name="ref1" placeholder="Track — Artist"></div>
+                    <div class="field"><label>Reference Track 2</label><input class="input" name="ref2" placeholder="Track — Artist"></div>
+                    <div class="field"><label>Reference Track 3</label><input class="input" name="ref3" placeholder="Track — Artist"></div>
+                </div>
+
+                <div class="sheet-section">
+                    <div class="hud-panel-label">BASS ARCHETYPE</div>
+                    <div class="archetype-grid">
+                        {['Growl', 'Reese', 'Hybrid', 'Roller / Neurobounce', 'Tech / FM-led growl'].map(a => (
+                            <label class="archetype-option">
+                                <input type="radio" name="bassArchetype" value={a}>
+                                <span>{a}</span>
+                            </label>
+                        ))}
+                    </div>
+                </div>
+
+                <div class="sheet-section">
+                    <div class="hud-panel-label">DRUM STYLE</div>
+                    <div class="field-row">
+                        <div class="field" style="flex:1"><label>Kick style</label><input class="input" name="kickStyle" placeholder="Tight / Punchy / Distorted"></div>
+                        <div class="field" style="flex:1"><label>Snare style</label><input class="input" name="snareStyle" placeholder="Crack / Fat / Layered"></div>
+                    </div>
+                    <div class="field"><label>Drum groove</label><input class="input" name="drumGroove" placeholder="2-step / Half-time / Variations"></div>
+                </div>
+            </div>
+
+            <div class="sheet-col">
+                <div class="sheet-section">
+                    <div class="hud-panel-label">ARRANGEMENT</div>
+                    <div class="field"><label>Drop A role</label><textarea class="input" name="dropA" rows="2" placeholder="Main drop energy"></textarea></div>
+                    <div class="field"><label>Break role</label><textarea class="input" name="breakRole" rows="2" placeholder="Atmosphere, tension build"></textarea></div>
+                    <div class="field"><label>Drop B difference</label><textarea class="input" name="dropB" rows="2" placeholder="How is it different?"></textarea></div>
+                </div>
+
+                <div class="sheet-section">
+                    <div class="hud-panel-label">SESSION GOAL</div>
+                    <div class="field"><label>Today's goal</label><textarea class="input" name="sessionGoal" rows="2" placeholder="Finish Drop A groove"></textarea></div>
+                    <div class="field"><label>Next export target</label><input class="input" name="exportTarget" placeholder="Full rough mix v1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sheet-actions">
+            <div class="sheet-saved" id="sheet-saved-msg" hidden>✓ Saved locally</div>
+            <button type="button" class="btn btn-primary" id="btn-save">Save Build Sheet</button>
+            <button type="button" class="btn btn-secondary" id="btn-save-server">Save to Server</button>
+            <button type="button" class="btn btn-ghost" id="btn-export">Export JSON</button>
+            <button type="button" class="btn btn-ghost" id="btn-load">Load Last</button>
+        </div>
+    </form>
 </Layout>
 
+<script>
+  const API = 'http://localhost:3099';
+
+  // ────── TOGGLE SECTIONS ──────
+
+  document.querySelectorAll('.sheet-section').forEach(s => {
+    const label = s.querySelector('.hud-panel-label');
+    if (label) label.style.cursor = 'pointer';
+  });
+
+  // ────── SAVE / LOAD / EXPORT ──────
+
+  const btnSave = document.getElementById('btn-save');
+  const btnSaveServer = document.getElementById('btn-save-server');
+  const btnExport = document.getElementById('btn-export');
+  const btnLoad = document.getElementById('btn-load');
+  const savedMsg = document.getElementById('sheet-saved-msg');
+  const statusEl = document.getElementById('save-status');
+
+  function getFormData() {
+    const form = document.getElementById('build-sheet-form');
+    const data = {};
+    new FormData(form).forEach((v, k) => { data[k] = v; });
+    return data;
+  }
+
+  function setFormData(data) {
+    for (const [k, v] of Object.entries(data)) {
+      const el = document.querySelector(`[name="${k}"]`);
+      if (el) el.value = v;
+    }
+  }
+
+  // Save to localStorage
+  btnSave.addEventListener('click', () => {
+    const data = getFormData();
+    data.savedAt = new Date().toISOString();
+    localStorage.setItem('npos-build-sheet', JSON.stringify(data));
+    savedMsg.hidden = false;
+    statusEl.textContent = 'SAVED (local)';
+    setTimeout(() => { savedMsg.hidden = true; }, 2000);
+  });
+
+  // Save to server
+  btnSaveServer.addEventListener('click', async () => {
+    const data = getFormData();
+    try {
+      const r = await fetch(`${API}/api/build-sheets`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: data.projectName?.replace(/[^a-z0-9]/gi, '-').toLowerCase() || 'unnamed', ...data }),
+      });
+      if (r.ok) {
+        savedMsg.textContent = '✓ Saved to server';
+        savedMsg.hidden = false;
+        statusEl.textContent = 'SAVED (server)';
+        setTimeout(() => { savedMsg.hidden = true; }, 2000);
+      }
+    } catch {
+      savedMsg.textContent = '✗ Server offline — saved locally';
+      savedMsg.hidden = false;
+    }
+  });
+
+  // Export as JSON file
+  btnExport.addEventListener('click', () => {
+    const data = getFormData();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `build-sheet-${data.projectName || 'untitled'}.json`.replace(/[^a-z0-9.-]/gi, '-');
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+
+  // Load last saved from localStorage
+  btnLoad.addEventListener('click', () => {
+    const saved = localStorage.getItem('npos-build-sheet');
+    if (saved) {
+      setFormData(JSON.parse(saved));
+      statusEl.textContent = 'LOADED';
+    } else {
+      statusEl.textContent = 'NO SAVED DATA';
+    }
+  });
+
+  // Auto-load on page load
+  const saved = localStorage.getItem('npos-build-sheet');
+  if (saved) {
+    try { setFormData(JSON.parse(saved)); statusEl.textContent = 'DRAFT (loaded)'; } catch {}
+  }
+</script>
+
 <style>
-    .prose :global(h1) { font-size: 22px; margin-top: 0; }
-    .prose :global(h2) { font-size: 18px; margin-top: 24px; color: var(--color-accent-300); }
-    .prose :global(h3) { font-size: 15px; margin-top: 18px; }
-    .prose :global(p) { font-size: 14px; line-height: 1.7; color: var(--color-text); }
-    .prose :global(li) { font-size: 14px; line-height: 1.6; margin-left: 4px; }
-    .prose :global(ul) { padding-left: 20px; margin: 0 0 12px; }
-    .prose :global(blockquote) { border-left: 2px solid var(--color-accent); margin: 0 0 12px; padding-left: 12px; color: var(--color-neutral-300); }
-    .prose :global(hr) { border: none; border-top: 1px solid var(--color-divider); margin: 16px 0; }
+  .sheet-form { max-width: 1200px; }
+  .sheet-cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+  .sheet-col { display: flex; flex-direction: column; gap: 20px; }
+  .sheet-section { padding: 16px; border: 1px solid var(--color-neutral-700); border-radius: var(--radius-md); background: var(--color-neutral-900); }
+  .sheet-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .sheet-saved { font-size: 12px; color: var(--color-accent-300); }
+
+  .field { margin-bottom: 10px; }
+  .field > label { display: block; font-size: 10px; letter-spacing: 0.1em; color: var(--color-neutral-300); margin-bottom: 4px; text-transform: uppercase; }
+  .field-row { display: flex; gap: 10px; }
+
+  .archetype-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .archetype-option { display: flex; align-items: center; gap: 6px; cursor: pointer; padding: 6px 8px; border-radius: var(--radius-sm); font-size: 12px; border: 1px solid var(--color-neutral-700); }
+  .archetype-option:has(input:checked) { border-color: var(--color-accent); background: var(--color-accent-800); }
+  .archetype-option input { accent-color: var(--color-accent); }
+
+  @media (max-width: 860px) {
+    .sheet-cols { grid-template-columns: 1fr; }
+    .archetype-grid { grid-template-columns: 1fr; }
+  }
 </style>

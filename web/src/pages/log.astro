@@ -1,0 +1,207 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Session Log" module="SESSION LOG">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">SESSION TRACKING</div>
+            <div class="hud-page-title">Session Log</div>
+        </div>
+        <button class="btn btn-primary" id="btn-start" style="font-size: 12px;">▶ START SESSION</button>
+    </div>
+
+    <div class="log-layout">
+        <div class="log-main">
+            <div class="hud-panel">
+                <div class="hud-panel-label">TIMER</div>
+                <div class="log-timer" id="timer-display">00:00:00</div>
+                <div id="timer-phase" class="log-phase">Not started</div>
+            </div>
+
+            <form id="log-form" class="hud-panel" style="margin-top: 16px;" onsubmit="return false;">
+                <div class="hud-panel-label">LOG THIS SESSION</div>
+
+                <div class="field">
+                    <label>What did you work on?</label>
+                    <textarea class="input" name="workDone" rows="2" placeholder="e.g. Finished Drop A groove, started bass variations"></textarea>
+                </div>
+                <div class="field-row">
+                    <div class="field" style="flex:1">
+                        <label>What worked?</label>
+                        <textarea class="input" name="whatWorked" rows="2" placeholder="Breakthrough, new technique"></textarea>
+                    </div>
+                    <div class="field" style="flex:1">
+                        <label>What didn't?</label>
+                        <textarea class="input" name="whatFailed" rows="2" placeholder="Problem, stuck point"></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Decisions made</label>
+                    <textarea class="input" name="decisions" rows="2" placeholder="Switched to Reese, cut 200Hz on bass"></textarea>
+                </div>
+                <div class="field">
+                    <label>Next session goal</label>
+                    <textarea class="input" name="nextGoal" rows="1" placeholder="Arrange break → drop B transition"></textarea>
+                </div>
+
+                <div style="display: flex; gap: 10px; margin-top: 12px;">
+                    <button type="button" class="btn btn-primary" id="btn-log-save">Save Log Entry</button>
+                    <button type="button" class="btn btn-secondary" id="btn-end-session">■ End Session & Save</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="log-history">
+            <div class="hud-panel" style="height: 100%;">
+                <div class="hud-panel-label">RECENT SESSIONS</div>
+                <div id="log-list">
+                    <div class="log-empty">No sessions logged yet</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<script>
+  const API = 'http://localhost:3099';
+
+  // ────── TIMER ──────
+
+  let startTime = null;
+  let timerInterval = null;
+  const timerDisplay = document.getElementById('timer-display');
+  const timerPhase = document.getElementById('timer-phase');
+  const btnStart = document.getElementById('btn-start');
+
+  function formatTime(ms) {
+    const s = Math.floor(ms / 1000) % 60;
+    const m = Math.floor(ms / 60000) % 60;
+    const h = Math.floor(ms / 3600000);
+    return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  }
+
+  function startTimer() {
+    startTime = Date.now();
+    timerPhase.textContent = '● SESSION ACTIVE';
+    timerPhase.style.color = 'var(--color-accent)';
+    btnStart.textContent = '■ STOP';
+    btnStart.className = 'btn btn-secondary';
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      timerDisplay.textContent = formatTime(Date.now() - startTime);
+    }, 1000);
+  }
+
+  function stopTimer() {
+    clearInterval(timerInterval);
+    const elapsed = startTime ? formatTime(Date.now() - startTime) : '00:00:00';
+    timerPhase.textContent = `⏱ ${elapsed} — Session ended`;
+    timerPhase.style.color = 'var(--color-neutral-300)';
+    btnStart.textContent = '▶ START SESSION';
+    btnStart.className = 'btn btn-primary';
+    startTime = null;
+    return elapsed;
+  }
+
+  btnStart.addEventListener('click', () => {
+    if (startTime) { stopTimer(); }
+    else { startTimer(); }
+  });
+
+  // ────── SAVE LOG ──────
+
+  function getLogData(elapsed) {
+    const form = document.getElementById('log-form');
+    const data = {};
+    new FormData(form).forEach((v, k) => { data[k] = v; });
+    data.duration = elapsed || '00:00:00';
+    data.date = new Date().toISOString();
+    return data;
+  }
+
+  function clearForm() {
+    document.getElementById('log-form').querySelectorAll('textarea').forEach(t => t.value = '');
+  }
+
+  async function saveLog(data) {
+    // Always save to localStorage
+    const logs = JSON.parse(localStorage.getItem('npos-session-logs') || '[]');
+    logs.unshift({ ...data, id: `session-${Date.now()}` });
+    localStorage.setItem('npos-session-logs', JSON.stringify(logs.slice(0, 50)));
+    renderLogs();
+
+    // Try server
+    try {
+      await fetch(`${API}/api/logs`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+    } catch {}
+  }
+
+  document.getElementById('btn-log-save').addEventListener('click', () => {
+    const elapsed = startTime ? stopTimer() : '00:00:00';
+    const data = getLogData(elapsed);
+    saveLog(data);
+    clearForm();
+  });
+
+  document.getElementById('btn-end-session').addEventListener('click', () => {
+    const elapsed = startTime ? stopTimer() : '00:00:00';
+    const data = getLogData(elapsed);
+    saveLog(data);
+    clearForm();
+  });
+
+  // ────── HISTORY ──────
+
+  function renderLogs() {
+    const container = document.getElementById('log-list');
+    const logs = JSON.parse(localStorage.getItem('npos-session-logs') || '[]');
+
+    if (!logs.length) {
+      container.innerHTML = '<div class="log-empty">No sessions logged yet</div>';
+      return;
+    }
+
+    container.innerHTML = logs.slice(0, 10).map(log => `
+      <div class="log-entry">
+        <div class="log-entry-head">
+          <span class="log-entry-date">${new Date(log.date).toLocaleDateString('cs-CZ', { day: 'numeric', month: 'short' })}</span>
+          <span class="log-entry-duration">${log.duration}</span>
+        </div>
+        <div class="log-entry-work">${log.workDone || '—'}</div>
+        ${log.whatWorked ? `<div class="log-entry-note" style="color: var(--color-accent-300);">✓ ${log.whatWorked}</div>` : ''}
+        ${log.nextGoal ? `<div class="log-entry-next">→ ${log.nextGoal}</div>` : ''}
+      </div>
+    `).join('');
+  }
+
+  renderLogs();
+</script>
+
+<style>
+  .log-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; }
+  .log-main { display: flex; flex-direction: column; }
+  .log-timer { font-family: var(--font-heading); font-size: 48px; font-weight: 500; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; text-align: center; padding: 16px 0; }
+  .log-phase { font-size: 11px; letter-spacing: 0.1em; text-align: center; color: var(--color-neutral-400); }
+  .log-empty { font-size: 13px; color: var(--color-neutral-500); text-align: center; padding: 40px 0; }
+  .log-history { min-height: 300px; }
+  .log-entry { padding: 10px 0; border-bottom: 1px solid var(--color-neutral-800); font-size: 12px; }
+  .log-entry:last-child { border-bottom: none; }
+  .log-entry-head { display: flex; justify-content: space-between; margin-bottom: 4px; }
+  .log-entry-date { color: var(--color-neutral-400); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .log-entry-duration { color: var(--color-accent-300); font-size: 11px; }
+  .log-entry-work { margin-bottom: 2px; }
+  .log-entry-note { margin-bottom: 2px; }
+  .log-entry-next { color: var(--color-neutral-400); font-style: italic; }
+  .field { margin-bottom: 10px; }
+  .field > label { display: block; font-size: 10px; letter-spacing: 0.1em; color: var(--color-neutral-300); margin-bottom: 4px; text-transform: uppercase; }
+  .field-row { display: flex; gap: 10px; }
+
+  @media (max-width: 860px) {
+    .log-layout { grid-template-columns: 1fr; }
+  }
+</style>

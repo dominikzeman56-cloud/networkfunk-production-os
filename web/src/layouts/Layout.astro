@@ -1,6 +1,7 @@
 ---
 import '../styles/nocturne.css';
 import '../styles/hud.css';
+import SearchModal from '../components/SearchModal.astro';
 
 interface Props {
   title: string;
@@ -23,6 +24,7 @@ const navItems = [
   { href: '/framework', label: 'FRAMEWORK' },
   { href: '/knowledge', label: 'KNOWLEDGE' },
   { href: '/presets', label: 'PRESETS' },
+  { href: '/log', label: 'LOG' },
 ];
 ---
 
@@ -51,6 +53,12 @@ const navItems = [
             </nav>
 
             <div class="hud-topright">
+                <button id="search-trigger" class="btn btn-secondary" style="font-size: 11px; gap: 6px; padding: 4px 10px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <span style="opacity: 0.6;">⌘K</span>
+                </button>
                 {showMiniWave && <canvas data-hud-miniwave width="120" height="28"></canvas>}
                 <div class="hud-sync">
                     <span class="hud-sync-dot"></span>
@@ -76,6 +84,15 @@ const navItems = [
         </div>
     </div>
 
+    <SearchModal />
+
     <script src="../scripts/hud.js"></script>
+    <script is:inline>
+      // Wire search trigger button
+      document.getElementById('search-trigger')?.addEventListener('click', () => {
+        document.getElementById('search-modal')?.removeAttribute('hidden');
+        document.getElementById('search-input')?.focus();
+      });
+    </script>
 </body>
 </html>

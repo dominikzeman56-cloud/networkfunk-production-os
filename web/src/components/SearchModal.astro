@@ -1,0 +1,260 @@
+---
+// SearchModal — Ctrl+K command palette for NPOS
+// Builds search index from all markdown sections at build time
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Doc {
+  title: string;
+  excerpt: string;
+  section: string;
+  href: string;
+}
+
+function scanDir(dir: string, section: string, baseUrl: string): Doc[] {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter(f => f.endsWith('.md') && !f.startsWith('Index') && !f.includes('Template'))
+    .map(f => {
+      const content = fs.readFileSync(path.join(dir, f), 'utf8');
+      const titleMatch = content.match(/^#\s+(.+)$/m);
+      const plain = content.replace(/[#*\[\]|`>-]/g, '').replace(/\n+/g, ' ').trim();
+      const slug = f.replace('.md', '');
+      return {
+        title: titleMatch ? titleMatch[1].trim() : slug,
+        excerpt: plain.slice(0, 160).trim() + '…',
+        section,
+        href: `${baseUrl}/${slug}`,
+      };
+    });
+}
+
+const base = 'D:/ObsidianVault/networkfunk-production-os';
+const docs: Doc[] = [
+  ...scanDir(path.join(base, 'Knowledge'),      'KNOWLEDGE',  '/knowledge'),
+  ...scanDir(path.join(base, 'Framework'),       'FRAMEWORK',  '/framework'),
+  ...scanDir(path.join(base, 'Producer-Knowledge'), 'PRODUCER',  '/producer'),
+  ...scanDir(path.join(base, 'Session-Management'), 'SESSION',   '/session'),
+  ...scanDir(path.join(base, 'Case-Studies'),    'CASE STUDY', '/producer'),
+  ...scanDir(path.join(base, 'Presets'),         'PRESET',     '/presets'),
+];
+
+// Static pages
+const staticPages: Doc[] = [
+  { title: 'Dashboard', excerpt: 'Production home — current track, goals, quick actions.', section: 'NAV', href: '/' },
+  { title: 'Build Sheet', excerpt: 'New project brief — set tempo, key, references, bass archetype.', section: 'NAV', href: '/build-sheet' },
+  { title: 'Session Planner', excerpt: 'Plan your session with clear goals and workflows.', section: 'NAV', href: '/session' },
+  { title: 'Producer Knowledge', excerpt: 'Producer philosophies, techniques, and gear.', section: 'NAV', href: '/producer' },
+  { title: 'Framework', excerpt: 'Decision trees and checklists for production.', section: 'NAV', href: '/framework' },
+  { title: 'Knowledge Base', excerpt: 'Audio engineering — EQ, compression, sound design, mixing.', section: 'NAV', href: '/knowledge' },
+  { title: 'Presets', excerpt: 'Serum preset analysis and browsing.', section: 'NAV', href: '/presets' },
+];
+
+const allDocs = [...staticPages, ...docs];
+---
+
+<div id="search-modal" class="search-overlay" hidden>
+  <div class="search-panel">
+    <div class="search-input-row">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input
+        id="search-input"
+        type="text"
+        class="search-input"
+        placeholder="Search NPOS… (knowledge, producers, presets)"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <kbd class="search-kbd">ESC</kbd>
+    </div>
+    <div id="search-results" class="search-results">
+      <div class="search-hint">Type to search across all NPOS content</div>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ docsJson: JSON.stringify(allDocs) }}>
+  // Search index passed from server
+  const SEARCH_DOCS = docsJson;
+
+  // Tokenize with diacritics folding
+  function tokenize(text) {
+    return text
+      .toLowerCase()
+      .replace(/[čřžýáíéóúůďťň]/g, c => ({
+        'č':'c','ř':'r','ž':'z','ý':'y','á':'a','í':'i','é':'e',
+        'ó':'o','ú':'u','ů':'u','ď':'d','ť':'t','ň':'n'
+      }[c] || c))
+      .split(/[\s\-_/.,:;!?()[\]{}]+/)
+      .filter(t => t.length > 1);
+  }
+
+  function searchDocs(query) {
+    const terms = tokenize(query);
+    if (!terms.length) return [];
+
+    return SEARCH_DOCS
+      .map(doc => {
+        const docTokens = new Set([
+          ...tokenize(doc.title),
+          ...tokenize(doc.excerpt),
+          ...tokenize(doc.section),
+        ]);
+        let score = 0;
+        terms.forEach(t => {
+          // Title match = 3 pts, section = 2, excerpt = 1
+          if (tokenize(doc.title).some(dt => dt.startsWith(t))) score += 3;
+          else if (doc.section.toLowerCase().includes(t)) score += 2;
+          else if (docTokens.has(t)) score += 1;
+          else if ([...docTokens].some(dt => dt.includes(t))) score += 0.5;
+        });
+        return { ...doc, score };
+      })
+      .filter(d => d.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 12);
+  }
+
+  function renderResults(results, query) {
+    const container = document.getElementById('search-results');
+    if (!results.length) {
+      container.innerHTML = `<div class="search-empty">No results for "${query}"</div>`;
+      return;
+    }
+    container.innerHTML = results.map((r, i) => `
+      <a href="${r.href}" class="search-result ${i === 0 ? 'active' : ''}" data-index="${i}">
+        <span class="search-result-section">${r.section}</span>
+        <span class="search-result-title">${r.title}</span>
+        <span class="search-result-excerpt">${r.excerpt}</span>
+      </a>
+    `).join('');
+  }
+
+  // Modal open/close
+  const modal = document.getElementById('search-modal');
+  const input = document.getElementById('search-input');
+  let activeIndex = 0;
+
+  function openSearch() {
+    modal.hidden = false;
+    input.value = '';
+    input.focus();
+    document.getElementById('search-results').innerHTML = '<div class="search-hint">Type to search across all NPOS content</div>';
+    activeIndex = 0;
+  }
+
+  function closeSearch() {
+    modal.hidden = true;
+    input.value = '';
+  }
+
+  // Global keyboard shortcut
+  document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      if (modal.hidden) openSearch(); else closeSearch();
+    }
+    if (e.key === 'Escape' && !modal.hidden) {
+      closeSearch();
+    }
+    // Arrow navigation
+    if (!modal.hidden && (e.key === 'ArrowDown' || e.key === 'ArrowUp')) {
+      e.preventDefault();
+      const items = document.querySelectorAll('.search-result');
+      items.forEach(el => el.classList.remove('active'));
+      if (e.key === 'ArrowDown') activeIndex = Math.min(activeIndex + 1, items.length - 1);
+      if (e.key === 'ArrowUp') activeIndex = Math.max(activeIndex - 1, 0);
+      items[activeIndex]?.classList.add('active');
+      items[activeIndex]?.scrollIntoView({ block: 'nearest' });
+    }
+    // Enter to navigate
+    if (!modal.hidden && e.key === 'Enter') {
+      const active = document.querySelector('.search-result.active');
+      if (active) window.location.href = active.getAttribute('href');
+    }
+  });
+
+  // Click overlay to close
+  modal.addEventListener('click', e => {
+    if (e.target === modal) closeSearch();
+  });
+
+  // Search on input
+  input.addEventListener('input', e => {
+    const query = e.target.value.trim();
+    if (!query) {
+      document.getElementById('search-results').innerHTML = '<div class="search-hint">Type to search across all NPOS content</div>';
+      return;
+    }
+    const results = searchDocs(query);
+    activeIndex = 0;
+    renderResults(results, query);
+  });
+</script>
+
+<style>
+  .search-overlay {
+    position: fixed; inset: 0; z-index: 1000;
+    background: rgba(10, 10, 18, 0.75);
+    backdrop-filter: blur(6px);
+    display: flex; align-items: flex-start; justify-content: center;
+    padding-top: 15vh;
+  }
+  .search-panel {
+    width: 560px; max-width: 92vw;
+    background: var(--color-neutral-900);
+    border: 1px solid var(--color-neutral-700);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 24px 80px rgba(0,0,0,0.6), 0 0 0 1px var(--color-accent-800);
+    overflow: hidden;
+  }
+  .search-input-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--color-neutral-700);
+  }
+  .search-icon { color: var(--color-neutral-400); flex-shrink: 0; }
+  .search-input {
+    flex: 1; background: none; border: none; outline: none;
+    font: inherit; font-size: 15px; color: var(--color-text);
+    caret-color: var(--color-accent);
+  }
+  .search-input::placeholder { color: var(--color-neutral-500); }
+  .search-kbd {
+    font-size: 10px; padding: 2px 6px; border-radius: 4px;
+    background: var(--color-neutral-800); color: var(--color-neutral-400);
+    border: 1px solid var(--color-neutral-700); font-family: monospace;
+  }
+
+  .search-results {
+    max-height: 420px; overflow-y: auto; padding: 8px;
+  }
+  .search-hint, .search-empty {
+    padding: 24px 16px; text-align: center;
+    font-size: 13px; color: var(--color-neutral-500);
+  }
+  .search-result {
+    display: flex; flex-direction: column; gap: 2px;
+    padding: 10px 12px; border-radius: var(--radius-md);
+    text-decoration: none; color: inherit; cursor: pointer;
+    transition: background 0.1s;
+  }
+  .search-result:hover, .search-result.active {
+    background: var(--color-accent-800);
+  }
+  .search-result-section {
+    font-size: 10px; letter-spacing: 0.1em; color: var(--color-accent-300);
+    text-transform: uppercase;
+  }
+  .search-result-title {
+    font-family: var(--font-heading); font-size: 14px; font-weight: 500;
+  }
+  .search-result-excerpt {
+    font-size: 12px; color: var(--color-neutral-400);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    max-width: 100%;
+  }
+</style>
