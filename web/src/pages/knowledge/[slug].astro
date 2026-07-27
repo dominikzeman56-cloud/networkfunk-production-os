@@ -1,19 +1,21 @@
 ---
 // Dynamic route for knowledge pages
 import Layout from '../layouts/Layout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { parseMarkdownString } from '../../lib/markdown';
 
-const knowledgePages = import.meta.glob('/Knowledge/**/*.md', { eager: true, as: 'raw' });
+export async function getStaticPaths() {
+  const knowledgeDir = 'D:/ObsidianVault/networkfunk-production-os/Knowledge';
+  return fs.readdirSync(knowledgeDir).filter(f => f.endsWith('.md')).map(f => {
+    const filePath = path.join(knowledgeDir, f);
+    const parsed = parseMarkdownString(fs.readFileSync(filePath, 'utf8'), filePath);
+    const page = { slug: f.replace('.md', ''), title: parsed.title, content: parsed.content };
+    return { params: { slug: page.slug }, props: { page } };
+  });
+}
 
-const slugs = Object.keys(knowledgePages).map(path => {
-  const slug = path.replace('/Knowledge/', '').replace('.md', '');
-  const content = knowledgePages[path];
-  const titleMatch = content.match(/^#\s+(.+)$/m);
-  const title = titleMatch ? titleMatch[1] : slug;
-  return { slug, title, content };
-});
-
-const { slug } = Astro.params;
-const page = slugs.find(p => p.slug === slug) || slugs[0];
+const { page } = Astro.props;
 ---
 
 <html lang="cs">
@@ -21,7 +23,7 @@ const page = slugs.find(p => p.slug === slug) || slugs[0];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{page?.title} - NPOS</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
     <style>
         :root { --primary: #10b981; --primary-hover: #059669; }
         body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
@@ -48,7 +50,7 @@ const page = slugs.find(p => p.slug === slug) || slugs[0];
     <main class="flex-grow container mx-auto px-4 py-8">
         <article>
             <h1 class="text-4xl font-bold mb-6 text-emerald-400">{page?.title}</h1>
-            <div class="prose dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: page?.content || '' }} />
+            <div class="prose dark:prose-invert max-w-none" set:html={page?.content || ''} />
         </article>
     </main>
 

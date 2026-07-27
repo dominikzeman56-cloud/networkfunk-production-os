@@ -2,8 +2,8 @@
 // NPOS Knowledge Index - Česká verze
 const title = "Znalosti - NPOS";
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'node:fs';
+import path from 'node:path';
 
 const knowledgeDir = 'D:/ObsidianVault/networkfunk-production-os/Knowledge';
 const knowledgeFiles = fs.readdirSync(knowledgeDir)
@@ -56,7 +56,7 @@ const categoryMap: Record<string, string> = {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
     <style>
         :root { --primary: #10b981; --primary-hover: #059669; }
         body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
@@ -85,7 +85,7 @@ const categoryMap: Record<string, string> = {
             <h2 class="text-2xl font-bold mb-4 text-emerald-400">Kategorie</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {categories.map(cat => (
-                    <a href="/knowledge/{cat.slug}" class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition border border-gray-700">
+                    <a href={`/knowledge/${cat.slug}`} class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition border border-gray-700">
                         <h3 class="font-semibold text-emerald-400">{categoryMap[cat.slug] || cat.name}</h3>
                     </a>
                 ))}
@@ -96,7 +96,7 @@ const categoryMap: Record<string, string> = {
             <h2 class="text-2xl font-bold mb-4 text-emerald-400">Všechny články</h2>
             <div class="space-y-2">
                 {knowledgeFiles.map(k => (
-                    <a href="/knowledge/{k.slug}" class="block p-4 bg-gray-800 rounded hover:bg-gray-700 transition border border-gray-700">
+                    <a href={`/knowledge/${k.slug}`} class="block p-4 bg-gray-800 rounded hover:bg-gray-700 transition border border-gray-700">
                         <h3 class="font-semibold text-emerald-400">{k.title}</h3>
                         <p class="text-sm text-gray-400 mt-1">{k.content}</p>
                     </a>

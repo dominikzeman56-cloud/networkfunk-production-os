@@ -2,8 +2,8 @@
 // NPOS Framework Index - Česká verze
 const title = "Framework - NPOS";
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'node:fs';
+import path from 'node:path';
 
 const frameworkDir = 'D:/ObsidianVault/networkfunk-production-os/Framework';
 const frameworkFiles = fs.readdirSync(frameworkDir)
@@ -42,7 +42,7 @@ const categoryMap: Record<string, string> = {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
     <style>
         :root { --primary: #10b981; --primary-hover: #059669; }
         body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
@@ -71,7 +71,7 @@ const categoryMap: Record<string, string> = {
             <h2 class="text-2xl font-bold mb-4 text-emerald-400">Frameworky a nástroje</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {frameworkFiles.map(f => (
-                    <a href="/framework/{f.slug}" class="block p-4 bg-gray-800 rounded hover:bg-gray-700 transition border border-gray-700">
+                    <a href={`/framework/${f.slug}`} class="block p-4 bg-gray-800 rounded hover:bg-gray-700 transition border border-gray-700">
                         <h3 class="font-semibold text-emerald-400">{f.title}</h3>
                         <p class="text-sm text-gray-400 mt-1">{f.content}</p>
                     </a>

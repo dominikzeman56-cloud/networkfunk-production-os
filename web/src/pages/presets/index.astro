@@ -6,8 +6,8 @@ const title = "Předlohy - NPOS";
 const serum1Path = 'D:/VST/Xfer/Serum Presets/Presets';
 const serum2Path = 'D:/VST/Xfer/Serum 2 Presets/Presets';
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'node:fs';
+import path from 'node:path';
 
 // Načtení presetů
 function loadPresets(dir: string, version: string): any[] {
@@ -53,7 +53,7 @@ const categoryMap: Record<string, string> = {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
     <style>
         :root { --primary: #10b981; --primary-hover: #059669; }
         body { background-color: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; }
@@ -89,7 +89,7 @@ const categoryMap: Record<string, string> = {
             <h2 class="text-2xl font-bold mb-4 text-emerald-400">Kategorie</h2>
             <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
                 {categories.map(cat => (
-                    <a href="/presets/{cat.slug}" class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition border border-gray-700 text-center">
+                    <a href={`/presets/${cat.slug}`} class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition border border-gray-700 text-center">
                         <h3 class="font-semibold text-emerald-400">{categoryMap[cat.slug]}</h3>
                     </a>
                 ))}
