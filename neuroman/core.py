@@ -11,15 +11,15 @@ from typing import Any, Optional
 
 from rich.console import Console
 
-from auth import auth_status, ensure_claude_login
-from resilience import DegradedMode, ErrorKind, NeuroError
-from router import OmniRouteClient
-from session import SessionMemory
-from tools.ableton import AbletonController
-from tools.cline_bridge import dispatch_to_cline
-from tools.coder import dispatch_to_coder
-from tools.knowledge import format_context_block, search_vault
-from tools.web import handle_web_query
+from .auth import auth_status, ensure_claude_login
+from .resilience import DegradedMode, ErrorKind, NeuroError
+from .router import OmniRouteClient
+from .session import SessionMemory
+from .tools.ableton import AbletonController
+from .tools.cline_bridge import dispatch_to_cline
+from .tools.coder import dispatch_to_coder
+from .tools.knowledge import format_context_block, search_vault
+from .tools.web import handle_web_query
 
 log = logging.getLogger("neuroman.core")
 

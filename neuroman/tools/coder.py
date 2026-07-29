@@ -11,8 +11,8 @@ from typing import Optional
 
 from rich.console import Console
 
-from auth import ensure_claude_login, auth_status
-from resilience import ErrorKind, NeuroError, get_breaker, retry_async
+from ..auth import ensure_claude_login, auth_status
+from ..resilience import ErrorKind, NeuroError, get_breaker, retry_async
 
 log = logging.getLogger("neuroman.tools.coder")
 

@@ -8,7 +8,7 @@ from typing import Any
 
 import httpx
 
-from resilience import ErrorKind, NeuroError, get_breaker, retry_async
+from ..resilience import ErrorKind, NeuroError, get_breaker, retry_async
 
 log = logging.getLogger("neuroman.tools.ableton")
 

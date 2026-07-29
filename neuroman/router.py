@@ -10,7 +10,7 @@ from typing import Optional
 
 from openai import APIConnectionError, APIStatusError, APITimeoutError, AsyncOpenAI, RateLimitError
 
-from resilience import (
+from .resilience import (
     ErrorKind,
     NeuroError,
     get_breaker,

@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
-from resilience import ErrorKind, NeuroError
+from .resilience import ErrorKind, NeuroError
 
 log = logging.getLogger("neuroman.auth")
 

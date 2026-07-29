@@ -185,7 +185,7 @@ app.get('/api/session', (_req, res) => {
     res.json(session);
   } catch (err) {
     console.error('GET /api/session:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to load session' });
   }
 });
 
@@ -198,7 +198,7 @@ app.post('/api/session', (req, res) => {
     res.json(result);
   } catch (err) {
     console.error('POST /api/session:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to save session' });
   }
 });
 
@@ -209,7 +209,7 @@ app.get('/api/build-sheets', (_req, res) => {
     res.json(layer.listBuildSheets());
   } catch (err) {
     console.error('GET /api/build-sheets:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to list build sheets' });
   }
 });
 
@@ -219,7 +219,8 @@ app.get('/api/build-sheets/:id', (req, res) => {
     if (!sheet) return res.status(404).json({ error: 'Not found' });
     res.json(sheet);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('GET /api/build-sheets/:id:', err.message);
+    res.status(500).json({ error: 'Failed to load build sheet' });
   }
 });
 
@@ -230,7 +231,7 @@ app.post('/api/build-sheets', (req, res) => {
     res.json(result);
   } catch (err) {
     console.error('POST /api/build-sheets:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to save build sheet' });
   }
 });
 
@@ -242,7 +243,7 @@ app.get('/api/logs', (req, res) => {
     res.json(layer.listLogs(limit));
   } catch (err) {
     console.error('GET /api/logs:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to list logs' });
   }
 });
 
@@ -253,7 +254,7 @@ app.post('/api/logs', (req, res) => {
     res.json(result);
   } catch (err) {
     console.error('POST /api/logs:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to save log' });
   }
 });
 
@@ -263,7 +264,8 @@ app.get('/api/presets', (_req, res) => {
   try {
     res.json(layer.listPresets());
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('GET /api/presets:', err.message);
+    res.status(500).json({ error: 'Failed to list presets' });
   }
 });
 
@@ -272,7 +274,8 @@ app.post('/api/presets', (req, res) => {
     const { id, ...data } = req.body || {};
     res.json(layer.savePreset(id, data));
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('POST /api/presets:', err.message);
+    res.status(500).json({ error: 'Failed to save preset' });
   }
 });
 
@@ -286,7 +289,7 @@ app.get('/api/knowledge-index', (req, res) => {
     res.json(layer.getKnowledgeIndex({ category }));
   } catch (err) {
     console.error('GET /api/knowledge-index:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to load knowledge index' });
   }
 });
 
@@ -297,7 +300,8 @@ app.get('/api/knowledge/:id(*)', (req, res) => {
     if (!doc) return res.status(404).json({ error: 'Knowledge doc not found', id });
     res.json(doc);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('GET /api/knowledge/:id:', err.message);
+    res.status(500).json({ error: 'Failed to load knowledge doc' });
   }
 });
 
@@ -305,7 +309,8 @@ app.post('/api/knowledge/reindex', (_req, res) => {
   try {
     res.json(layer.reindexKnowledge());
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('POST /api/knowledge/reindex:', err.message);
+    res.status(500).json({ error: 'Failed to reindex knowledge' });
   }
 });
 
@@ -325,7 +330,7 @@ app.get('/api/search', (req, res) => {
     res.json(layer.searchAll(q, { limit, types }));
   } catch (err) {
     console.error('GET /api/search:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Search failed' });
   }
 });
 
@@ -340,7 +345,8 @@ app.get('/api/dashboard', (_req, res) => {
       session: layer.getSession(),
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('GET /api/dashboard:', err.message);
+    res.status(500).json({ error: 'Failed to load dashboard' });
   }
 });
 
@@ -351,7 +357,7 @@ app.post('/api/dashboard/push', (_req, res) => {
     res.json(result);
   } catch (err) {
     console.error('POST /api/dashboard/push:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to push dashboard' });
   }
 });
 
@@ -362,7 +368,7 @@ app.post('/api/dashboard/pull', (_req, res) => {
     res.json(result);
   } catch (err) {
     console.error('POST /api/dashboard/pull:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to pull dashboard' });
   }
 });
 
@@ -372,7 +378,8 @@ app.get('/api/stats', (_req, res) => {
   try {
     res.json(layer.getStats());
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('GET /api/stats:', err.message);
+    res.status(500).json({ error: 'Failed to load stats' });
   }
 });
 
@@ -381,7 +388,8 @@ app.post('/api/migrate', (req, res) => {
     const force = !!(req.body && req.body.force);
     res.json(layer.migrateFromJson({ force }));
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('POST /api/migrate:', err.message);
+    res.status(500).json({ error: 'Migration failed' });
   }
 });
 
@@ -504,10 +512,17 @@ function callAnalyzer(tool, args) {
 app.post('/api/analyze', async (req, res) => {
   const { filePath, tool = 'full_analysis', resolution = 'low' } = req.body || {};
   if (!filePath) return res.status(400).json({ error: 'filePath required' });
-  if (!existsSync(filePath)) return res.status(404).json({ error: 'File not found' });
+
+  // Security: constrain filePath to project root
+  const resolved = resolvePath(filePath);
+  if (!resolved.startsWith(PROJECT_ROOT)) {
+    console.error(`[SECURITY] Blocked path traversal attempt: ${filePath}`);
+    return res.status(403).json({ error: 'Access denied: path must be within project root' });
+  }
+  if (!existsSync(resolved)) return res.status(404).json({ error: 'File not found' });
 
   try {
-    const result = await callAnalyzer(tool, { path: filePath, resolution });
+    const result = await callAnalyzer(tool, { path: resolved, resolution });
     const content = result?.content?.[0]?.text;
     let data = content;
     if (content) {
@@ -516,7 +531,7 @@ app.post('/api/analyze', async (req, res) => {
     res.json({ ok: true, data });
   } catch (err) {
     console.error('Analyze error:', err.message);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Analysis failed' });
   }
 });
 

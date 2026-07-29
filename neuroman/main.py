@@ -3,7 +3,7 @@ import asyncio
 from rich.console import Console
 from rich.panel import Panel
 
-from core import NeuroManOrchestrator
+from .core import NeuroManOrchestrator
 
 console = Console()
 

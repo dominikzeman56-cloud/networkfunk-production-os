@@ -7,8 +7,8 @@ import logging
 
 from rich.console import Console
 
-from resilience import NeuroError
-from tools.knowledge import format_context_block, search_vault
+from ..resilience import NeuroError
+from .knowledge import format_context_block, search_vault
 
 log = logging.getLogger("neuroman.tools.web")
 
