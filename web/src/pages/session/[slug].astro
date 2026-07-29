@@ -3,9 +3,10 @@ import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseMarkdownString } from '../../lib/markdown';
+import { paths } from '../../lib/config';
 
 export async function getStaticPaths() {
-  const sessionDir = 'D:/ObsidianVault/networkfunk-production-os/Session-Management';
+  const sessionDir = paths.sessionManagement;
   return fs.readdirSync(sessionDir).filter(f => f.endsWith('.md')).map(f => {
     const filePath = path.join(sessionDir, f);
     const parsed = parseMarkdownString(fs.readFileSync(filePath, 'utf8'), filePath);

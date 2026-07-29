@@ -2,8 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
+import { paths } from '../../lib/config';
 
-const frameworkDir = 'D:/ObsidianVault/networkfunk-production-os/Framework';
+const frameworkDir = paths.framework;
 const frameworkFiles = fs.readdirSync(frameworkDir)
   .filter(f => f.endsWith('.md') && !f.startsWith('Index'))
   .map(f => {

@@ -4,9 +4,10 @@ import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseMarkdownString } from '../../lib/markdown';
+import { paths } from '../../lib/config';
 
 export async function getStaticPaths() {
-  const frameworkDir = 'D:/ObsidianVault/networkfunk-production-os/Framework';
+  const frameworkDir = paths.framework;
   return fs.readdirSync(frameworkDir).filter(f => f.endsWith('.md')).map(f => {
     const filePath = path.join(frameworkDir, f);
     const parsed = parseMarkdownString(fs.readFileSync(filePath, 'utf8'), filePath);

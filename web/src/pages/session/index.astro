@@ -2,8 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
+import { paths } from '../../lib/config';
 
-const sessionDir = 'D:/ObsidianVault/networkfunk-production-os/Session-Management';
+const sessionDir = paths.sessionManagement;
 const sessionFiles = fs.readdirSync(sessionDir)
   .filter(f => f.endsWith('.md') && !f.startsWith('Index') && !f.includes('Template'))
   .map(f => {

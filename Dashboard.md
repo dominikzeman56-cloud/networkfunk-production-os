@@ -1,6 +1,7 @@
 # Dashboard
 
 > NPOS production home page. Otevři to jako první každou session.
+> _Auto-synced from session store · 2026-07-28T20:30:24.101Z_
 
 Za pár sekund musí odpovědět na čtyři otázky:
 - Co dělám?
@@ -11,35 +12,36 @@ Za pár sekund musí odpovědět na čtyři otázky:
 ---
 
 ## Current Track
-- Track:
-- Artist:
-- Version:
-- Current Stage:
+- Track: Test Neurofunk Track
+- Artist: Test Artist
+- Version: 0.1.0
+- Current Stage: Sound Design
+- Tempo: 174
+- Key: D# minor
+- Project ID: test-neurofunk
 
 ## Today
-- Today's Goal:
-- Current Problem:
-- Reference Track:
-- Session Focus:
+- Today's Goal: Create initial bass patch
+- Current Problem: Need to find the right wavetable
+- Reference Track: The Approach — Noisia
+- Session Focus: Bass sound design
 
 ## Session Status
-- Session Type: [ ] Sound Design [ ] Arrangement [ ] Mixing [ ] Mastering [ ] Export
-- Last completed step:
-- Next action:
+- Session Type: [x] Sound Design [ ] Arrangement [ ] Mixing [ ] Mastering [ ] Export
+- Last completed step: Loaded Serum
+- Next action: Design initial wavetable
 
 ## Recent Notes
-- Last breakthrough:
-- Last issue:
-- Next action:
+- Last breakthrough: Found a good starting wavetable
+- Last issue: Need to adjust filter envelope
+- Next action: Design initial wavetable
 
 ---
 
 ## Daily Priorities
-- [ ] Review yesterday's progress
-- [ ] Set one session objective
-- [ ] Load reference track
-- [ ] Define the next concrete step
-- [ ] Save progress before leaving
+- [ ] Design initial bass patch
+- [ ] Set up project structure
+- [x] Load reference track
 
 ---
 

@@ -1,42 +1,59 @@
 {
   "$schema": "session",
   "version": 1,
-
-  "currentProject": "neonlight-reflux",
-
+  "currentProject": "test-neurofunk",
   "projects": {
-    "neonlight-reflux": {
-      "name": "Neonlight Reflux",
-      "artist": "Vlastní projekt",
-      "version": "v1",
+    "test-neurofunk": {
+      "name": "Test Neurofunk Track",
+      "artist": "Test Artist",
+      "version": "0.1.0",
       "tempo": 174,
-      "key": "Fm",
-      "stage": "Arrangement",
-      "stageIdx": 2,
+      "key": "D# minor",
+      "stage": "Sound Design",
+      "stageIdx": 0,
       "totalStages": 5,
-      "stages": ["Sound Design", "Arrangement", "Mixing", "Mastering", "Export"],
-      "goal": "Opravit Bass Movement",
-      "problem": "Slabý low-end v dropu",
+      "stages": [
+        "Sound Design",
+        "Arrangement",
+        "Mixing",
+        "Mastering",
+        "Export"
+      ],
+      "goal": "Create initial bass patch",
+      "problem": "Need to find the right wavetable",
       "reference": {
-        "track": "Static",
-        "artist": "Burr Oak"
+        "track": "The Approach",
+        "artist": "Noisia"
       },
-      "sessionFocus": "ARRANGEMENT",
-      "lastStep": "Intro riser automation",
-      "nextStep": "Rebuild drop transient layer",
+      "sessionFocus": "Bass sound design",
+      "lastStep": "Loaded Serum",
+      "nextStep": "Design initial wavetable",
       "notes": [
-        { "type": "breakthrough", "text": "Parallel comb filter fixed Reese phase smear." },
-        { "type": "issue", "text": "Snare buried under mid bass in chorus." }
+        {
+          "type": "breakthrough",
+          "text": "Found a good starting wavetable"
+        },
+        {
+          "type": "issue",
+          "text": "Need to adjust filter envelope"
+        }
       ],
       "priorities": [
-        { "done": true, "text": "Review yesterday's progress" },
-        { "done": true, "text": "Set one session objective" },
-        { "done": false, "text": "Load reference track" },
-        { "done": false, "text": "Define next concrete step" },
-        { "done": false, "text": "Save progress before leaving" }
+        {
+          "done": false,
+          "text": "Design initial bass patch"
+        },
+        {
+          "done": false,
+          "text": "Set up project structure"
+        },
+        {
+          "done": true,
+          "text": "Load reference track"
+        }
       ],
-      "createdAt": "2026-07-20",
-      "updatedAt": "2026-07-27"
+      "createdAt": "2026-07-28T14:11:23.254Z",
+      "updatedAt": "2026-07-28T14:11:23.255Z"
     }
   }
 }

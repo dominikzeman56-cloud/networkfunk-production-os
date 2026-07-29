@@ -3,8 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const serum1Path = 'D:/VST/Xfer/Serum Presets/Presets';
-const serum2Path = 'D:/VST/Xfer/Serum 2 Presets/Presets';
+const serum1Path = external.serum1Presets || '';
+const serum2Path = external.serum2Presets || '';
 
 function loadPresets(dir: string, version: string): any[] {
   if (!fs.existsSync(dir)) return [];
@@ -30,6 +30,7 @@ const categories = [
   { name: 'Pady', slug: 'pad' },
   { name: 'Textury', slug: 'texture' },
 ];
+import { external } from '../../lib/config';
 ---
 
 <Layout title="Předlohy" module="PRESETS">
@@ -85,18 +86,18 @@ const categories = [
 </Layout>
 
 <script>
-  const API = 'http://localhost:3099';
-  const btnAnalyze = document.getElementById('btn-analyze');
+  const API = import.meta.env.PUBLIC_API_URL || 'http://localhost:3099';
+  const btnAnalyze = document.getElementById('btn-analyze') as HTMLButtonElement | null;
   const output = document.getElementById('analyze-output');
 
   btnAnalyze?.addEventListener('click', async () => {
-    const filePath = document.getElementById('analyze-path').value.trim();
-    const tool = document.getElementById('analyze-tool').value;
+    const filePath = (document.getElementById('analyze-path') as HTMLInputElement).value.trim();
+    const tool = (document.getElementById('analyze-tool') as HTMLSelectElement).value;
     if (!filePath) return;
 
     output.hidden = false;
     output.innerHTML = '<div style="color: var(--color-accent-300);">Analyzing...</div>';
-    btnAnalyze.disabled = true;
+    btnAnalyze!.disabled = true;
 
     try {
       const r = await fetch(`${API}/api/analyze`, {
@@ -113,11 +114,11 @@ const categories = [
     } catch {
       output.innerHTML = '<div style="color: var(--color-neutral-400);">Server offline. Start: <code>cd server && npm start</code></div>';
     } finally {
-      btnAnalyze.disabled = false;
+      btnAnalyze!.disabled = false;
     }
   });
 
-  function renderAnalysis(data) {
+  function renderAnalysis(data: any) {
     if (!data) { output.innerHTML = '<div>No data</div>'; return; }
 
     if (typeof data === 'string' || data.text) {

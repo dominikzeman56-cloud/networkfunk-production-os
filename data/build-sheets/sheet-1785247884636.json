@@ -1,0 +1,12 @@
+{
+  "title": "Test Build Sheet",
+  "projectId": "test-neurofunk",
+  "concept": "Initial bass design",
+  "steps": [
+    "Load Serum",
+    "Select wavetable",
+    "Adjust filter",
+    "Set up envelope"
+  ],
+  "updatedAt": "2026-07-28T20:30:24.103Z"
+}

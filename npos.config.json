@@ -1,0 +1,52 @@
+{
+  "$schema": "./npos.config.schema.json",
+  "_comment": "NPOS Central Configuration — all paths relative to project root. Port 3099 is canonical for API.",
+  "paths": {
+    "data": "./Data",
+    "sessions": "./Data/sessions",
+    "sessionFile": "./Data/session.json",
+    "buildSheets": "./Data/build-sheets",
+    "knowledge": "./Knowledge",
+    "framework": "./Framework",
+    "producerKnowledge": "./Producer-Knowledge",
+    "presets": "./Presets",
+    "caseStudies": "./Case-Studies",
+    "sessionManagement": "./Session-Management",
+    "templates": "./Templates",
+    "troubleshooting": "./Troubleshooting",
+    "references": "./References",
+    "webFrontend": "./Web",
+    "apiServer": "./Server",
+    "database": "./Data/npos.sqlite"
+  },
+
+  "external": {
+    "serum1Presets": "",
+    "serum2Presets": "",
+    "obsidianVault": "",
+    "neuromanPath": ""
+  },
+  "server": {
+    "port": 3099,
+    "host": "localhost"
+  },
+  "web": {
+    "port": 4321,
+    "host": "localhost"
+  },
+  "neuroman": {
+    "port": 5000
+  },
+  "ai": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-20250514",
+    "maxTokens": 300
+  },
+  "audioAnalyzer": {
+    "binPath": "",
+    "timeoutMs": 30000
+  },
+  "ableton": {
+    "mcpPackage": "@xiaolaa2/ableton-copilot-mcp"
+  }
+}

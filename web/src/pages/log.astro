@@ -64,7 +64,7 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <script>
-  const API = 'http://localhost:3099';
+  const API = import.meta.env.PUBLIC_API_URL || 'http://localhost:3099';
 
   // ────── TIMER ──────
 
@@ -111,9 +111,9 @@ import Layout from '../layouts/Layout.astro';
 
   // ────── SAVE LOG ──────
 
-  function getLogData(elapsed) {
-    const form = document.getElementById('log-form');
-    const data = {};
+  function getLogData(elapsed: string) {
+    const form = document.getElementById('log-form') as HTMLFormElement;
+    const data: Record<string, any> = {};
     new FormData(form).forEach((v, k) => { data[k] = v; });
     data.duration = elapsed || '00:00:00';
     data.date = new Date().toISOString();

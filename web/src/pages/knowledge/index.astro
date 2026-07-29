@@ -2,8 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
+import { paths } from '../../lib/config';
 
-const knowledgeDir = 'D:/ObsidianVault/networkfunk-production-os/Knowledge';
+const knowledgeDir = paths.knowledge;
 const knowledgeFiles = fs.readdirSync(knowledgeDir)
   .filter(f => f.endsWith('.md') && !f.startsWith('Index'))
   .map(f => {

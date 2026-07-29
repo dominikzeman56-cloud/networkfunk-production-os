@@ -89,7 +89,7 @@ function parseFrontmatter(block: string): Frontmatter {
           result.tags = [value.trim()];
         }
       } else {
-        result[key as keyof Frontmatter] = value.trim();
+        (result as Record<string, any>)[key] = value.trim();
       }
     }
   }

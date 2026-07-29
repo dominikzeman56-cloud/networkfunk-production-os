@@ -18,7 +18,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-const API = "http://localhost:3099";
+const API = import.meta.env.PUBLIC_API_URL || "http://localhost:3099";
 
 interface Track {
   name: string;

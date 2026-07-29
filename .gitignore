@@ -1,5 +1,10 @@
 .aider*
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Python
 .venv/
 __pycache__/
@@ -13,6 +18,29 @@ web/.astro/
 # Test / build artifacts
 sanity_output.txt
 
+# SQLite databases (Phase 1 data layer)
+Data/*.sqlite
+Data/*.sqlite-*
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+
 # OS
 .DS_Store
 Thumbs.db
+
+# Local Netlify folder
+.netlify
+
+# claude-flow tool-internal state
+.claude-flow/
+.swarm/
+.claude/agent-metrics.jsonl
+
+# NeuroMan runtime output
+neuroman/data/sessions/
+context.md
+
+# Test/fallback data artifacts
+data/test-fallback/

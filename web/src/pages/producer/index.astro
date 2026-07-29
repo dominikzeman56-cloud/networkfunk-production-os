@@ -2,8 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
+import { paths } from '../../lib/config';
 
-const producerDir = 'D:/ObsidianVault/networkfunk-production-os/Producer-Knowledge';
+const producerDir = paths.producerKnowledge;
 const producerFiles = fs.readdirSync(producerDir)
   .filter(f => f.endsWith('.md') && !f.startsWith('Index') && !f.includes('Template'))
   .map(f => {

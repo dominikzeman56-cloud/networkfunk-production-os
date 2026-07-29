@@ -3,6 +3,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { paths } from './config';
 
 interface ProducerPalData {
   session: {
@@ -133,7 +134,7 @@ interface Issue {
  * Příklad použití
  */
 if (import.meta.url === process.argv[1]) {
-  const data = loadProducerPalData('D:/ObsidianVault/networkfunk-production-os/session.json');
+  const data = loadProducerPalData(paths.sessionFile);
   if (data) {
     const result = analyzeProducerPalData(data);
     console.log(result);
