@@ -22,7 +22,7 @@
 
   "external": {
     "serum1Presets": "",
-    "serum2Presets": "",
+    "serum2Presets": "D:/VST/Xfer/Serum 2 Presets/Presets",
     "obsidianVault": "",
     "neuromanPath": ""
   },
@@ -41,6 +41,12 @@
     "provider": "anthropic",
     "model": "claude-sonnet-4-20250514",
     "maxTokens": 300
+  },
+  "presetGenerator": {
+    "device": "cpu",
+    "modelDir": "./data/preset-models",
+    "corpusDir": "D:/VST/Xfer/Serum 2 Presets/Presets",
+    "corpusOutput": "./data/preset_corpus.jsonl"
   },
   "audioAnalyzer": {
     "binPath": "",

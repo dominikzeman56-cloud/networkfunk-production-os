@@ -14,11 +14,12 @@ NPOS Phase 1 has been successfully implemented and tested. The system now provid
 1. **API Server** (`api-fallback.js`)
    - REST API endpoints for all Phase 1 requirements
    - WebSocket support for real-time updates
-   - Automatic fallback to JSON storage when SQLite is unavailable
+   - JSON file-based storage backend (via unified data-layer with `backend: 'json'`)
 
-2. **Data Layer** (`data-layer-fallback.js`)
+2. **Data Layer** (`data-layer.js` — unified)
+   - Dual-backend: SQLite (default) + JSON file-based fallback at runtime
+   - Backend selected via `{ backend: 'json' }` option or `DATA_LAYER_BACKEND` env
    - Complete CRUD operations for all data types
-   - JSON file-based storage with automatic migration
    - Knowledge indexing and full-text search
    - Dashboard synchronization
 

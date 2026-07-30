@@ -10,7 +10,7 @@ const serum2Path = external.serum2Presets || '';
 function loadPresets(dir: string, version: string): any[] {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir)
-    .filter(f => f.endsWith('.serum') || f.endsWith('.xsr'))
+    .filter(f => f.endsWith('.serum') || f.endsWith('.xsr') || f.endsWith('.SerumPreset'))
     .slice(0, 20)
     .map(f => ({
       name: f.replace(/\.serum$/i, '').replace(/\.xsr$/i, ''),

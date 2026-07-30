@@ -12,7 +12,7 @@ import { readFileSync, existsSync } from 'fs';
 import { join, dirname, resolve, isAbsolute } from 'path';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
-import { createDataLayer } from './data-layer-fallback.js';
+import { createDataLayer } from './data-layer.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, '..');
@@ -125,6 +125,7 @@ function broadcast(event) {
 // ──────── DATA LAYER ────────
 
 const layer = createDataLayer({
+  backend: 'json',
   dbPath: DB_PATH,
   paths,
   projectRoot: PROJECT_ROOT,

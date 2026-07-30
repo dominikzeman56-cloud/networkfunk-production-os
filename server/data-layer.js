@@ -1,11 +1,12 @@
 /**
  * NPOS Unified Data Layer (Phase 1)
- * SQLite-backed CRUD for sessions, projects, build sheets, logs, presets.
- * Also: knowledge index, full-text search, Dashboard.md bidirectional sync.
+ * Dual-backend: SQLite (default) or JSON file-based (fallback for testing).
+ * Backend selected via opts.backend ('sqlite' | 'json') or DATA_LAYER_BACKEND env.
  *
  * Usage:
  *   import { createDataLayer } from './data-layer.js';
- *   const db = createDataLayer({ dbPath, paths, projectRoot });
+ *   const db = createDataLayer({ dbPath, paths, projectRoot });              // SQLite
+ *   const db = createDataLayer({ backend: 'json', dbPath, paths, projectRoot }); // JSON
  */
 
 import Database from 'better-sqlite3';
@@ -16,6 +17,7 @@ import {
   writeFileSync,
   readdirSync,
   statSync,
+  unlinkSync,
 } from 'fs';
 import { join, dirname, basename, extname, relative } from 'path';
 
@@ -457,7 +459,7 @@ function parseDashboardIntoSession(md, existingSession) {
  * @param {string} opts.projectRoot
  * @param {function} [opts.onChange] - event emitter callback ({ type, payload })
  */
-export function createDataLayer(opts) {
+export function createSqliteDataLayer(opts) {
   const { dbPath, paths, projectRoot, onChange } = opts;
 
   const dbDir = dirname(dbPath);
@@ -1239,4 +1241,526 @@ export function createDataLayer(opts) {
   };
 }
 
-export default createDataLayer;
+// ──────── JSON FILE STORAGE ────────
+
+class JsonStorage {
+  constructor(baseDir) {
+    this.baseDir = baseDir;
+    if (!existsSync(baseDir)) {
+      mkdirSync(baseDir, { recursive: true });
+    }
+  }
+
+  getPath(type, id) {
+    return join(this.baseDir, `${type}_${id}.json`);
+  }
+
+  read(type, id) {
+    const path = this.getPath(type, id);
+    if (!existsSync(path)) return null;
+    try {
+      return safeJsonParse(readFileSync(path, 'utf8'), null);
+    } catch {
+      return null;
+    }
+  }
+
+  write(type, id, data) {
+    const path = this.getPath(type, id);
+    writeFileSync(path, safeJsonStringify(data), 'utf8');
+    return data;
+  }
+
+  list(type) {
+    const prefix = `${type}_`;
+    const suffix = '.json';
+    try {
+      const files = readdirSync(this.baseDir);
+      return files
+        .filter(f => f.startsWith(prefix) && f.endsWith(suffix))
+        .map(f => {
+          const id = f.slice(prefix.length, -suffix.length);
+          return this.read(type, id);
+        })
+        .filter(item => item !== null);
+    } catch {
+      return [];
+    }
+  }
+
+  delete(type, id) {
+    const path = this.getPath(type, id);
+    if (existsSync(path)) {
+      try {
+        unlinkSync(path);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+    return false;
+  }
+}
+
+// ──────── JSON-BACKED DATA LAYER ────────
+
+/**
+ * @param {object} opts
+ * @param {string} opts.dbPath - path to storage directory
+ * @param {object} opts.paths - resolved absolute paths from npos.config
+ * @param {string} opts.projectRoot
+ * @param {function} [opts.onChange] - event emitter callback ({ type, payload })
+ */
+function createJsonDataLayer(opts) {
+  const { dbPath, paths, projectRoot, onChange } = opts;
+
+  // Create storage directory
+  if (!existsSync(dbPath)) {
+    mkdirSync(dbPath, { recursive: true });
+  }
+
+  const storage = new JsonStorage(dbPath);
+
+  const emit = (type, payload) => {
+    if (typeof onChange === 'function') {
+      try {
+        onChange({ type, payload, at: nowIso() });
+      } catch (err) {
+        console.error('[data-layer] onChange error:', err.message);
+      }
+    }
+  };
+
+  // ──────── SESSION API ────────
+
+  function getSession() {
+    if (paths.sessionFile && existsSync(paths.sessionFile)) {
+      try {
+        const session = safeJsonParse(readFileSync(paths.sessionFile, 'utf8'), null);
+        if (session) return session;
+      } catch {
+        // fall through to rebuild
+      }
+    }
+    const projects = {};
+    const projectList = storage.list('project');
+    for (const p of projectList) {
+      projects[p.id] = p;
+    }
+    return {
+      $schema: 'session',
+      version: 1,
+      currentProject: Object.keys(projects)[0] || null,
+      projects,
+    };
+  }
+
+  function saveSession(session) {
+    if (!session || typeof session !== 'object') throw new Error('session must be an object');
+    const curr = safeJsonParse(session.currentProject, null);
+    if (curr && session.projects && session.projects[curr]) {
+      storage.write('project', curr, session.projects[curr]);
+    }
+    if (session.projects) {
+      for (const [id, proj] of Object.entries(session.projects)) {
+        storage.write('project', id, proj);
+      }
+    }
+    // mirror to session.json
+    if (paths.sessionFile) {
+      const dir = dirname(paths.sessionFile);
+      if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+      try {
+        writeFileSync(paths.sessionFile, safeJsonStringify(session), 'utf8');
+      } catch (err) {
+        console.error('[data-layer] failed to write session.json:', err.message);
+      }
+    }
+    emit('session', { projectId: curr || 'unknown' });
+  }
+
+  // ──────── BUILD SHEETS ────────
+
+  function listBuildSheets() { return storage.list('build_sheet'); }
+
+  function getBuildSheet(id) { return storage.read('build_sheet', id); }
+
+  function saveBuildSheet(id, data) {
+    const saved = storage.write('build_sheet', id, { id, ...data, updatedAt: nowIso() });
+    // mirror to file
+    const dir = join(paths.buildSheets || join(projectRoot, 'Data', 'build-sheets'));
+    if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+    try {
+      writeFileSync(join(dir, `${id}.json`), safeJsonStringify(saved), 'utf8');
+    } catch (err) {
+      console.error('[data-layer] build-sheet file mirror failed:', err.message);
+    }
+    emit('buildSheet', { id });
+    return saved;
+  }
+
+  // ──────── LOGS ────────
+
+  function listLogs() { return storage.list('log'); }
+
+  function saveLog(id, data) {
+    const saved = storage.write('log', id, { id, ...data, createdAt: nowIso() });
+    const dir = join(paths.sessions || join(projectRoot, 'Data', 'sessions'));
+    if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+    try {
+      writeFileSync(join(dir, `${id}.json`), safeJsonStringify(saved), 'utf8');
+    } catch (err) {
+      console.error('[data-layer] log file mirror failed:', err.message);
+    }
+    emit('log', { id });
+    return saved;
+  }
+
+  // ──────── PRESETS ────────
+
+  function listPresets() { return storage.list('preset'); }
+
+  function savePreset(id, data) {
+    return storage.write('preset', id, { id, ...data, updatedAt: nowIso() });
+  }
+
+  // ──────── KNOWLEDGE INDEX ────────
+
+  function reindexKnowledge() {
+    const sources = [
+      { dir: paths.knowledge, cat: 'knowledge' },
+      { dir: paths.framework, cat: 'framework' },
+      { dir: paths.producerKnowledge || join(projectRoot, 'Producer-Knowledge'), cat: 'producer' },
+      { dir: paths.presets, cat: 'presets' },
+      { dir: paths.caseStudies || join(projectRoot, 'Case-Studies'), cat: 'case-studies' },
+      { dir: paths.sessionManagement || join(projectRoot, 'Session-Management'), cat: 'session' },
+      { dir: paths.templates || join(projectRoot, 'Templates'), cat: 'templates' },
+      { dir: paths.troubleshooting || join(projectRoot, 'Troubleshooting'), cat: 'troubleshooting' },
+      { dir: paths.references || join(projectRoot, 'References'), cat: 'references' },
+      { dir: join(projectRoot, 'AI'), cat: 'ai' },
+    ];
+
+    let count = 0;
+    for (const source of sources) {
+      const files = walkMarkdownFiles(source.dir);
+      for (const filepath of files) {
+        const relativePath = relative(projectRoot, filepath);
+        const slug = slugify(basename(filepath));
+        const content = readFileSync(filepath, 'utf8');
+        const title = titleFromMarkdown(content, basename(filepath).replace(/\.md$/i, ''));
+        const summary = summaryFromMarkdown(content, 280);
+        const stat = statSync(filepath);
+        const doc = {
+          id: slug,
+          path: relativePath,
+          category: source.cat,
+          title,
+          slug,
+          summary,
+          tags: [],
+          content,
+          mtimeMs: stat.mtimeMs,
+          sizeBytes: stat.size,
+          indexedAt: nowIso(),
+        };
+        storage.write('knowledge_doc', slug, doc);
+        count++;
+      }
+    }
+    emit('reindex', { count });
+    return count;
+  }
+
+  function getKnowledgeIndex() {
+    const docs = storage.list('knowledge_doc');
+    return docs.map(d => ({
+      id: d.id,
+      path: d.path,
+      category: d.category,
+      title: d.title,
+      slug: d.slug,
+      summary: d.summary,
+      tags: d.tags || [],
+      indexedAt: d.indexedAt,
+    }));
+  }
+
+  function getKnowledgeDoc(id) {
+    const doc = storage.read('knowledge_doc', id);
+    if (!doc) return null;
+    return {
+      id: doc.id,
+      path: doc.path,
+      category: doc.category,
+      title: doc.title,
+      slug: doc.slug,
+      summary: doc.summary,
+      tags: doc.tags || [],
+      content: doc.content,
+      mtimeMs: doc.mtimeMs,
+      indexedAt: doc.indexedAt,
+    };
+  }
+
+  // ──────── UNIFIED SEARCH ────────
+
+  function searchAll(query, { limit = 30, types = null } = {}) {
+    const q = String(query || '').trim();
+    if (!q) return { query: q, count: 0, results: [] };
+
+    const terms = tokenize(q);
+    const results = [];
+    const want = (t) => !types || types.includes(t);
+
+    // knowledge
+    if (want('knowledge')) {
+      const docs = storage.list('knowledge_doc');
+      for (const doc of docs) {
+        const hay = `${doc.title} ${doc.summary || ''} ${doc.content || ''}`.toLowerCase();
+        let score = 0;
+        for (const t of terms) {
+          if (doc.title.toLowerCase().includes(t)) score += 5;
+          if ((doc.summary || '').toLowerCase().includes(t)) score += 2;
+          if (hay.includes(t)) score += 1;
+        }
+        if (hay.includes(q.toLowerCase())) score += 8;
+        if (score > 0) {
+          results.push({
+            type: 'knowledge',
+            id: doc.id,
+            title: doc.title,
+            category: doc.category,
+            path: doc.path,
+            snippet: doc.summary || doc.content?.slice(0, 200) || '',
+            score,
+          });
+        }
+      }
+    }
+
+    // presets
+    if (want('preset')) {
+      const presets = storage.list('preset');
+      for (const preset of presets) {
+        const hay = `${preset.name || ''} ${preset.category || ''} ${preset.source || ''} ${preset.data_json || ''}`.toLowerCase();
+        let score = 0;
+        for (const t of terms) {
+          if ((preset.name || '').toLowerCase().includes(t)) score += 5;
+          if ((preset.category || '').toLowerCase().includes(t)) score += 3;
+          if (hay.includes(t)) score += 1;
+        }
+        if (hay.includes(q.toLowerCase())) score += 8;
+        if (score > 0) {
+          results.push({
+            type: 'preset',
+            id: preset.id,
+            title: preset.name || preset.id,
+            category: preset.category || 'preset',
+            path: `preset://${preset.id}`,
+            snippet: preset.source || '',
+            score,
+          });
+        }
+      }
+    }
+
+    results.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
+    const trimmed = results.slice(0, limit);
+    return { query: q, count: trimmed.length, totalMatched: results.length, results: trimmed };
+  }
+
+  // ── Dashboard sync ──
+
+  function dashboardPath() {
+    const rootDash = join(projectRoot, 'Dashboard.md');
+    if (existsSync(rootDash) || true) return rootDash;
+    return join(paths.sessionManagement || join(projectRoot, 'Session-Management'), 'Dashboard.md');
+  }
+
+  function writeDashboardFromSession(session) {
+    const md = renderDashboardMarkdown(session || getSession());
+    const target = dashboardPath();
+    try {
+      writeFileSync(target, md, 'utf8');
+      emit('dashboard', { action: 'write', path: target });
+      return { ok: true, path: target };
+    } catch (err) {
+      return { ok: false, error: err.message, path: target };
+    }
+  }
+
+  function pullDashboardIntoSession() {
+    const target = dashboardPath();
+    if (!existsSync(target)) return { ok: false, error: 'Dashboard.md not found', path: target };
+    try {
+      const md = readFileSync(target, 'utf8');
+      const existing = getSession();
+      const merged = parseDashboardIntoSession(md, existing);
+      saveSession(merged);
+      emit('dashboard', { action: 'pull', path: target });
+      return { ok: true, path: target, session: merged };
+    } catch (err) {
+      return { ok: false, error: err.message, path: target };
+    }
+  }
+
+  // ──────── MIGRATION ────────
+
+  function migrateFromJson() {
+    const report = { projects: 0, buildSheets: 0, logs: 0, presets: 0, knowledge: 0, errors: [] };
+
+    // migrate projects from session.json
+    const sessionFile = paths.sessionFile;
+    if (sessionFile && existsSync(sessionFile)) {
+      try {
+        const session = safeJsonParse(readFileSync(sessionFile, 'utf8'), null);
+        if (session && session.projects) {
+          for (const [id, proj] of Object.entries(session.projects)) {
+            storage.write('project', id, proj);
+            report.projects++;
+          }
+        }
+      } catch (err) {
+        report.errors.push(`session.json: ${err.message}`);
+      }
+    }
+
+    // migrate build-sheets from Data/build-sheets
+    const sheetDir = join(paths.buildSheets || join(projectRoot, 'Data', 'build-sheets'));
+    if (existsSync(sheetDir)) {
+      try {
+        const files = readdirSync(sheetDir).filter(f => f.endsWith('.json'));
+        for (const f of files) {
+          try {
+            const data = JSON.parse(readFileSync(join(sheetDir, f), 'utf8'));
+            const id = f.replace(/\.json$/i, '');
+            storage.write('build_sheet', id, { id, ...data });
+            report.buildSheets++;
+          } catch (err) {
+            report.errors.push(`build-sheet ${f}: ${err.message}`);
+          }
+        }
+      } catch (err) {
+        report.errors.push(`build-sheets dir: ${err.message}`);
+      }
+    }
+
+    // migrate logs from Data/sessions
+    const logDir = join(paths.sessions || join(projectRoot, 'Data', 'sessions'));
+    if (existsSync(logDir)) {
+      try {
+        const files = readdirSync(logDir).filter(f => f.endsWith('.json'));
+        for (const f of files) {
+          try {
+            const data = JSON.parse(readFileSync(join(logDir, f), 'utf8'));
+            const id = f.replace(/\.json$/i, '');
+            storage.write('log', id, { id, ...data });
+            report.logs++;
+          } catch (err) {
+            report.errors.push(`log ${f}: ${err.message}`);
+          }
+        }
+      } catch (err) {
+        report.errors.push(`sessions dir: ${err.message}`);
+      }
+    }
+
+    // migrate presets from Presets/
+    const presetDir = join(paths.presets || join(projectRoot, 'Presets'));
+    if (existsSync(presetDir)) {
+      try {
+        const files = readdirSync(presetDir).filter(f => f.endsWith('.json'));
+        for (const f of files) {
+          try {
+            const data = JSON.parse(readFileSync(join(presetDir, f), 'utf8'));
+            const id = f.replace(/\.json$/i, '');
+            storage.write('preset', id, { id, ...data });
+            report.presets++;
+          } catch (err) {
+            report.errors.push(`preset ${f}: ${err.message}`);
+          }
+        }
+      } catch (err) {
+        report.errors.push(`presets dir: ${err.message}`);
+      }
+    }
+
+    // migrate knowledge (reindex)
+    try {
+      report.knowledge = reindexKnowledge();
+    } catch (err) {
+      report.errors.push(`knowledge: ${err.message}`);
+    }
+
+    return report;
+  }
+
+  function getStats() {
+    return {
+      projects: storage.list('project').length,
+      buildSheets: storage.list('build_sheet').length,
+      logs: storage.list('log').length,
+      presets: storage.list('preset').length,
+      knowledge: storage.list('knowledge_doc').length,
+    };
+  }
+
+  function close() {
+    // no-op for JSON storage
+  }
+
+  // auto-migrate on boot (idempotent)
+  try {
+    migrateFromJson();
+  } catch (err) {
+    console.error('[data-layer] Migration on boot failed:', err.message);
+  }
+
+  return {
+    // session
+    getSession,
+    saveSession,
+    // sheets
+    listBuildSheets,
+    getBuildSheet,
+    saveBuildSheet,
+    // logs
+    listLogs,
+    saveLog,
+    // presets
+    listPresets,
+    savePreset,
+    // knowledge
+    reindexKnowledge,
+    getKnowledgeIndex,
+    getKnowledgeDoc,
+    // search
+    searchAll,
+    // dashboard
+    writeDashboardFromSession,
+    pullDashboardIntoSession,
+    dashboardPath,
+    // migration
+    migrateFromJson,
+    getStats,
+    close,
+  };
+}
+
+// ──────── UNIFIED FACTORY ────────
+
+/**
+ * @param {object} opts
+ * @param {'sqlite'|'json'} [opts.backend] - backend driver ('sqlite' or 'json')
+ * @param {string} opts.dbPath - path to SQLite file (sqlite) or storage dir (json)
+ * @param {object} opts.paths - resolved absolute paths from npos.config
+ * @param {string} opts.projectRoot
+ * @param {function} [opts.onChange] - event emitter callback ({ type, payload })
+ */
+export default function createDataLayer(opts) {
+  const backend = opts.backend || process.env.DATA_LAYER_BACKEND || 'sqlite';
+  if (backend === 'json') {
+    return createJsonDataLayer(opts);
+  }
+  return createSqliteDataLayer(opts);
+}

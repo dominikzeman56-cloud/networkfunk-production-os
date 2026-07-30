@@ -1,0 +1,183 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="Generátor presetů" module="PRESETS">
+    <div class="hud-page-head">
+        <div>
+            <div class="hud-eyebrow">PRESET GENERATOR</div>
+            <div class="hud-page-title">Generátor</div>
+        </div>
+    </div>
+
+    <div class="hud-panel" style="margin-bottom: 20px; border-color: var(--color-accent-800);">
+        <div class="hud-panel-label">GENERÁTOR NEUROFUNK PRESETŮ</div>
+        <p style="font-size: 13px; color: var(--color-neutral-300); margin-bottom: 16px;">
+            Vygeneruj nový Serum preset z neurofunk archetypu. Soubor se uloží offline — nepotřebuje otevřený DAW.
+        </p>
+
+        <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px;">
+            <div style="flex: 1; min-width: 200px;">
+                <label style="font-size: 11px; color: var(--color-neutral-400); letter-spacing: 0.08em;">ARCHETYP</label>
+                <select id="gen-archetype" class="input" style="width: 100%; margin-top: 4px;">
+                    <option value="growl">Growl Bass — aggression, filter motion</option>
+                    <option value="reese">Reese Bass — detune, width, pressure</option>
+                    <option value="hybrid">Hybrid Bass — reese body + growl bite</option>
+                    <option value="tech">Tech FM Bass — metallic, tight</option>
+                    <option value="pad">Neuro Pad — texture, atmosphere</option>
+                </select>
+            </div>
+            <div style="width: 140px;">
+                <label style="font-size: 11px; color: var(--color-neutral-400); letter-spacing: 0.08em;">VARIACE</label>
+                <input type="range" id="gen-variation" min="0" max="1" step="0.05" value="0.5"
+                    class="input" style="margin-top: 4px; padding: 0;">
+                <div style="font-size: 11px; color: var(--color-neutral-400); text-align: center;" id="gen-var-label">0.50</div>
+            </div>
+            <div style="width: 100px;">
+                <label style="font-size: 11px; color: var(--color-neutral-400); letter-spacing: 0.08em;">SEED</label>
+                <input type="number" id="gen-seed" class="input" style="margin-top: 4px;" placeholder="náhodný" min="0" max="999999">
+            </div>
+        </div>
+
+        <button class="btn btn-primary" id="btn-generate" style="width: 100%;">Generovat preset</button>
+
+        <div id="gen-output" class="gen-output" hidden></div>
+    </div>
+
+    <div class="hud-panel-label" style="margin-bottom: 12px;">HISTORIE</div>
+    <div id="gen-history" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px;">
+        <p class="text-muted">Zatím žádné vygenerované presety.</p>
+    </div>
+</Layout>
+
+<script>
+const API = import.meta.env.PUBLIC_API_URL || 'http://localhost:3099';
+const btnGen = document.getElementById('btn-generate') as HTMLButtonElement | null;
+const output = document.getElementById('gen-output');
+const varSlider = document.getElementById('gen-variation') as HTMLInputElement | null;
+const varLabel = document.getElementById('gen-var-label');
+const historyDiv = document.getElementById('gen-history');
+const history: any[] = [];
+
+varSlider?.addEventListener('input', () => {
+    if (varLabel) varLabel.textContent = parseFloat(varSlider.value).toFixed(2);
+});
+
+btnGen?.addEventListener('click', async () => {
+    const archetype = (document.getElementById('gen-archetype') as HTMLSelectElement).value;
+    const variation = parseFloat((document.getElementById('gen-variation') as HTMLInputElement).value);
+    const seedInput = (document.getElementById('gen-seed') as HTMLInputElement).value.trim();
+    const seed = seedInput ? parseInt(seedInput, 10) : null;
+
+    output.hidden = false;
+    output.innerHTML = '<div style="color: var(--color-accent-300);">Generuji...</div>';
+    btnGen.disabled = true;
+
+    try {
+        const r = await fetch(`${API}/api/preset/generate`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ archetype, seed, variation }),
+        });
+        const json = await r.json();
+        if (!r.ok) {
+            output.innerHTML = `<div style="color: var(--color-neutral-400);">${json.error || 'Generování selhalo'}</div>`;
+            return;
+        }
+
+        renderResult(json);
+        addHistoryCard(json);
+    } catch {
+        output.innerHTML = '<div style="color: var(--color-neutral-400);">Server offline. Start: <code>npm run dev</code></div>';
+    } finally {
+        btnGen.disabled = false;
+    }
+});
+
+function renderResult(json: any) {
+    const meta = json.meta;
+    const fv = json.feature_vector as number[];
+    const nonZero = fv.filter(v => v > 0.01).length;
+    const total = fv.length;
+
+    let html = `<div class="gen-result-grid">
+        <div class="analysis-section">
+            <div class="analysis-label">NÁZEV</div>
+            <div class="analysis-value" style="font-size: 16px;">${meta.name}</div>
+        </div>
+        <div class="analysis-section">
+            <div class="analysis-label">ARCHETYP</div>
+            <div class="analysis-value" style="font-size: 16px;">${meta.archetype.toUpperCase()}</div>
+        </div>
+        <div class="analysis-section">
+            <div class="analysis-label">SEED</div>
+            <div class="analysis-value">${meta.seed}</div>
+        </div>
+        <div class="analysis-section">
+            <div class="analysis-label">FEATURE VECTOR</div>
+            <div class="analysis-value">${total}D</div>
+            <div class="analysis-detail">${nonZero} / ${total} aktivních</div>
+        </div>
+    </div>`;
+
+    // Download link
+    const b64 = json.preset_bytes_base64;
+    const safeName = meta.name.replace(/[^a-zA-Z0-9_-]/g, '_');
+    html += `<div style="margin-top: 12px;">
+        <a href="data:application/octet-stream;base64,${b64}"
+            download="${safeName}.SerumPreset"
+            class="btn btn-primary" style="display: inline-block; text-decoration: none;">
+            Stáhnout ${safeName}.SerumPreset
+        </a>
+    </div>`;
+
+    // Feature vector preview
+    html += `<details style="margin-top: 12px;">
+        <summary style="font-size: 11px; color: var(--color-neutral-400); cursor: pointer;">Feature vector (${total}D)</summary>
+        <div id="fv-heatmap" style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 1px; max-height: 120px; overflow: hidden;"></div>
+    </details>`;
+
+    html += `<details style="margin-top: 8px;">
+        <summary style="font-size: 11px; color: var(--color-neutral-400); cursor: pointer;">Raw JSON</summary>
+        <pre style="font-size: 10px; max-height: 200px; overflow: auto; margin-top: 8px; padding: 8px; background: var(--color-neutral-950); border-radius: var(--radius-sm);">${JSON.stringify(json, null, 2)}</pre>
+    </details>`;
+
+    output.innerHTML = html;
+
+    // Render mini heatmap
+    const heatmap = document.getElementById('fv-heatmap');
+    if (heatmap && fv) {
+        heatmap.innerHTML = fv.map((v: number) => {
+            const intensity = Math.min(255, Math.round(v * 255));
+            const color = `rgb(${intensity}, ${Math.round(intensity * 0.5)}, 0)`;
+            return `<div style="width: 3px; height: 16px; background: ${color};" title="${v.toFixed(3)}"></div>`;
+        }).join('');
+    }
+}
+
+function addHistoryCard(json: any) {
+    const meta = json.meta;
+    history.unshift(json);
+    if (history.length > 12) history.pop();
+
+    if (historyDiv) {
+        if (history.length === 1) historyDiv.innerHTML = '';
+        const b64 = json.preset_bytes_base64;
+        const safeName = meta.name.replace(/[^a-zA-Z0-9_-]/g, '_');
+        const card = document.createElement('div');
+        card.className = 'card elev-sm';
+        card.innerHTML = `
+            <span class="card-title" style="font-size: 12px;">${meta.name}</span>
+            <span class="tag tag-accent" style="align-self: flex-start;">${meta.archetype}</span>
+            <a href="data:application/octet-stream;base64,${b64}" download="${safeName}.SerumPreset"
+                class="btn" style="width: 100%; margin-top: 6px; font-size: 11px; text-align: center; text-decoration: none;">
+                Stáhnout
+            </a>`;
+        historyDiv.prepend(card);
+    }
+}
+</script>
+
+<style>
+    .gen-output { padding-top: 12px; border-top: 1px solid var(--color-neutral-800); margin-top: 12px; }
+    .gen-result-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+</style>

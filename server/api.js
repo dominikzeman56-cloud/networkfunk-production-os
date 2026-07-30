@@ -13,7 +13,7 @@ import { readFileSync, existsSync } from 'fs';
 import { join, dirname, resolve, isAbsolute } from 'path';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
-import { createDataLayer } from './data-layer.js';
+import createDataLayer from './data-layer.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, '..');
@@ -276,6 +276,82 @@ app.post('/api/presets', (req, res) => {
   } catch (err) {
     console.error('POST /api/presets:', err.message);
     res.status(500).json({ error: 'Failed to save preset' });
+  }
+});
+
+// ──────── PRESET GENERATOR (M1.3) ────────
+
+const GENERATOR_TIMEOUT = Number(process.env.PRESET_GENERATOR_TIMEOUT || 15000);
+
+function callPresetGenerator(archetype, { seed, variation, outputPath } = {}) {
+  return new Promise((resolve, reject) => {
+    const proc = spawn(process.platform === 'win32' ? '.venv\\Scripts\\python.exe' : '.venv/bin/python', [
+      '-m', 'neuroman.tools.preset_generator', '--stdio'
+    ], {
+      cwd: PROJECT_ROOT,
+      stdio: ['pipe', 'pipe', 'pipe'],
+      shell: true,
+    });
+    let settled = false;
+    const timer = setTimeout(() => {
+      if (settled) return;
+      settled = true;
+      proc.kill();
+      reject(new Error(`Preset generator timed out after ${GENERATOR_TIMEOUT}ms`));
+    }, GENERATOR_TIMEOUT);
+    const done = (fn) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      proc.kill();
+      fn();
+    };
+    proc.stdout.on('data', (chunk) => {
+      const line = chunk.toString().trim();
+      if (!line.startsWith('{')) return;
+      try {
+        const msg = JSON.parse(line);
+        if (msg.ok) {
+          done(() => resolve(msg));
+        } else {
+          done(() => reject(new Error(msg.error || 'Generator error')));
+        }
+      } catch { /* incomplete JSON, wait for more */ }
+    });
+    proc.stderr.on('data', (chunk) => { /* generator debug output */ });
+    proc.on('error', (err) => done(() => reject(err)));
+    proc.on('close', () => done(() => reject(new Error('Generator exited with no response'))));
+
+    const req = JSON.stringify({ archetype, seed: seed ?? null, variation: variation ?? 0.5, output_path: outputPath });
+    proc.stdin.write(req + '\n');
+  });
+}
+
+app.get('/api/preset/archetypes', (_req, res) => {
+  // Static list — avoids spawning Python just for metadata
+  res.json([
+    { id: 'growl', name: 'Growl Bass', description: 'Speech-like aggression. Synced LFO, filter movement, controlled distortion.' },
+    { id: 'reese', name: 'Reese Bass', description: 'Sustained pressure and width. High detune, beating/phasing, distortion after filter.' },
+    { id: 'hybrid', name: 'Hybrid Bass', description: 'Modern neuro movement with weight. Reese body + growl articulation.' },
+    { id: 'tech', name: 'Tech FM Bass', description: 'Precise, metallic, aggressive phrases. FM, comb/band-reject, tight filter.' },
+    { id: 'pad', name: 'Neuro Pad', description: 'Atmospheric texture. Long envelopes, chorus + reverb, low resonance.' },
+  ]);
+});
+
+app.post('/api/preset/generate', async (req, res) => {
+  const { archetype, seed, variation, outputPath } = req.body || {};
+  if (!archetype) return res.status(400).json({ error: 'archetype required' });
+
+  const valid = ['growl', 'reese', 'hybrid', 'tech', 'pad'];
+  if (!valid.includes(archetype)) return res.status(400).json({ error: `Unknown archetype: ${archetype}. Valid: ${valid.join(', ')}` });
+
+  try {
+    const result = await callPresetGenerator(archetype, { seed, variation, outputPath });
+    broadcast({ channel: 'npos', type: 'preset-generated', meta: result.meta });
+    res.json({ ok: true, ...result });
+  } catch (err) {
+    console.error('POST /api/preset/generate:', err.message);
+    res.status(500).json({ error: err.message });
   }
 });
 

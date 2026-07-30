@@ -57,6 +57,7 @@ interface NposConfig {
   neuroman: { port: number };
   ai: { provider: string; model: string; maxTokens: number };
   audioAnalyzer: { binPath: string; timeoutMs: number };
+  presetGenerator?: { device: string; modelDir: string; corpusDir: string; corpusOutput: string };
   ableton: { mcpPackage: string };
 }
 
