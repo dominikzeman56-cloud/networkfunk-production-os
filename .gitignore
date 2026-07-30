@@ -18,6 +18,11 @@ web/.astro/
 # Test / build artifacts
 sanity_output.txt
 
+# Phase 0 audit output artifacts
+p0_*.txt
+phase0_*.txt
+phase0_*.md
+
 # SQLite databases (Phase 1 data layer)
 Data/*.sqlite
 Data/*.sqlite-*

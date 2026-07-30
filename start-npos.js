@@ -23,8 +23,8 @@ function launch(name, cmd, args, cwd) {
 
 console.log('Starting Neurofunk Production OS...\n');
 
-const server = launch('API',  'node', ['api.js'],   join(__dirname, 'server'));
-const web    = launch('Web',  'npm',  ['run', 'dev'], join(__dirname, 'web'));
+const server = launch('API',  'node', ['api.js'],   join(__dirname, 'Server'));
+const web    = launch('Web',  'npm',  ['run', 'dev'], join(__dirname, 'Web'));
 
 function shutdown() {
   console.log('\nShutting down NPOS...');

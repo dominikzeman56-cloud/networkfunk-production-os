@@ -1,3 +1,4 @@
+import { z } from 'zod';
 // NPOS Content Collections
 // Defines Astro content collections for markdown files from the project vault
 

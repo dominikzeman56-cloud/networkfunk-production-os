@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
+import { external } from '../../lib/config';
 
 const serum1Path = external.serum1Presets || '';
 const serum2Path = external.serum2Presets || '';
@@ -30,7 +31,6 @@ const categories = [
   { name: 'Pady', slug: 'pad' },
   { name: 'Textury', slug: 'texture' },
 ];
-import { external } from '../../lib/config';
 ---
 
 <Layout title="Předlohy" module="PRESETS">
