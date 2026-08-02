@@ -1,0 +1,12 @@
+{
+  "id": "preset-1785247740003",
+  "name": "Test Bass Preset",
+  "category": "bass",
+  "source": "Serum",
+  "createdAt": "2026-07-28T14:09:00.003Z",
+  "updatedAt": "2026-07-28T14:09:00.003Z",
+  "parameters": {
+    "wavetable": "Basic Shapes",
+    "filter": "Lowpass 24"
+  }
+}

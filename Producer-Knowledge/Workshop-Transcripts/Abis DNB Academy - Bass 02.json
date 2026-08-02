@@ -1,0 +1,1140 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.86,
+      "text": "Okay so now I want to talk about how you go about making your own wavetables in"
+    },
+    {
+      "start": 12.86,
+      "end": 21.8,
+      "text": "Serum and firstly I wanted to talk about understanding how Serum works and the"
+    },
+    {
+      "start": 21.8,
+      "end": 29.68,
+      "text": "actual harmonics involved. So before I started using Serum I used to use FM8"
+    },
+    {
+      "start": 29.68,
+      "end": 35.76,
+      "text": "a lot which is a frequency modulation synthesizer and things work a little bit"
+    },
+    {
+      "start": 35.76,
+      "end": 46.3,
+      "text": "differently in that aspect so instead of... where's Serum? Serum oscillators they"
+    },
+    {
+      "start": 46.3,
+      "end": 52.44,
+      "text": "have obviously what we talked about the octave and the semitones and obviously"
+    },
+    {
+      "start": 52.44,
+      "end": 57.16,
+      "text": "you can pitch that in relation to the musical scale. With frequency"
+    },
+    {
+      "start": 57.16,
+      "end": 61.88,
+      "text": "modulation it works a little bit different. Instead of having octaves and"
+    },
+    {
+      "start": 61.88,
+      "end": 66.6,
+      "text": "semitones it has frequencies based on the fundamental frequency you're"
+    },
+    {
+      "start": 66.6,
+      "end": 71.64,
+      "text": "physically playing in your DAW. Now that might sound a little bit confusing"
+    },
+    {
+      "start": 71.64,
+      "end": 76.08,
+      "text": "but it should make a little more sense. So the first thing I"
+    },
+    {
+      "start": 76.08,
+      "end": 80.92,
+      "text": "wanted to do is talk about this section of Serum which is the table"
+    },
+    {
+      "start": 81.52,
+      "end": 89.68,
+      "text": "So across here you can see lots of vertical bars and in Serum they're"
+    },
+    {
+      "start": 89.68,
+      "end": 96.28,
+      "text": "called bins. So if I select bin 1 let me just quickly draw in a MIDI file"
+    },
+    {
+      "start": 96.28,
+      "end": 113.4,
+      "text": "I'm gonna put that a little lower so we've got a kind of subby sound. Now I'm"
+    },
+    {
+      "start": 113.4,
+      "end": 121.4,
+      "text": "gonna open up my frequency analyzer and as you can see I put the note on D"
+    },
+    {
+      "start": 121.4,
+      "end": 129.52,
+      "text": "sharp and it's playing one single sine wave at D sharp. Now if I go back to my"
+    },
+    {
+      "start": 129.52,
+      "end": 134.68,
+      "text": "editor if you click on this button here it will translate the actual"
+    },
+    {
+      "start": 134.68,
+      "end": 142.48,
+      "text": "waveform to its harmonic so if you click here cool. Now if I press or if"
+    },
+    {
+      "start": 142.48,
+      "end": 148.76,
+      "text": "I select bin 2 and I press play and look at my frequency analyzer again"
+    },
+    {
+      "start": 148.8,
+      "end": 155.64,
+      "text": "I've got my existing sine wave at D sharp and then there's another harmonic"
+    },
+    {
+      "start": 155.64,
+      "end": 164.12,
+      "text": "which is also D sharp. Now what happens if I go 3? Now if you're not familiar"
+    },
+    {
+      "start": 164.12,
+      "end": 171.28,
+      "text": "with how harmonic distribution works in terms of Serum and frequency"
+    },
+    {
+      "start": 171.28,
+      "end": 177.64,
+      "text": "modulation this may be a bit confusing so maybe a lot of people would"
+    },
+    {
+      "start": 177.64,
+      "end": 184.92,
+      "text": "expect if I selected three it would be three semitones higher which would also"
+    },
+    {
+      "start": 184.92,
+      "end": 190.08,
+      "text": "be a D sharp but it isn't so if I play this now so I've got my first one D"
+    },
+    {
+      "start": 190.08,
+      "end": 196.32,
+      "text": "sharp I've got my second harmonic D sharp again and then my third one is"
+    },
+    {
+      "start": 196.32,
+      "end": 205.44,
+      "text": "an A sharp. Now why is that? So instead of this working with semitones"
+    },
+    {
+      "start": 205.48,
+      "end": 215.28,
+      "text": "and octaves this works in actual multiplication of your fundamental"
+    },
+    {
+      "start": 215.28,
+      "end": 221.6,
+      "text": "frequency. So now I've set this to D sharp as you've just seen I'm gonna"
+    },
+    {
+      "start": 221.6,
+      "end": 228.84,
+      "text": "take away my extra harmonics so what I like to use a lot when I first"
+    },
+    {
+      "start": 228.88,
+      "end": 235.76,
+      "text": "started getting into synthesis I started using some like helpers so I've made a"
+    },
+    {
+      "start": 235.76,
+      "end": 241.2,
+      "text": "really crude spreadsheet for myself which I'll quickly show you now. So this"
+    },
+    {
+      "start": 241.2,
+      "end": 245.28,
+      "text": "is kind of my helper spreadsheet I've got lots of different little bits on"
+    },
+    {
+      "start": 245.28,
+      "end": 248.84,
+      "text": "there which if I need them I can just open the spreadsheet and get the"
+    },
+    {
+      "start": 248.84,
+      "end": 258.12,
+      "text": "information. So I've got my first harmonic selected which as we know is"
+    },
+    {
+      "start": 258.16,
+      "end": 269.92,
+      "text": "a D sharp so if I go back to D sharp and the one I'm playing is this one so"
+    },
+    {
+      "start": 269.92,
+      "end": 276.84,
+      "text": "on this on this little sheet here it says the note you're playing it says"
+    },
+    {
+      "start": 276.84,
+      "end": 281.72,
+      "text": "the frequency range and the length of the waveform you can ignore the second"
+    },
+    {
+      "start": 281.72,
+      "end": 286.64,
+      "text": "one for now it's not relevant for this particular subject. So we are"
+    },
+    {
+      "start": 286.68,
+      "end": 296.6,
+      "text": "hitting at 77.7 Hertz to be correct which is if you look here which is"
+    },
+    {
+      "start": 296.6,
+      "end": 304.96,
+      "text": "about right cool now if I press the second one it's a D sharp but it's a"
+    },
+    {
+      "start": 304.96,
+      "end": 313.48,
+      "text": "hundred and fifty six Hertz so if I go to D sharp here and just show you"
+    },
+    {
+      "start": 313.52,
+      "end": 321.76,
+      "text": "D sharp three I think yeah hundred and fifty five Hertz great so now if I"
+    },
+    {
+      "start": 321.76,
+      "end": 331.72,
+      "text": "select three like I did before we have an A sharp which is"
+    },
+    {
+      "start": 332.88,
+      "end": 339.88,
+      "text": "two hundred and thirty three now so why is it why is it doing that so if"
+    },
+    {
+      "start": 339.88,
+      "end": 346.16,
+      "text": "I go back to my fundamental I'm gonna get out my calculator and show you"
+    },
+    {
+      "start": 346.16,
+      "end": 351.64,
+      "text": "exactly why it's doing that and why behaves that way so if I take my"
+    },
+    {
+      "start": 351.64,
+      "end": 359.44,
+      "text": "fundamental frequency I'm playing 77.78 Hertz now if I put this in my"
+    },
+    {
+      "start": 359.44,
+      "end": 364.56,
+      "text": "calculator and times this by two I get a hundred and fifty five point five"
+    },
+    {
+      "start": 364.56,
+      "end": 373.52,
+      "text": "six which is a D sharp again great now if I go here if I times this now by"
+    },
+    {
+      "start": 373.52,
+      "end": 382.36,
+      "text": "three I get two hundred and thirty three which is an A sharp so what"
+    },
+    {
+      "start": 382.36,
+      "end": 387.04,
+      "text": "this is physically doing in serum it's taking your fundamental frequency so"
+    },
+    {
+      "start": 387.04,
+      "end": 398.36,
+      "text": "bin 1 and bin 2 bin 3 bin 4 bin 5 etc are timesing from your fundamental"
+    },
+    {
+      "start": 398.36,
+      "end": 404.92,
+      "text": "frequency so for example bin 5 will be five times the frequency of your"
+    },
+    {
+      "start": 404.92,
+      "end": 412.36,
+      "text": "fundamental so let's give that a test so if I go back to my fundamental"
+    },
+    {
+      "start": 412.36,
+      "end": 418.32,
+      "text": "frequency which is 77.78 D sharp that's why I've selected in my door"
+    },
+    {
+      "start": 418.32,
+      "end": 429.6,
+      "text": "times it by five I've got 388 which is which isn't right it's somewhere in"
+    },
+    {
+      "start": 429.6,
+      "end": 439.24,
+      "text": "between there for some reason okay so 388 is G let's say it's G it's close"
+    },
+    {
+      "start": 439.24,
+      "end": 447.68,
+      "text": "enough now if I select bin 5 and let's analyze this on a frequency spectrum"
+    },
+    {
+      "start": 447.68,
+      "end": 455.32,
+      "text": "I've got a G right so that's the basics of how the table editor works"
+    },
+    {
+      "start": 455.32,
+      "end": 460.56,
+      "text": "in serum and that's also the basics of how frequency modulation works in"
+    },
+    {
+      "start": 460.56,
+      "end": 466.24,
+      "text": "terms of selecting the harmonic in your in your synthesizer so if any of"
+    },
+    {
+      "start": 466.24,
+      "end": 472.36,
+      "text": "you have used FMA or I think there's citrus I think it's called in FL those"
+    },
+    {
+      "start": 472.36,
+      "end": 477.28,
+      "text": "are good examples of frequency modulation right so how can you use"
+    },
+    {
+      "start": 477.28,
+      "end": 482.5,
+      "text": "this in your music and what I wanted to show you was I quickly made a"
+    },
+    {
+      "start": 482.5,
+      "end": 490.04,
+      "text": "baseline before this I'll quickly play this now so you can see it's very"
+    },
+    {
+      "start": 490.16,
+      "end": 499.28,
+      "text": "harmonically rich loud and if we look in a spectrum analyzer you'll see here"
+    },
+    {
+      "start": 499.28,
+      "end": 504.24,
+      "text": "frequency D sharp and I've got this massive peak around this area so let's"
+    },
+    {
+      "start": 504.24,
+      "end": 511.36,
+      "text": "have a look okay so again that's hitting a G that's pretty pretty"
+    },
+    {
+      "start": 511.36,
+      "end": 517.08,
+      "text": "similar to what we just did in serum now if I wanted to go and if I if"
+    },
+    {
+      "start": 517.08,
+      "end": 524.04,
+      "text": "I wanted to go and literally recreate this sound for whatever purpose I could"
+    },
+    {
+      "start": 524.04,
+      "end": 530.48,
+      "text": "go into serum I'm gonna select two oscillators I'll have one as my"
+    },
+    {
+      "start": 530.48,
+      "end": 534.56,
+      "text": "fundamental so I have a bit more control over that obviously gonna turn"
+    },
+    {
+      "start": 534.56,
+      "end": 542.88,
+      "text": "the randoms down and the only thing I'm gonna select on here is harmonic"
+    },
+    {
+      "start": 542.92,
+      "end": 553.04,
+      "text": "5 which is bin 5 so let's have a little listen to what that sounds like okay I'm"
+    },
+    {
+      "start": 553.04,
+      "end": 563.64,
+      "text": "gonna turn this down an octave so we have D sharp and I'm gonna turn this"
+    },
+    {
+      "start": 563.64,
+      "end": 566.72,
+      "text": "down an octave as well"
+    },
+    {
+      "start": 567.44,
+      "end": 574.52,
+      "text": "let's quickly analyze that again I think it was one octave higher let's"
+    },
+    {
+      "start": 574.52,
+      "end": 576.92,
+      "text": "check"
+    },
+    {
+      "start": 577.76,
+      "end": 590.88,
+      "text": "yeah so it's 300 around 300 Hertz cool so that can go one octave right so"
+    },
+    {
+      "start": 590.88,
+      "end": 594.6,
+      "text": "obviously there's a lot of modulation going on in that sound so what I'm"
+    },
+    {
+      "start": 594.64,
+      "end": 598.84,
+      "text": "gonna do is I'm just gonna try and really roughly recreate that so the"
+    },
+    {
+      "start": 598.84,
+      "end": 603.24,
+      "text": "first thing I can hear is there's a lot more harmonics it's a lot richer and"
+    },
+    {
+      "start": 603.24,
+      "end": 608.72,
+      "text": "the reason for that is probably because of distortion so let's go to"
+    },
+    {
+      "start": 608.72,
+      "end": 618.0,
+      "text": "my distortion and let's add this mega group mega distortion group so in"
+    },
+    {
+      "start": 618.0,
+      "end": 627.92,
+      "text": "here I've got let's have a look I've got a chain with amplitude I've got a"
+    },
+    {
+      "start": 627.92,
+      "end": 631.76,
+      "text": "chain with a wave shaper I'll quickly go through these a bit more in detail"
+    },
+    {
+      "start": 631.76,
+      "end": 638.56,
+      "text": "in a second I have a guitar rig which we used earlier and I've just"
+    },
+    {
+      "start": 638.56,
+      "end": 645.0,
+      "text": "got some trash on the end all right let's take a listen to how this sounds"
+    },
+    {
+      "start": 645.0,
+      "end": 654.88,
+      "text": "right and let me put my just close this let me put this after the"
+    },
+    {
+      "start": 654.88,
+      "end": 662.2,
+      "text": "distortion now so you can see it's a lot richer but we're adding lots of"
+    },
+    {
+      "start": 662.2,
+      "end": 667.4,
+      "text": "lots of extra lots of extra harmonics in there and obviously the"
+    },
+    {
+      "start": 667.44,
+      "end": 672.64,
+      "text": "distortion is creating that so let's add a little bit of modulation and see"
+    },
+    {
+      "start": 672.64,
+      "end": 681.56,
+      "text": "where we get so what I'm gonna do is literally just put some volume"
+    },
+    {
+      "start": 681.56,
+      "end": 693.48,
+      "text": "automation on this on my fundamental frequency so what's happening the only"
+    },
+    {
+      "start": 693.48,
+      "end": 698.12,
+      "text": "thing I've done here is I'm turning down the actual sub when I say the sub"
+    },
+    {
+      "start": 698.12,
+      "end": 704.72,
+      "text": "I mean the fundamental this note here and what's happening is because it's"
+    },
+    {
+      "start": 704.72,
+      "end": 709.92,
+      "text": "being pushed so hard into into so much distortion like as I just showed"
+    },
+    {
+      "start": 709.92,
+      "end": 713.4,
+      "text": "you there's two guitar amps there there's a wave shaper and there's an"
+    },
+    {
+      "start": 713.4,
+      "end": 717.7,
+      "text": "isotope trash as well it's quite a lot because I'm pushing it so hard the"
+    },
+    {
+      "start": 717.7,
+      "end": 720.76,
+      "text": "distortion is changing and compensating for that so if I turn"
+    },
+    {
+      "start": 720.76,
+      "end": 731.92,
+      "text": "this down I get very harsh sound now we can utilize that effect so to speak now if I"
+    },
+    {
+      "start": 731.92,
+      "end": 742.08,
+      "text": "put an LFO on this let's make a bit more interesting so the higher I go let"
+    },
+    {
+      "start": 742.08,
+      "end": 745.36,
+      "text": "me just turn this around"
+    },
+    {
+      "start": 759.36,
+      "end": 769.4,
+      "text": "there you go so that's a really really really simple way of understanding how"
+    },
+    {
+      "start": 769.4,
+      "end": 774.88,
+      "text": "your harmonics work in serum and it's a really simple and effective way to"
+    },
+    {
+      "start": 774.88,
+      "end": 781.16,
+      "text": "create a really cool baseline very quickly so let's see what happens if I"
+    },
+    {
+      "start": 781.16,
+      "end": 789.04,
+      "text": "change harmonics so now we were on bin 5 so if I quickly go back to my"
+    },
+    {
+      "start": 789.04,
+      "end": 797.16,
+      "text": "sheet being five so I could do the calculation here or you could not do"
+    },
+    {
+      "start": 797.2,
+      "end": 803.2,
+      "text": "it at all it's completely up to you and it's completely it depends on how far"
+    },
+    {
+      "start": 803.2,
+      "end": 807.36,
+      "text": "you want to take this I love doing this type of stuff because it really gives"
+    },
+    {
+      "start": 807.36,
+      "end": 812.88,
+      "text": "me a mental vision of what I'm trying to achieve the more you understand the"
+    },
+    {
+      "start": 812.88,
+      "end": 818.92,
+      "text": "more fun it is and easier is so instead of using a calculator to"
+    },
+    {
+      "start": 818.92,
+      "end": 823.48,
+      "text": "calculate all these I've made a little very crude sheet here these are"
+    },
+    {
+      "start": 823.48,
+      "end": 835.16,
+      "text": "my bins harmonics so if I select so if I've got D sharp and I've got bin 5 I"
+    },
+    {
+      "start": 835.16,
+      "end": 840.2,
+      "text": "know that's a G so let's try bin 6 see what that sounds like and that'll"
+    },
+    {
+      "start": 840.2,
+      "end": 864.08,
+      "text": "be in a sharp also sounds very cool let's try bin 7 also very cool and let's"
+    },
+    {
+      "start": 864.08,
+      "end": 872.2,
+      "text": "try 8 and as you'll notice here 8 is again a D sharp because if you times"
+    },
+    {
+      "start": 872.2,
+      "end": 878.56,
+      "text": "obviously because it's an odd number if you times it oh sorry even if you"
+    },
+    {
+      "start": 878.56,
+      "end": 885.24,
+      "text": "times it with a fundamental you always get a D sharp so let's try that in"
+    },
+    {
+      "start": 885.24,
+      "end": 893.64,
+      "text": "8 so you can hear it's like a D sharp on a D sharp but it feels like"
+    },
+    {
+      "start": 893.68,
+      "end": 903.56,
+      "text": "it's peaching up which is very cool effect and secondly you can have a big"
+    },
+    {
+      "start": 903.56,
+      "end": 905.84,
+      "text": "mix of them"
+    },
+    {
+      "start": 917.4,
+      "end": 921.96,
+      "text": "which also sounds very cool and then we can obviously take this further and"
+    },
+    {
+      "start": 921.96,
+      "end": 931.04,
+      "text": "develop the sound a bit more so we can add some unison there and now because"
+    },
+    {
+      "start": 931.04,
+      "end": 936.44,
+      "text": "I'm adding unison with a detune it's very similar to what the effect we had"
+    },
+    {
+      "start": 936.44,
+      "end": 940.04,
+      "text": "when we made the recess when we detune and we've actually phased them"
+    },
+    {
+      "start": 940.04,
+      "end": 947.92,
+      "text": "out you can see it's almost giving a kind of LFO effect but very cool and"
+    },
+    {
+      "start": 947.92,
+      "end": 954.32,
+      "text": "very interesting to listen to let's extend this a little bit longer take"
+    },
+    {
+      "start": 954.32,
+      "end": 963.72,
+      "text": "that loop off I'm gonna turn this down a bit because a bit loud"
+    },
+    {
+      "start": 977.92,
+      "end": 994.44,
+      "text": "that kind of works I could definitely use that in a tune so I'm gonna save"
+    },
+    {
+      "start": 994.44,
+      "end": 1004.96,
+      "text": "that great so I want to show you a couple more examples of how I like to"
+    },
+    {
+      "start": 1005.0,
+      "end": 1013.08,
+      "text": "use wavetables so let's duplicate this serum and let's try and develop this"
+    },
+    {
+      "start": 1013.08,
+      "end": 1024.6,
+      "text": "into something a bit more now so if I go to my or if I go to oscillate one"
+    },
+    {
+      "start": 1024.6,
+      "end": 1030.68,
+      "text": "where I've put where I've put the harmonics in selected them myself now"
+    },
+    {
+      "start": 1030.68,
+      "end": 1037.28,
+      "text": "what I can do is I can gradually automate the levels on this sound so I"
+    },
+    {
+      "start": 1037.28,
+      "end": 1046.52,
+      "text": "can select frame 2 and then I can make some edits let's go with 3 something"
+    },
+    {
+      "start": 1046.52,
+      "end": 1051.72,
+      "text": "like that and now when I change my wavetable position"
+    },
+    {
+      "start": 1051.72,
+      "end": 1072.44,
+      "text": "I get some really interesting cool things going on there that's sounding"
+    },
+    {
+      "start": 1072.44,
+      "end": 1095.04,
+      "text": "pretty cool now let's see what happens if I FM this so very loud kind of"
+    },
+    {
+      "start": 1095.04,
+      "end": 1101.24,
+      "text": "bassy sound very over-the-top and I'm sure you can all imagine what type of"
+    },
+    {
+      "start": 1101.24,
+      "end": 1110.96,
+      "text": "tune this would work in cool so developing that a bit more from there"
+    },
+    {
+      "start": 1110.96,
+      "end": 1114.36,
+      "text": "something like that which is a little more interesting a little more"
+    },
+    {
+      "start": 1114.36,
+      "end": 1117.6,
+      "text": "interesting in the tone as well and the reason why is because it's"
+    },
+    {
+      "start": 1117.6,
+      "end": 1125.6,
+      "text": "changing this one's very static which could work in a tune but now I've got"
+    },
+    {
+      "start": 1125.64,
+      "end": 1131.84,
+      "text": "another option which is great so this is a really cool way to make wavetables"
+    },
+    {
+      "start": 1131.84,
+      "end": 1137.0,
+      "text": "in serum make your own wavetables and soon in a very simple way the next"
+    },
+    {
+      "start": 1137.0,
+      "end": 1143.04,
+      "text": "thing I want to show you is how to make very creative wavetables in serum"
+    },
+    {
+      "start": 1143.04,
+      "end": 1146.6,
+      "text": "by using samples so I'm going to take a quick break and then we'll get to"
+    },
+    {
+      "start": 1146.6,
+      "end": 1154.6,
+      "text": "that in a second okay so another really cool option with serum because"
+    },
+    {
+      "start": 1154.92,
+      "end": 1160.4,
+      "text": "it can because what I showed you before with harmonics in the wavetable serum"
+    },
+    {
+      "start": 1160.4,
+      "end": 1166.64,
+      "text": "enables you to actually load any sample you want into any oscillator and what"
+    },
+    {
+      "start": 1166.64,
+      "end": 1172.0,
+      "text": "it will do is will calculate those harmonics for you so you can get some"
+    },
+    {
+      "start": 1172.0,
+      "end": 1177.44,
+      "text": "really interesting sounds by just using kind of random random samples"
+    },
+    {
+      "start": 1177.44,
+      "end": 1182.52,
+      "text": "basically so I wanted to quickly give that a go on the fly and see if we"
+    },
+    {
+      "start": 1182.52,
+      "end": 1188.52,
+      "text": "can create something cool so I just quickly went through my sample foley"
+    },
+    {
+      "start": 1188.52,
+      "end": 1198.96,
+      "text": "library and I found this jet sound which is kind of cool sounding could"
+    },
+    {
+      "start": 1198.96,
+      "end": 1205.08,
+      "text": "just use in a tune like that actually but what I wanted to do is you have"
+    },
+    {
+      "start": 1205.08,
+      "end": 1219.28,
+      "text": "an option in serum so if I don't let me go back to where it was if I take this"
+    },
+    {
+      "start": 1219.28,
+      "end": 1226.56,
+      "text": "jet sound and then if I drop it into if I drop it into an oscillator I have"
+    },
+    {
+      "start": 1226.56,
+      "end": 1230.6,
+      "text": "all these three options now what I normally do is import normal dynamic"
+    },
+    {
+      "start": 1230.6,
+      "end": 1242.48,
+      "text": "pit drain zero snap and then it will give a few minutes at cool so now this"
+    },
+    {
+      "start": 1242.48,
+      "end": 1249.96,
+      "text": "jet sound has been loaded in so let me activate that I have a MIDI file being"
+    },
+    {
+      "start": 1249.96,
+      "end": 1257.12,
+      "text": "triggered on that serum patch so if I play you can't hear anything and the"
+    },
+    {
+      "start": 1257.12,
+      "end": 1260.68,
+      "text": "reason why you can't hear anything is because this is flat and set zero so we"
+    },
+    {
+      "start": 1260.68,
+      "end": 1267.4,
+      "text": "need to do a bit of editing so if I open up my wavetable if I scroll along"
+    },
+    {
+      "start": 1267.4,
+      "end": 1276.0,
+      "text": "a few frames here you can see all of a sudden start to get some sound so I"
+    },
+    {
+      "start": 1276.0,
+      "end": 1282.24,
+      "text": "just need to clean this up a bit so I'm gonna select to about here go to"
+    },
+    {
+      "start": 1282.24,
+      "end": 1289.68,
+      "text": "the start if you go to add and remove remove current index and it will take"
+    },
+    {
+      "start": 1289.68,
+      "end": 1297.72,
+      "text": "you to start that didn't work very well let's do that again remove"
+    },
+    {
+      "start": 1297.72,
+      "end": 1304.84,
+      "text": "multi-section that was the one so if you select remove multi-section what"
+    },
+    {
+      "start": 1304.84,
+      "end": 1308.76,
+      "text": "they'll do is remove all the frames with nothing in them so as you can"
+    },
+    {
+      "start": 1308.76,
+      "end": 1316.52,
+      "text": "see here now I've just got this kind of flimsy tone so what I can do now is"
+    },
+    {
+      "start": 1316.52,
+      "end": 1321.36,
+      "text": "because serum has split that sound which I imported into lots of different"
+    },
+    {
+      "start": 1321.36,
+      "end": 1326.92,
+      "text": "frames if I change the wavetable position it will go frame frame by"
+    },
+    {
+      "start": 1326.92,
+      "end": 1332.4,
+      "text": "frame through that sound so if we put an LFO on here set this to something"
+    },
+    {
+      "start": 1332.4,
+      "end": 1340.16,
+      "text": "slow like two bars what it's doing is it's literally flicking through that"
+    },
+    {
+      "start": 1340.16,
+      "end": 1347.92,
+      "text": "wavetable so let's make this a bit shorter okay there's something cool"
+    },
+    {
+      "start": 1347.92,
+      "end": 1355.2,
+      "text": "going on in this section so what I can do if I like that section I can just"
+    },
+    {
+      "start": 1355.24,
+      "end": 1366.52,
+      "text": "go it's about halfway I think it's kind of cool it's very low I'm gonna put an"
+    },
+    {
+      "start": 1366.52,
+      "end": 1379.84,
+      "text": "octave higher just gonna see if I can improve this see what happens if we"
+    },
+    {
+      "start": 1379.84,
+      "end": 1390.4,
+      "text": "make it faster bit random cool so now what I'm gonna do is I'm going to back"
+    },
+    {
+      "start": 1390.4,
+      "end": 1398.08,
+      "text": "this up with some standard wavetable so I'm gonna use a sine wave I'm gonna"
+    },
+    {
+      "start": 1398.08,
+      "end": 1404.84,
+      "text": "put this an octave lower so some sub in there and what I'm gonna do is"
+    },
+    {
+      "start": 1404.84,
+      "end": 1409.56,
+      "text": "I'm just gonna try and match these two together and try and complete try"
+    },
+    {
+      "start": 1410.24,
+      "end": 1415.92,
+      "text": "make a complete sound so the goal here is to create something which you"
+    },
+    {
+      "start": 1415.92,
+      "end": 1419.84,
+      "text": "necessarily wouldn't be able to create in a synthesizer because we have such"
+    },
+    {
+      "start": 1419.84,
+      "end": 1426.72,
+      "text": "a crazy and erratic set of harmonics going on here it gives us something"
+    },
+    {
+      "start": 1426.72,
+      "end": 1436.56,
+      "text": "really unique so let's first automate the level of this something like"
+    },
+    {
+      "start": 1436.56,
+      "end": 1444.88,
+      "text": "something with a bit more groove to it again let's turn these randoms down not"
+    },
+    {
+      "start": 1444.88,
+      "end": 1463.52,
+      "text": "bad I am going to FM from a find a sweet spot too much cool that's got"
+    },
+    {
+      "start": 1463.52,
+      "end": 1472.44,
+      "text": "something cool about it maybe I could put this an octave higher I'm gonna turn"
+    },
+    {
+      "start": 1472.44,
+      "end": 1478.72,
+      "text": "this sub down a little bit let's add some distortion I've already got trash"
+    },
+    {
+      "start": 1478.72,
+      "end": 1496.44,
+      "text": "up a bit better let's try and add some unison to this okay cool that's a lot"
+    },
+    {
+      "start": 1496.44,
+      "end": 1500.76,
+      "text": "more interesting what I want to do is look at my frequency spectrum here to"
+    },
+    {
+      "start": 1500.76,
+      "end": 1519.68,
+      "text": "see what's happening give it a bit of room cool so let's add some different"
+    },
+    {
+      "start": 1519.68,
+      "end": 1525.4,
+      "text": "effects to it and see if we can improve this very phasey I'm not sure about"
+    },
+    {
+      "start": 1525.4,
+      "end": 1540.56,
+      "text": "that that's a cool sound but it's very very again phasey I'm gonna try"
+    },
+    {
+      "start": 1540.56,
+      "end": 1547.36,
+      "text": "and counteract that by adding another sub using the sub oscillator gonna use"
+    },
+    {
+      "start": 1547.36,
+      "end": 1554.84,
+      "text": "exactly the same wavetable exactly the same automation but I'm gonna put this"
+    },
+    {
+      "start": 1554.84,
+      "end": 1575.2,
+      "text": "direct out let's go an octave down I think I want to take some low end out"
+    },
+    {
+      "start": 1575.32,
+      "end": 1580.72,
+      "text": "of this sound now with the filter section you can obviously select which"
+    },
+    {
+      "start": 1580.72,
+      "end": 1586.36,
+      "text": "oscillator you want to filter so I'm only going to select a and I'm going"
+    },
+    {
+      "start": 1586.36,
+      "end": 1596.08,
+      "text": "to use a high 12 let's isolate this I'm gonna put some automation on this"
+    },
+    {
+      "start": 1596.28,
+      "end": 1620.32,
+      "text": "let's add a bit of drive to it obviously too much way too much drive cool that's"
+    },
+    {
+      "start": 1620.32,
+      "end": 1627.8,
+      "text": "not bad with these type of sounds it's very reliant on what sounds you're"
+    },
+    {
+      "start": 1627.8,
+      "end": 1631.92,
+      "text": "putting into serum and how serum deals with that a lot some sounds I'll put"
+    },
+    {
+      "start": 1631.92,
+      "end": 1635.96,
+      "text": "in and they really won't work at all some sounds I'll drop in and"
+    },
+    {
+      "start": 1635.96,
+      "end": 1642.1,
+      "text": "literally you'll have an instant base so if you guys have a spare hour to"
+    },
+    {
+      "start": 1642.1,
+      "end": 1646.36,
+      "text": "be creative and try and make sounds like that give it a go because this"
+    },
+    {
+      "start": 1646.36,
+      "end": 1651.56,
+      "text": "is a really fun way to to utilize serum and also you'll get a much better"
+    },
+    {
+      "start": 1651.56,
+      "end": 1656.6,
+      "text": "understanding on how this how the wavetables work in serum it will set"
+    },
+    {
+      "start": 1656.6,
+      "end": 1661.36,
+      "text": "you up so when you are working in your tunes later you have a much"
+    },
+    {
+      "start": 1661.36,
+      "end": 1669.16,
+      "text": "stronger mental image of what the sounds physically doing cool so I've got"
+    },
+    {
+      "start": 1669.16,
+      "end": 1674.68,
+      "text": "a nice selection of bass sounds and effects here and I've got a nice"
+    },
+    {
+      "start": 1674.72,
+      "end": 1680.16,
+      "text": "selection of drums as well so I can almost start writing my tune what I want"
+    },
+    {
+      "start": 1680.16,
+      "end": 1687.68,
+      "text": "to cover next is my approach to actually physically writing a tune and"
+    },
+    {
+      "start": 1687.68,
+      "end": 1692.92,
+      "text": "what I do or what I like to do a lot is actually start with a melody I"
+    },
+    {
+      "start": 1692.92,
+      "end": 1698.24,
+      "text": "really love melody in my tunes I mean we're musicians so let's write"
+    },
+    {
+      "start": 1698.24,
+      "end": 1703.8,
+      "text": "music even if some of my tunes are really pushed and really distorted I"
+    },
+    {
+      "start": 1703.84,
+      "end": 1708.0,
+      "text": "still love to have a musical element in there somewhere so what we're gonna do"
+    },
+    {
+      "start": 1708.0,
+      "end": 1714.08,
+      "text": "is we are going to look at how scales and melodies work in music and then"
+    },
+    {
+      "start": 1714.08,
+      "end": 1718.72,
+      "text": "apply that to writing an intro for our tune and then from the intro we're"
+    },
+    {
+      "start": 1718.72,
+      "end": 1724.28,
+      "text": "gonna build the tune to whatever we feel will fit the intro and this is"
+    },
+    {
+      "start": 1724.28,
+      "end": 1730.4,
+      "text": "fundamental for me because it's like right writing music so so yeah I'm"
+    },
+    {
+      "start": 1730.4,
+      "end": 1735.24,
+      "text": "really excited and and I'll see you in the next one"
+    }
+  ]
+}

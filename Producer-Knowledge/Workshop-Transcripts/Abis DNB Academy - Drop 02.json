@@ -1,0 +1,2360 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 26.88,
+      "text": "Let's see what this sounds like, nope that didn't sound good, alright why is it sounding"
+    },
+    {
+      "start": 26.88,
+      "end": 52.96,
+      "text": "messy here, ok cool so these are not in time, cool maybe these don't, I think it just gets"
+    },
+    {
+      "start": 52.96,
+      "end": 78.84,
+      "text": "a bit messy here, just looking for that ring, you can just see it there, just my ears just"
+    },
+    {
+      "start": 78.84,
+      "end": 90.88,
+      "text": "picked that up then, oh that's better, right I'm still not convinced with the pin to funk"
+    },
+    {
+      "start": 90.88,
+      "end": 97.96,
+      "text": "hi-hats but let's keep them in there for now, I'm going to clean this up, I'm going to save"
+    },
+    {
+      "start": 97.96,
+      "end": 108.56,
+      "text": "it quickly, let's try and improve this snare now."
+    },
+    {
+      "start": 108.56,
+      "end": 115.72,
+      "text": "So if you remember I made one of the white noises quite short, oops don't know what I've"
+    },
+    {
+      "start": 146.72,
+      "end": 151.24,
+      "text": "was just listening to there is the tail with the white noise and all of a sudden it had"
+    },
+    {
+      "start": 151.24,
+      "end": 158.4,
+      "text": "this kind of resonance in there, gave me an idea, wondering if I could like add a ding to"
+    },
+    {
+      "start": 158.4,
+      "end": 165.0,
+      "text": "the snare, there's a couple of ways we can do that, what I'm going to do is I'm going"
+    },
+    {
+      "start": 165.0,
+      "end": 176.28,
+      "text": "to duplicate the sine wave, let's dump this at the bottom and I'm just going to literally"
+    },
+    {
+      "start": 176.28,
+      "end": 194.36,
+      "text": "add a ring, so our fundamental is C, that's where the snare is hitting, so if we do, so"
+    },
+    {
+      "start": 194.36,
+      "end": 206.92,
+      "text": "that's C, so C sharp D, D sharp E F, so that's 1, 2, 3, 4, 5, if we go plus 5 and 2 down that"
+    },
+    {
+      "start": 206.92,
+      "end": 219.4,
+      "text": "should be an F, let's confirm that with an EQ, it's quite high though, that is an F, how"
+    },
+    {
+      "start": 219.4,
+      "end": 231.64,
+      "text": "does that sound? Let's put a little, I'm going to remove this, actually I'll keep that on, this"
+    },
+    {
+      "start": 231.64,
+      "end": 235.44,
+      "text": "is the pitch envelope by the way, master tune, I'm going to take this, I want to..."
+    },
+    {
+      "start": 249.4,
+      "end": 270.84,
+      "text": "it's a bit too much distortion on this I think, so let's ease up on that, cool, this might be better,"
+    },
+    {
+      "start": 270.84,
+      "end": 291.72,
+      "text": "doesn't sound great, but let's hear it in the mix, nope I do not like that at all, okay let's try"
+    },
+    {
+      "start": 291.8,
+      "end": 304.12,
+      "text": "another example, I have, what we can do is let's try some frequency shifting,"
+    },
+    {
+      "start": 315.64,
+      "end": 316.76,
+      "text": "try something like this,"
+    },
+    {
+      "start": 322.36,
+      "end": 323.64,
+      "text": "sounds weird,"
+    },
+    {
+      "start": 332.52,
+      "end": 334.04,
+      "text": "okay that doesn't sound great,"
+    },
+    {
+      "start": 337.4,
+      "end": 339.96,
+      "text": "right let's try some convolution reverb,"
+    },
+    {
+      "start": 339.96,
+      "end": 343.4,
+      "text": "oh thank you pardon,"
+    },
+    {
+      "start": 347.24,
+      "end": 356.6,
+      "text": "so if you go to my Facebook page I did a session on how I go about making my convolution reverb"
+    },
+    {
+      "start": 356.6,
+      "end": 363.96,
+      "text": "impulses, convolution reverb is a very cool tool because it allows you to actually load in your"
+    },
+    {
+      "start": 363.96,
+      "end": 371.32,
+      "text": "impulses, so what I do is I make a sine wave and add white noise to it and as you can see here I've"
+    },
+    {
+      "start": 371.32,
+      "end": 383.08,
+      "text": "made an impulse for every single note on the scale, so why isn't it working?"
+    },
+    {
+      "start": 383.08,
+      "end": 392.84,
+      "text": "strange, hold on let's see if I can get this to work,"
+    },
+    {
+      "start": 404.2,
+      "end": 410.2,
+      "text": "the reason it's not working I think was because it was on the wrong channel, brilliant"
+    },
+    {
+      "start": 413.32,
+      "end": 418.04,
+      "text": "here we go, right so as you can hear"
+    },
+    {
+      "start": 420.68,
+      "end": 428.92,
+      "text": "there's a huge difference in sound, so I can choose all my impulses, these impulses are tuned,"
+    },
+    {
+      "start": 428.92,
+      "end": 437.48,
+      "text": "so if I wanted F like I was trying before, maybe a higher one, how does that sound?"
+    },
+    {
+      "start": 438.44,
+      "end": 441.16,
+      "text": "okay it's sounding a bit over the top,"
+    },
+    {
+      "start": 443.96,
+      "end": 448.04,
+      "text": "kind of like that, let's try a G sharp four,"
+    },
+    {
+      "start": 451.16,
+      "end": 452.36,
+      "text": "this is kind of cool,"
+    },
+    {
+      "start": 455.16,
+      "end": 459.24,
+      "text": "so with convolution reverb if I"
+    },
+    {
+      "start": 459.8,
+      "end": 466.84,
+      "text": "currently got this set to about 17% it was"
+    },
+    {
+      "start": 471.56,
+      "end": 478.76,
+      "text": "and this audio file is very long, the tail is also very long, like I've got the length"
+    },
+    {
+      "start": 479.56,
+      "end": 485.56,
+      "text": "set to a very short amount if I leave this open"
+    },
+    {
+      "start": 489.88,
+      "end": 496.04,
+      "text": "it's very long, right so I always find it very difficult to"
+    },
+    {
+      "start": 499.32,
+      "end": 504.44,
+      "text": "I always find it very difficult to control that the envelope"
+    },
+    {
+      "start": 508.84,
+      "end": 515.56,
+      "text": "so what I want to do first I want to make sure I'm happy with the actual impulse I've selected"
+    },
+    {
+      "start": 515.56,
+      "end": 520.44,
+      "text": "and then I'm just going to record this in 100% wet and then mix it in with the original one,"
+    },
+    {
+      "start": 520.44,
+      "end": 523.16,
+      "text": "so the first thing I want to do is make sure I've got the right impulse,"
+    },
+    {
+      "start": 524.12,
+      "end": 525.88,
+      "text": "it's kind of like in G sharp four"
+    },
+    {
+      "start": 531.16,
+      "end": 531.88,
+      "text": "maybe a G"
+    },
+    {
+      "start": 539.72,
+      "end": 552.6,
+      "text": "let's just listen to that in context for a sec"
+    },
+    {
+      "start": 561.72,
+      "end": 567.8,
+      "text": "I think the G sharp is going to be a little bit confusing musically, a bit too much going on"
+    },
+    {
+      "start": 567.8,
+      "end": 577.0,
+      "text": "probably so let's just go cool let's roll with an F for now and then I'm going to leave this impulse on"
+    },
+    {
+      "start": 577.96,
+      "end": 586.12,
+      "text": "and then every time I kind of change the melody I can also tune this convolution"
+    },
+    {
+      "start": 586.12,
+      "end": 593.8,
+      "text": "basically to that section which is amazing so I'm going to quickly make a new audio file set"
+    },
+    {
+      "start": 593.8,
+      "end": 601.4,
+      "text": "that to resample record I just want to make sure I've got nothing else armed yeah that's good"
+    },
+    {
+      "start": 602.2,
+      "end": 603.24,
+      "text": "right let's record this in"
+    },
+    {
+      "start": 605.48,
+      "end": 610.36,
+      "text": "oh I'm recording everything I want to solo this let's go"
+    },
+    {
+      "start": 614.68,
+      "end": 620.76,
+      "text": "I also want this set to 100% wet otherwise it completely defeats the purpose"
+    },
+    {
+      "start": 620.76,
+      "end": 621.8,
+      "text": "third time lucky guys"
+    },
+    {
+      "start": 626.6,
+      "end": 627.0,
+      "text": "good"
+    },
+    {
+      "start": 631.32,
+      "end": 634.04,
+      "text": "all right so now I've got a little bit more control with"
+    },
+    {
+      "start": 637.8,
+      "end": 640.2,
+      "text": "a little bit more control of my envelopes now"
+    },
+    {
+      "start": 641.08,
+      "end": 652.76,
+      "text": "sorry my google drive keeps giving me warnings thanks"
+    },
+    {
+      "start": 658.12,
+      "end": 661.0,
+      "text": "cool right now I could take a bit low end out of this"
+    },
+    {
+      "start": 665.56,
+      "end": 667.48,
+      "text": "I think that might be good enough let's listen"
+    },
+    {
+      "start": 670.36,
+      "end": 673.96,
+      "text": "right I'll take this off what a difference"
+    },
+    {
+      "start": 680.44,
+      "end": 685.56,
+      "text": "yeah so I literally use this technique on a lot of my snares and a lot of people ask me"
+    },
+    {
+      "start": 685.56,
+      "end": 688.68,
+      "text": "how do you get that kind of ringy sound that's how you get it"
+    },
+    {
+      "start": 689.16,
+      "end": 696.68,
+      "text": "all right let's check this out shall we"
+    },
+    {
+      "start": 703.16,
+      "end": 704.36,
+      "text": "it could be a bit longer I think"
+    },
+    {
+      "start": 704.36,
+      "end": 722.76,
+      "text": "cool right next job let's copy these things over"
+    },
+    {
+      "start": 724.92,
+      "end": 725.64,
+      "text": "yeah lovely"
+    },
+    {
+      "start": 725.64,
+      "end": 732.6,
+      "text": "so I want to get all my hi hats I've got nothing"
+    },
+    {
+      "start": 734.68,
+      "end": 742.04,
+      "text": "nothing muted now I'm using all of these so let's roll with this duplicate duplicate duplicate"
+    },
+    {
+      "start": 748.84,
+      "end": 750.92,
+      "text": "all right there's something weird going on the hi hats here"
+    },
+    {
+      "start": 756.6,
+      "end": 757.56,
+      "text": "I think"
+    },
+    {
+      "start": 761.56,
+      "end": 764.84,
+      "text": "I think this bass could be improved loads as well"
+    },
+    {
+      "start": 766.76,
+      "end": 772.44,
+      "text": "so I just listened to that section and my thought process was wow that sounds terrible"
+    },
+    {
+      "start": 772.44,
+      "end": 777.64,
+      "text": "why does it sound terrible first thought was okay maybe something to do with those hi hats"
+    },
+    {
+      "start": 778.52,
+      "end": 783.24,
+      "text": "but I think a lot more productive approach is to fix this bass first"
+    },
+    {
+      "start": 786.36,
+      "end": 787.24,
+      "text": "so"
+    },
+    {
+      "start": 791.24,
+      "end": 793.24,
+      "text": "could be definitely a lot louder"
+    },
+    {
+      "start": 805.4,
+      "end": 806.76,
+      "text": "so that master tune"
+    },
+    {
+      "start": 806.76,
+      "end": 813.88,
+      "text": "how does this sound actually"
+    },
+    {
+      "start": 827.8,
+      "end": 832.52,
+      "text": "I might just leave a hole in there in the bass because the kick's there"
+    },
+    {
+      "start": 836.76,
+      "end": 842.52,
+      "text": "so"
+    },
+    {
+      "start": 852.52,
+      "end": 855.56,
+      "text": "cool let's try and improve this first and then we can figure that out later"
+    },
+    {
+      "start": 856.76,
+      "end": 857.16,
+      "text": "so"
+    },
+    {
+      "start": 857.16,
+      "end": 870.92,
+      "text": "sounds very far behind and flat"
+    },
+    {
+      "start": 887.8,
+      "end": 901.4,
+      "text": "let's try and push it a bit harder I think so I'm going to use tube driver"
+    },
+    {
+      "start": 906.36,
+      "end": 907.24,
+      "text": "that might be better"
+    },
+    {
+      "start": 910.36,
+      "end": 911.88,
+      "text": "I'm going to take a bit of this mid out"
+    },
+    {
+      "start": 917.8,
+      "end": 928.92,
+      "text": "so"
+    },
+    {
+      "start": 933.24,
+      "end": 934.92,
+      "text": "let's roll it out and see what we get to"
+    },
+    {
+      "start": 935.48,
+      "end": 951.8,
+      "text": "so I maybe want to try and leave a bit of space between"
+    },
+    {
+      "start": 955.48,
+      "end": 958.68,
+      "text": "this section let's see what this sounds like"
+    },
+    {
+      "start": 959.0,
+      "end": 974.44,
+      "text": "maybe we could make this section longer as well"
+    },
+    {
+      "start": 975.32,
+      "end": 986.2,
+      "text": "okay so"
+    },
+    {
+      "start": 987.8,
+      "end": 992.92,
+      "text": "maybe let's try and get some more of our existing bass sounds in might replace this sound"
+    },
+    {
+      "start": 995.08,
+      "end": 997.32,
+      "text": "let's drop a few of these in"
+    },
+    {
+      "start": 1004.44,
+      "end": 1005.56,
+      "text": "what did this sound like"
+    },
+    {
+      "start": 1012.92,
+      "end": 1014.36,
+      "text": "not sure that's gonna fit but"
+    },
+    {
+      "start": 1019.08,
+      "end": 1019.64,
+      "text": "could work"
+    },
+    {
+      "start": 1022.92,
+      "end": 1032.04,
+      "text": "G sharp C okay the B is out of scale so if we try E"
+    },
+    {
+      "start": 1034.44,
+      "end": 1040.04,
+      "text": "so"
+    },
+    {
+      "start": 1055.56,
+      "end": 1060.04,
+      "text": "kind of works"
+    },
+    {
+      "start": 1064.52,
+      "end": 1066.84,
+      "text": "I'm going to leave that there for now I can improve it"
+    },
+    {
+      "start": 1068.6,
+      "end": 1078.04,
+      "text": "or we can use it somewhere else let's just throw it in randomly and see"
+    },
+    {
+      "start": 1080.52,
+      "end": 1086.04,
+      "text": "what's going on with this audio file actually it's a weird position"
+    },
+    {
+      "start": 1094.6,
+      "end": 1098.04,
+      "text": "okay something weird just went on there"
+    },
+    {
+      "start": 1107.4,
+      "end": 1111.64,
+      "text": "okay cool quite like this last one the first one is a bit"
+    },
+    {
+      "start": 1113.08,
+      "end": 1116.04,
+      "text": "this sounds a bit like carnivore something"
+    },
+    {
+      "start": 1116.04,
+      "end": 1125.08,
+      "text": "I like that at the end that's cool"
+    },
+    {
+      "start": 1132.36,
+      "end": 1141.64,
+      "text": "not bad let's see how this sounds here"
+    },
+    {
+      "start": 1146.84,
+      "end": 1151.64,
+      "text": "could work actually"
+    },
+    {
+      "start": 1153.96,
+      "end": 1154.84,
+      "text": "let's give it a go"
+    },
+    {
+      "start": 1157.16,
+      "end": 1171.64,
+      "text": "maybe let's just remove this one"
+    },
+    {
+      "start": 1176.36,
+      "end": 1189.64,
+      "text": "okay not sure about that we'll keep it in there has some potential for the pre-drop sound"
+    },
+    {
+      "start": 1198.2,
+      "end": 1202.52,
+      "text": "that also has potential for somewhere oops"
+    },
+    {
+      "start": 1206.04,
+      "end": 1213.64,
+      "text": "okay"
+    },
+    {
+      "start": 1226.28,
+      "end": 1231.64,
+      "text": "what note was this D sharp let's go with E"
+    },
+    {
+      "start": 1236.76,
+      "end": 1242.76,
+      "text": "nope right let's get rid of those we tried okay number eight"
+    },
+    {
+      "start": 1247.4,
+      "end": 1250.84,
+      "text": "so we're still sketching still sketching trying to find the breakthrough"
+    },
+    {
+      "start": 1253.64,
+      "end": 1261.64,
+      "text": "interesting"
+    },
+    {
+      "start": 1266.36,
+      "end": 1269.64,
+      "text": "oh"
+    },
+    {
+      "start": 1276.52,
+      "end": 1279.48,
+      "text": "love that ending isn't that the same that"
+    },
+    {
+      "start": 1281.16,
+      "end": 1288.12,
+      "text": "nope cool now why does that sound good like it's meant to be"
+    },
+    {
+      "start": 1290.52,
+      "end": 1294.36,
+      "text": "the reason why is because our fundamental is a G"
+    },
+    {
+      "start": 1294.6,
+      "end": 1303.16,
+      "text": "root note is E we put the root note E which is in scale F harmonic minor"
+    },
+    {
+      "start": 1304.6,
+      "end": 1312.28,
+      "text": "but I think I think I know from doing this quite a lot that that harmonic you're hearing"
+    },
+    {
+      "start": 1317.4,
+      "end": 1319.32,
+      "text": "that harmonic you're hearing is a G"
+    },
+    {
+      "start": 1319.72,
+      "end": 1322.92,
+      "text": "and let's have a look"
+    },
+    {
+      "start": 1328.12,
+      "end": 1336.92,
+      "text": "okay there's a little"
+    },
+    {
+      "start": 1337.32,
+      "end": 1342.52,
+      "text": "okay"
+    },
+    {
+      "start": 1348.92,
+      "end": 1349.72,
+      "text": "quite complex"
+    },
+    {
+      "start": 1354.12,
+      "end": 1356.52,
+      "text": "what's seven doing"
+    },
+    {
+      "start": 1362.52,
+      "end": 1364.52,
+      "text": "okay that doesn't sound great"
+    },
+    {
+      "start": 1367.64,
+      "end": 1371.08,
+      "text": "I think I'll keep it"
+    },
+    {
+      "start": 1373.56,
+      "end": 1378.52,
+      "text": "keep it as it was right cool so we are making progress"
+    },
+    {
+      "start": 1387.8,
+      "end": 1394.12,
+      "text": "only thing I'm really still disliking is this bar here so there's a couple of things we can do"
+    },
+    {
+      "start": 1394.84,
+      "end": 1401.8,
+      "text": "continue working on this sound for a while or we could move on and then build out the tune"
+    },
+    {
+      "start": 1402.6,
+      "end": 1407.4,
+      "text": "now I'm the type of person that would like to sit on this loop for a little longer"
+    },
+    {
+      "start": 1408.36,
+      "end": 1414.28,
+      "text": "so I'm going to spend an hour offline to see if I can improve this"
+    },
+    {
+      "start": 1416.6,
+      "end": 1422.92,
+      "text": "try and improve this section I'm gonna spend an hour going through my old samples to see if"
+    },
+    {
+      "start": 1422.92,
+      "end": 1428.36,
+      "text": "I can find something that jumps out ideally I want something percussive like the dun-dun-dun-dun-dun"
+    },
+    {
+      "start": 1429.08,
+      "end": 1438.2,
+      "text": "because this is very very long moving and I like to compliment that with a percussive"
+    },
+    {
+      "start": 1438.2,
+      "end": 1445.48,
+      "text": "something percussive after it cool so I'll be back to you and I'll see where we've got from there"
+    },
+    {
+      "start": 1446.6,
+      "end": 1449.24,
+      "text": "right I think I've got something a bit better than we had"
+    },
+    {
+      "start": 1450.2,
+      "end": 1456.04,
+      "text": "literally didn't tell me long just went through my presets I've got a big selection of presets I've"
+    },
+    {
+      "start": 1456.04,
+      "end": 1465.8,
+      "text": "saved here over the last couple of weeks and literally I just kept the same setting so previously"
+    },
+    {
+      "start": 1465.8,
+      "end": 1476.44,
+      "text": "we had the stabby ones and I literally duplicated it and clicked the third preset I came across"
+    },
+    {
+      "start": 1476.44,
+      "end": 1485.32,
+      "text": "and I was like okay that works a lot better so there's a lot more detail in the stereo field"
+    },
+    {
+      "start": 1485.32,
+      "end": 1488.2,
+      "text": "as well so you can definitely utilize that"
+    },
+    {
+      "start": 1495.56,
+      "end": 1502.04,
+      "text": "cool so I'm going to get rid of this old one one thing I want to do is try and energize this up"
+    },
+    {
+      "start": 1502.04,
+      "end": 1512.28,
+      "text": "a bit I want to try and utilize some ghost snares I think maybe we could already use the existing snare"
+    },
+    {
+      "start": 1512.28,
+      "end": 1522.52,
+      "text": "let's see"
+    },
+    {
+      "start": 1533.16,
+      "end": 1538.84,
+      "text": "kind of cool I'm gonna see if I can use another another snare in that place"
+    },
+    {
+      "start": 1539.8,
+      "end": 1551.08,
+      "text": "um we already have some shuffles in here that it's really important not to actually that one's muted"
+    },
+    {
+      "start": 1551.08,
+      "end": 1561.08,
+      "text": "let's see"
+    },
+    {
+      "start": 1562.04,
+      "end": 1565.32,
+      "text": "okay"
+    },
+    {
+      "start": 1575.08,
+      "end": 1581.32,
+      "text": "just think that slows it down a bit and we're gonna on the next bar we're gonna jump into something new"
+    },
+    {
+      "start": 1581.72,
+      "end": 1587.56,
+      "text": "I'm gonna keep this like like this for now"
+    },
+    {
+      "start": 1590.36,
+      "end": 1597.24,
+      "text": "let's duplicate this setting actually what I'm gonna do is I'm going to group these"
+    },
+    {
+      "start": 1598.6,
+      "end": 1604.44,
+      "text": "what I hear in my head is a kind of synth over the top of this I mean literally this is just"
+    },
+    {
+      "start": 1605.08,
+      "end": 1620.68,
+      "text": "drums and bass which is fine but I want to try and spice up a bit so I'm gonna duplicate my bass patch"
+    },
+    {
+      "start": 1621.08,
+      "end": 1630.92,
+      "text": "I try something like this"
+    },
+    {
+      "start": 1635.24,
+      "end": 1644.92,
+      "text": "I don't want the initial hit though"
+    },
+    {
+      "start": 1645.48,
+      "end": 1655.72,
+      "text": "cool so let's use a different filter instead and try and see if we can get"
+    },
+    {
+      "start": 1655.72,
+      "end": 1661.16,
+      "text": "something cool going with that"
+    },
+    {
+      "start": 1668.04,
+      "end": 1673.16,
+      "text": "I'm gonna put this one really wide"
+    },
+    {
+      "start": 1675.88,
+      "end": 1687.16,
+      "text": "now I listen to it in context I'm not sure it's going to work"
+    },
+    {
+      "start": 1695.88,
+      "end": 1699.16,
+      "text": "it's not sounding amazing let's take the guitar off"
+    },
+    {
+      "start": 1705.56,
+      "end": 1717.16,
+      "text": "let's go a bit higher up on the"
+    },
+    {
+      "start": 1728.28,
+      "end": 1731.16,
+      "text": "cool let's add a wavetable"
+    },
+    {
+      "start": 1735.64,
+      "end": 1745.72,
+      "text": "could be cool could be cool let's let's remove these and cut some low end out to see what it sounds like"
+    },
+    {
+      "start": 1750.44,
+      "end": 1751.32,
+      "text": "let's mix it in"
+    },
+    {
+      "start": 1756.68,
+      "end": 1759.24,
+      "text": "gives it a bit more detail I'm not happy with that yet but"
+    },
+    {
+      "start": 1759.56,
+      "end": 1766.92,
+      "text": "it just makes it it makes it more interesting to my ears I'm not happy with the I'm going to come"
+    },
+    {
+      "start": 1766.92,
+      "end": 1773.32,
+      "text": "back to that I just want to see how this flows now I was also going to add this go snare here"
+    },
+    {
+      "start": 1773.32,
+      "end": 1781.08,
+      "text": "so let's do that as well I'm just going to go through my snares and see"
+    },
+    {
+      "start": 1783.8,
+      "end": 1787.08,
+      "text": "if we have a little that might work"
+    },
+    {
+      "start": 1790.12,
+      "end": 1793.08,
+      "text": "a little go snare"
+    },
+    {
+      "start": 1805.64,
+      "end": 1808.44,
+      "text": "so I've obviously got my kick here and I don't want the overlapping"
+    },
+    {
+      "start": 1813.24,
+      "end": 1815.88,
+      "text": "not sure sounds a bit messy"
+    },
+    {
+      "start": 1819.48,
+      "end": 1826.6,
+      "text": "let's try something like that"
+    },
+    {
+      "start": 1831.32,
+      "end": 1832.12,
+      "text": "my gapatune"
+    },
+    {
+      "start": 1834.2,
+      "end": 1841.08,
+      "text": "better let's remove this what's going on here messy messy"
+    },
+    {
+      "start": 1849.64,
+      "end": 1861.48,
+      "text": "I'm going to ease back on these the more I listen to them"
+    },
+    {
+      "start": 1863.24,
+      "end": 1868.6,
+      "text": "the more I do not like them and that's okay let's try something else"
+    },
+    {
+      "start": 1870.36,
+      "end": 1876.04,
+      "text": "so again these are literally snares that I've collected for years that I've made in tunes"
+    },
+    {
+      "start": 1876.04,
+      "end": 1880.04,
+      "text": "I've made in previous sessions like I showed you before"
+    },
+    {
+      "start": 1883.24,
+      "end": 1884.28,
+      "text": "and once I'm short"
+    },
+    {
+      "start": 1888.92,
+      "end": 1889.96,
+      "text": "could work"
+    },
+    {
+      "start": 1892.12,
+      "end": 1893.0,
+      "text": "let's give it a go"
+    },
+    {
+      "start": 1896.76,
+      "end": 1897.32,
+      "text": "not bad"
+    },
+    {
+      "start": 1897.48,
+      "end": 1904.6,
+      "text": "yeah kind of like that very short which is great"
+    },
+    {
+      "start": 1913.72,
+      "end": 1920.6,
+      "text": "let's see if we can repeat it here this might not work but worth a go"
+    },
+    {
+      "start": 1927.96,
+      "end": 1929.0,
+      "text": "hmm"
+    },
+    {
+      "start": 1931.48,
+      "end": 1935.64,
+      "text": "sounds very robotic to me when you start using go snares like this"
+    },
+    {
+      "start": 1939.24,
+      "end": 1942.6,
+      "text": "I just want to isolate these drums"
+    },
+    {
+      "start": 1950.12,
+      "end": 1950.6,
+      "text": "let's see"
+    },
+    {
+      "start": 1957.32,
+      "end": 1968.36,
+      "text": "let's clean up these low ends"
+    },
+    {
+      "start": 1978.6,
+      "end": 1980.68,
+      "text": "I think it is those high"
+    },
+    {
+      "start": 1983.88,
+      "end": 1985.72,
+      "text": "something weird going on here"
+    },
+    {
+      "start": 1988.04,
+      "end": 1990.12,
+      "text": "better better"
+    },
+    {
+      "start": 1991.64,
+      "end": 1995.88,
+      "text": "when you're using a few layers you know you always got a check to make sure nothing's clashing"
+    },
+    {
+      "start": 1995.88,
+      "end": 2002.12,
+      "text": "I think I've screwed up here somehow as well and let me copy these over again"
+    },
+    {
+      "start": 2004.92,
+      "end": 2007.72,
+      "text": "I guess the same is for these ones yep"
+    },
+    {
+      "start": 2009.88,
+      "end": 2012.36,
+      "text": "okay cool let's go with these"
+    },
+    {
+      "start": 2018.04,
+      "end": 2024.6,
+      "text": "better"
+    },
+    {
+      "start": 2031.24,
+      "end": 2035.56,
+      "text": "cool let's listen to the bass with the bass"
+    },
+    {
+      "start": 2040.04,
+      "end": 2044.36,
+      "text": "right those things are annoying me a bit now"
+    },
+    {
+      "start": 2047.48,
+      "end": 2051.56,
+      "text": "they have something kind of cool about"
+    },
+    {
+      "start": 2054.12,
+      "end": 2058.6,
+      "text": "going to take the low end out and stuff"
+    },
+    {
+      "start": 2058.76,
+      "end": 2065.88,
+      "text": "so"
+    },
+    {
+      "start": 2074.2,
+      "end": 2083.88,
+      "text": "it's going to make this last one a bit shorter"
+    },
+    {
+      "start": 2088.76,
+      "end": 2091.88,
+      "text": "so"
+    },
+    {
+      "start": 2096.12,
+      "end": 2113.88,
+      "text": "once I've gone that last snare now and I think after that we'll be able to build this tune out"
+    },
+    {
+      "start": 2114.84,
+      "end": 2119.16,
+      "text": "let's try something like this just on the last"
+    },
+    {
+      "start": 2121.8,
+      "end": 2125.16,
+      "text": "not bad"
+    },
+    {
+      "start": 2129.24,
+      "end": 2135.56,
+      "text": "it's not bad what I want to try and do now is I want to do two things I want to add some kind"
+    },
+    {
+      "start": 2135.56,
+      "end": 2142.36,
+      "text": "of effects to it reverse small reverse sounds just to liven up and try and give the impression"
+    },
+    {
+      "start": 2142.44,
+      "end": 2147.4,
+      "text": "to the listener that something's going to happen and secondly I want to try and mix these"
+    },
+    {
+      "start": 2147.4,
+      "end": 2154.04,
+      "text": "basses a bit better so I've got a feeling if I solo the sidechain which at the moment is just the"
+    },
+    {
+      "start": 2154.04,
+      "end": 2163.64,
+      "text": "basses all these basses are going to sound very different let's give it a listen"
+    },
+    {
+      "start": 2163.8,
+      "end": 2173.48,
+      "text": "yes they do lots of clicks as well from the sidechain which we will fix later"
+    },
+    {
+      "start": 2174.52,
+      "end": 2182.92,
+      "text": "especially on that one so let's try and get these bass sounds sounding like they're working together"
+    },
+    {
+      "start": 2183.24,
+      "end": 2187.0,
+      "text": "so"
+    },
+    {
+      "start": 2190.6,
+      "end": 2197.24,
+      "text": "it's the first one I am going to make this a lot shorter so it's visually a bit easier"
+    },
+    {
+      "start": 2197.24,
+      "end": 2202.52,
+      "text": "yeah"
+    },
+    {
+      "start": 2202.52,
+      "end": 2213.56,
+      "text": "I miss some some sub here"
+    },
+    {
+      "start": 2214.28,
+      "end": 2228.92,
+      "text": "right so I try two little things then as you could as you could hear the sound change drastically"
+    },
+    {
+      "start": 2229.48,
+      "end": 2233.48,
+      "text": "first I was I was thinking I could just put a sine wave under the sub"
+    },
+    {
+      "start": 2236.68,
+      "end": 2239.96,
+      "text": "and then I just wanted to see how this reacted"
+    },
+    {
+      "start": 2240.92,
+      "end": 2247.56,
+      "text": "so I just put a boost up on the fundamental but the problem is because it's pre distortion"
+    },
+    {
+      "start": 2247.56,
+      "end": 2253.08,
+      "text": "because the EQ is before the distortion the distortion is changing its reaction to the"
+    },
+    {
+      "start": 2253.08,
+      "end": 2260.92,
+      "text": "harmonics being fed into it so if you we just bump up the bass all those harmonics now are"
+    },
+    {
+      "start": 2261.88,
+      "end": 2270.04,
+      "text": "tamed because the large the the sound with the most most energy that's being sent into"
+    },
+    {
+      "start": 2270.04,
+      "end": 2274.12,
+      "text": "distortion is now the fundamental it was anyway but it's on a stream scale"
+    },
+    {
+      "start": 2275.4,
+      "end": 2282.36,
+      "text": "so the harmonic distribution of the distortion is going to change immensely so an easy way to"
+    },
+    {
+      "start": 2282.44,
+      "end": 2283.72,
+      "text": "fix it is do some post"
+    },
+    {
+      "start": 2286.84,
+      "end": 2294.92,
+      "text": "so you can see here sub gets completely lost I don't like doing this but"
+    },
+    {
+      "start": 2299.32,
+      "end": 2299.96,
+      "text": "may work"
+    },
+    {
+      "start": 2300.68,
+      "end": 2315.32,
+      "text": "let's think what's the solution I'm gonna try and group these and put a sub under it I don't"
+    },
+    {
+      "start": 2315.32,
+      "end": 2321.16,
+      "text": "think this is gonna work and the reason I don't think it's gonna work is because the"
+    },
+    {
+      "start": 2324.44,
+      "end": 2329.16,
+      "text": "because the saw waves are detuned as we mentioned and talked about before it starts"
+    },
+    {
+      "start": 2329.16,
+      "end": 2336.92,
+      "text": "phasing and creating that kind of cool LFO sound so if I feed a sine wave which is not detuned it's"
+    },
+    {
+      "start": 2336.92,
+      "end": 2344.12,
+      "text": "going to completely completely destroy that movement but I'm wondering if I put it through"
+    },
+    {
+      "start": 2344.12,
+      "end": 2356.92,
+      "text": "a different distortion instead of guitaric you can hear that's quite a clean tone now"
+    },
+    {
+      "start": 2359.16,
+      "end": 2360.52,
+      "text": "I can take the erosion off"
+    },
+    {
+      "start": 2362.84,
+      "end": 2369.72,
+      "text": "let's see how far we can let's see how loud we can make this something like that might do the ticket"
+    },
+    {
+      "start": 2373.48,
+      "end": 2374.52,
+      "text": "sounding a bit better"
+    },
+    {
+      "start": 2378.12,
+      "end": 2379.32,
+      "text": "more sub definitely"
+    },
+    {
+      "start": 2382.36,
+      "end": 2385.24,
+      "text": "I'm gonna mute this a second that release it's so annoying"
+    },
+    {
+      "start": 2390.12,
+      "end": 2390.84,
+      "text": "much better"
+    },
+    {
+      "start": 2396.6,
+      "end": 2399.56,
+      "text": "cool that sounding good I could even turn this down a bit maybe"
+    },
+    {
+      "start": 2400.36,
+      "end": 2408.28,
+      "text": "oh we could take the low end out let's just see what this sounds like"
+    },
+    {
+      "start": 2412.84,
+      "end": 2414.04,
+      "text": "okay now we're talking"
+    },
+    {
+      "start": 2417.0,
+      "end": 2418.2,
+      "text": "okay that's a big improvement"
+    },
+    {
+      "start": 2419.72,
+      "end": 2421.8,
+      "text": "right so now we're engineering"
+    },
+    {
+      "start": 2424.52,
+      "end": 2426.36,
+      "text": "we are engineering a hundred percent"
+    },
+    {
+      "start": 2430.52,
+      "end": 2431.4,
+      "text": "let's turn these on"
+    },
+    {
+      "start": 2434.36,
+      "end": 2435.96,
+      "text": "right let's go for this one now"
+    },
+    {
+      "start": 2442.28,
+      "end": 2444.76,
+      "text": "let's get this looped see if we can improve this"
+    },
+    {
+      "start": 2449.8,
+      "end": 2450.3,
+      "text": "sound"
+    },
+    {
+      "start": 2453.4,
+      "end": 2455.16,
+      "text": "we can definitely improve this sound"
+    },
+    {
+      "start": 2461.56,
+      "end": 2463.72,
+      "text": "that was cool more wide"
+    },
+    {
+      "start": 2465.8,
+      "end": 2470.2,
+      "text": "if I do the same technique as before put a sub under it like that"
+    },
+    {
+      "start": 2471.88,
+      "end": 2472.6,
+      "text": "much better"
+    },
+    {
+      "start": 2472.6,
+      "end": 2481.88,
+      "text": "I just want to quickly check how stereo my drums are"
+    },
+    {
+      "start": 2483.0,
+      "end": 2487.96,
+      "text": "so what I'm doing now is I'm adding obviously lots of stereo interest to this bass"
+    },
+    {
+      "start": 2488.68,
+      "end": 2493.72,
+      "text": "and I want to create a mental image of my head of what's happening in the stereo image"
+    },
+    {
+      "start": 2493.72,
+      "end": 2498.68,
+      "text": "so I'm just going to quickly use my utility for this"
+    },
+    {
+      "start": 2498.76,
+      "end": 2502.68,
+      "text": "um you set this to mid-side"
+    },
+    {
+      "start": 2505.08,
+      "end": 2506.68,
+      "text": "so there's quite a bit going on there"
+    },
+    {
+      "start": 2508.36,
+      "end": 2511.16,
+      "text": "that's my mono signal obviously"
+    },
+    {
+      "start": 2516.92,
+      "end": 2519.4,
+      "text": "it's okay yeah lots of high-end interest"
+    },
+    {
+      "start": 2520.12,
+      "end": 2523.08,
+      "text": "so I just wanted to avoid any kind of clashing there"
+    },
+    {
+      "start": 2524.6,
+      "end": 2526.6,
+      "text": "let's go back and un-solo this"
+    },
+    {
+      "start": 2529.24,
+      "end": 2530.36,
+      "text": "cool so let's get some"
+    },
+    {
+      "start": 2532.44,
+      "end": 2538.44,
+      "text": "let's get some sub under this I'm going to do exactly the same way as I did before I think so"
+    },
+    {
+      "start": 2539.88,
+      "end": 2544.84,
+      "text": "grouped this my utility was just turning it down because it had that really annoying release"
+    },
+    {
+      "start": 2544.84,
+      "end": 2550.12,
+      "text": "on it um let's duplicate this"
+    },
+    {
+      "start": 2559.0,
+      "end": 2571.56,
+      "text": "let's take this mono as well I can also take this this off as well"
+    },
+    {
+      "start": 2575.64,
+      "end": 2582.92,
+      "text": "what's making it sound like here we go why is there a click on it"
+    },
+    {
+      "start": 2589.64,
+      "end": 2597.16,
+      "text": "I think that's the side chain let's have a listen"
+    },
+    {
+      "start": 2605.16,
+      "end": 2618.52,
+      "text": "nope"
+    },
+    {
+      "start": 2619.24,
+      "end": 2626.6,
+      "text": "that sounds nice to me"
+    },
+    {
+      "start": 2629.0,
+      "end": 2632.04,
+      "text": "it's kind of funny because I don't typically do this"
+    },
+    {
+      "start": 2633.0,
+      "end": 2638.04,
+      "text": "as in layering a sub under it I always try and use one patch but for some reason it's"
+    },
+    {
+      "start": 2638.04,
+      "end": 2641.64,
+      "text": "sounding pretty okay to me so far this this technique"
+    },
+    {
+      "start": 2643.32,
+      "end": 2646.28,
+      "text": "the only thing that's really annoying me is the clicks at the moment so I have to"
+    },
+    {
+      "start": 2646.84,
+      "end": 2651.08,
+      "text": "find a solution for that let's check this out in the mix"
+    },
+    {
+      "start": 2655.0,
+      "end": 2656.68,
+      "text": "cool that's sounding way better"
+    },
+    {
+      "start": 2660.36,
+      "end": 2666.68,
+      "text": "cool cool cool um so I still need to fix the clicks but I don't want to get into that now"
+    },
+    {
+      "start": 2669.4,
+      "end": 2670.92,
+      "text": "it might be a workflow killer"
+    },
+    {
+      "start": 2671.24,
+      "end": 2677.48,
+      "text": "let's see what's going on here very cool sound actually"
+    },
+    {
+      "start": 2679.56,
+      "end": 2682.12,
+      "text": "what's going on with this sub sounds very weak"
+    },
+    {
+      "start": 2684.52,
+      "end": 2688.76,
+      "text": "again lots of clicks very frustrating"
+    },
+    {
+      "start": 2694.44,
+      "end": 2698.76,
+      "text": "let's check this"
+    },
+    {
+      "start": 2701.16,
+      "end": 2707.16,
+      "text": "interesting I think I had it on off"
+    },
+    {
+      "start": 2708.84,
+      "end": 2711.56,
+      "text": "and that already sounds much better let's check that out"
+    },
+    {
+      "start": 2716.44,
+      "end": 2720.36,
+      "text": "that's sounding good to me what's this vocoder doing"
+    },
+    {
+      "start": 2723.88,
+      "end": 2726.52,
+      "text": "hmm it's definitely adding something"
+    },
+    {
+      "start": 2727.24,
+      "end": 2731.88,
+      "text": "I want to get this a bit louder I think"
+    },
+    {
+      "start": 2735.32,
+      "end": 2736.84,
+      "text": "can we just turn it up let's see"
+    },
+    {
+      "start": 2743.48,
+      "end": 2749.72,
+      "text": "okay so one thing I'm noticing is this this base is really wide and then this one kind of"
+    },
+    {
+      "start": 2750.28,
+      "end": 2753.48,
+      "text": "is somewhere in the middle and there's not really a kind of"
+    },
+    {
+      "start": 2754.2,
+      "end": 2759.08,
+      "text": "connection between them like literally sounds like two baselines and in some instances that"
+    },
+    {
+      "start": 2759.08,
+      "end": 2766.12,
+      "text": "can sound cool but I'm wondering if we can kind of gel them together somehow"
+    },
+    {
+      "start": 2769.32,
+      "end": 2770.52,
+      "text": "let's isolate these"
+    },
+    {
+      "start": 2773.4,
+      "end": 2777.48,
+      "text": "okay already they're they're working much much much better than they were before"
+    },
+    {
+      "start": 2778.76,
+      "end": 2780.84,
+      "text": "so it's good to make that progress"
+    },
+    {
+      "start": 2783.96,
+      "end": 2787.24,
+      "text": "so I'm constantly questioning what I'm doing constantly"
+    },
+    {
+      "start": 2789.8,
+      "end": 2791.48,
+      "text": "constantly trying to make improvements"
+    },
+    {
+      "start": 2797.48,
+      "end": 2798.92,
+      "text": "what else is going on here"
+    },
+    {
+      "start": 2799.16,
+      "end": 2805.16,
+      "text": "okay"
+    },
+    {
+      "start": 2809.32,
+      "end": 2813.96,
+      "text": "that chorus effect is quite cool remember us doing that"
+    },
+    {
+      "start": 2815.08,
+      "end": 2819.16,
+      "text": "um yeah I like that let's see if it glued together with this one a bit more"
+    },
+    {
+      "start": 2823.0,
+      "end": 2827.16,
+      "text": "sounds even wider that could also be an option where it starts"
+    },
+    {
+      "start": 2829.88,
+      "end": 2833.16,
+      "text": "nice and it would make sense because next is that"
+    },
+    {
+      "start": 2834.68,
+      "end": 2841.72,
+      "text": "next bit one thing I definitely want to fix is this overlapping into the next bar"
+    },
+    {
+      "start": 2841.72,
+      "end": 2846.12,
+      "text": "it's very messy at the moment so I still need to fix those clicks"
+    },
+    {
+      "start": 2846.12,
+      "end": 2858.2,
+      "text": "it's there an erosion on this what's making"
+    },
+    {
+      "start": 2860.52,
+      "end": 2861.64,
+      "text": "high end sounds"
+    },
+    {
+      "start": 2864.36,
+      "end": 2867.32,
+      "text": "sounds very wet let's see how this sounds like"
+    },
+    {
+      "start": 2876.2,
+      "end": 2878.2,
+      "text": "sounds"
+    },
+    {
+      "start": 2882.2,
+      "end": 2887.96,
+      "text": "cool not bad okay cool let's see how this flows into the next section"
+    },
+    {
+      "start": 2897.64,
+      "end": 2903.24,
+      "text": "right the first thing that jumps out to me and it probably also jumps out to you is that"
+    },
+    {
+      "start": 2903.24,
+      "end": 2905.08,
+      "text": "arp is terrible"
+    },
+    {
+      "start": 2909.4,
+      "end": 2916.6,
+      "text": "literally just comes out of nowhere like a bit carnival isn't it so let's see if we can improve that"
+    },
+    {
+      "start": 2922.76,
+      "end": 2930.12,
+      "text": "I think instead of it starting untuned and finishing detuned we want to change that around"
+    },
+    {
+      "start": 2930.92,
+      "end": 2937.8,
+      "text": "so it starts off very detuned and a bit and then it slowly tunes goes back into tune so"
+    },
+    {
+      "start": 2937.8,
+      "end": 2942.04,
+      "text": "let's see where do we do that again chorus swell LFO 2"
+    },
+    {
+      "start": 2942.04,
+      "end": 2943.96,
+      "text": "LFO 2"
+    },
+    {
+      "start": 2954.28,
+      "end": 2956.52,
+      "text": "where was is it chorus swell"
+    },
+    {
+      "start": 2960.6,
+      "end": 2961.96,
+      "text": "LFO 2"
+    },
+    {
+      "start": 2972.84,
+      "end": 2973.96,
+      "text": "LFO 3"
+    },
+    {
+      "start": 2976.44,
+      "end": 2987.96,
+      "text": "let me just loop this for a bit"
+    },
+    {
+      "start": 2987.96,
+      "end": 2989.88,
+      "text": "LFO 4"
+    },
+    {
+      "start": 3000.68,
+      "end": 3001.56,
+      "text": "all that could work"
+    },
+    {
+      "start": 3003.88,
+      "end": 3005.88,
+      "text": "no it can't"
+    },
+    {
+      "start": 3006.04,
+      "end": 3007.8,
+      "text": "LFO 5"
+    },
+    {
+      "start": 3013.48,
+      "end": 3017.96,
+      "text": "I wonder if I can use this Reese thing high drone the first"
+    },
+    {
+      "start": 3024.68,
+      "end": 3025.8,
+      "text": "okay no"
+    },
+    {
+      "start": 3026.2,
+      "end": 3027.72,
+      "text": "LFO 5"
+    },
+    {
+      "start": 3031.08,
+      "end": 3038.76,
+      "text": "all right so this section I'm fairly pleased with at the moment all kind of it sounds like one tune"
+    },
+    {
+      "start": 3041.72,
+      "end": 3047.4,
+      "text": "but this section is not sounding amazing yet"
+    },
+    {
+      "start": 3047.4,
+      "end": 3055.0,
+      "text": "so many clicks can we fix that"
+    },
+    {
+      "start": 3066.92,
+      "end": 3076.36,
+      "text": "cool works much better so I'm just smoothing out the the function on the LFO tool definitely"
+    },
+    {
+      "start": 3076.36,
+      "end": 3078.92,
+      "text": "helps you remove the clicks"
+    },
+    {
+      "start": 3087.72,
+      "end": 3089.24,
+      "text": "how can we improve this now"
+    },
+    {
+      "start": 3092.6,
+      "end": 3097.88,
+      "text": "is there like a low pass on this or something I should remember I only made this yesterday"
+    },
+    {
+      "start": 3100.04,
+      "end": 3100.6,
+      "text": "here we go"
+    },
+    {
+      "start": 3106.36,
+      "end": 3108.28,
+      "text": "LFO 5"
+    },
+    {
+      "start": 3120.44,
+      "end": 3120.76,
+      "text": "better"
+    },
+    {
+      "start": 3125.56,
+      "end": 3128.68,
+      "text": "still want a bit more movement in there though so let's try"
+    },
+    {
+      "start": 3131.16,
+      "end": 3134.12,
+      "text": "um let's try a notch"
+    },
+    {
+      "start": 3136.92,
+      "end": 3138.28,
+      "text": "LFO 5"
+    },
+    {
+      "start": 3141.8,
+      "end": 3143.8,
+      "text": "let's try a band 12"
+    },
+    {
+      "start": 3149.08,
+      "end": 3150.12,
+      "text": "cool that could work"
+    },
+    {
+      "start": 3166.52,
+      "end": 3168.28,
+      "text": "LFO 5"
+    },
+    {
+      "start": 3172.52,
+      "end": 3173.4,
+      "text": "a bit more movement"
+    },
+    {
+      "start": 3179.8,
+      "end": 3181.32,
+      "text": "all right let's check out this one now"
+    },
+    {
+      "start": 3186.84,
+      "end": 3194.44,
+      "text": "so the sub gets a bit lost compared compared to the others let's have a look"
+    },
+    {
+      "start": 3197.32,
+      "end": 3206.44,
+      "text": "I think it's just the distortion to be honest so much distortion"
+    },
+    {
+      "start": 3218.92,
+      "end": 3219.32,
+      "text": "better"
+    },
+    {
+      "start": 3219.32,
+      "end": 3226.44,
+      "text": "I wonder if we can get this any louder as well"
+    },
+    {
+      "start": 3228.04,
+      "end": 3228.52,
+      "text": "let's go"
+    },
+    {
+      "start": 3232.76,
+      "end": 3234.52,
+      "text": "I'm going to change the kick as well"
+    },
+    {
+      "start": 3237.8,
+      "end": 3240.04,
+      "text": "use the low one but not sure"
+    },
+    {
+      "start": 3244.52,
+      "end": 3247.0,
+      "text": "now right let's dump the F kick"
+    },
+    {
+      "start": 3250.28,
+      "end": 3251.56,
+      "text": "it was a good idea but"
+    },
+    {
+      "start": 3265.16,
+      "end": 3267.32,
+      "text": "right definitely an improvement"
+    },
+    {
+      "start": 3269.08,
+      "end": 3274.68,
+      "text": "now what I'm going to do is look through some effects I want to see if I can"
+    },
+    {
+      "start": 3280.28,
+      "end": 3282.6,
+      "text": "I want to see if I can improve this somehow"
+    },
+    {
+      "start": 3289.4,
+      "end": 3293.0,
+      "text": "so when I mean my effects I mean like little reverse things like"
+    },
+    {
+      "start": 3295.88,
+      "end": 3296.68,
+      "text": "something like that"
+    },
+    {
+      "start": 3297.56,
+      "end": 3310.04,
+      "text": "so we're tuning I normally do this by ear"
+    },
+    {
+      "start": 3320.28,
+      "end": 3321.96,
+      "text": "sounds a bit spaceship to me"
+    },
+    {
+      "start": 3322.84,
+      "end": 3332.84,
+      "text": "okay that could work"
+    },
+    {
+      "start": 3345.4,
+      "end": 3346.68,
+      "text": "definitely doesn't need it that"
+    },
+    {
+      "start": 3347.48,
+      "end": 3353.56,
+      "text": "it's very quiet"
+    },
+    {
+      "start": 3370.52,
+      "end": 3371.96,
+      "text": "let's give these a go should we"
+    },
+    {
+      "start": 3376.92,
+      "end": 3385.96,
+      "text": "maybe this works on that last one"
+    },
+    {
+      "start": 3389.24,
+      "end": 3392.6,
+      "text": "but too much it's gonna randomly shorten it"
+    },
+    {
+      "start": 3399.32,
+      "end": 3400.2,
+      "text": "not big fan"
+    },
+    {
+      "start": 3401.16,
+      "end": 3411.08,
+      "text": "this is from an unfinished tune I did"
+    },
+    {
+      "start": 3419.4,
+      "end": 3421.08,
+      "text": "nothing great in there"
+    },
+    {
+      "start": 3430.52,
+      "end": 3436.2,
+      "text": "okay cool"
+    },
+    {
+      "start": 3441.8,
+      "end": 3444.52,
+      "text": "okay shouldn't be turning this up plus six"
+    },
+    {
+      "start": 3446.52,
+      "end": 3451.88,
+      "text": "and although the sample is quite soft but I think I need to do a review of the level soon"
+    },
+    {
+      "start": 3455.08,
+      "end": 3456.44,
+      "text": "maybe that goes before the drop"
+    },
+    {
+      "start": 3460.92,
+      "end": 3466.52,
+      "text": "I'm still not happy with this up yet"
+    },
+    {
+      "start": 3477.24,
+      "end": 3479.0,
+      "text": "I think I'm gonna leave it like that for now"
+    },
+    {
+      "start": 3486.28,
+      "end": 3487.48,
+      "text": "like come in handy"
+    },
+    {
+      "start": 3490.52,
+      "end": 3497.0,
+      "text": "cool that's very intense like that"
+    },
+    {
+      "start": 3497.72,
+      "end": 3502.52,
+      "text": "it's down on that a bit I just want to make a little fade in here I don't want to"
+    },
+    {
+      "start": 3503.8,
+      "end": 3508.12,
+      "text": "I don't want to have this rammed I mean look at this waveform it's already blown up and"
+    },
+    {
+      "start": 3508.12,
+      "end": 3511.32,
+      "text": "after it there's going to come a huge amount of energy so"
+    },
+    {
+      "start": 3521.32,
+      "end": 3525.16,
+      "text": "I think we can improve the the punch"
+    },
+    {
+      "start": 3527.72,
+      "end": 3532.84,
+      "text": "but that'll come with our mix now so we can think about that later"
+    },
+    {
+      "start": 3533.56,
+      "end": 3537.72,
+      "text": "some way to get this kick a bit more"
+    },
+    {
+      "start": 3549.32,
+      "end": 3551.16,
+      "text": "just double check my sidechain a sec"
+    },
+    {
+      "start": 3557.16,
+      "end": 3560.76,
+      "text": "maybe I don't need a really long sidechain well we're gonna cover this in a minute"
+    },
+    {
+      "start": 3563.24,
+      "end": 3576.44,
+      "text": "right so we are making progress the drop is already sounding okay"
+    },
+    {
+      "start": 3577.48,
+      "end": 3583.96,
+      "text": "I'm kind of liking how the build-up sounds as well so far the really intense this section"
+    },
+    {
+      "start": 3584.68,
+      "end": 3588.12,
+      "text": "that's sounding very great cool and it's definitely working already"
+    },
+    {
+      "start": 3588.84,
+      "end": 3594.52,
+      "text": "that bit's working already the only bit I'm disliking now is this section"
+    },
+    {
+      "start": 3598.52,
+      "end": 3599.56,
+      "text": "this last bit's cool"
+    },
+    {
+      "start": 3601.4,
+      "end": 3609.4,
+      "text": "but this bass is still not great so let's see if we can improve that"
+    },
+    {
+      "start": 3609.4,
+      "end": 3621.32,
+      "text": "I think this is very mono as well so maybe we can in keeping with the rest of the bass sounds we can"
+    },
+    {
+      "start": 3621.32,
+      "end": 3625.24,
+      "text": "join"
+    },
+    {
+      "start": 3631.08,
+      "end": 3631.64,
+      "text": "interesting"
+    },
+    {
+      "start": 3634.2,
+      "end": 3645.88,
+      "text": "oh that sounds cool so um I just put the hype dimension on serum and I've left the mix up"
+    },
+    {
+      "start": 3646.76,
+      "end": 3648.2,
+      "text": "so it's almost phasing"
+    },
+    {
+      "start": 3652.2,
+      "end": 3679.24,
+      "text": "I like that it sounds almost like pan to the left and right but it's giving a very"
+    },
+    {
+      "start": 3680.04,
+      "end": 3688.2,
+      "text": "unique effect and if you notice my sub is directly being sent out so that's mono"
+    },
+    {
+      "start": 3689.32,
+      "end": 3690.04,
+      "text": "unfazed"
+    },
+    {
+      "start": 3697.56,
+      "end": 3700.04,
+      "text": "yeah it's a bit sounds a bit panned"
+    },
+    {
+      "start": 3709.24,
+      "end": 3722.04,
+      "text": "such a huge difference"
+    },
+    {
+      "start": 3739.48,
+      "end": 3742.04,
+      "text": "so"
+    },
+    {
+      "start": 3748.28,
+      "end": 3750.04,
+      "text": "where was this low pass"
+    },
+    {
+      "start": 3762.92,
+      "end": 3768.52,
+      "text": "so I'm just going to AB this definitely an improvement definitely sounds interesting I'm"
+    },
+    {
+      "start": 3768.52,
+      "end": 3770.12,
+      "text": "not sure it's the final thing yet"
+    },
+    {
+      "start": 3773.4,
+      "end": 3777.8,
+      "text": "the unison is very weird maybe let's pick a three instead"
+    },
+    {
+      "start": 3784.04,
+      "end": 3786.28,
+      "text": "yeah number two unison works"
+    },
+    {
+      "start": 3787.24,
+      "end": 3788.04,
+      "text": "I think"
+    },
+    {
+      "start": 3797.48,
+      "end": 3806.04,
+      "text": "oh that could be quite cool as well let's see if we can put this just on the last bar"
+    },
+    {
+      "start": 3816.28,
+      "end": 3826.04,
+      "text": "so"
+    },
+    {
+      "start": 3830.76,
+      "end": 3836.52,
+      "text": "not bad definitely sounds more interesting I'm not sure I'm like yes that's the one but"
+    },
+    {
+      "start": 3837.16,
+      "end": 3843.96,
+      "text": "I think in some respects what you have to do is look at the sound objectively and think okay"
+    },
+    {
+      "start": 3844.44,
+      "end": 3849.96,
+      "text": "does it sound more interesting does it fit the tune more does it fit with the rest of"
+    },
+    {
+      "start": 3849.96,
+      "end": 3854.52,
+      "text": "sounds that are around it and I think it does tickle those boxes what I just said"
+    },
+    {
+      "start": 3864.92,
+      "end": 3867.32,
+      "text": "cool oh wow that release really annoys me"
+    },
+    {
+      "start": 3867.48,
+      "end": 3877.4,
+      "text": "I think what we might do is bring that up in layer for a whole section rather than just have"
+    },
+    {
+      "start": 3877.4,
+      "end": 3878.12,
+      "text": "it for two bars"
+    },
+    {
+      "start": 3880.84,
+      "end": 3882.12,
+      "text": "oh yeah cool that was my"
+    },
+    {
+      "start": 3889.24,
+      "end": 3890.52,
+      "text": "I'm gonna turn this up a bit"
+    },
+    {
+      "start": 3890.68,
+      "end": 3895.16,
+      "text": "let's also"
+    },
+    {
+      "start": 3897.8,
+      "end": 3899.88,
+      "text": "try something cool with this"
+    },
+    {
+      "start": 3902.52,
+      "end": 3909.16,
+      "text": "there is a cool plugin and I've never used this plugin so we can do it together"
+    },
+    {
+      "start": 3910.28,
+      "end": 3917.4,
+      "text": "it's a granular synth or granular tool from max for life"
+    },
+    {
+      "start": 3920.68,
+      "end": 3921.16,
+      "text": "so"
+    },
+    {
+      "start": 3925.48,
+      "end": 3934.36,
+      "text": "granulator I think it's called there we go granulator two okay let me make a quick"
+    },
+    {
+      "start": 3951.24,
+      "end": 3954.36,
+      "text": "oh"
+    },
+    {
+      "start": 3959.4,
+      "end": 3970.36,
+      "text": "cool all right let me just drop granular here"
+    },
+    {
+      "start": 3970.92,
+      "end": 3973.8,
+      "text": "faster"
+    },
+    {
+      "start": 3976.68,
+      "end": 3981.8,
+      "text": "I'm sure there's quite a way to do this actually you only realize until you're halfway through"
+    },
+    {
+      "start": 3981.8,
+      "end": 3984.68,
+      "text": "though and then you think well I'm halfway through a meso carry on"
+    },
+    {
+      "start": 3986.52,
+      "end": 3993.4,
+      "text": "cool so I think we can just grab this into granular here is that possible"
+    },
+    {
+      "start": 3993.72,
+      "end": 4004.36,
+      "text": "oh yes fantastic and what we can do with this is we can add some granular goodness to it"
+    },
+    {
+      "start": 4004.36,
+      "end": 4010.92,
+      "text": "which is if you don't know or granular is get on youtube have a quick look it's almost like a"
+    },
+    {
+      "start": 4010.92,
+      "end": 4013.24,
+      "text": "sample of it re-triggers"
+    },
+    {
+      "start": 4017.64,
+      "end": 4018.76,
+      "text": "that's the same right"
+    },
+    {
+      "start": 4022.84,
+      "end": 4024.44,
+      "text": "you're cool so"
+    },
+    {
+      "start": 4035.64,
+      "end": 4036.84,
+      "text": "which is kind of cool"
+    },
+    {
+      "start": 4037.24,
+      "end": 4040.76,
+      "text": "let's see what this sounds like"
+    },
+    {
+      "start": 4059.32,
+      "end": 4060.6,
+      "text": "don't think it's the right tune"
+    },
+    {
+      "start": 4061.0,
+      "end": 4067.4,
+      "text": "you can tell you can tell what kind of cool sounds you can make with that"
+    },
+    {
+      "start": 4068.44,
+      "end": 4077.8,
+      "text": "cool so I just think that I think will work just like that cool so let's give a listen from the start"
+    },
+    {
+      "start": 4078.76,
+      "end": 4082.68,
+      "text": "start till finish let's loop it a couple of times and let's say we can prove"
+    },
+    {
+      "start": 4083.24,
+      "end": 4089.08,
+      "text": "and then what we're going to do is I think we're going to try and improve this build up"
+    },
+    {
+      "start": 4089.16,
+      "end": 4094.76,
+      "text": "we've got the drop and then we can start building it out I think we need to add the arp"
+    },
+    {
+      "start": 4094.76,
+      "end": 4099.16,
+      "text": "I want to bring the melody in somewhere again if I can so let's see how we can go with that"
+    },
+    {
+      "start": 4099.16,
+      "end": 4105.0,
+      "text": "let's run from the start to finish though so just want to listen through it"
+    },
+    {
+      "start": 4119.08,
+      "end": 4123.0,
+      "text": "like this good"
+    },
+    {
+      "start": 4149.08,
+      "end": 4153.0,
+      "text": "oh yeah"
+    },
+    {
+      "start": 4179.4,
+      "end": 4188.44,
+      "text": "okay something's glitching out there thanks Ableton just ruined the moment"
+    },
+    {
+      "start": 4192.36,
+      "end": 4205.0,
+      "text": "what's going on I think I just accidentally deleted a section did I let me double check"
+    },
+    {
+      "start": 4205.96,
+      "end": 4213.32,
+      "text": "the wonders of producing right so I'm going to retrieve this get this back again take a little"
+    },
+    {
+      "start": 4213.32,
+      "end": 4218.44,
+      "text": "take a little break get some fresh air and then when I come back with you we're going to review"
+    },
+    {
+      "start": 4218.44,
+      "end": 4224.92,
+      "text": "what we need to fix with this intro and then build out the rest of the tune"
+    }
+  ]
+}

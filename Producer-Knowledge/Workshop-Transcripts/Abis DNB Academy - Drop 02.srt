@@ -1,0 +1,1884 @@
+1
+00:00:00,000 --> 00:00:26,880
+Let's see what this sounds like, nope that didn't sound good, alright why is it sounding
+
+2
+00:00:26,880 --> 00:00:52,960
+messy here, ok cool so these are not in time, cool maybe these don't, I think it just gets
+
+3
+00:00:52,960 --> 00:01:18,840
+a bit messy here, just looking for that ring, you can just see it there, just my ears just
+
+4
+00:01:18,840 --> 00:01:30,880
+picked that up then, oh that's better, right I'm still not convinced with the pin to funk
+
+5
+00:01:30,880 --> 00:01:37,960
+hi-hats but let's keep them in there for now, I'm going to clean this up, I'm going to save
+
+6
+00:01:37,960 --> 00:01:48,560
+it quickly, let's try and improve this snare now.
+
+7
+00:01:48,560 --> 00:01:55,720
+So if you remember I made one of the white noises quite short, oops don't know what I've
+
+8
+00:02:26,720 --> 00:02:31,240
+was just listening to there is the tail with the white noise and all of a sudden it had
+
+9
+00:02:31,240 --> 00:02:38,400
+this kind of resonance in there, gave me an idea, wondering if I could like add a ding to
+
+10
+00:02:38,400 --> 00:02:45,000
+the snare, there's a couple of ways we can do that, what I'm going to do is I'm going
+
+11
+00:02:45,000 --> 00:02:56,280
+to duplicate the sine wave, let's dump this at the bottom and I'm just going to literally
+
+12
+00:02:56,280 --> 00:03:14,360
+add a ring, so our fundamental is C, that's where the snare is hitting, so if we do, so
+
+13
+00:03:14,360 --> 00:03:26,920
+that's C, so C sharp D, D sharp E F, so that's 1, 2, 3, 4, 5, if we go plus 5 and 2 down that
+
+14
+00:03:26,920 --> 00:03:39,400
+should be an F, let's confirm that with an EQ, it's quite high though, that is an F, how
+
+15
+00:03:39,400 --> 00:03:51,640
+does that sound? Let's put a little, I'm going to remove this, actually I'll keep that on, this
+
+16
+00:03:51,640 --> 00:03:55,440
+is the pitch envelope by the way, master tune, I'm going to take this, I want to...
+
+17
+00:04:09,400 --> 00:04:30,840
+it's a bit too much distortion on this I think, so let's ease up on that, cool, this might be better,
+
+18
+00:04:30,840 --> 00:04:51,720
+doesn't sound great, but let's hear it in the mix, nope I do not like that at all, okay let's try
+
+19
+00:04:51,800 --> 00:05:04,120
+another example, I have, what we can do is let's try some frequency shifting,
+
+20
+00:05:15,640 --> 00:05:16,760
+try something like this,
+
+21
+00:05:22,360 --> 00:05:23,640
+sounds weird,
+
+22
+00:05:32,520 --> 00:05:34,040
+okay that doesn't sound great,
+
+23
+00:05:37,400 --> 00:05:39,960
+right let's try some convolution reverb,
+
+24
+00:05:39,960 --> 00:05:43,400
+oh thank you pardon,
+
+25
+00:05:47,240 --> 00:05:56,600
+so if you go to my Facebook page I did a session on how I go about making my convolution reverb
+
+26
+00:05:56,600 --> 00:06:03,960
+impulses, convolution reverb is a very cool tool because it allows you to actually load in your
+
+27
+00:06:03,960 --> 00:06:11,320
+impulses, so what I do is I make a sine wave and add white noise to it and as you can see here I've
+
+28
+00:06:11,320 --> 00:06:23,080
+made an impulse for every single note on the scale, so why isn't it working?
+
+29
+00:06:23,080 --> 00:06:32,840
+strange, hold on let's see if I can get this to work,
+
+30
+00:06:44,200 --> 00:06:50,200
+the reason it's not working I think was because it was on the wrong channel, brilliant
+
+31
+00:06:53,320 --> 00:06:58,040
+here we go, right so as you can hear
+
+32
+00:07:00,680 --> 00:07:08,920
+there's a huge difference in sound, so I can choose all my impulses, these impulses are tuned,
+
+33
+00:07:08,920 --> 00:07:17,480
+so if I wanted F like I was trying before, maybe a higher one, how does that sound?
+
+34
+00:07:18,440 --> 00:07:21,160
+okay it's sounding a bit over the top,
+
+35
+00:07:23,960 --> 00:07:28,040
+kind of like that, let's try a G sharp four,
+
+36
+00:07:31,160 --> 00:07:32,360
+this is kind of cool,
+
+37
+00:07:35,160 --> 00:07:39,240
+so with convolution reverb if I
+
+38
+00:07:39,800 --> 00:07:46,840
+currently got this set to about 17% it was
+
+39
+00:07:51,560 --> 00:07:58,760
+and this audio file is very long, the tail is also very long, like I've got the length
+
+40
+00:07:59,560 --> 00:08:05,560
+set to a very short amount if I leave this open
+
+41
+00:08:09,880 --> 00:08:16,040
+it's very long, right so I always find it very difficult to
+
+42
+00:08:19,320 --> 00:08:24,440
+I always find it very difficult to control that the envelope
+
+43
+00:08:28,840 --> 00:08:35,560
+so what I want to do first I want to make sure I'm happy with the actual impulse I've selected
+
+44
+00:08:35,560 --> 00:08:40,440
+and then I'm just going to record this in 100% wet and then mix it in with the original one,
+
+45
+00:08:40,440 --> 00:08:43,160
+so the first thing I want to do is make sure I've got the right impulse,
+
+46
+00:08:44,120 --> 00:08:45,880
+it's kind of like in G sharp four
+
+47
+00:08:51,160 --> 00:08:51,880
+maybe a G
+
+48
+00:08:59,720 --> 00:09:12,600
+let's just listen to that in context for a sec
+
+49
+00:09:21,720 --> 00:09:27,800
+I think the G sharp is going to be a little bit confusing musically, a bit too much going on
+
+50
+00:09:27,800 --> 00:09:37,000
+probably so let's just go cool let's roll with an F for now and then I'm going to leave this impulse on
+
+51
+00:09:37,960 --> 00:09:46,120
+and then every time I kind of change the melody I can also tune this convolution
+
+52
+00:09:46,120 --> 00:09:53,800
+basically to that section which is amazing so I'm going to quickly make a new audio file set
+
+53
+00:09:53,800 --> 00:10:01,400
+that to resample record I just want to make sure I've got nothing else armed yeah that's good
+
+54
+00:10:02,200 --> 00:10:03,240
+right let's record this in
+
+55
+00:10:05,480 --> 00:10:10,360
+oh I'm recording everything I want to solo this let's go
+
+56
+00:10:14,680 --> 00:10:20,760
+I also want this set to 100% wet otherwise it completely defeats the purpose
+
+57
+00:10:20,760 --> 00:10:21,800
+third time lucky guys
+
+58
+00:10:26,600 --> 00:10:27,000
+good
+
+59
+00:10:31,320 --> 00:10:34,040
+all right so now I've got a little bit more control with
+
+60
+00:10:37,800 --> 00:10:40,200
+a little bit more control of my envelopes now
+
+61
+00:10:41,080 --> 00:10:52,760
+sorry my google drive keeps giving me warnings thanks
+
+62
+00:10:58,120 --> 00:11:01,000
+cool right now I could take a bit low end out of this
+
+63
+00:11:05,560 --> 00:11:07,480
+I think that might be good enough let's listen
+
+64
+00:11:10,360 --> 00:11:13,960
+right I'll take this off what a difference
+
+65
+00:11:20,440 --> 00:11:25,560
+yeah so I literally use this technique on a lot of my snares and a lot of people ask me
+
+66
+00:11:25,560 --> 00:11:28,680
+how do you get that kind of ringy sound that's how you get it
+
+67
+00:11:29,160 --> 00:11:36,680
+all right let's check this out shall we
+
+68
+00:11:43,160 --> 00:11:44,360
+it could be a bit longer I think
+
+69
+00:11:44,360 --> 00:12:02,760
+cool right next job let's copy these things over
+
+70
+00:12:04,920 --> 00:12:05,640
+yeah lovely
+
+71
+00:12:05,640 --> 00:12:12,600
+so I want to get all my hi hats I've got nothing
+
+72
+00:12:14,680 --> 00:12:22,040
+nothing muted now I'm using all of these so let's roll with this duplicate duplicate duplicate
+
+73
+00:12:28,840 --> 00:12:30,920
+all right there's something weird going on the hi hats here
+
+74
+00:12:36,600 --> 00:12:37,560
+I think
+
+75
+00:12:41,560 --> 00:12:44,840
+I think this bass could be improved loads as well
+
+76
+00:12:46,760 --> 00:12:52,440
+so I just listened to that section and my thought process was wow that sounds terrible
+
+77
+00:12:52,440 --> 00:12:57,640
+why does it sound terrible first thought was okay maybe something to do with those hi hats
+
+78
+00:12:58,520 --> 00:13:03,240
+but I think a lot more productive approach is to fix this bass first
+
+79
+00:13:06,360 --> 00:13:07,240
+so
+
+80
+00:13:11,240 --> 00:13:13,240
+could be definitely a lot louder
+
+81
+00:13:25,400 --> 00:13:26,760
+so that master tune
+
+82
+00:13:26,760 --> 00:13:33,880
+how does this sound actually
+
+83
+00:13:47,800 --> 00:13:52,520
+I might just leave a hole in there in the bass because the kick's there
+
+84
+00:13:56,760 --> 00:14:02,520
+so
+
+85
+00:14:12,520 --> 00:14:15,560
+cool let's try and improve this first and then we can figure that out later
+
+86
+00:14:16,760 --> 00:14:17,160
+so
+
+87
+00:14:17,160 --> 00:14:30,920
+sounds very far behind and flat
+
+88
+00:14:47,800 --> 00:15:01,400
+let's try and push it a bit harder I think so I'm going to use tube driver
+
+89
+00:15:06,360 --> 00:15:07,240
+that might be better
+
+90
+00:15:10,360 --> 00:15:11,880
+I'm going to take a bit of this mid out
+
+91
+00:15:17,800 --> 00:15:28,920
+so
+
+92
+00:15:33,240 --> 00:15:34,920
+let's roll it out and see what we get to
+
+93
+00:15:35,480 --> 00:15:51,800
+so I maybe want to try and leave a bit of space between
+
+94
+00:15:55,480 --> 00:15:58,680
+this section let's see what this sounds like
+
+95
+00:15:59,000 --> 00:16:14,440
+maybe we could make this section longer as well
+
+96
+00:16:15,320 --> 00:16:26,200
+okay so
+
+97
+00:16:27,800 --> 00:16:32,920
+maybe let's try and get some more of our existing bass sounds in might replace this sound
+
+98
+00:16:35,080 --> 00:16:37,320
+let's drop a few of these in
+
+99
+00:16:44,440 --> 00:16:45,560
+what did this sound like
+
+100
+00:16:52,920 --> 00:16:54,360
+not sure that's gonna fit but
+
+101
+00:16:59,080 --> 00:16:59,640
+could work
+
+102
+00:17:02,920 --> 00:17:12,040
+G sharp C okay the B is out of scale so if we try E
+
+103
+00:17:14,440 --> 00:17:20,040
+so
+
+104
+00:17:35,560 --> 00:17:40,040
+kind of works
+
+105
+00:17:44,520 --> 00:17:46,840
+I'm going to leave that there for now I can improve it
+
+106
+00:17:48,600 --> 00:17:58,040
+or we can use it somewhere else let's just throw it in randomly and see
+
+107
+00:18:00,520 --> 00:18:06,040
+what's going on with this audio file actually it's a weird position
+
+108
+00:18:14,600 --> 00:18:18,040
+okay something weird just went on there
+
+109
+00:18:27,400 --> 00:18:31,640
+okay cool quite like this last one the first one is a bit
+
+110
+00:18:33,080 --> 00:18:36,040
+this sounds a bit like carnivore something
+
+111
+00:18:36,040 --> 00:18:45,080
+I like that at the end that's cool
+
+112
+00:18:52,360 --> 00:19:01,640
+not bad let's see how this sounds here
+
+113
+00:19:06,840 --> 00:19:11,640
+could work actually
+
+114
+00:19:13,960 --> 00:19:14,840
+let's give it a go
+
+115
+00:19:17,160 --> 00:19:31,640
+maybe let's just remove this one
+
+116
+00:19:36,360 --> 00:19:49,640
+okay not sure about that we'll keep it in there has some potential for the pre-drop sound
+
+117
+00:19:58,200 --> 00:20:02,520
+that also has potential for somewhere oops
+
+118
+00:20:06,040 --> 00:20:13,640
+okay
+
+119
+00:20:26,280 --> 00:20:31,640
+what note was this D sharp let's go with E
+
+120
+00:20:36,760 --> 00:20:42,760
+nope right let's get rid of those we tried okay number eight
+
+121
+00:20:47,400 --> 00:20:50,840
+so we're still sketching still sketching trying to find the breakthrough
+
+122
+00:20:53,640 --> 00:21:01,640
+interesting
+
+123
+00:21:06,360 --> 00:21:09,640
+oh
+
+124
+00:21:16,520 --> 00:21:19,480
+love that ending isn't that the same that
+
+125
+00:21:21,160 --> 00:21:28,120
+nope cool now why does that sound good like it's meant to be
+
+126
+00:21:30,520 --> 00:21:34,360
+the reason why is because our fundamental is a G
+
+127
+00:21:34,600 --> 00:21:43,160
+root note is E we put the root note E which is in scale F harmonic minor
+
+128
+00:21:44,600 --> 00:21:52,280
+but I think I think I know from doing this quite a lot that that harmonic you're hearing
+
+129
+00:21:57,400 --> 00:21:59,320
+that harmonic you're hearing is a G
+
+130
+00:21:59,720 --> 00:22:02,920
+and let's have a look
+
+131
+00:22:08,120 --> 00:22:16,920
+okay there's a little
+
+132
+00:22:17,320 --> 00:22:22,520
+okay
+
+133
+00:22:28,920 --> 00:22:29,720
+quite complex
+
+134
+00:22:34,120 --> 00:22:36,520
+what's seven doing
+
+135
+00:22:42,520 --> 00:22:44,520
+okay that doesn't sound great
+
+136
+00:22:47,640 --> 00:22:51,080
+I think I'll keep it
+
+137
+00:22:53,560 --> 00:22:58,520
+keep it as it was right cool so we are making progress
+
+138
+00:23:07,800 --> 00:23:14,120
+only thing I'm really still disliking is this bar here so there's a couple of things we can do
+
+139
+00:23:14,840 --> 00:23:21,800
+continue working on this sound for a while or we could move on and then build out the tune
+
+140
+00:23:22,600 --> 00:23:27,400
+now I'm the type of person that would like to sit on this loop for a little longer
+
+141
+00:23:28,360 --> 00:23:34,280
+so I'm going to spend an hour offline to see if I can improve this
+
+142
+00:23:36,600 --> 00:23:42,920
+try and improve this section I'm gonna spend an hour going through my old samples to see if
+
+143
+00:23:42,920 --> 00:23:48,360
+I can find something that jumps out ideally I want something percussive like the dun-dun-dun-dun-dun
+
+144
+00:23:49,080 --> 00:23:58,200
+because this is very very long moving and I like to compliment that with a percussive
+
+145
+00:23:58,200 --> 00:24:05,480
+something percussive after it cool so I'll be back to you and I'll see where we've got from there
+
+146
+00:24:06,600 --> 00:24:09,240
+right I think I've got something a bit better than we had
+
+147
+00:24:10,200 --> 00:24:16,040
+literally didn't tell me long just went through my presets I've got a big selection of presets I've
+
+148
+00:24:16,040 --> 00:24:25,800
+saved here over the last couple of weeks and literally I just kept the same setting so previously
+
+149
+00:24:25,800 --> 00:24:36,440
+we had the stabby ones and I literally duplicated it and clicked the third preset I came across
+
+150
+00:24:36,440 --> 00:24:45,320
+and I was like okay that works a lot better so there's a lot more detail in the stereo field
+
+151
+00:24:45,320 --> 00:24:48,200
+as well so you can definitely utilize that
+
+152
+00:24:55,560 --> 00:25:02,040
+cool so I'm going to get rid of this old one one thing I want to do is try and energize this up
+
+153
+00:25:02,040 --> 00:25:12,280
+a bit I want to try and utilize some ghost snares I think maybe we could already use the existing snare
+
+154
+00:25:12,280 --> 00:25:22,520
+let's see
+
+155
+00:25:33,160 --> 00:25:38,840
+kind of cool I'm gonna see if I can use another another snare in that place
+
+156
+00:25:39,800 --> 00:25:51,080
+um we already have some shuffles in here that it's really important not to actually that one's muted
+
+157
+00:25:51,080 --> 00:26:01,080
+let's see
+
+158
+00:26:02,040 --> 00:26:05,320
+okay
+
+159
+00:26:15,080 --> 00:26:21,320
+just think that slows it down a bit and we're gonna on the next bar we're gonna jump into something new
+
+160
+00:26:21,720 --> 00:26:27,560
+I'm gonna keep this like like this for now
+
+161
+00:26:30,360 --> 00:26:37,240
+let's duplicate this setting actually what I'm gonna do is I'm going to group these
+
+162
+00:26:38,600 --> 00:26:44,440
+what I hear in my head is a kind of synth over the top of this I mean literally this is just
+
+163
+00:26:45,080 --> 00:27:00,680
+drums and bass which is fine but I want to try and spice up a bit so I'm gonna duplicate my bass patch
+
+164
+00:27:01,080 --> 00:27:10,920
+I try something like this
+
+165
+00:27:15,240 --> 00:27:24,920
+I don't want the initial hit though
+
+166
+00:27:25,480 --> 00:27:35,720
+cool so let's use a different filter instead and try and see if we can get
+
+167
+00:27:35,720 --> 00:27:41,160
+something cool going with that
+
+168
+00:27:48,040 --> 00:27:53,160
+I'm gonna put this one really wide
+
+169
+00:27:55,880 --> 00:28:07,160
+now I listen to it in context I'm not sure it's going to work
+
+170
+00:28:15,880 --> 00:28:19,160
+it's not sounding amazing let's take the guitar off
+
+171
+00:28:25,560 --> 00:28:37,160
+let's go a bit higher up on the
+
+172
+00:28:48,280 --> 00:28:51,160
+cool let's add a wavetable
+
+173
+00:28:55,640 --> 00:29:05,720
+could be cool could be cool let's let's remove these and cut some low end out to see what it sounds like
+
+174
+00:29:10,440 --> 00:29:11,320
+let's mix it in
+
+175
+00:29:16,680 --> 00:29:19,240
+gives it a bit more detail I'm not happy with that yet but
+
+176
+00:29:19,560 --> 00:29:26,920
+it just makes it it makes it more interesting to my ears I'm not happy with the I'm going to come
+
+177
+00:29:26,920 --> 00:29:33,320
+back to that I just want to see how this flows now I was also going to add this go snare here
+
+178
+00:29:33,320 --> 00:29:41,080
+so let's do that as well I'm just going to go through my snares and see
+
+179
+00:29:43,800 --> 00:29:47,080
+if we have a little that might work
+
+180
+00:29:50,120 --> 00:29:53,080
+a little go snare
+
+181
+00:30:05,640 --> 00:30:08,440
+so I've obviously got my kick here and I don't want the overlapping
+
+182
+00:30:13,240 --> 00:30:15,880
+not sure sounds a bit messy
+
+183
+00:30:19,480 --> 00:30:26,600
+let's try something like that
+
+184
+00:30:31,320 --> 00:30:32,120
+my gapatune
+
+185
+00:30:34,200 --> 00:30:41,080
+better let's remove this what's going on here messy messy
+
+186
+00:30:49,640 --> 00:31:01,480
+I'm going to ease back on these the more I listen to them
+
+187
+00:31:03,240 --> 00:31:08,600
+the more I do not like them and that's okay let's try something else
+
+188
+00:31:10,360 --> 00:31:16,040
+so again these are literally snares that I've collected for years that I've made in tunes
+
+189
+00:31:16,040 --> 00:31:20,040
+I've made in previous sessions like I showed you before
+
+190
+00:31:23,240 --> 00:31:24,280
+and once I'm short
+
+191
+00:31:28,920 --> 00:31:29,960
+could work
+
+192
+00:31:32,120 --> 00:31:33,000
+let's give it a go
+
+193
+00:31:36,760 --> 00:31:37,320
+not bad
+
+194
+00:31:37,480 --> 00:31:44,600
+yeah kind of like that very short which is great
+
+195
+00:31:53,720 --> 00:32:00,600
+let's see if we can repeat it here this might not work but worth a go
+
+196
+00:32:07,960 --> 00:32:09,000
+hmm
+
+197
+00:32:11,480 --> 00:32:15,640
+sounds very robotic to me when you start using go snares like this
+
+198
+00:32:19,240 --> 00:32:22,600
+I just want to isolate these drums
+
+199
+00:32:30,120 --> 00:32:30,600
+let's see
+
+200
+00:32:37,320 --> 00:32:48,360
+let's clean up these low ends
+
+201
+00:32:58,600 --> 00:33:00,680
+I think it is those high
+
+202
+00:33:03,880 --> 00:33:05,720
+something weird going on here
+
+203
+00:33:08,040 --> 00:33:10,120
+better better
+
+204
+00:33:11,640 --> 00:33:15,880
+when you're using a few layers you know you always got a check to make sure nothing's clashing
+
+205
+00:33:15,880 --> 00:33:22,120
+I think I've screwed up here somehow as well and let me copy these over again
+
+206
+00:33:24,920 --> 00:33:27,720
+I guess the same is for these ones yep
+
+207
+00:33:29,880 --> 00:33:32,360
+okay cool let's go with these
+
+208
+00:33:38,040 --> 00:33:44,600
+better
+
+209
+00:33:51,240 --> 00:33:55,560
+cool let's listen to the bass with the bass
+
+210
+00:34:00,040 --> 00:34:04,360
+right those things are annoying me a bit now
+
+211
+00:34:07,480 --> 00:34:11,560
+they have something kind of cool about
+
+212
+00:34:14,120 --> 00:34:18,600
+going to take the low end out and stuff
+
+213
+00:34:18,760 --> 00:34:25,880
+so
+
+214
+00:34:34,200 --> 00:34:43,880
+it's going to make this last one a bit shorter
+
+215
+00:34:48,760 --> 00:34:51,880
+so
+
+216
+00:34:56,120 --> 00:35:13,880
+once I've gone that last snare now and I think after that we'll be able to build this tune out
+
+217
+00:35:14,840 --> 00:35:19,160
+let's try something like this just on the last
+
+218
+00:35:21,800 --> 00:35:25,160
+not bad
+
+219
+00:35:29,240 --> 00:35:35,560
+it's not bad what I want to try and do now is I want to do two things I want to add some kind
+
+220
+00:35:35,560 --> 00:35:42,360
+of effects to it reverse small reverse sounds just to liven up and try and give the impression
+
+221
+00:35:42,440 --> 00:35:47,400
+to the listener that something's going to happen and secondly I want to try and mix these
+
+222
+00:35:47,400 --> 00:35:54,040
+basses a bit better so I've got a feeling if I solo the sidechain which at the moment is just the
+
+223
+00:35:54,040 --> 00:36:03,640
+basses all these basses are going to sound very different let's give it a listen
+
+224
+00:36:03,800 --> 00:36:13,480
+yes they do lots of clicks as well from the sidechain which we will fix later
+
+225
+00:36:14,520 --> 00:36:22,920
+especially on that one so let's try and get these bass sounds sounding like they're working together
+
+226
+00:36:23,240 --> 00:36:27,000
+so
+
+227
+00:36:30,600 --> 00:36:37,240
+it's the first one I am going to make this a lot shorter so it's visually a bit easier
+
+228
+00:36:37,240 --> 00:36:42,520
+yeah
+
+229
+00:36:42,520 --> 00:36:53,560
+I miss some some sub here
+
+230
+00:36:54,280 --> 00:37:08,920
+right so I try two little things then as you could as you could hear the sound change drastically
+
+231
+00:37:09,480 --> 00:37:13,480
+first I was I was thinking I could just put a sine wave under the sub
+
+232
+00:37:16,680 --> 00:37:19,960
+and then I just wanted to see how this reacted
+
+233
+00:37:20,920 --> 00:37:27,560
+so I just put a boost up on the fundamental but the problem is because it's pre distortion
+
+234
+00:37:27,560 --> 00:37:33,080
+because the EQ is before the distortion the distortion is changing its reaction to the
+
+235
+00:37:33,080 --> 00:37:40,920
+harmonics being fed into it so if you we just bump up the bass all those harmonics now are
+
+236
+00:37:41,880 --> 00:37:50,040
+tamed because the large the the sound with the most most energy that's being sent into
+
+237
+00:37:50,040 --> 00:37:54,120
+distortion is now the fundamental it was anyway but it's on a stream scale
+
+238
+00:37:55,400 --> 00:38:02,360
+so the harmonic distribution of the distortion is going to change immensely so an easy way to
+
+239
+00:38:02,440 --> 00:38:03,720
+fix it is do some post
+
+240
+00:38:06,840 --> 00:38:14,920
+so you can see here sub gets completely lost I don't like doing this but
+
+241
+00:38:19,320 --> 00:38:19,960
+may work
+
+242
+00:38:20,680 --> 00:38:35,320
+let's think what's the solution I'm gonna try and group these and put a sub under it I don't
+
+243
+00:38:35,320 --> 00:38:41,160
+think this is gonna work and the reason I don't think it's gonna work is because the
+
+244
+00:38:44,440 --> 00:38:49,160
+because the saw waves are detuned as we mentioned and talked about before it starts
+
+245
+00:38:49,160 --> 00:38:56,920
+phasing and creating that kind of cool LFO sound so if I feed a sine wave which is not detuned it's
+
+246
+00:38:56,920 --> 00:39:04,120
+going to completely completely destroy that movement but I'm wondering if I put it through
+
+247
+00:39:04,120 --> 00:39:16,920
+a different distortion instead of guitaric you can hear that's quite a clean tone now
+
+248
+00:39:19,160 --> 00:39:20,520
+I can take the erosion off
+
+249
+00:39:22,840 --> 00:39:29,720
+let's see how far we can let's see how loud we can make this something like that might do the ticket
+
+250
+00:39:33,480 --> 00:39:34,520
+sounding a bit better
+
+251
+00:39:38,120 --> 00:39:39,320
+more sub definitely
+
+252
+00:39:42,360 --> 00:39:45,240
+I'm gonna mute this a second that release it's so annoying
+
+253
+00:39:50,120 --> 00:39:50,840
+much better
+
+254
+00:39:56,600 --> 00:39:59,560
+cool that sounding good I could even turn this down a bit maybe
+
+255
+00:40:00,360 --> 00:40:08,280
+oh we could take the low end out let's just see what this sounds like
+
+256
+00:40:12,840 --> 00:40:14,040
+okay now we're talking
+
+257
+00:40:17,000 --> 00:40:18,200
+okay that's a big improvement
+
+258
+00:40:19,720 --> 00:40:21,800
+right so now we're engineering
+
+259
+00:40:24,520 --> 00:40:26,360
+we are engineering a hundred percent
+
+260
+00:40:30,520 --> 00:40:31,400
+let's turn these on
+
+261
+00:40:34,360 --> 00:40:35,960
+right let's go for this one now
+
+262
+00:40:42,280 --> 00:40:44,760
+let's get this looped see if we can improve this
+
+263
+00:40:49,800 --> 00:40:50,300
+sound
+
+264
+00:40:53,400 --> 00:40:55,160
+we can definitely improve this sound
+
+265
+00:41:01,560 --> 00:41:03,720
+that was cool more wide
+
+266
+00:41:05,800 --> 00:41:10,200
+if I do the same technique as before put a sub under it like that
+
+267
+00:41:11,880 --> 00:41:12,600
+much better
+
+268
+00:41:12,600 --> 00:41:21,880
+I just want to quickly check how stereo my drums are
+
+269
+00:41:23,000 --> 00:41:27,960
+so what I'm doing now is I'm adding obviously lots of stereo interest to this bass
+
+270
+00:41:28,680 --> 00:41:33,720
+and I want to create a mental image of my head of what's happening in the stereo image
+
+271
+00:41:33,720 --> 00:41:38,680
+so I'm just going to quickly use my utility for this
+
+272
+00:41:38,760 --> 00:41:42,680
+um you set this to mid-side
+
+273
+00:41:45,080 --> 00:41:46,680
+so there's quite a bit going on there
+
+274
+00:41:48,360 --> 00:41:51,160
+that's my mono signal obviously
+
+275
+00:41:56,920 --> 00:41:59,400
+it's okay yeah lots of high-end interest
+
+276
+00:42:00,120 --> 00:42:03,080
+so I just wanted to avoid any kind of clashing there
+
+277
+00:42:04,600 --> 00:42:06,600
+let's go back and un-solo this
+
+278
+00:42:09,240 --> 00:42:10,360
+cool so let's get some
+
+279
+00:42:12,440 --> 00:42:18,440
+let's get some sub under this I'm going to do exactly the same way as I did before I think so
+
+280
+00:42:19,880 --> 00:42:24,840
+grouped this my utility was just turning it down because it had that really annoying release
+
+281
+00:42:24,840 --> 00:42:30,120
+on it um let's duplicate this
+
+282
+00:42:39,000 --> 00:42:51,560
+let's take this mono as well I can also take this this off as well
+
+283
+00:42:55,640 --> 00:43:02,920
+what's making it sound like here we go why is there a click on it
+
+284
+00:43:09,640 --> 00:43:17,160
+I think that's the side chain let's have a listen
+
+285
+00:43:25,160 --> 00:43:38,520
+nope
+
+286
+00:43:39,240 --> 00:43:46,600
+that sounds nice to me
+
+287
+00:43:49,000 --> 00:43:52,040
+it's kind of funny because I don't typically do this
+
+288
+00:43:53,000 --> 00:43:58,040
+as in layering a sub under it I always try and use one patch but for some reason it's
+
+289
+00:43:58,040 --> 00:44:01,640
+sounding pretty okay to me so far this this technique
+
+290
+00:44:03,320 --> 00:44:06,280
+the only thing that's really annoying me is the clicks at the moment so I have to
+
+291
+00:44:06,840 --> 00:44:11,080
+find a solution for that let's check this out in the mix
+
+292
+00:44:15,000 --> 00:44:16,680
+cool that's sounding way better
+
+293
+00:44:20,360 --> 00:44:26,680
+cool cool cool um so I still need to fix the clicks but I don't want to get into that now
+
+294
+00:44:29,400 --> 00:44:30,920
+it might be a workflow killer
+
+295
+00:44:31,240 --> 00:44:37,480
+let's see what's going on here very cool sound actually
+
+296
+00:44:39,560 --> 00:44:42,120
+what's going on with this sub sounds very weak
+
+297
+00:44:44,520 --> 00:44:48,760
+again lots of clicks very frustrating
+
+298
+00:44:54,440 --> 00:44:58,760
+let's check this
+
+299
+00:45:01,160 --> 00:45:07,160
+interesting I think I had it on off
+
+300
+00:45:08,840 --> 00:45:11,560
+and that already sounds much better let's check that out
+
+301
+00:45:16,440 --> 00:45:20,360
+that's sounding good to me what's this vocoder doing
+
+302
+00:45:23,880 --> 00:45:26,520
+hmm it's definitely adding something
+
+303
+00:45:27,240 --> 00:45:31,880
+I want to get this a bit louder I think
+
+304
+00:45:35,320 --> 00:45:36,840
+can we just turn it up let's see
+
+305
+00:45:43,480 --> 00:45:49,720
+okay so one thing I'm noticing is this this base is really wide and then this one kind of
+
+306
+00:45:50,280 --> 00:45:53,480
+is somewhere in the middle and there's not really a kind of
+
+307
+00:45:54,200 --> 00:45:59,080
+connection between them like literally sounds like two baselines and in some instances that
+
+308
+00:45:59,080 --> 00:46:06,120
+can sound cool but I'm wondering if we can kind of gel them together somehow
+
+309
+00:46:09,320 --> 00:46:10,520
+let's isolate these
+
+310
+00:46:13,400 --> 00:46:17,480
+okay already they're they're working much much much better than they were before
+
+311
+00:46:18,760 --> 00:46:20,840
+so it's good to make that progress
+
+312
+00:46:23,960 --> 00:46:27,240
+so I'm constantly questioning what I'm doing constantly
+
+313
+00:46:29,800 --> 00:46:31,480
+constantly trying to make improvements
+
+314
+00:46:37,480 --> 00:46:38,920
+what else is going on here
+
+315
+00:46:39,160 --> 00:46:45,160
+okay
+
+316
+00:46:49,320 --> 00:46:53,960
+that chorus effect is quite cool remember us doing that
+
+317
+00:46:55,080 --> 00:46:59,160
+um yeah I like that let's see if it glued together with this one a bit more
+
+318
+00:47:03,000 --> 00:47:07,160
+sounds even wider that could also be an option where it starts
+
+319
+00:47:09,880 --> 00:47:13,160
+nice and it would make sense because next is that
+
+320
+00:47:14,680 --> 00:47:21,720
+next bit one thing I definitely want to fix is this overlapping into the next bar
+
+321
+00:47:21,720 --> 00:47:26,120
+it's very messy at the moment so I still need to fix those clicks
+
+322
+00:47:26,120 --> 00:47:38,200
+it's there an erosion on this what's making
+
+323
+00:47:40,520 --> 00:47:41,640
+high end sounds
+
+324
+00:47:44,360 --> 00:47:47,320
+sounds very wet let's see how this sounds like
+
+325
+00:47:56,200 --> 00:47:58,200
+sounds
+
+326
+00:48:02,200 --> 00:48:07,960
+cool not bad okay cool let's see how this flows into the next section
+
+327
+00:48:17,640 --> 00:48:23,240
+right the first thing that jumps out to me and it probably also jumps out to you is that
+
+328
+00:48:23,240 --> 00:48:25,080
+arp is terrible
+
+329
+00:48:29,400 --> 00:48:36,600
+literally just comes out of nowhere like a bit carnival isn't it so let's see if we can improve that
+
+330
+00:48:42,760 --> 00:48:50,120
+I think instead of it starting untuned and finishing detuned we want to change that around
+
+331
+00:48:50,920 --> 00:48:57,800
+so it starts off very detuned and a bit and then it slowly tunes goes back into tune so
+
+332
+00:48:57,800 --> 00:49:02,040
+let's see where do we do that again chorus swell LFO 2
+
+333
+00:49:02,040 --> 00:49:03,960
+LFO 2
+
+334
+00:49:14,280 --> 00:49:16,520
+where was is it chorus swell
+
+335
+00:49:20,600 --> 00:49:21,960
+LFO 2
+
+336
+00:49:32,840 --> 00:49:33,960
+LFO 3
+
+337
+00:49:36,440 --> 00:49:47,960
+let me just loop this for a bit
+
+338
+00:49:47,960 --> 00:49:49,880
+LFO 4
+
+339
+00:50:00,680 --> 00:50:01,560
+all that could work
+
+340
+00:50:03,880 --> 00:50:05,880
+no it can't
+
+341
+00:50:06,040 --> 00:50:07,800
+LFO 5
+
+342
+00:50:13,480 --> 00:50:17,960
+I wonder if I can use this Reese thing high drone the first
+
+343
+00:50:24,680 --> 00:50:25,800
+okay no
+
+344
+00:50:26,200 --> 00:50:27,720
+LFO 5
+
+345
+00:50:31,080 --> 00:50:38,760
+all right so this section I'm fairly pleased with at the moment all kind of it sounds like one tune
+
+346
+00:50:41,720 --> 00:50:47,400
+but this section is not sounding amazing yet
+
+347
+00:50:47,400 --> 00:50:55,000
+so many clicks can we fix that
+
+348
+00:51:06,920 --> 00:51:16,360
+cool works much better so I'm just smoothing out the the function on the LFO tool definitely
+
+349
+00:51:16,360 --> 00:51:18,920
+helps you remove the clicks
+
+350
+00:51:27,720 --> 00:51:29,240
+how can we improve this now
+
+351
+00:51:32,600 --> 00:51:37,880
+is there like a low pass on this or something I should remember I only made this yesterday
+
+352
+00:51:40,040 --> 00:51:40,600
+here we go
+
+353
+00:51:46,360 --> 00:51:48,280
+LFO 5
+
+354
+00:52:00,440 --> 00:52:00,760
+better
+
+355
+00:52:05,560 --> 00:52:08,680
+still want a bit more movement in there though so let's try
+
+356
+00:52:11,160 --> 00:52:14,120
+um let's try a notch
+
+357
+00:52:16,920 --> 00:52:18,280
+LFO 5
+
+358
+00:52:21,800 --> 00:52:23,800
+let's try a band 12
+
+359
+00:52:29,080 --> 00:52:30,120
+cool that could work
+
+360
+00:52:46,520 --> 00:52:48,280
+LFO 5
+
+361
+00:52:52,520 --> 00:52:53,400
+a bit more movement
+
+362
+00:52:59,800 --> 00:53:01,320
+all right let's check out this one now
+
+363
+00:53:06,840 --> 00:53:14,440
+so the sub gets a bit lost compared compared to the others let's have a look
+
+364
+00:53:17,320 --> 00:53:26,440
+I think it's just the distortion to be honest so much distortion
+
+365
+00:53:38,920 --> 00:53:39,320
+better
+
+366
+00:53:39,320 --> 00:53:46,440
+I wonder if we can get this any louder as well
+
+367
+00:53:48,040 --> 00:53:48,520
+let's go
+
+368
+00:53:52,760 --> 00:53:54,520
+I'm going to change the kick as well
+
+369
+00:53:57,800 --> 00:54:00,040
+use the low one but not sure
+
+370
+00:54:04,520 --> 00:54:07,000
+now right let's dump the F kick
+
+371
+00:54:10,280 --> 00:54:11,560
+it was a good idea but
+
+372
+00:54:25,160 --> 00:54:27,320
+right definitely an improvement
+
+373
+00:54:29,080 --> 00:54:34,680
+now what I'm going to do is look through some effects I want to see if I can
+
+374
+00:54:40,280 --> 00:54:42,600
+I want to see if I can improve this somehow
+
+375
+00:54:49,400 --> 00:54:53,000
+so when I mean my effects I mean like little reverse things like
+
+376
+00:54:55,880 --> 00:54:56,680
+something like that
+
+377
+00:54:57,560 --> 00:55:10,040
+so we're tuning I normally do this by ear
+
+378
+00:55:20,280 --> 00:55:21,960
+sounds a bit spaceship to me
+
+379
+00:55:22,840 --> 00:55:32,840
+okay that could work
+
+380
+00:55:45,400 --> 00:55:46,680
+definitely doesn't need it that
+
+381
+00:55:47,480 --> 00:55:53,560
+it's very quiet
+
+382
+00:56:10,520 --> 00:56:11,960
+let's give these a go should we
+
+383
+00:56:16,920 --> 00:56:25,960
+maybe this works on that last one
+
+384
+00:56:29,240 --> 00:56:32,600
+but too much it's gonna randomly shorten it
+
+385
+00:56:39,320 --> 00:56:40,200
+not big fan
+
+386
+00:56:41,160 --> 00:56:51,080
+this is from an unfinished tune I did
+
+387
+00:56:59,400 --> 00:57:01,080
+nothing great in there
+
+388
+00:57:10,520 --> 00:57:16,200
+okay cool
+
+389
+00:57:21,800 --> 00:57:24,520
+okay shouldn't be turning this up plus six
+
+390
+00:57:26,520 --> 00:57:31,880
+and although the sample is quite soft but I think I need to do a review of the level soon
+
+391
+00:57:35,080 --> 00:57:36,440
+maybe that goes before the drop
+
+392
+00:57:40,920 --> 00:57:46,520
+I'm still not happy with this up yet
+
+393
+00:57:57,240 --> 00:57:59,000
+I think I'm gonna leave it like that for now
+
+394
+00:58:06,280 --> 00:58:07,480
+like come in handy
+
+395
+00:58:10,520 --> 00:58:17,000
+cool that's very intense like that
+
+396
+00:58:17,720 --> 00:58:22,520
+it's down on that a bit I just want to make a little fade in here I don't want to
+
+397
+00:58:23,800 --> 00:58:28,120
+I don't want to have this rammed I mean look at this waveform it's already blown up and
+
+398
+00:58:28,120 --> 00:58:31,320
+after it there's going to come a huge amount of energy so
+
+399
+00:58:41,320 --> 00:58:45,160
+I think we can improve the the punch
+
+400
+00:58:47,720 --> 00:58:52,840
+but that'll come with our mix now so we can think about that later
+
+401
+00:58:53,560 --> 00:58:57,720
+some way to get this kick a bit more
+
+402
+00:59:09,320 --> 00:59:11,160
+just double check my sidechain a sec
+
+403
+00:59:17,160 --> 00:59:20,760
+maybe I don't need a really long sidechain well we're gonna cover this in a minute
+
+404
+00:59:23,240 --> 00:59:36,440
+right so we are making progress the drop is already sounding okay
+
+405
+00:59:37,480 --> 00:59:43,960
+I'm kind of liking how the build-up sounds as well so far the really intense this section
+
+406
+00:59:44,680 --> 00:59:48,120
+that's sounding very great cool and it's definitely working already
+
+407
+00:59:48,840 --> 00:59:54,520
+that bit's working already the only bit I'm disliking now is this section
+
+408
+00:59:58,520 --> 00:59:59,560
+this last bit's cool
+
+409
+01:00:01,400 --> 01:00:09,400
+but this bass is still not great so let's see if we can improve that
+
+410
+01:00:09,400 --> 01:00:21,320
+I think this is very mono as well so maybe we can in keeping with the rest of the bass sounds we can
+
+411
+01:00:21,320 --> 01:00:25,240
+join
+
+412
+01:00:31,080 --> 01:00:31,640
+interesting
+
+413
+01:00:34,200 --> 01:00:45,880
+oh that sounds cool so um I just put the hype dimension on serum and I've left the mix up
+
+414
+01:00:46,760 --> 01:00:48,200
+so it's almost phasing
+
+415
+01:00:52,200 --> 01:01:19,240
+I like that it sounds almost like pan to the left and right but it's giving a very
+
+416
+01:01:20,040 --> 01:01:28,200
+unique effect and if you notice my sub is directly being sent out so that's mono
+
+417
+01:01:29,320 --> 01:01:30,040
+unfazed
+
+418
+01:01:37,560 --> 01:01:40,040
+yeah it's a bit sounds a bit panned
+
+419
+01:01:49,240 --> 01:02:02,040
+such a huge difference
+
+420
+01:02:19,480 --> 01:02:22,040
+so
+
+421
+01:02:28,280 --> 01:02:30,040
+where was this low pass
+
+422
+01:02:42,920 --> 01:02:48,520
+so I'm just going to AB this definitely an improvement definitely sounds interesting I'm
+
+423
+01:02:48,520 --> 01:02:50,120
+not sure it's the final thing yet
+
+424
+01:02:53,400 --> 01:02:57,800
+the unison is very weird maybe let's pick a three instead
+
+425
+01:03:04,040 --> 01:03:06,280
+yeah number two unison works
+
+426
+01:03:07,240 --> 01:03:08,040
+I think
+
+427
+01:03:17,480 --> 01:03:26,040
+oh that could be quite cool as well let's see if we can put this just on the last bar
+
+428
+01:03:36,280 --> 01:03:46,040
+so
+
+429
+01:03:50,760 --> 01:03:56,520
+not bad definitely sounds more interesting I'm not sure I'm like yes that's the one but
+
+430
+01:03:57,160 --> 01:04:03,960
+I think in some respects what you have to do is look at the sound objectively and think okay
+
+431
+01:04:04,440 --> 01:04:09,960
+does it sound more interesting does it fit the tune more does it fit with the rest of
+
+432
+01:04:09,960 --> 01:04:14,520
+sounds that are around it and I think it does tickle those boxes what I just said
+
+433
+01:04:24,920 --> 01:04:27,320
+cool oh wow that release really annoys me
+
+434
+01:04:27,480 --> 01:04:37,400
+I think what we might do is bring that up in layer for a whole section rather than just have
+
+435
+01:04:37,400 --> 01:04:38,120
+it for two bars
+
+436
+01:04:40,840 --> 01:04:42,120
+oh yeah cool that was my
+
+437
+01:04:49,240 --> 01:04:50,520
+I'm gonna turn this up a bit
+
+438
+01:04:50,680 --> 01:04:55,160
+let's also
+
+439
+01:04:57,800 --> 01:04:59,880
+try something cool with this
+
+440
+01:05:02,520 --> 01:05:09,160
+there is a cool plugin and I've never used this plugin so we can do it together
+
+441
+01:05:10,280 --> 01:05:17,400
+it's a granular synth or granular tool from max for life
+
+442
+01:05:20,680 --> 01:05:21,160
+so
+
+443
+01:05:25,480 --> 01:05:34,360
+granulator I think it's called there we go granulator two okay let me make a quick
+
+444
+01:05:51,240 --> 01:05:54,360
+oh
+
+445
+01:05:59,400 --> 01:06:10,360
+cool all right let me just drop granular here
+
+446
+01:06:10,920 --> 01:06:13,800
+faster
+
+447
+01:06:16,680 --> 01:06:21,800
+I'm sure there's quite a way to do this actually you only realize until you're halfway through
+
+448
+01:06:21,800 --> 01:06:24,680
+though and then you think well I'm halfway through a meso carry on
+
+449
+01:06:26,520 --> 01:06:33,400
+cool so I think we can just grab this into granular here is that possible
+
+450
+01:06:33,720 --> 01:06:44,360
+oh yes fantastic and what we can do with this is we can add some granular goodness to it
+
+451
+01:06:44,360 --> 01:06:50,920
+which is if you don't know or granular is get on youtube have a quick look it's almost like a
+
+452
+01:06:50,920 --> 01:06:53,240
+sample of it re-triggers
+
+453
+01:06:57,640 --> 01:06:58,760
+that's the same right
+
+454
+01:07:02,840 --> 01:07:04,440
+you're cool so
+
+455
+01:07:15,640 --> 01:07:16,840
+which is kind of cool
+
+456
+01:07:17,240 --> 01:07:20,760
+let's see what this sounds like
+
+457
+01:07:39,320 --> 01:07:40,600
+don't think it's the right tune
+
+458
+01:07:41,000 --> 01:07:47,400
+you can tell you can tell what kind of cool sounds you can make with that
+
+459
+01:07:48,440 --> 01:07:57,800
+cool so I just think that I think will work just like that cool so let's give a listen from the start
+
+460
+01:07:58,760 --> 01:08:02,680
+start till finish let's loop it a couple of times and let's say we can prove
+
+461
+01:08:03,240 --> 01:08:09,080
+and then what we're going to do is I think we're going to try and improve this build up
+
+462
+01:08:09,160 --> 01:08:14,760
+we've got the drop and then we can start building it out I think we need to add the arp
+
+463
+01:08:14,760 --> 01:08:19,160
+I want to bring the melody in somewhere again if I can so let's see how we can go with that
+
+464
+01:08:19,160 --> 01:08:25,000
+let's run from the start to finish though so just want to listen through it
+
+465
+01:08:39,080 --> 01:08:43,000
+like this good
+
+466
+01:09:09,080 --> 01:09:13,000
+oh yeah
+
+467
+01:09:39,400 --> 01:09:48,440
+okay something's glitching out there thanks Ableton just ruined the moment
+
+468
+01:09:52,360 --> 01:10:05,000
+what's going on I think I just accidentally deleted a section did I let me double check
+
+469
+01:10:05,960 --> 01:10:13,320
+the wonders of producing right so I'm going to retrieve this get this back again take a little
+
+470
+01:10:13,320 --> 01:10:18,440
+take a little break get some fresh air and then when I come back with you we're going to review
+
+471
+01:10:18,440 --> 01:10:24,920
+what we need to fix with this intro and then build out the rest of the tune
+

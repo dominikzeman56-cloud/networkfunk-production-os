@@ -1,0 +1,227 @@
+Okay so now I want to talk about how you go about making your own wavetables in
+Serum and firstly I wanted to talk about understanding how Serum works and the
+actual harmonics involved. So before I started using Serum I used to use FM8
+a lot which is a frequency modulation synthesizer and things work a little bit
+differently in that aspect so instead of... where's Serum? Serum oscillators they
+have obviously what we talked about the octave and the semitones and obviously
+you can pitch that in relation to the musical scale. With frequency
+modulation it works a little bit different. Instead of having octaves and
+semitones it has frequencies based on the fundamental frequency you're
+physically playing in your DAW. Now that might sound a little bit confusing
+but it should make a little more sense. So the first thing I
+wanted to do is talk about this section of Serum which is the table
+So across here you can see lots of vertical bars and in Serum they're
+called bins. So if I select bin 1 let me just quickly draw in a MIDI file
+I'm gonna put that a little lower so we've got a kind of subby sound. Now I'm
+gonna open up my frequency analyzer and as you can see I put the note on D
+sharp and it's playing one single sine wave at D sharp. Now if I go back to my
+editor if you click on this button here it will translate the actual
+waveform to its harmonic so if you click here cool. Now if I press or if
+I select bin 2 and I press play and look at my frequency analyzer again
+I've got my existing sine wave at D sharp and then there's another harmonic
+which is also D sharp. Now what happens if I go 3? Now if you're not familiar
+with how harmonic distribution works in terms of Serum and frequency
+modulation this may be a bit confusing so maybe a lot of people would
+expect if I selected three it would be three semitones higher which would also
+be a D sharp but it isn't so if I play this now so I've got my first one D
+sharp I've got my second harmonic D sharp again and then my third one is
+an A sharp. Now why is that? So instead of this working with semitones
+and octaves this works in actual multiplication of your fundamental
+frequency. So now I've set this to D sharp as you've just seen I'm gonna
+take away my extra harmonics so what I like to use a lot when I first
+started getting into synthesis I started using some like helpers so I've made a
+really crude spreadsheet for myself which I'll quickly show you now. So this
+is kind of my helper spreadsheet I've got lots of different little bits on
+there which if I need them I can just open the spreadsheet and get the
+information. So I've got my first harmonic selected which as we know is
+a D sharp so if I go back to D sharp and the one I'm playing is this one so
+on this on this little sheet here it says the note you're playing it says
+the frequency range and the length of the waveform you can ignore the second
+one for now it's not relevant for this particular subject. So we are
+hitting at 77.7 Hertz to be correct which is if you look here which is
+about right cool now if I press the second one it's a D sharp but it's a
+hundred and fifty six Hertz so if I go to D sharp here and just show you
+D sharp three I think yeah hundred and fifty five Hertz great so now if I
+select three like I did before we have an A sharp which is
+two hundred and thirty three now so why is it why is it doing that so if
+I go back to my fundamental I'm gonna get out my calculator and show you
+exactly why it's doing that and why behaves that way so if I take my
+fundamental frequency I'm playing 77.78 Hertz now if I put this in my
+calculator and times this by two I get a hundred and fifty five point five
+six which is a D sharp again great now if I go here if I times this now by
+three I get two hundred and thirty three which is an A sharp so what
+this is physically doing in serum it's taking your fundamental frequency so
+bin 1 and bin 2 bin 3 bin 4 bin 5 etc are timesing from your fundamental
+frequency so for example bin 5 will be five times the frequency of your
+fundamental so let's give that a test so if I go back to my fundamental
+frequency which is 77.78 D sharp that's why I've selected in my door
+times it by five I've got 388 which is which isn't right it's somewhere in
+between there for some reason okay so 388 is G let's say it's G it's close
+enough now if I select bin 5 and let's analyze this on a frequency spectrum
+I've got a G right so that's the basics of how the table editor works
+in serum and that's also the basics of how frequency modulation works in
+terms of selecting the harmonic in your in your synthesizer so if any of
+you have used FMA or I think there's citrus I think it's called in FL those
+are good examples of frequency modulation right so how can you use
+this in your music and what I wanted to show you was I quickly made a
+baseline before this I'll quickly play this now so you can see it's very
+harmonically rich loud and if we look in a spectrum analyzer you'll see here
+frequency D sharp and I've got this massive peak around this area so let's
+have a look okay so again that's hitting a G that's pretty pretty
+similar to what we just did in serum now if I wanted to go and if I if
+I wanted to go and literally recreate this sound for whatever purpose I could
+go into serum I'm gonna select two oscillators I'll have one as my
+fundamental so I have a bit more control over that obviously gonna turn
+the randoms down and the only thing I'm gonna select on here is harmonic
+5 which is bin 5 so let's have a little listen to what that sounds like okay I'm
+gonna turn this down an octave so we have D sharp and I'm gonna turn this
+down an octave as well
+let's quickly analyze that again I think it was one octave higher let's
+check
+yeah so it's 300 around 300 Hertz cool so that can go one octave right so
+obviously there's a lot of modulation going on in that sound so what I'm
+gonna do is I'm just gonna try and really roughly recreate that so the
+first thing I can hear is there's a lot more harmonics it's a lot richer and
+the reason for that is probably because of distortion so let's go to
+my distortion and let's add this mega group mega distortion group so in
+here I've got let's have a look I've got a chain with amplitude I've got a
+chain with a wave shaper I'll quickly go through these a bit more in detail
+in a second I have a guitar rig which we used earlier and I've just
+got some trash on the end all right let's take a listen to how this sounds
+right and let me put my just close this let me put this after the
+distortion now so you can see it's a lot richer but we're adding lots of
+lots of extra lots of extra harmonics in there and obviously the
+distortion is creating that so let's add a little bit of modulation and see
+where we get so what I'm gonna do is literally just put some volume
+automation on this on my fundamental frequency so what's happening the only
+thing I've done here is I'm turning down the actual sub when I say the sub
+I mean the fundamental this note here and what's happening is because it's
+being pushed so hard into into so much distortion like as I just showed
+you there's two guitar amps there there's a wave shaper and there's an
+isotope trash as well it's quite a lot because I'm pushing it so hard the
+distortion is changing and compensating for that so if I turn
+this down I get very harsh sound now we can utilize that effect so to speak now if I
+put an LFO on this let's make a bit more interesting so the higher I go let
+me just turn this around
+there you go so that's a really really really simple way of understanding how
+your harmonics work in serum and it's a really simple and effective way to
+create a really cool baseline very quickly so let's see what happens if I
+change harmonics so now we were on bin 5 so if I quickly go back to my
+sheet being five so I could do the calculation here or you could not do
+it at all it's completely up to you and it's completely it depends on how far
+you want to take this I love doing this type of stuff because it really gives
+me a mental vision of what I'm trying to achieve the more you understand the
+more fun it is and easier is so instead of using a calculator to
+calculate all these I've made a little very crude sheet here these are
+my bins harmonics so if I select so if I've got D sharp and I've got bin 5 I
+know that's a G so let's try bin 6 see what that sounds like and that'll
+be in a sharp also sounds very cool let's try bin 7 also very cool and let's
+try 8 and as you'll notice here 8 is again a D sharp because if you times
+obviously because it's an odd number if you times it oh sorry even if you
+times it with a fundamental you always get a D sharp so let's try that in
+8 so you can hear it's like a D sharp on a D sharp but it feels like
+it's peaching up which is very cool effect and secondly you can have a big
+mix of them
+which also sounds very cool and then we can obviously take this further and
+develop the sound a bit more so we can add some unison there and now because
+I'm adding unison with a detune it's very similar to what the effect we had
+when we made the recess when we detune and we've actually phased them
+out you can see it's almost giving a kind of LFO effect but very cool and
+very interesting to listen to let's extend this a little bit longer take
+that loop off I'm gonna turn this down a bit because a bit loud
+that kind of works I could definitely use that in a tune so I'm gonna save
+that great so I want to show you a couple more examples of how I like to
+use wavetables so let's duplicate this serum and let's try and develop this
+into something a bit more now so if I go to my or if I go to oscillate one
+where I've put where I've put the harmonics in selected them myself now
+what I can do is I can gradually automate the levels on this sound so I
+can select frame 2 and then I can make some edits let's go with 3 something
+like that and now when I change my wavetable position
+I get some really interesting cool things going on there that's sounding
+pretty cool now let's see what happens if I FM this so very loud kind of
+bassy sound very over-the-top and I'm sure you can all imagine what type of
+tune this would work in cool so developing that a bit more from there
+something like that which is a little more interesting a little more
+interesting in the tone as well and the reason why is because it's
+changing this one's very static which could work in a tune but now I've got
+another option which is great so this is a really cool way to make wavetables
+in serum make your own wavetables and soon in a very simple way the next
+thing I want to show you is how to make very creative wavetables in serum
+by using samples so I'm going to take a quick break and then we'll get to
+that in a second okay so another really cool option with serum because
+it can because what I showed you before with harmonics in the wavetable serum
+enables you to actually load any sample you want into any oscillator and what
+it will do is will calculate those harmonics for you so you can get some
+really interesting sounds by just using kind of random random samples
+basically so I wanted to quickly give that a go on the fly and see if we
+can create something cool so I just quickly went through my sample foley
+library and I found this jet sound which is kind of cool sounding could
+just use in a tune like that actually but what I wanted to do is you have
+an option in serum so if I don't let me go back to where it was if I take this
+jet sound and then if I drop it into if I drop it into an oscillator I have
+all these three options now what I normally do is import normal dynamic
+pit drain zero snap and then it will give a few minutes at cool so now this
+jet sound has been loaded in so let me activate that I have a MIDI file being
+triggered on that serum patch so if I play you can't hear anything and the
+reason why you can't hear anything is because this is flat and set zero so we
+need to do a bit of editing so if I open up my wavetable if I scroll along
+a few frames here you can see all of a sudden start to get some sound so I
+just need to clean this up a bit so I'm gonna select to about here go to
+the start if you go to add and remove remove current index and it will take
+you to start that didn't work very well let's do that again remove
+multi-section that was the one so if you select remove multi-section what
+they'll do is remove all the frames with nothing in them so as you can
+see here now I've just got this kind of flimsy tone so what I can do now is
+because serum has split that sound which I imported into lots of different
+frames if I change the wavetable position it will go frame frame by
+frame through that sound so if we put an LFO on here set this to something
+slow like two bars what it's doing is it's literally flicking through that
+wavetable so let's make this a bit shorter okay there's something cool
+going on in this section so what I can do if I like that section I can just
+go it's about halfway I think it's kind of cool it's very low I'm gonna put an
+octave higher just gonna see if I can improve this see what happens if we
+make it faster bit random cool so now what I'm gonna do is I'm going to back
+this up with some standard wavetable so I'm gonna use a sine wave I'm gonna
+put this an octave lower so some sub in there and what I'm gonna do is
+I'm just gonna try and match these two together and try and complete try
+make a complete sound so the goal here is to create something which you
+necessarily wouldn't be able to create in a synthesizer because we have such
+a crazy and erratic set of harmonics going on here it gives us something
+really unique so let's first automate the level of this something like
+something with a bit more groove to it again let's turn these randoms down not
+bad I am going to FM from a find a sweet spot too much cool that's got
+something cool about it maybe I could put this an octave higher I'm gonna turn
+this sub down a little bit let's add some distortion I've already got trash
+up a bit better let's try and add some unison to this okay cool that's a lot
+more interesting what I want to do is look at my frequency spectrum here to
+see what's happening give it a bit of room cool so let's add some different
+effects to it and see if we can improve this very phasey I'm not sure about
+that that's a cool sound but it's very very again phasey I'm gonna try
+and counteract that by adding another sub using the sub oscillator gonna use
+exactly the same wavetable exactly the same automation but I'm gonna put this
+direct out let's go an octave down I think I want to take some low end out
+of this sound now with the filter section you can obviously select which
+oscillator you want to filter so I'm only going to select a and I'm going
+to use a high 12 let's isolate this I'm gonna put some automation on this
+let's add a bit of drive to it obviously too much way too much drive cool that's
+not bad with these type of sounds it's very reliant on what sounds you're
+putting into serum and how serum deals with that a lot some sounds I'll put
+in and they really won't work at all some sounds I'll drop in and
+literally you'll have an instant base so if you guys have a spare hour to
+be creative and try and make sounds like that give it a go because this
+is a really fun way to to utilize serum and also you'll get a much better
+understanding on how this how the wavetables work in serum it will set
+you up so when you are working in your tunes later you have a much
+stronger mental image of what the sounds physically doing cool so I've got
+a nice selection of bass sounds and effects here and I've got a nice
+selection of drums as well so I can almost start writing my tune what I want
+to cover next is my approach to actually physically writing a tune and
+what I do or what I like to do a lot is actually start with a melody I
+really love melody in my tunes I mean we're musicians so let's write
+music even if some of my tunes are really pushed and really distorted I
+still love to have a musical element in there somewhere so what we're gonna do
+is we are going to look at how scales and melodies work in music and then
+apply that to writing an intro for our tune and then from the intro we're
+gonna build the tune to whatever we feel will fit the intro and this is
+fundamental for me because it's like right writing music so so yeah I'm
+really excited and and I'll see you in the next one

@@ -1,7 +1,7 @@
 # Dashboard
 
 > NPOS production home page. Otevři to jako první každou session.
-> _Auto-synced from session store · 2026-07-28T20:30:24.101Z_
+> _Auto-synced from session store · 2026-07-30T03:43:03.713Z_
 
 Za pár sekund musí odpovědět na čtyři otázky:
 - Co dělám?

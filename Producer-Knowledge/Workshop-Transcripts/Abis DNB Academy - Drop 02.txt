@@ -1,0 +1,471 @@
+Let's see what this sounds like, nope that didn't sound good, alright why is it sounding
+messy here, ok cool so these are not in time, cool maybe these don't, I think it just gets
+a bit messy here, just looking for that ring, you can just see it there, just my ears just
+picked that up then, oh that's better, right I'm still not convinced with the pin to funk
+hi-hats but let's keep them in there for now, I'm going to clean this up, I'm going to save
+it quickly, let's try and improve this snare now.
+So if you remember I made one of the white noises quite short, oops don't know what I've
+was just listening to there is the tail with the white noise and all of a sudden it had
+this kind of resonance in there, gave me an idea, wondering if I could like add a ding to
+the snare, there's a couple of ways we can do that, what I'm going to do is I'm going
+to duplicate the sine wave, let's dump this at the bottom and I'm just going to literally
+add a ring, so our fundamental is C, that's where the snare is hitting, so if we do, so
+that's C, so C sharp D, D sharp E F, so that's 1, 2, 3, 4, 5, if we go plus 5 and 2 down that
+should be an F, let's confirm that with an EQ, it's quite high though, that is an F, how
+does that sound? Let's put a little, I'm going to remove this, actually I'll keep that on, this
+is the pitch envelope by the way, master tune, I'm going to take this, I want to...
+it's a bit too much distortion on this I think, so let's ease up on that, cool, this might be better,
+doesn't sound great, but let's hear it in the mix, nope I do not like that at all, okay let's try
+another example, I have, what we can do is let's try some frequency shifting,
+try something like this,
+sounds weird,
+okay that doesn't sound great,
+right let's try some convolution reverb,
+oh thank you pardon,
+so if you go to my Facebook page I did a session on how I go about making my convolution reverb
+impulses, convolution reverb is a very cool tool because it allows you to actually load in your
+impulses, so what I do is I make a sine wave and add white noise to it and as you can see here I've
+made an impulse for every single note on the scale, so why isn't it working?
+strange, hold on let's see if I can get this to work,
+the reason it's not working I think was because it was on the wrong channel, brilliant
+here we go, right so as you can hear
+there's a huge difference in sound, so I can choose all my impulses, these impulses are tuned,
+so if I wanted F like I was trying before, maybe a higher one, how does that sound?
+okay it's sounding a bit over the top,
+kind of like that, let's try a G sharp four,
+this is kind of cool,
+so with convolution reverb if I
+currently got this set to about 17% it was
+and this audio file is very long, the tail is also very long, like I've got the length
+set to a very short amount if I leave this open
+it's very long, right so I always find it very difficult to
+I always find it very difficult to control that the envelope
+so what I want to do first I want to make sure I'm happy with the actual impulse I've selected
+and then I'm just going to record this in 100% wet and then mix it in with the original one,
+so the first thing I want to do is make sure I've got the right impulse,
+it's kind of like in G sharp four
+maybe a G
+let's just listen to that in context for a sec
+I think the G sharp is going to be a little bit confusing musically, a bit too much going on
+probably so let's just go cool let's roll with an F for now and then I'm going to leave this impulse on
+and then every time I kind of change the melody I can also tune this convolution
+basically to that section which is amazing so I'm going to quickly make a new audio file set
+that to resample record I just want to make sure I've got nothing else armed yeah that's good
+right let's record this in
+oh I'm recording everything I want to solo this let's go
+I also want this set to 100% wet otherwise it completely defeats the purpose
+third time lucky guys
+good
+all right so now I've got a little bit more control with
+a little bit more control of my envelopes now
+sorry my google drive keeps giving me warnings thanks
+cool right now I could take a bit low end out of this
+I think that might be good enough let's listen
+right I'll take this off what a difference
+yeah so I literally use this technique on a lot of my snares and a lot of people ask me
+how do you get that kind of ringy sound that's how you get it
+all right let's check this out shall we
+it could be a bit longer I think
+cool right next job let's copy these things over
+yeah lovely
+so I want to get all my hi hats I've got nothing
+nothing muted now I'm using all of these so let's roll with this duplicate duplicate duplicate
+all right there's something weird going on the hi hats here
+I think
+I think this bass could be improved loads as well
+so I just listened to that section and my thought process was wow that sounds terrible
+why does it sound terrible first thought was okay maybe something to do with those hi hats
+but I think a lot more productive approach is to fix this bass first
+so
+could be definitely a lot louder
+so that master tune
+how does this sound actually
+I might just leave a hole in there in the bass because the kick's there
+so
+cool let's try and improve this first and then we can figure that out later
+so
+sounds very far behind and flat
+let's try and push it a bit harder I think so I'm going to use tube driver
+that might be better
+I'm going to take a bit of this mid out
+so
+let's roll it out and see what we get to
+so I maybe want to try and leave a bit of space between
+this section let's see what this sounds like
+maybe we could make this section longer as well
+okay so
+maybe let's try and get some more of our existing bass sounds in might replace this sound
+let's drop a few of these in
+what did this sound like
+not sure that's gonna fit but
+could work
+G sharp C okay the B is out of scale so if we try E
+so
+kind of works
+I'm going to leave that there for now I can improve it
+or we can use it somewhere else let's just throw it in randomly and see
+what's going on with this audio file actually it's a weird position
+okay something weird just went on there
+okay cool quite like this last one the first one is a bit
+this sounds a bit like carnivore something
+I like that at the end that's cool
+not bad let's see how this sounds here
+could work actually
+let's give it a go
+maybe let's just remove this one
+okay not sure about that we'll keep it in there has some potential for the pre-drop sound
+that also has potential for somewhere oops
+okay
+what note was this D sharp let's go with E
+nope right let's get rid of those we tried okay number eight
+so we're still sketching still sketching trying to find the breakthrough
+interesting
+oh
+love that ending isn't that the same that
+nope cool now why does that sound good like it's meant to be
+the reason why is because our fundamental is a G
+root note is E we put the root note E which is in scale F harmonic minor
+but I think I think I know from doing this quite a lot that that harmonic you're hearing
+that harmonic you're hearing is a G
+and let's have a look
+okay there's a little
+okay
+quite complex
+what's seven doing
+okay that doesn't sound great
+I think I'll keep it
+keep it as it was right cool so we are making progress
+only thing I'm really still disliking is this bar here so there's a couple of things we can do
+continue working on this sound for a while or we could move on and then build out the tune
+now I'm the type of person that would like to sit on this loop for a little longer
+so I'm going to spend an hour offline to see if I can improve this
+try and improve this section I'm gonna spend an hour going through my old samples to see if
+I can find something that jumps out ideally I want something percussive like the dun-dun-dun-dun-dun
+because this is very very long moving and I like to compliment that with a percussive
+something percussive after it cool so I'll be back to you and I'll see where we've got from there
+right I think I've got something a bit better than we had
+literally didn't tell me long just went through my presets I've got a big selection of presets I've
+saved here over the last couple of weeks and literally I just kept the same setting so previously
+we had the stabby ones and I literally duplicated it and clicked the third preset I came across
+and I was like okay that works a lot better so there's a lot more detail in the stereo field
+as well so you can definitely utilize that
+cool so I'm going to get rid of this old one one thing I want to do is try and energize this up
+a bit I want to try and utilize some ghost snares I think maybe we could already use the existing snare
+let's see
+kind of cool I'm gonna see if I can use another another snare in that place
+um we already have some shuffles in here that it's really important not to actually that one's muted
+let's see
+okay
+just think that slows it down a bit and we're gonna on the next bar we're gonna jump into something new
+I'm gonna keep this like like this for now
+let's duplicate this setting actually what I'm gonna do is I'm going to group these
+what I hear in my head is a kind of synth over the top of this I mean literally this is just
+drums and bass which is fine but I want to try and spice up a bit so I'm gonna duplicate my bass patch
+I try something like this
+I don't want the initial hit though
+cool so let's use a different filter instead and try and see if we can get
+something cool going with that
+I'm gonna put this one really wide
+now I listen to it in context I'm not sure it's going to work
+it's not sounding amazing let's take the guitar off
+let's go a bit higher up on the
+cool let's add a wavetable
+could be cool could be cool let's let's remove these and cut some low end out to see what it sounds like
+let's mix it in
+gives it a bit more detail I'm not happy with that yet but
+it just makes it it makes it more interesting to my ears I'm not happy with the I'm going to come
+back to that I just want to see how this flows now I was also going to add this go snare here
+so let's do that as well I'm just going to go through my snares and see
+if we have a little that might work
+a little go snare
+so I've obviously got my kick here and I don't want the overlapping
+not sure sounds a bit messy
+let's try something like that
+my gapatune
+better let's remove this what's going on here messy messy
+I'm going to ease back on these the more I listen to them
+the more I do not like them and that's okay let's try something else
+so again these are literally snares that I've collected for years that I've made in tunes
+I've made in previous sessions like I showed you before
+and once I'm short
+could work
+let's give it a go
+not bad
+yeah kind of like that very short which is great
+let's see if we can repeat it here this might not work but worth a go
+hmm
+sounds very robotic to me when you start using go snares like this
+I just want to isolate these drums
+let's see
+let's clean up these low ends
+I think it is those high
+something weird going on here
+better better
+when you're using a few layers you know you always got a check to make sure nothing's clashing
+I think I've screwed up here somehow as well and let me copy these over again
+I guess the same is for these ones yep
+okay cool let's go with these
+better
+cool let's listen to the bass with the bass
+right those things are annoying me a bit now
+they have something kind of cool about
+going to take the low end out and stuff
+so
+it's going to make this last one a bit shorter
+so
+once I've gone that last snare now and I think after that we'll be able to build this tune out
+let's try something like this just on the last
+not bad
+it's not bad what I want to try and do now is I want to do two things I want to add some kind
+of effects to it reverse small reverse sounds just to liven up and try and give the impression
+to the listener that something's going to happen and secondly I want to try and mix these
+basses a bit better so I've got a feeling if I solo the sidechain which at the moment is just the
+basses all these basses are going to sound very different let's give it a listen
+yes they do lots of clicks as well from the sidechain which we will fix later
+especially on that one so let's try and get these bass sounds sounding like they're working together
+so
+it's the first one I am going to make this a lot shorter so it's visually a bit easier
+yeah
+I miss some some sub here
+right so I try two little things then as you could as you could hear the sound change drastically
+first I was I was thinking I could just put a sine wave under the sub
+and then I just wanted to see how this reacted
+so I just put a boost up on the fundamental but the problem is because it's pre distortion
+because the EQ is before the distortion the distortion is changing its reaction to the
+harmonics being fed into it so if you we just bump up the bass all those harmonics now are
+tamed because the large the the sound with the most most energy that's being sent into
+distortion is now the fundamental it was anyway but it's on a stream scale
+so the harmonic distribution of the distortion is going to change immensely so an easy way to
+fix it is do some post
+so you can see here sub gets completely lost I don't like doing this but
+may work
+let's think what's the solution I'm gonna try and group these and put a sub under it I don't
+think this is gonna work and the reason I don't think it's gonna work is because the
+because the saw waves are detuned as we mentioned and talked about before it starts
+phasing and creating that kind of cool LFO sound so if I feed a sine wave which is not detuned it's
+going to completely completely destroy that movement but I'm wondering if I put it through
+a different distortion instead of guitaric you can hear that's quite a clean tone now
+I can take the erosion off
+let's see how far we can let's see how loud we can make this something like that might do the ticket
+sounding a bit better
+more sub definitely
+I'm gonna mute this a second that release it's so annoying
+much better
+cool that sounding good I could even turn this down a bit maybe
+oh we could take the low end out let's just see what this sounds like
+okay now we're talking
+okay that's a big improvement
+right so now we're engineering
+we are engineering a hundred percent
+let's turn these on
+right let's go for this one now
+let's get this looped see if we can improve this
+sound
+we can definitely improve this sound
+that was cool more wide
+if I do the same technique as before put a sub under it like that
+much better
+I just want to quickly check how stereo my drums are
+so what I'm doing now is I'm adding obviously lots of stereo interest to this bass
+and I want to create a mental image of my head of what's happening in the stereo image
+so I'm just going to quickly use my utility for this
+um you set this to mid-side
+so there's quite a bit going on there
+that's my mono signal obviously
+it's okay yeah lots of high-end interest
+so I just wanted to avoid any kind of clashing there
+let's go back and un-solo this
+cool so let's get some
+let's get some sub under this I'm going to do exactly the same way as I did before I think so
+grouped this my utility was just turning it down because it had that really annoying release
+on it um let's duplicate this
+let's take this mono as well I can also take this this off as well
+what's making it sound like here we go why is there a click on it
+I think that's the side chain let's have a listen
+nope
+that sounds nice to me
+it's kind of funny because I don't typically do this
+as in layering a sub under it I always try and use one patch but for some reason it's
+sounding pretty okay to me so far this this technique
+the only thing that's really annoying me is the clicks at the moment so I have to
+find a solution for that let's check this out in the mix
+cool that's sounding way better
+cool cool cool um so I still need to fix the clicks but I don't want to get into that now
+it might be a workflow killer
+let's see what's going on here very cool sound actually
+what's going on with this sub sounds very weak
+again lots of clicks very frustrating
+let's check this
+interesting I think I had it on off
+and that already sounds much better let's check that out
+that's sounding good to me what's this vocoder doing
+hmm it's definitely adding something
+I want to get this a bit louder I think
+can we just turn it up let's see
+okay so one thing I'm noticing is this this base is really wide and then this one kind of
+is somewhere in the middle and there's not really a kind of
+connection between them like literally sounds like two baselines and in some instances that
+can sound cool but I'm wondering if we can kind of gel them together somehow
+let's isolate these
+okay already they're they're working much much much better than they were before
+so it's good to make that progress
+so I'm constantly questioning what I'm doing constantly
+constantly trying to make improvements
+what else is going on here
+okay
+that chorus effect is quite cool remember us doing that
+um yeah I like that let's see if it glued together with this one a bit more
+sounds even wider that could also be an option where it starts
+nice and it would make sense because next is that
+next bit one thing I definitely want to fix is this overlapping into the next bar
+it's very messy at the moment so I still need to fix those clicks
+it's there an erosion on this what's making
+high end sounds
+sounds very wet let's see how this sounds like
+sounds
+cool not bad okay cool let's see how this flows into the next section
+right the first thing that jumps out to me and it probably also jumps out to you is that
+arp is terrible
+literally just comes out of nowhere like a bit carnival isn't it so let's see if we can improve that
+I think instead of it starting untuned and finishing detuned we want to change that around
+so it starts off very detuned and a bit and then it slowly tunes goes back into tune so
+let's see where do we do that again chorus swell LFO 2
+LFO 2
+where was is it chorus swell
+LFO 2
+LFO 3
+let me just loop this for a bit
+LFO 4
+all that could work
+no it can't
+LFO 5
+I wonder if I can use this Reese thing high drone the first
+okay no
+LFO 5
+all right so this section I'm fairly pleased with at the moment all kind of it sounds like one tune
+but this section is not sounding amazing yet
+so many clicks can we fix that
+cool works much better so I'm just smoothing out the the function on the LFO tool definitely
+helps you remove the clicks
+how can we improve this now
+is there like a low pass on this or something I should remember I only made this yesterday
+here we go
+LFO 5
+better
+still want a bit more movement in there though so let's try
+um let's try a notch
+LFO 5
+let's try a band 12
+cool that could work
+LFO 5
+a bit more movement
+all right let's check out this one now
+so the sub gets a bit lost compared compared to the others let's have a look
+I think it's just the distortion to be honest so much distortion
+better
+I wonder if we can get this any louder as well
+let's go
+I'm going to change the kick as well
+use the low one but not sure
+now right let's dump the F kick
+it was a good idea but
+right definitely an improvement
+now what I'm going to do is look through some effects I want to see if I can
+I want to see if I can improve this somehow
+so when I mean my effects I mean like little reverse things like
+something like that
+so we're tuning I normally do this by ear
+sounds a bit spaceship to me
+okay that could work
+definitely doesn't need it that
+it's very quiet
+let's give these a go should we
+maybe this works on that last one
+but too much it's gonna randomly shorten it
+not big fan
+this is from an unfinished tune I did
+nothing great in there
+okay cool
+okay shouldn't be turning this up plus six
+and although the sample is quite soft but I think I need to do a review of the level soon
+maybe that goes before the drop
+I'm still not happy with this up yet
+I think I'm gonna leave it like that for now
+like come in handy
+cool that's very intense like that
+it's down on that a bit I just want to make a little fade in here I don't want to
+I don't want to have this rammed I mean look at this waveform it's already blown up and
+after it there's going to come a huge amount of energy so
+I think we can improve the the punch
+but that'll come with our mix now so we can think about that later
+some way to get this kick a bit more
+just double check my sidechain a sec
+maybe I don't need a really long sidechain well we're gonna cover this in a minute
+right so we are making progress the drop is already sounding okay
+I'm kind of liking how the build-up sounds as well so far the really intense this section
+that's sounding very great cool and it's definitely working already
+that bit's working already the only bit I'm disliking now is this section
+this last bit's cool
+but this bass is still not great so let's see if we can improve that
+I think this is very mono as well so maybe we can in keeping with the rest of the bass sounds we can
+join
+interesting
+oh that sounds cool so um I just put the hype dimension on serum and I've left the mix up
+so it's almost phasing
+I like that it sounds almost like pan to the left and right but it's giving a very
+unique effect and if you notice my sub is directly being sent out so that's mono
+unfazed
+yeah it's a bit sounds a bit panned
+such a huge difference
+so
+where was this low pass
+so I'm just going to AB this definitely an improvement definitely sounds interesting I'm
+not sure it's the final thing yet
+the unison is very weird maybe let's pick a three instead
+yeah number two unison works
+I think
+oh that could be quite cool as well let's see if we can put this just on the last bar
+so
+not bad definitely sounds more interesting I'm not sure I'm like yes that's the one but
+I think in some respects what you have to do is look at the sound objectively and think okay
+does it sound more interesting does it fit the tune more does it fit with the rest of
+sounds that are around it and I think it does tickle those boxes what I just said
+cool oh wow that release really annoys me
+I think what we might do is bring that up in layer for a whole section rather than just have
+it for two bars
+oh yeah cool that was my
+I'm gonna turn this up a bit
+let's also
+try something cool with this
+there is a cool plugin and I've never used this plugin so we can do it together
+it's a granular synth or granular tool from max for life
+so
+granulator I think it's called there we go granulator two okay let me make a quick
+oh
+cool all right let me just drop granular here
+faster
+I'm sure there's quite a way to do this actually you only realize until you're halfway through
+though and then you think well I'm halfway through a meso carry on
+cool so I think we can just grab this into granular here is that possible
+oh yes fantastic and what we can do with this is we can add some granular goodness to it
+which is if you don't know or granular is get on youtube have a quick look it's almost like a
+sample of it re-triggers
+that's the same right
+you're cool so
+which is kind of cool
+let's see what this sounds like
+don't think it's the right tune
+you can tell you can tell what kind of cool sounds you can make with that
+cool so I just think that I think will work just like that cool so let's give a listen from the start
+start till finish let's loop it a couple of times and let's say we can prove
+and then what we're going to do is I think we're going to try and improve this build up
+we've got the drop and then we can start building it out I think we need to add the arp
+I want to bring the melody in somewhere again if I can so let's see how we can go with that
+let's run from the start to finish though so just want to listen through it
+like this good
+oh yeah
+okay something's glitching out there thanks Ableton just ruined the moment
+what's going on I think I just accidentally deleted a section did I let me double check
+the wonders of producing right so I'm going to retrieve this get this back again take a little
+take a little break get some fresh air and then when I come back with you we're going to review
+what we need to fix with this intro and then build out the rest of the tune

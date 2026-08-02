@@ -81,6 +81,10 @@ Mefjus focuses on clean, warm low end with organic modulation. Sounds are design
 - Phosphene
 - Blinker
 
+## Workshop Transcripts
+- [[Track-Insights-Mefjus-Zenith]]
+- [[Workshop-Transcripts/TRACK INSIGHTS Mefjus ft. flowanastasia - Zenith]]
+
 ---
 
 ## Engineering Metrics

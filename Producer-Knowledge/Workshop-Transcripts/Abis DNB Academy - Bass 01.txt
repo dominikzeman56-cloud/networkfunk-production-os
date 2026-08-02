@@ -1,0 +1,606 @@
+Okay, so let's talk about making bass sounds. So what I like to do a lot is I like to make
+sessions for myself where I just make bass lines. I'll make all different types. Sometimes
+I'll have a general idea about what I want to make or sometimes I'll just open up
+Serum and just see where the sound develops. And what I like to do is I like to do these
+isolated sessions. What do I mean with that is instead of actually working on bass lines
+in a tune, what I'll do is I'll make, for instance, I'll spend three days making like
+literally a hundred presets for myself. There will be a few in there which won't cut the
+speak. But I guarantee that if you do spend a couple of days just isolating yourself and
+just making bass sounds, then you'll definitely make something very unique in that process.
+So what I want to do is I want to set myself up. So after this session,
+I'm going to basically write a tune, put an idea together. So I want to be able to use these
+bass sounds that I'm going to make now and try and fit them in a tune. So I'm going to
+try a few different approaches. The first approach, what I'm going to do is I'm going
+to try and make a kind of reese sounding bass. There's a couple of ways you can do
+this. So I'm going to go through them. So what I like to use is serum. I used to use FM8 a lot,
+but serum is kind of my go-to synth now. So with reeses, there's tons and tons of
+different ways you can make them. But I'm going to do really the classic kind of reese
+way. Just before I start going ahead and doing this, I just want to say I haven't planned anything
+here and there's a reason why. It's because I really wanted to give you guys and show you a
+kind of insight about how you should be doing it as well at home or in your studio. I mean,
+it's all well and good me just loading up a couple of presets that I've already made,
+but I really wanted to take you on that journey and that process on how you kind of work with
+raw sound and turn it into something that will fit into a tune and that's got weight and
+interest. Cool. So let me just get this set up. What I'm going to do is actually use
+saw waves. Now, this is kind of a really classic way of making a reese. I'm going to actually use
+phase to create an interesting sound. So I've loaded two saw waves up and as I mentioned
+before, like with making kicks and snares, I always want to have this random phase set to
+zero. I want to be able to control where they start and that'll make a bit more sense in a
+second. So if I just play this, you can hear it sounds very static. It's got a nice warm,
+familiar harmonic distribution about it because it's a saw wave. I'm more familiar with that,
+but it's very static. Just so what I want to do is try and create some movement in there
+and I can do that by actually detuning the saw waves. So I'm going to show you a quick
+example of how this works. So I'm just going to use Ableton's resample function to record this
+in. Why isn't that working? Oh, sorry. I'm actually recording on the channel. Okay, cool.
+I want this one resample.
+Right, so if we look at this waveform, you can actually see it's a saw
+and it's literally just static. So there's no movement. You can see no movement in the
+waveform. So I'm just going to put this over here for now. Now, if I start to just detune
+each one, and what I mean with that is literally physically change the tuning.
+And when I mean change the tuning, I don't mean like a semitone. I mean just fine tuning.
+So if we start changing this, let me actually play the serum.
+Now let's record that back in again and see the difference.
+So if we zoom in, you can see here it's like almost getting louder and softer. And why is
+that? It's literally because we've phased them. So what do I mean by that? So let me give you
+a quick example with this audio file. I'm going to take this audio file.
+I'm going to duplicate this audio file. And if I play them together, it will literally double
+the sound. So if I just solo those so you can hear they're both exactly the same audio file.
+Now, if I take this and then I flip it, flip the phase around, so that point would literally
+be there. What is going to happen? So I'm just going to do that with the utility,
+which is here. So if I flip the phase around, you can see something's happening,
+but we have no sound. Now, why is that? So this is to do with the physical nature of how
+actual speakers work. So on this line, what you're seeing here, that's a middle ground.
+And if you go above that, that's what we call a positive amplitude. And if you go below that,
+that's what we call a negative amplitude. So physically, from this point on is the actual
+speaker pulsating outwards. And then when this comes back in, it's pulsating inwards.
+So this is that your physical nature of how a speaker works. We've all looked at a speaker.
+We've all seen the actual cone moving very, very fast.
+And so this is the actual physical interpretation of looking at a waveform
+and translating it into the actual physics of how a speaker works.
+So if I play the same sample and I flip the phase on one of them using the utility,
+the reason we're not hearing any sound is because the same information
+is being sent to the speaker, but in conflicting terms. So instead of
+this being pushed out, the exact same information is telling the speaker to push in.
+So the speaker physically has no information to read and it's not going to move. It's like
+pushing and pulling effect. It's like a tug of war. So that speaker cone will stay static.
+So just to prove, if I now un-solo this, so one of them is muted, you should be able to hear the
+sound. And if I take the utility off. Perfect. Right. So that is the theory into detuning
+recess. And this is why you start to get, let me just get rid of these.
+And this is why you start to get that kind of really familiar kind of LFO sound.
+Cool. So let's try and develop this a bit further. I'm just going to
+first make a quick melody for myself.
+Obviously wants to go an octave lower.
+And obviously I want to change serum, the voicing to mono and legato.
+Cool. So do
+something like this.
+Cool. Let's just do these two bars for now. Cool. So now what I'm going to do
+is I'm literally just going to jam away. I'm going to add lots of distortion. I'm going to
+add some more modulation. What I'm trying to do is I'm trying to test the plugin to see what
+kind of characteristics it's giving. If I feel attached to that sound, then I'll move on,
+try and progress it even more. And I'll just keep going until I'm satisfied,
+which could be a really long time. Cool. So let's firstly add a bit of distortion.
+So in Ableton, what I like to do is I've got my collections here and I've got a little
+few different favourites of kind of distortion. I've also set up a couple of
+a couple of group settings, which I like to use. I've got this one called mega distort,
+which is utilising lots of distortions.
+Let's see what this sounds like.
+Not bad. Maybe it's a bit over the top. So that's also, if you find something,
+if you create a distortion rack, which you're happy with, just save it, create
+cool little folders. You want to be able to create these kind of helpers for you,
+which will set you up to be able to create something really cool.
+So in this instance, I'm going to use a guitar rig vibes by Native Instruments,
+very, very old guitar amp simulator, which I really love to use still.
+Important thing to remember is to keep it in stereo. So you can just change the in left
+and right. And what I like to do is I've set up a preset for myself called best amps.
+And I've just labeled it zero one. So if I just flick on the preset name,
+it will come to the top. So if I double click on that,
+it's literally a collection of guitar amp heads, which I like to use.
+I'm not going to use them all in one go, obviously, but it just gives me,
+it just sets me up. So what I can do now is something like this,
+just flick through whatever I like the sound of. So that's got something cool about it.
+It's very loud.
+Cool. So we might be able to use a combination of the both.
+That could be cool.
+Let's try another one. Just see what happens. You never know.
+That's pretty cool.
+It's actually funny because I don't think I've ever made a bass sound with this many
+amps activated. But it sounds cool. It has some kind of character and it sounds like it's
+really being pushed. What I'm hearing at the moment is the high end is still a bit boring.
+There's not enough modulation in there, but I'm going to go back and amend that in a second.
+I just wanted to quickly show you one thing on these cabinet overheads. So
+if I, if you press this X, they kind of fold out and you've got some settings here,
+which you can play with. There's also another setting if you press this little arrow here
+and there's a stereo button here. So if you want to make
+a bass sound, so if you want to make stereo basses, it's really crucial that this is
+checked. And I've got them already checked on each, each individual cabinet. Again,
+this is why it's so nice just to have that set up. See how quickly I just put that together
+in a couple of minutes. If I wasn't talking, that would have been 30 seconds and already
+already been moving on to my next interesting, next interesting path to creating,
+developing this sound basically. So yeah, get yourself set up.
+Cool. So let's move on. I might try and add something to bring out the high a little bit.
+I'm also obviously working on headphones now, and that's not something I use a lot for making
+basses. I like to kind of have the, I like to kind of make them in my room with my
+monitors. I'm in actually in a Trita studio, so it's really nice for making bass sounds.
+Cool. So let's go back to my distortion. Erosion would be cool.
+This is an Ableton filter. It's kind of got a white noise.
+Cool. So that kind of gives it a really
+like really kind of peaky.
+Just brings a bit of crunch to the top end. Cool. So what I'm going to do is I'm going to go
+now go back in Serum and start trying to add some different kind of filtering.
+One thing I like to use is a band pass. So let's see what that sounds like.
+This can become messy very quickly.
+That tone is very cool.
+So whenever I hear something cool, I make a render of it. That's kind of my my my the thing
+I like to do. What it will do it will kind of you'll literally create this huge sample library
+of kind of one shot sounds. And they're fantastic if you want to write a tune quickly.
+The only problem is that because you're it's quite destructive, you're going to have to
+because you're it's quite destructive because you're creating an audio file.
+There's no way to kind of get it back. But I'm quite happy dealing with that way.
+You can save the patches, but sometimes I'll make literally like 50 or
+different audio files of the bass sound. And having 50 patches, I don't think is
+very productive. I think things will get messy very quickly. Cool. So let's make a quick
+render. I might just have one note.
+I might be able to use that for something cool later. Cool edit, something like that.
+Really cool tone. So we just leave that there and then we'll go back and move this.
+Okay, so why is that? I quite like that. That's sounding quite cool and interesting,
+very messy, very messy. But there's some really cool tones to it. And I think it's
+good to try and understand why that tone is being introduced. Literally all I'm doing
+is sending a big peak on the actual spectrum. So I'm literally doing this.
+So I'm going to put it before the distortion.
+I'm literally doing something like that. The bandpass filter sounds way better.
+Actually, so maybe we can automate this, but I have a feeling it might be a bit too much.
+That might be quite interesting in like an edit in a tune.
+Yeah, that might be quite cool. Let's render that one.
+Okay, try. Let's try something else.
+I just want to try and add some stereo imaging to it there.
+So in this particular stage of just jamming away and making basses,
+I'm not really too bothered if I've got stereo sub or any kind of or I'm breaking any
+any crazy rules during bass production rules, because I know I'll probably have to fix that
+later. Really, that kind of comes with knowledge. And the more you produce and the
+more you kind of understand the physics of music and sound, you'll be able to kind of
+fix things later. Or sometimes I'll just have a really stereo sub. I mean, nowadays,
+it is possible. The club sound systems are getting better, etc. So and we're obviously
+not pressing on vinyl that much anymore. So we can be a bit more creative.
+Let's try a bit of FM. So FM from B.
+That could be cool in the gym.
+I could probably use this.
+Some reason it's gone a little bit static, the sound it's lost the the movement.
+And what I'm going to do is I really like that setting and it's working. The harmonics are
+working well. If you look at the spectrum analyzer here, I'm just going to put a macro
+on this. A really easy way to not screw things up too much is to put a macro on something and
+then put it to zero. So you just leave it there. I know it's sounding cool there. I
+don't want to tweak it. So if you look on the spectrum analyzer, you can see it's like
+almost a very steady, like a steady slope. And then when we change this,
+getting this huge peak, which I quite like. Let's see if we can develop this a bit more.
+Let's see if we can get some movement back into it. So we might be able to use an LFO.
+Let's see.
+Let's use just a low pass. So I'm just going to assign LFO 1 to the cutoff.
+It's sounding very dubstepy.
+Let's slow this down.
+That's not bad. I think I might be able to use this sound in a whole tune.
+So when I get to this stage, I'm like, okay, that sounds cool. I can literally picture,
+I can picture this being in a tune, like before I drop, really big and loud, then
+suck it into something a bit more deep, maybe. So I'm already starting to paint a kind of picture
+in my head of where I can go with the sounds. And when I'm doing that, you've got two options.
+You can either go ahead and do it straight away, or the second thing is just that thought
+process of being able to hear it already in a tune means that it probably will work in a tune.
+So save the preset. So I'm going to make a little folder for myself.
+I haven't prepared this and there's a reason, as I said before, because I want to show you
+this whole process of how I go about doing this. So I'm going to make a new little
+folder for myself. I'm going to call it bass sounds master class
+00. So it goes at the top. And you can see here, I've got a whole selection of
+kind of interesting things I've made and saved, which I can use sometime. So let's have a quick
+quick look at the waveform. It's so cool.
+It's like being in the sea or something. Yeah. So basically this is just a massive peak,
+which is being swept, but creating a lot of interest.
+Let's listen to without the distortion, which is quite funny.
+So cheesy.
+So yeah, obviously way over the top, but that's fine for now. Cool. So I'm going to mute this
+and save it. And then what I'll do is I will do exactly the same process again.
+So again, I'm going to get serum in. It's very tempting just to duplicate
+this sound, which I just made. But you literally, what I find with myself is I literally just make
+the same sound over and over and over and over again, which is fine. If you're trying to
+achieve this one sound and you really want to nail it, then that's fine. But in this instance,
+I'm literally just creating a massive palette of sounds for me to utilize when I go and write
+the tune. Right. So let's go through this same process. I'll take this one. I think
+I'm just making a quick melody.
+And while the melody is running, I'll just make the sound. So again, two saw waves distortion,
+two saw waves detuning.
+Take the round above.
+Sounding very underwhelming.
+Cool. That's really got a question and answer feel to it, that melody.
+I can hear it's going to change after that. It's suggesting something to me, that melody,
+which is good. Okay, so now I'm going to try and turn this into a big bad reason.
+So again, I'm going to go into my distortion. Let's try something else this time.
+Let's try some trash.
+See what this is.
+Okay, so this is just about trying to find something.
+Okay, I'm not liking any of those. So get rid of you. Let's try AmpliTube.
+AmpliTube again is a guitar emulator.
+It's giving me a cooler sound.
+Again, I want more distortion though.
+Just going to notice I haven't got that many, I haven't got loads of distortions on here.
+Okay, adding a little bit more. Let's add a wave shaper.
+Let's try square mode instead. Wave shapers are great tools,
+great easy tools for you to get quick sounds with.
+And what I like about the melder stuff is it's got a random button.
+So what I'm just checking here, I'm just checking to see how much it changes as I turn it down.
+You have to remember with things like distortion, how distortion works is it basically takes the
+harmonics, the sound that's being fed into it and distributes harmonics based on that harmonic
+which is being fed into it. That was a mouthful. So just by turning down the
+volume sometimes it makes a massive difference. For example, if I cut the bass out of this,
+watch how the sound changes.
+This is huge, huge kind of golf in sound which is really interesting.
+If you can control it, it's great. But this actually gave me an idea doing this.
+I really like that peak in some places. And serum has a pretty cool function.
+You can use the actual note as automation. So if I put this on the frequency,
+basically, this is basically tuning to whatever MIDI note is playing.
+So if I move this up now,
+as you can see, I've actually put it out of tune. So it's making a kind of
+harmonic which is not connected to the fundamental. So this is playing an F at the start
+and let's have a look on our spectrum analyzer.
+Which I quite like the sound of. I'm not sure what the release is doing.
+I think just because it's destroyed so much that it's literally blowing up the whole tail,
+I think. So that top one's a bit too much. Where was that?
+That's not bad.
+You might be able to use one of those somewhere. Just somewhere.
+The release distortion is way over the top. Let's see if we can find what that is.
+Let's see what happens if instead of me pressing stop, if we just let it play out.
+Okay, cool. So that's okay. I think that's a little bug in serum. Actually,
+whenever you press stop, I think you can probably hear me pressing space bar.
+It kind of goes to like zero hertz or whatever that is. Very low frequency.
+But I think in the tune we'll be okay because
+it's okay. Good.
+Cool. I definitely think we can use that for something. I'm going to save this as well.
+I just remembered I didn't even save my other patch so I'll do that as well.
+Cool. So that wasn't your typical reese but I started off doing that process and I just
+kind of followed my instinct and followed what I was hearing in my ear. It's very important
+to kind of, it's very important to trust your instinct and trust your ear with these things.
+Everyone has their own preference and if everyone just does the same thing,
+then we'll all literally sound the same and in drum bass it's already saturated enough so
+I would encourage everyone to really try and develop their own sound and this is a perfect
+way to do that. Using old techniques, following your instinct, putting your own twist
+on it. Cool. So let's give these a save. So I'll go to my user library. I'm sure everyone
+or every door has kind of this option.
+So 001, 002. Right. So they are ready to go now. What happened there?
+Okay for some reason it's overwriting it which is a bit weird.
+Okay I'm not sure why it's doing that but I'll fix it in a bit.
+So yeah let's move on. Another thing I like to do in my tunes is
+have low-passed reeses in the intro. Let me load up serum again.
+So one of the things that I like in drum bass is very melodic intros
+and I love to have these kind of low-pass reeses doing a lot of the kind of moody,
+very moody bassy work of the tune. So I'm just going to show you something along those lines.
+What I'm going to do is I'm going to put a kind of pad in here just to kind of set the scene.
+I just want to try and make it clear, make my idea clear. So let's just take something random.
+Let's look for something a bit more melodic.
+Cool that will do. So I know it's D sharp so I'm just going to take a little low end out of this as well because
+cool. Alright so I'm going to mute that for a second. I forgot my little clip.
+So low-pass reese, no it's a D sharp so let's start on that.
+I'm just going to quickly get the reese up and then I'll make a melody.
+I'm just going to punch that in for now.
+Right let's go.
+So again I'm going to turn the random off, low-pass.
+So you can get the idea right that it's very moody.
+How quickly was that? I mean I love, I love making reeses like this because you can get results very
+quickly. Cool so let's go back to our old, the old and faithful.
+I think I'm going to do the low-pass after.
+Cool.
+Probably want to go to the octave as well.
+And I'm just going to extend them so they're legato.
+Obviously need to do that in serum as well.
+Right so now I'm going to control this with an LFO.
+I'm going to use LFO tool. There's lots of different options you can use.
+Wrong channel.
+Right so let's set this up low-pass 24.
+Lots of clicking though so maybe smooth that out.
+Probably want to take this off as well.
+So now I can just automate this. So I'm going to set my rate to, normally I would actually
+physically draw the automation in but just for this example let's
+so I want to go all the way down.
+Oh big part and this is actually controlling the volume. Let me fix that.
+Cool I'm gonna put a little bit more movement in there I think.
+Cool now let's add a little bit of reverb.
+I'm just going to use the vintage reverb. I'm just going to use a very crude.
+Sounds cool.
+Don't like that reverb. Let's see.
+I'm not sure I like the gated style. Let's try some.
+Cool that's a bit better. I'm going to put a bit of low cut on this.
+Right let's see what it sounds like with my little clip.
+So let me change the melody to fit. Just to give you an example.
+What note is that? G sharp.
+So something along these lines I'm trying to achieve. Give a really really moody intro.
+What I would do when I'm in the tune, I would actually physically draw the automation in.
+Like I said because I'm not sure this is great.
+Great that's fitting perfectly.
+Cool so that is the introduction for these style of recess.
+Now I'm going to take a little break which is very very important with bass sounds in
+my opinion or with most sounds. So I'm going to take a little five minute break.
+Get some fresh air and then come back in and make some more bass sounds.
+So I'll see you in a sec.
+So I took a little break. Back at it again. Ready to go.
+One of the reasons I like taking a break every hour, every couple of hours completely
+up to you, is I just started to think about kind of the process I was just doing.
+When I was thinking about the basses I just made I was thinking hey I could turn this into
+something a bit different. So what I wanted to do is I wanted to kind of make a reesee type
+of sound but with lots of modulation in it. Like lots of sounds you would hear in the kind
+of neuro type of tunes or something with a lot of movement. So I'm going to do kind of the
+same process before but this time I want to talk about wave tables instead of using saw
+waves. So I'm going to load up a serum again. I'm going to put a little melody in there.
+Let's just see what we can build.
+Okay cool. So again mono legato.
+Cool. So now the first thing I want to do is use some different wave tables and for the sake of
+this video I want to show you how quickly you can get a very cool sound by just using the stock
+wave tables. So there's a couple I like. Most of them are pretty good. This one's just jumped
+out to me now MB triangle in brackets metal. Not sure what that means but
+so the cool thing with using the stock wave tables and I will talk about making your own
+wave tables in a second but the cool thing with using the stock wave tables is
+you can create a very quick modulating sound by just automating the wave table position
+and as I slowly move this you can see the wave table starts changing.
+So let me show you if I load up my EQ and what I'm going to do is
+slow I'm going to play this and slowly slowly change the wave table.
+So if you just look at this frequency spectrum analyzer here
+you can see the the harmonics are changing and that's
+creating a very interesting sound to my ear so we're going to roll with something like this
+I haven't really got an idea in my head of what sound I want to make
+so I'm just going to keep adding until I'm satisfied basically
+so that's cool but it's very standard I want to try and
+let's try
+that's pretty cool
+so my goal here is just to literally make this sound as interesting as I can
+so what I'm going to do is I'm going to FM oscillator A
+from B
+let's see what if we put the same LFO see what
+not bad
+again I want to turn these random off which I forgot and the sound might completely change it
+nope we're good
+also I think I want to actually go an octave down
+um I really like the tone of
+I really like the tone of that sound but there's no sub in it
+what can we do about that just add the sub oscillator
+so obviously we want to go one octave below oscillator
+so what we can do now is maybe add just an LFO to the level of this
+I'm going to use the same rate which is half a bar
+okay I'm going to turn it off as well so it doesn't re-trigger every time
+let's see if we add a little bit of unison to this
+so you can see it's not sound very detuning
+very interesting
+cool so let's add some distortion to it now
+it already sounds quite harmonically rich so
+maybe a guitar rig might be a little bit too much but let's see where we get to
+yep way over the top
+okay okay so you can already tell that's going to be way too much and this is where
+knowing your plugins and what they're capable of comes in handy I know Isotope Trash is not
+going to recreate that same level of distortion it's going to be a lot milder and tamer so
+I'll go for that let's see how they sound
+the dents are certainly quite cool let's see how far we can push it
+I want to get rid of that click as well
+that's also kind of cool it's not exactly what I wanted it to do but it's
+okay I'm not sure where the click's coming from yet but I'll kind of try and un-hear it for now
+and come back to it later cool so let's add some filtering to it and we're going to do that
+pre-distortion I'm going to try let's try some random random filters
+I think the click is coming from Isotope Trash
+I think the click is coming from Isotope Trash
+cool so let's put a little bit of automation on this
+way too fast
+and I've obviously lost the whole sound here so what I want to do is take the mix down
+just a little bit of
+a little bit of movement which is cool
+so let's add some serum OTT compression I'm sure everyone's heard of OTT it's well
+well talked about well talked about compression style
+the problem with OTT is that or one it's not necessarily a problem the the fact OTT is it
+limits and compresses so hard that it will actually rebalance the the harmonic content
+of your tune and to get things loud normally the first thing that's compromised is bass
+because that's normally loudest part of the frequency so it's eating up all your headroom
+so as you can see lost all the bass
+so I'm going to try and do this a different way
+anyway let's just
+cool quite like that effect but I only like it in some places so again I'll put a little bit of
+automation or I'll put a little bit of LFO on it
+let's go all the way down see what happens
+I don't think that sounds great so I'm going to dump that
+that that first stab like that I could probably use that in the
+the tail of it doesn't sound great to me
+so let's try a few more different processing techniques I've also got this section here
+called modulation with lots of different like flangers and choruses that I like to use
+let's try a chorus see what that sounds like classic chorus sound
+so making lots and lots of interesting detail in the in the stereo field as you can see
+so say say I wanted to create um this bass sound with a very um
+very wide sound which is caused by the chorus but
+problem with the chorus it's going to kind of phase the low end
+which won't always work in your favor so what we can do is I can literally put this in a group
+and duplicate the sound so that's original just name this
+if I could spell I'm going to call this chorus
+I'm going to take a bit of low end out of this as well this might change the phase though
+so I have to be very careful here
+so
+sounds a little bit distorty not great but not terrible either
+so what I wanted to do here is try and marry these sounds together
+I'm wondering if we just take the low
+it's not sounding great to me
+so I'm going to leave that for now um let's see what more modulation will do
+vocoder works sometimes good but it's also probably way over the top so let's double check
+yep I'm just going to keep it easy and have four bands
+so
+do get quite nice texture in that top end
+so
+so I'm just revisiting serum now see if I can improve anything here
+so maybe something like this would work for me in tune
+has it got a long release on it yeah let's cut
+cool that's not bad
+okay maybe I want to go a little bit higher with the FM
+cool so that's sounds a lot more interesting to me
+I could definitely use that in a tune
+cool not bad okay what I'm going to do is I'm going to save this leave this
+and this time I'm going to save all my presets after the session I want to move on I want to
+try and create something more interesting again so I'm going to open serum again I'm going to
+choose a different wavetable this time let's have a look in the digital
+cool there's one cool distort dropper I think yeah distort bass dropper which is
+has a very interesting tone to it
+not like that it doesn't
+have
+so yeah this sounds very familiar to me I'm sure lots lots oops
+I'm sure lots of people have used this wavetable in tunes
+I mean even that could work in a tune again I'm going to turn random off
+okay let's make
+let's try and make a
+cool so let's work with this modulation
+let's try some dotted should we
+try the other way around maybe
+oh I liked it
+so
+just trying to look for something for some reason serum has decided to stop working
+let's open and close it again okay cool let's dump that and start again
+okay I think serum may have a problem
+it doesn't look promising which I've never seen before so
+cool so let's go to digital again
+let's go to my dotted which was quite cool
+I extended that
+cool I just like it like this actually cool so let's start adding some saturation and see where
+we get let's try um some um effects from serum this time so let's open up the distortion
+as you can see all the all the detail in the top end is lost now pushed it way too hard
+so
+okay maybe we could automate this as well because it's because it's destroying
+okay I think it's a bit too static for me now
+so let's try something else
+so
+what sure is
+this sounds cool
+this could work actually so if we automate this into a very slow pan like I was just
+that's cool okay so this is by adding these small things what you're doing is you're
+developing the sound over a longer period so if that bass is playing for one whole bar
+it's not just literally the same sound being triggered going no no no no no
+you know there's a lot more variation in the sound
+cool so now we need a bit of top end in there because sounding very plain
+as I mentioned before the compressor is actually a cool tool for that
+the top end is very dirty though
+cool and I'm not sure we'll be able to fix that let's see this also sounds quite cool like this
+actually I mean if if I was if I wanted to work on a kind of deep deep techy tune
+this would be absolutely perfect
+for example I can already see in the tune and then coming to a bar
+just a little kind of automation there so I might save this one
+let's see let's just see what it sounds like
+let's extend this loop a bit more
+so
+kind of cool
+cool
+so
+cool let's try an FM let's see if we're gonna add even more character
+don't wanna do it from the noise
+so
+so what I could do is I'm not sure I would use this in a tune like that but it definitely
+made my ears prick and that's exciting so I'm gonna give myself an option remember I'm gonna
+save this patch and when I'm working on a tune I'll probably dump this in dump this preset
+in somewhere and I want to be able to work quickly when I'm working in the tune I don't
+want to be fiddling things fiddling around and creating sounds too long I'm going to get
+the idea down get a solid idea and then be able to develop it from there so I'm gonna
+set up a macro for this for the FM from B and also the actual level because I was liking
+the sound of that so when I'm in the tune I'll be able to
+maybe let's take this an octave down
+and I probably also want to turn the random off both I will keep forgetting that
+so
+okay there's lots of interesting detail going in there right let's add a bit of
+distortion just to try and blow the sound up a bit
+bit too much
+cool let's add some more distortion I want to try and bring this top end out a bit more I
+know I've taken it down before but let's have a look so erosion is good for that
+let's open an EQ and see if we can just boost it that way
+let's do it before the erosion
+not bad
+let's try and add some filtering to it let's try something a bit random
+crazy alien noise
+could be cool
+okay let's see what else let's add another filter
+let's do this in effects I might come back to that reverb filter in a sec it sounded
+had some nice things to it let's see if we can use a screen
+I'm going to do this before the distortion
+so I'm just going to flick through the filters see if we can
+do this
+Cool, I think I made it sound worse.
+Cool, so I don't think I'm improving it that much by adding filtering.
+So I could do a couple of things.
+Typically if I was working in the studio I would probably spend about two hours on this sound if I thought it had potential.
+And it deserved that amount of time.
+Otherwise I would just stop now, save it and move on to the next one.
+So let's give that a go.
+Right, so I'm going to load up a new Serum.
+Let's try a different wavetable this time.
+Let's try this here.
+Should I make a quick melody?
+Cool, so again follow the same patterns as before.
+Cool, hitting in the right frequencies.
+Cool.
+Cool, let's try and add some distortion.
+I'm going to try my go-to guitar cabinet.
+Guitar Rig, best amps.
+Wow.
+It's not bad.
+Okay, I'm going to try and use a low-passed, sorry a band-passed filter here.
+Because I want it...
+Cool.
+So let's go a bit crazy with that.
+Let's put it back to one bar, shall we?
+Not bad.
+Let's try that.
+Okay, I want to turn my...
+There we go, stereo.
+Okay, what do I need to do to this sound to make it sound way more interesting?
+Let's try the compressor again.
+How does that react?
+Bit over the top again.
+Cool, let's try some EQ, some automation.
+Too much, let's try the other way.
+Dipping.
+Let's try and do that with a filter instead.
+I like that ending.
+So I feel it needs a bit more high or something.
+Oops.
+Okay, let's open this one.
+Cool.
+Just wanted to quickly flick between them to see if I was missing something.
+Okay, let's try a bit of modulation stuff.
+So let's try the Coder again.
+Ouch.
+Apologies.
+It's a crazy sound actually, isn't it?
+Some sound effect.
+It's adding some kind of strange harmonics to the high end.
+Which I'm not sure if I like yet.
+Let's try FMing this again.
+FM from B.
+Let's just try a sine wave instead.
+Cool.
+Cool, no that doesn't sound great.
+Sounds like elephant.
+That might sound cool in some.
+In some way though, so I would probably render this off.
+Or maybe I'm just hearing it.
+Okay, cool, that sounds a bit better.
+What I'm going to do is I'm going to put this down and I'm going to add some extra harmonics to it.
+I'm going to cover this table edit in the next section.
+Just trying to add some more harmonics.
+Cool.
+Cool, not bad.
+Let's see if we can calm it down a bit more.
+Cool, so something like this.
+Cool, something like that would work cool I think.
+Now there's a couple of things we can do.
+We can literally just press record and go shh, shh, shh like that.
+So let's give that a go or maybe it's even easier to just draw it in.
+See how we go with that.
+Okay, number six.
+Okay, let's put that back.
+Cool.
+Oops, too much.
+Not bad.
+Might be a couple of cool interesting notes I could use in there.
+Like this one.
+Really don't like that big peak at the end.
+It makes it sound very cheesy.
+Cool.
+Okay, cool.
+So then after that we move on to the next one.
+But what I'm going to do now is I'm going to again take a little break.
+Come back, have a listen to these, save all the patches offline.
+And then what I'm going to do is I'm going to spend a couple of minutes finding a few of my favourite bass lines from different artists or maybe my own tunes.
+And then I'm going to show you how you can almost recreate the same tone of that bass line in Serum by using the harmonic section, the table edit.
+Cool, so see you in a second.

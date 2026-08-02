@@ -1,0 +1,1608 @@
+1
+00:00:00,000 --> 00:00:02,000
+Oh
+
+2
+00:00:30,000 --> 00:00:32,000
+So there I am.
+
+3
+00:00:32,000 --> 00:00:36,000
+My webcam starts in 3, 2, 1.
+
+4
+00:00:36,000 --> 00:00:38,000
+Start.
+
+5
+00:00:39,000 --> 00:00:41,000
+I'm a little depressed.
+
+6
+00:00:41,000 --> 00:00:45,000
+The webcam starts in 3, 2, 1.
+
+7
+00:00:53,000 --> 00:00:55,000
+It's taking a while.
+
+8
+00:00:55,000 --> 00:00:58,000
+The webcam starts in 3, 2, 1.
+
+9
+00:01:01,000 --> 00:01:05,000
+The Q-Base starts in 3, 2, 1.
+
+10
+00:01:05,000 --> 00:01:07,000
+Click.
+
+11
+00:01:11,000 --> 00:01:13,000
+That's something.
+
+12
+00:01:14,000 --> 00:01:22,000
+So hello and welcome to another track inside with Modus and myself in Matthews.
+
+13
+00:01:22,000 --> 00:01:28,000
+This time we look at the song Seneth with Flo Anastasia from Canada, from Toronto.
+
+14
+00:01:28,000 --> 00:01:30,000
+Let's jump right in.
+
+15
+00:01:30,000 --> 00:01:33,000
+As you can see this thing was written in Q-Base.
+
+16
+00:01:33,000 --> 00:01:36,000
+I had like 3 individual projects for this song.
+
+17
+00:01:36,000 --> 00:01:41,000
+One is this main Q-Base project where most of the magic happens.
+
+18
+00:01:41,000 --> 00:01:46,000
+Then there's one mixing project for the vocal.
+
+19
+00:01:46,000 --> 00:01:55,000
+Because as I'll show later, maybe now, the vocal stem I got in here is pretty much all processed already so it can save some CPU.
+
+20
+00:01:55,000 --> 00:02:01,000
+And the third project is the musical writing project which we'll also have a look at.
+
+21
+00:02:01,000 --> 00:02:03,000
+But let's start with this.
+
+22
+00:02:03,000 --> 00:02:05,000
+First up the drums.
+
+23
+00:02:05,000 --> 00:02:09,000
+As per usual I always sort of categorize the sounds I'm making.
+
+24
+00:02:09,000 --> 00:02:19,000
+Bass drum, snare drum, hi-hat, some breaks I used, some extra ultrasounds and some intro synth percussions.
+
+25
+00:02:19,000 --> 00:02:21,000
+Let's jump right in.
+
+26
+00:02:21,000 --> 00:02:23,000
+As you can hear.
+
+27
+00:02:23,000 --> 00:02:32,000
+Seneth's verse is complemented by this synth percussion loop here that is sort of playing the melody as the bass line does.
+
+28
+00:02:32,000 --> 00:02:40,000
+And sort of to give the vocal like a fundamental backend if you like.
+
+29
+00:02:40,000 --> 00:02:42,000
+There comes a little break here.
+
+30
+00:02:42,000 --> 00:02:47,000
+Pretty standard stuff, filtered stuff.
+
+31
+00:02:47,000 --> 00:02:54,000
+Some hi-hats there, kick build to increase the tension or whatever.
+
+32
+00:02:54,000 --> 00:02:56,000
+And then it drops.
+
+33
+00:02:59,000 --> 00:03:03,000
+What's maybe a bit special here is that the kick groove is a bit off.
+
+34
+00:03:03,000 --> 00:03:10,000
+You can tell it's a bit shifted to the right relative to the time.
+
+35
+00:03:10,000 --> 00:03:13,000
+And there's six kicks in one bar which is quite a lot.
+
+36
+00:03:13,000 --> 00:03:15,000
+I think usually it's like four or three.
+
+37
+00:03:15,000 --> 00:03:20,000
+And what's also maybe special is that none of the kicks actually have a lot of bass with them.
+
+38
+00:03:20,000 --> 00:03:26,000
+Not a lot of sub, all of them end in sort of 60Hz, 70Hz of range.
+
+39
+00:03:26,000 --> 00:03:34,000
+And only one kick here has some more low end to it just because of how the groove came together.
+
+40
+00:03:34,000 --> 00:03:36,000
+As you can see here.
+
+41
+00:03:41,000 --> 00:03:44,000
+It's like an off kick that sort of plays against the groove.
+
+42
+00:03:44,000 --> 00:03:47,000
+So that had a bit more space to get more low end.
+
+43
+00:03:47,000 --> 00:03:50,000
+Snare pretty standard.
+
+44
+00:03:50,000 --> 00:03:55,000
+Sign fundamental with a couple of layers.
+
+45
+00:03:55,000 --> 00:04:00,000
+As you can hear those are the main characteristic ones.
+
+46
+00:04:00,000 --> 00:04:05,000
+Which are bounces from the actual snare which was created here.
+
+47
+00:04:05,000 --> 00:04:08,000
+Which is still in there for the intro.
+
+48
+00:04:08,000 --> 00:04:13,000
+Which had a different low end, a different fundamental which was higher.
+
+49
+00:04:13,000 --> 00:04:19,000
+And as I went with the project I felt like pulling the fundamental frequency lower down.
+
+50
+00:04:19,000 --> 00:04:21,000
+Closer to where the bass is.
+
+51
+00:04:21,000 --> 00:04:26,000
+It even makes the space more narrow and more claustrophobic.
+
+52
+00:04:26,000 --> 00:04:28,000
+Which I really liked with this song.
+
+53
+00:04:28,000 --> 00:04:31,000
+Really intense in the low mids.
+
+54
+00:04:31,000 --> 00:04:34,000
+That's how the snare came together.
+
+55
+00:04:34,000 --> 00:04:37,000
+Second 16 again is just a render of those guys.
+
+56
+00:04:37,000 --> 00:04:40,000
+Just really shortened with an audio file here.
+
+57
+00:04:41,000 --> 00:04:45,000
+But same top line here, top end here.
+
+58
+00:04:45,000 --> 00:04:47,000
+And then it goes back into the original groove.
+
+59
+00:04:47,000 --> 00:04:49,000
+Original snare, sorry.
+
+60
+00:04:49,000 --> 00:04:51,000
+Hi-hats really reduced actually.
+
+61
+00:04:51,000 --> 00:04:54,000
+If you look at this in the first bar there's only one.
+
+62
+00:04:54,000 --> 00:04:58,000
+Over two bars there's only one hi-hat which is quite funny.
+
+63
+00:04:58,000 --> 00:05:02,000
+Even though the song is really busy there's not a lot of hi-hats there.
+
+64
+00:05:02,000 --> 00:05:05,000
+And they just evolve as the song goes.
+
+65
+00:05:05,000 --> 00:05:07,000
+More stuff coming in.
+
+66
+00:05:08,000 --> 00:05:12,000
+Until they in the second 16 release in this shaker loop here.
+
+67
+00:05:14,000 --> 00:05:18,000
+That sort of transforms into just a noise at the end of the bar.
+
+68
+00:05:18,000 --> 00:05:20,000
+And it just disappears really.
+
+69
+00:05:20,000 --> 00:05:26,000
+And then we're coming back third 16 with a shaker vibe.
+
+70
+00:05:26,000 --> 00:05:29,000
+A little amen break here.
+
+71
+00:05:29,000 --> 00:05:31,000
+And that's that really.
+
+72
+00:05:31,000 --> 00:05:34,000
+So the drums are really simple I'd say.
+
+73
+00:05:34,000 --> 00:05:38,000
+It's all about just trying to figure out which hits you need.
+
+74
+00:05:38,000 --> 00:05:41,000
+I could have also dropped with a lot of hi-hats.
+
+75
+00:05:41,000 --> 00:05:45,000
+But it's all about the contrast of this full section here.
+
+76
+00:05:45,000 --> 00:05:48,000
+It's really dense over the top almost.
+
+77
+00:05:48,000 --> 00:05:53,000
+And then it sort of falls into this void almost.
+
+78
+00:05:53,000 --> 00:05:59,000
+Which was the most essential part for me about this song.
+
+79
+00:05:59,000 --> 00:06:03,000
+Why I sort of finished it and why I like it.
+
+80
+00:06:03,000 --> 00:06:07,000
+So what I'm trying to say is that the drop doesn't always have to be full on.
+
+81
+00:06:07,000 --> 00:06:10,000
+Top band, hi-hat, overhead, this and that.
+
+82
+00:06:10,000 --> 00:06:12,000
+Sometimes simplicity is the way to go.
+
+83
+00:06:12,000 --> 00:06:15,000
+Especially if the rest of the song is quite dense.
+
+84
+00:06:15,000 --> 00:06:18,000
+The bass section is spread up into four sections.
+
+85
+00:06:18,000 --> 00:06:22,000
+Which is the melody section, the intro and outro.
+
+86
+00:06:22,000 --> 00:06:25,000
+Which is I think it's a diva.
+
+87
+00:06:25,000 --> 00:06:29,000
+That plays the same bass notes as the progression does.
+
+88
+00:06:29,000 --> 00:06:34,000
+Which I will get into when we look at the musical project of this project.
+
+89
+00:06:34,000 --> 00:06:38,000
+The outro stuff consists of low-pass trees back in.
+
+90
+00:06:38,000 --> 00:06:44,000
+Just really little effects there, extra layers.
+
+91
+00:06:44,000 --> 00:06:47,000
+Nothing too special here.
+
+92
+00:06:47,000 --> 00:06:51,000
+The second one here, this is actually the main groove.
+
+93
+00:06:51,000 --> 00:06:54,000
+And it looks a bit off-putting.
+
+94
+00:06:55,000 --> 00:07:01,000
+A lot of the sounds are weirdly created by some busses and send effects and stuff.
+
+95
+00:07:03,000 --> 00:07:07,000
+It's one of those ones where you make a song.
+
+96
+00:07:07,000 --> 00:07:13,000
+And then you go back in and come back around.
+
+97
+00:07:13,000 --> 00:07:16,000
+Add some further stuff and shit.
+
+98
+00:07:16,000 --> 00:07:19,000
+I don't want to go too far into it because it's fucking ridiculous.
+
+99
+00:07:19,000 --> 00:07:22,000
+And you see this guy doesn't even output correctly.
+
+100
+00:07:22,000 --> 00:07:26,000
+It creates all the send effects because I rendered the actual sound.
+
+101
+00:07:26,000 --> 00:07:29,000
+But I needed the processing and the send effects that are still going.
+
+102
+00:07:29,000 --> 00:07:34,000
+Like send effects and tight end mids and all this shit is still playing.
+
+103
+00:07:34,000 --> 00:07:38,000
+Which is in the send section.
+
+104
+00:07:40,000 --> 00:07:47,000
+Those guys are created by the thrift that's actually outputted to nowhere.
+
+105
+00:07:47,000 --> 00:07:53,000
+Because I think at some point it was so CPU heavy that I had to render this guy here.
+
+106
+00:07:53,000 --> 00:07:59,000
+So this is actually the main sound put into audio already.
+
+107
+00:07:59,000 --> 00:08:02,000
+This section is not to be taken so seriously.
+
+108
+00:08:02,000 --> 00:08:05,000
+Like I said, I went back and forth with this project.
+
+109
+00:08:05,000 --> 00:08:10,000
+Came back in, didn't really mind the routing I did because I just wanted to vibe with it.
+
+110
+00:08:10,000 --> 00:08:12,000
+It's a bit of a mess.
+
+111
+00:08:12,000 --> 00:08:16,000
+But it was a bit of a mission to get right.
+
+112
+00:08:17,000 --> 00:08:21,000
+3rd 16 has this little square update here.
+
+113
+00:08:21,000 --> 00:08:25,000
+Which I also had to put into audio because it was bugging a little bit.
+
+114
+00:08:25,000 --> 00:08:27,000
+I don't know why.
+
+115
+00:08:31,000 --> 00:08:37,000
+You see the square shifting FM wise but also delay is being added to it.
+
+116
+00:08:39,000 --> 00:08:44,000
+And those guys are also sending into the same bus as the OG riff does.
+
+117
+00:08:46,000 --> 00:08:51,000
+But you guys who have been following me know my routing is sometimes a bit out there.
+
+118
+00:08:51,000 --> 00:08:55,000
+But at the end of the day I think it was okay.
+
+119
+00:08:55,000 --> 00:08:57,000
+And we got there in the end.
+
+120
+00:08:57,000 --> 00:09:02,000
+2nd 16 is just an 808 with some bass emphasis parts there.
+
+121
+00:09:05,000 --> 00:09:09,000
+And the outro, similar stuff, just 808 additions.
+
+122
+00:09:13,000 --> 00:09:15,000
+Nothing too crazy.
+
+123
+00:09:15,000 --> 00:09:17,000
+Let's have a quick look into the effects.
+
+124
+00:09:17,000 --> 00:09:21,000
+Which is a lot of noises and rises and stuff.
+
+125
+00:09:21,000 --> 00:09:23,000
+Pretty standard.
+
+126
+00:09:25,000 --> 00:09:30,000
+The only thing here maybe to mention is I made a whole mod section.
+
+127
+00:09:30,000 --> 00:09:34,000
+Which is also playing the same rhythm as the riff does.
+
+128
+00:09:35,000 --> 00:09:40,000
+But with only noises, bleeps and squares and whatever.
+
+129
+00:09:40,000 --> 00:09:47,000
+Just to create emphasis on the same rhythm as the riff does.
+
+130
+00:09:47,000 --> 00:09:52,000
+So if you play that together it should make sense.
+
+131
+00:10:03,000 --> 00:10:05,000
+And then some draw-ons.
+
+132
+00:10:06,000 --> 00:10:10,000
+To keep the tension going over the 2nd 16.
+
+133
+00:10:10,000 --> 00:10:15,000
+The theme, that was actually the main idea of the song after I made the first draft groove-wise.
+
+134
+00:10:15,000 --> 00:10:18,000
+I was like this song doesn't have a lot of melodies.
+
+135
+00:10:18,000 --> 00:10:21,000
+It's just sound design pieces put together.
+
+136
+00:10:21,000 --> 00:10:24,000
+So I felt like let's try some melodies on top of that.
+
+137
+00:10:24,000 --> 00:10:29,000
+And that was made with this guy with the Moog Sub 37.
+
+138
+00:10:30,000 --> 00:10:34,000
+So you can hear this guy is entirely mono.
+
+139
+00:10:34,000 --> 00:10:36,000
+Straight down the middle I think.
+
+140
+00:10:36,000 --> 00:10:38,000
+Let me just double check.
+
+141
+00:10:39,000 --> 00:10:41,000
+I can open this guy.
+
+142
+00:10:41,000 --> 00:10:43,000
+Yeah, almost. I think there's some processing.
+
+143
+00:10:43,000 --> 00:10:45,000
+Like a send reverb and stuff.
+
+144
+00:10:45,000 --> 00:10:47,000
+And then the main melody.
+
+145
+00:10:49,000 --> 00:10:54,000
+It's just some notes I played with the Moog that I really liked.
+
+146
+00:10:54,000 --> 00:10:57,000
+And then I paired those with some Serum.
+
+147
+00:10:57,000 --> 00:11:00,000
+Really controlled additions for left and right business.
+
+148
+00:11:00,000 --> 00:11:02,000
+As you can see.
+
+149
+00:11:05,000 --> 00:11:10,000
+And that essentially created the main theme of the song in the beginning.
+
+150
+00:11:10,000 --> 00:11:16,000
+That was the thing that made the song go from a sound design project into sort of a drop project.
+
+151
+00:11:16,000 --> 00:11:20,000
+That you can actually play out and that's sort of exciting.
+
+152
+00:11:20,000 --> 00:11:26,000
+And after I had that I still felt like there's not a lot of music in this song.
+
+153
+00:11:26,000 --> 00:11:30,000
+And that's when I really dove back into the tune.
+
+154
+00:11:30,000 --> 00:11:36,000
+And tried to create some live music around the sound design of this theme.
+
+155
+00:11:36,000 --> 00:11:39,000
+Which is here. It's only just the bounces.
+
+156
+00:11:39,000 --> 00:11:47,000
+But maybe let's use this point to actually go into the music project of this project.
+
+157
+00:11:48,000 --> 00:11:50,000
+To have a look at how the music came together.
+
+158
+00:11:50,000 --> 00:11:53,000
+And then we'll look at the vocal project as well.
+
+159
+00:11:53,000 --> 00:11:54,000
+Cool.
+
+160
+00:11:54,000 --> 00:11:59,000
+So let's cut here and I'll be back with the writing scoring project.
+
+161
+00:12:08,000 --> 00:12:14,000
+Okay, so this is the writing slash scoring project of Zenith.
+
+162
+00:12:14,000 --> 00:12:17,000
+And it is basically two melodies.
+
+163
+00:12:17,000 --> 00:12:25,000
+One melody I wrote before I went on tour in April 2020.
+
+164
+00:12:25,000 --> 00:12:27,000
+Sorry, 2022. Fuck.
+
+165
+00:12:27,000 --> 00:12:30,000
+And the second one I wrote during the tour.
+
+166
+00:12:30,000 --> 00:12:32,000
+And it was funny.
+
+167
+00:12:32,000 --> 00:12:34,000
+I knew the key and the scale of the song.
+
+168
+00:12:34,000 --> 00:12:35,000
+I just wrote two different melodies.
+
+169
+00:12:35,000 --> 00:12:37,000
+And when I came back from tour I put them together.
+
+170
+00:12:37,000 --> 00:12:39,000
+And they actually worked nicely.
+
+171
+00:12:39,000 --> 00:12:43,000
+So the whole song plays around this AB environment.
+
+172
+00:12:43,000 --> 00:12:45,000
+Which is this melody.
+
+173
+00:12:47,000 --> 00:13:00,000
+Nice sawtooth melody. Horrible.
+
+174
+00:13:02,000 --> 00:13:04,000
+So that was the first melody I wrote.
+
+175
+00:13:04,000 --> 00:13:07,000
+And then the second melody I wrote on tour on my laptop.
+
+176
+00:13:07,000 --> 00:13:09,000
+Which goes like this.
+
+177
+00:13:17,000 --> 00:13:23,000
+And then I put this into context.
+
+178
+00:13:23,000 --> 00:13:26,000
+Into some classical instruments.
+
+179
+00:13:26,000 --> 00:13:28,000
+Because I always wanted to do this.
+
+180
+00:13:28,000 --> 00:13:30,000
+We did it with No Tomorrow.
+
+181
+00:13:30,000 --> 00:13:33,000
+But Marks and Runner did a lot of the sound design.
+
+182
+00:13:33,000 --> 00:13:36,000
+In terms of the orchestral parts for that song.
+
+183
+00:13:36,000 --> 00:13:38,000
+So I always wanted to try that myself.
+
+184
+00:13:38,000 --> 00:13:41,000
+And that was my first attempt to do so.
+
+185
+00:13:41,000 --> 00:13:43,000
+So the melodies we just heard.
+
+186
+00:13:43,000 --> 00:13:46,000
+This phrase would be like the A section.
+
+187
+00:13:46,000 --> 00:13:48,000
+And this is the B section.
+
+188
+00:13:48,000 --> 00:13:50,000
+And Anna wrote vocals.
+
+189
+00:13:50,000 --> 00:13:52,000
+Which works on the B section.
+
+190
+00:13:52,000 --> 00:13:55,000
+But also on this third musical bit.
+
+191
+00:13:55,000 --> 00:13:58,000
+Which is if you remember from the previous project.
+
+192
+00:13:58,000 --> 00:14:01,000
+Which is this Moog theme.
+
+193
+00:14:01,000 --> 00:14:06,000
+And that was the difficulty to combine those three writings into one song.
+
+194
+00:14:06,000 --> 00:14:08,000
+And it worked out in the end.
+
+195
+00:14:08,000 --> 00:14:14,000
+So as you see the intro is very orchestral or classical.
+
+196
+00:14:14,000 --> 00:14:19,000
+With this piano sort of doing the main work here.
+
+197
+00:14:19,000 --> 00:14:25,000
+But combined with this tiny, subtle synth loop.
+
+198
+00:14:25,000 --> 00:14:29,000
+That has some MP in there as well.
+
+199
+00:14:29,000 --> 00:14:31,000
+Which is quite nice.
+
+200
+00:14:31,000 --> 00:14:33,000
+And then we go into the switch.
+
+201
+00:14:33,000 --> 00:14:35,000
+Into the B section already.
+
+202
+00:14:35,000 --> 00:14:40,000
+Where the whole emotion switches.
+
+203
+00:14:40,000 --> 00:14:43,000
+And I found it just super epic.
+
+204
+00:14:43,000 --> 00:14:48,000
+To sort of recreate the melody with orchestral pieces.
+
+205
+00:14:48,000 --> 00:14:50,000
+It was super much fun to do so.
+
+206
+00:14:54,000 --> 00:14:55,000
+Like I said earlier.
+
+207
+00:14:55,000 --> 00:14:58,000
+In the beginning there was this sound design phase.
+
+208
+00:14:58,000 --> 00:15:02,000
+Then there was this phase of trying to find a drop.
+
+209
+00:15:02,000 --> 00:15:03,000
+Like a theme.
+
+210
+00:15:03,000 --> 00:15:07,000
+Like a short theme that you can bring back in the song.
+
+211
+00:15:07,000 --> 00:15:09,000
+And then to finish it off.
+
+212
+00:15:09,000 --> 00:15:12,000
+I really felt like the whole thing could benefit from the music.
+
+213
+00:15:12,000 --> 00:15:15,000
+And those three elements at the end of the day.
+
+214
+00:15:15,000 --> 00:15:20,000
+Then came together into this writing piece.
+
+215
+00:15:20,000 --> 00:15:24,000
+So as you know in the second 16 there's this 808 coming back in.
+
+216
+00:15:24,000 --> 00:15:26,000
+And Anna's vocal coming back in.
+
+217
+00:15:26,000 --> 00:15:29,000
+So in this section.
+
+218
+00:15:29,000 --> 00:15:34,000
+It was a bit of finding the middle ground between those three progressions here.
+
+219
+00:15:34,000 --> 00:15:37,000
+To be able to sort of resolve.
+
+220
+00:15:37,000 --> 00:15:41,000
+In a melody that's complementing the MOOC theme.
+
+221
+00:15:41,000 --> 00:15:43,000
+Which I was talking about earlier.
+
+222
+00:15:43,000 --> 00:15:44,000
+It was a bit tricky.
+
+223
+00:15:44,000 --> 00:15:45,000
+But we got there in the end.
+
+224
+00:15:45,000 --> 00:15:47,000
+And I'm super happy how it sounded.
+
+225
+00:15:47,000 --> 00:15:52,000
+And my favorite part of the song is actually this little woodwind section in the breakdown.
+
+226
+00:15:52,000 --> 00:15:55,000
+Because I'm a sucker for some flutes and stuff.
+
+227
+00:15:55,000 --> 00:15:56,000
+I love this stuff.
+
+228
+00:15:56,000 --> 00:15:57,000
+I've never done it before.
+
+229
+00:15:57,000 --> 00:16:01,000
+So playing with expressions of flutes.
+
+230
+00:16:01,000 --> 00:16:04,000
+And all the different layers of them.
+
+231
+00:16:04,000 --> 00:16:06,000
+It's just so fucking...
+
+232
+00:16:06,000 --> 00:16:09,000
+I just love those instruments.
+
+233
+00:16:09,000 --> 00:16:13,000
+Some oboes in there.
+
+234
+00:16:13,000 --> 00:16:15,000
+Some flutes in there.
+
+235
+00:16:15,000 --> 00:16:17,000
+And they just come together so nicely.
+
+236
+00:16:17,000 --> 00:16:20,000
+Sonically flutes are just so cool.
+
+237
+00:16:20,000 --> 00:16:23,000
+All the woodwind section is so amazing.
+
+238
+00:16:23,000 --> 00:16:27,000
+Let me just play this by itself.
+
+239
+00:16:27,000 --> 00:16:29,000
+Just love this section.
+
+240
+00:16:29,000 --> 00:16:31,000
+And again.
+
+241
+00:16:31,000 --> 00:16:33,000
+This is the B section I was talking about.
+
+242
+00:16:33,000 --> 00:16:35,000
+Even though it sounds horrible.
+
+243
+00:16:35,000 --> 00:16:36,000
+You can just play this over the top.
+
+244
+00:16:36,000 --> 00:16:37,000
+It will work.
+
+245
+00:16:43,000 --> 00:16:45,000
+You see?
+
+246
+00:16:51,000 --> 00:16:54,000
+And that was so interesting to me.
+
+247
+00:16:54,000 --> 00:16:58,000
+How a little MIDI clip or a sawtooth MIDI loop idea.
+
+248
+00:16:58,000 --> 00:17:02,000
+Can really translate later into an epic melody.
+
+249
+00:17:04,000 --> 00:17:12,000
+And then it goes into the super emotional section here.
+
+250
+00:17:12,000 --> 00:17:15,000
+Which is complemented by a little reese there.
+
+251
+00:17:28,000 --> 00:17:30,000
+Let me just play all the elements.
+
+252
+00:17:34,000 --> 00:17:41,000
+And it's so funny when you think about all those elements playing together.
+
+253
+00:17:41,000 --> 00:17:43,000
+And coming together.
+
+254
+00:17:43,000 --> 00:17:49,000
+And really creating this full spectrum of sound.
+
+255
+00:17:49,000 --> 00:17:54,000
+I really enjoyed working on this musical section.
+
+256
+00:17:54,000 --> 00:17:57,000
+I hope you enjoyed that.
+
+257
+00:17:57,000 --> 00:18:02,000
+And let's maybe have a quick look into the vocal processing part of the song as well.
+
+258
+00:18:02,000 --> 00:18:04,000
+Because there was also some work.
+
+259
+00:18:04,000 --> 00:18:07,000
+So let's cut here and jump into the vocal mix project.
+
+260
+00:18:16,000 --> 00:18:19,000
+So this is the vocal project.
+
+261
+00:18:19,000 --> 00:18:23,000
+Which was quite tricky to get right.
+
+262
+00:18:23,000 --> 00:18:28,000
+So you have to imagine I sent Anastasia the instrumental idea.
+
+263
+00:18:28,000 --> 00:18:33,000
+And then we were going back and forth with the vocals she was writing.
+
+264
+00:18:33,000 --> 00:18:35,000
+How we can implement it into the mix.
+
+265
+00:18:35,000 --> 00:18:37,000
+And how the song progresses further.
+
+266
+00:18:37,000 --> 00:18:41,000
+So at the end of the day it's just one stem here.
+
+267
+00:18:41,000 --> 00:18:45,000
+But every edit you see here is a syllable being changed.
+
+268
+00:18:45,000 --> 00:18:48,000
+Or a pop sound being removed.
+
+269
+00:18:48,000 --> 00:18:53,000
+Or another re-recording we had to do because I wasn't happy.
+
+270
+00:18:53,000 --> 00:18:55,000
+Or Anastasia wasn't happy.
+
+271
+00:18:55,000 --> 00:19:00,000
+So all the editing with Cubase is really really good I have to say.
+
+272
+00:19:00,000 --> 00:19:03,000
+For me that's why I still stick with Cubase.
+
+273
+00:19:03,000 --> 00:19:05,000
+Because it's just so flexible.
+
+274
+00:19:05,000 --> 00:19:07,000
+You can glue stuff together.
+
+275
+00:19:07,000 --> 00:19:09,000
+Crossfade stuff.
+
+276
+00:19:09,000 --> 00:19:11,000
+It's just super handy with that.
+
+277
+00:19:11,000 --> 00:19:16,000
+And you see there's so much editing going on just for this one vocal.
+
+278
+00:19:16,000 --> 00:19:21,000
+And at the end of the day you'll then land here.
+
+279
+00:19:21,000 --> 00:19:27,000
+And that was the reason why I wanted to extract it from the actual Cubase project.
+
+280
+00:19:27,000 --> 00:19:33,000
+Because if you imagine having all the sound design parts there.
+
+281
+00:19:33,000 --> 00:19:35,000
+And then you have to focus on the vocal mix as well.
+
+282
+00:19:35,000 --> 00:19:38,000
+There's so many things that can distract you.
+
+283
+00:19:38,000 --> 00:19:41,000
+And not focus you on what's in front of you.
+
+284
+00:19:41,000 --> 00:19:45,000
+So I completely mixed the vocal in relation to the musical project.
+
+285
+00:19:45,000 --> 00:19:48,000
+Which I still have sort of online here.
+
+286
+00:19:48,000 --> 00:19:53,000
+The basic main sounds are still working here.
+
+287
+00:19:53,000 --> 00:19:56,000
+So I had an idea where I was mixing towards to.
+
+288
+00:19:59,000 --> 00:20:05,000
+But yeah, sometimes it really helps having different sessions for different parts of the song.
+
+289
+00:20:05,000 --> 00:20:11,000
+Maybe some interesting pointers for you as well in terms of how I process my vocals.
+
+290
+00:20:11,000 --> 00:20:15,000
+You see just a bit of pre-compression here.
+
+291
+00:20:16,000 --> 00:20:20,000
+So you see it's gain reduction by minus 3, minus 4 dB.
+
+292
+00:20:20,000 --> 00:20:22,000
+Just to get the levels on the same level.
+
+293
+00:20:22,000 --> 00:20:24,000
+And then there's a bit of processing here.
+
+294
+00:20:24,000 --> 00:20:31,000
+You see actually those guys are unused as far as I can see.
+
+295
+00:20:31,000 --> 00:20:35,000
+So let's maybe have a listen at the verse here.
+
+296
+00:20:37,000 --> 00:20:39,000
+With and without processing.
+
+297
+00:20:40,000 --> 00:20:42,000
+Just making it louder.
+
+298
+00:20:42,000 --> 00:20:44,000
+But the essence is still there really.
+
+299
+00:20:45,000 --> 00:20:51,000
+So you can have a quick look.
+
+300
+00:20:51,000 --> 00:20:53,000
+A bit of mid-controlling.
+
+301
+00:20:55,000 --> 00:20:57,000
+Rolling off some stuff.
+
+302
+00:20:57,000 --> 00:20:59,000
+Boosting some stuff.
+
+303
+00:21:01,000 --> 00:21:03,000
+Master plate on the whole thing.
+
+304
+00:21:05,000 --> 00:21:07,000
+Give it some nice room.
+
+305
+00:21:07,000 --> 00:21:09,000
+Wave shaping it a little bit.
+
+306
+00:21:11,000 --> 00:21:13,000
+Then obviously de-essing it.
+
+307
+00:21:13,000 --> 00:21:15,000
+That's the good old...
+
+308
+00:21:15,000 --> 00:21:20,000
+Those of you who've worked with vocals know it's always like making it loud, de-essing it.
+
+309
+00:21:20,000 --> 00:21:22,000
+Making it loud again, de-essing it.
+
+310
+00:21:22,000 --> 00:21:24,000
+And that's what I did here like three times in a row.
+
+311
+00:21:24,000 --> 00:21:27,000
+You see shaping it, de-essing it, shaping it, EQing it.
+
+312
+00:21:27,000 --> 00:21:29,000
+In this case doing nothing.
+
+313
+00:21:29,000 --> 00:21:31,000
+Maybe it's like...
+
+314
+00:21:31,000 --> 00:21:33,000
+No, I was doing nothing.
+
+315
+00:21:33,000 --> 00:21:34,000
+Well done.
+
+316
+00:21:34,000 --> 00:21:37,000
+And another de-esser here.
+
+317
+00:21:38,000 --> 00:21:40,000
+But all of those values are really low.
+
+318
+00:21:40,000 --> 00:21:42,000
+It's not even minus 3 dB here.
+
+319
+00:21:42,000 --> 00:21:44,000
+It's very low.
+
+320
+00:21:44,000 --> 00:21:46,000
+And then limiting it and bussing it.
+
+321
+00:21:46,000 --> 00:21:48,000
+Not even bussing it.
+
+322
+00:21:48,000 --> 00:21:50,000
+This is the final buss here.
+
+323
+00:21:50,000 --> 00:21:54,000
+So all these send effects which is I think a tiny room or a tiny delay.
+
+324
+00:21:56,000 --> 00:21:58,000
+Yeah, tiny delay.
+
+325
+00:21:58,000 --> 00:22:00,000
+Is routed back into this.
+
+326
+00:22:00,000 --> 00:22:02,000
+Oh no, it's actually on the stereo output.
+
+327
+00:22:02,000 --> 00:22:03,000
+Okay, that's cool.
+
+328
+00:22:03,000 --> 00:22:05,000
+So this is the whole track delay.
+
+329
+00:22:05,000 --> 00:22:07,000
+So if you...
+
+330
+00:22:09,000 --> 00:22:11,000
+You see.
+
+331
+00:22:12,000 --> 00:22:14,000
+Just a little delay there.
+
+332
+00:22:14,000 --> 00:22:16,000
+So yeah, after stitching it together,
+
+333
+00:22:16,000 --> 00:22:18,000
+tweeting it the way I did,
+
+334
+00:22:18,000 --> 00:22:22,000
+I put like this stem as a render back into Cubase
+
+335
+00:22:22,000 --> 00:22:26,000
+into the main project where we jump to now
+
+336
+00:22:26,000 --> 00:22:28,000
+for a last final look how it all came together.
+
+337
+00:22:28,000 --> 00:22:31,000
+So yeah, see you in the other project again.
+
+338
+00:22:31,000 --> 00:22:35,000
+So, off some technical difficulties in my end here.
+
+339
+00:22:35,000 --> 00:22:37,000
+We are back at this master project
+
+340
+00:22:37,000 --> 00:22:39,000
+which we started with in the beginning.
+
+341
+00:22:39,000 --> 00:22:44,000
+And I just showed you how this vocal stem came together.
+
+342
+00:22:44,000 --> 00:22:46,000
+This is the main stem here.
+
+343
+00:22:46,000 --> 00:22:50,000
+So there's not a lot of processing necessary anymore on this one.
+
+344
+00:22:50,000 --> 00:22:54,000
+And you see, still there have been some stem effects
+
+345
+00:22:54,000 --> 00:22:56,000
+that have come together.
+
+346
+00:22:56,000 --> 00:22:59,000
+So there's not a lot of processing necessary anymore on this one.
+
+347
+00:22:59,000 --> 00:23:02,000
+And you see, still there have been some stitches here.
+
+348
+00:23:02,000 --> 00:23:05,000
+Like some syllables that I wanted to be the same
+
+349
+00:23:05,000 --> 00:23:07,000
+or, you know, interchanged.
+
+350
+00:23:07,000 --> 00:23:10,000
+I was still editing stuff here.
+
+351
+00:23:10,000 --> 00:23:16,000
+And creating other effects with this big vocal stem
+
+352
+00:23:16,000 --> 00:23:19,000
+we just saw previously.
+
+353
+00:23:19,000 --> 00:23:21,000
+And yeah, let's maybe have a quick listen
+
+354
+00:23:21,000 --> 00:23:23,000
+to the song one last time.
+
+355
+00:23:26,000 --> 00:23:45,000
+So like I said before, there's some effects still being created.
+
+356
+00:23:45,000 --> 00:23:47,000
+Like those guys here.
+
+357
+00:23:51,000 --> 00:23:54,000
+Which is the held note by Anna.
+
+358
+00:23:54,000 --> 00:23:57,000
+Which is really good, but obviously no one can...
+
+359
+00:23:57,000 --> 00:24:02,000
+I don't know if someone can hold this note for like 22 seconds
+
+360
+00:24:02,000 --> 00:24:04,000
+without having to breathe and stuff.
+
+361
+00:24:04,000 --> 00:24:07,000
+So it's like a little micro loop there.
+
+362
+00:24:12,000 --> 00:24:15,000
+That ends in this sort of resolving phrase.
+
+363
+00:24:15,000 --> 00:24:19,000
+And what I like about this is that this phrase here
+
+364
+00:24:19,000 --> 00:24:27,000
+is a different progression than it is in the second resolve.
+
+365
+00:24:40,000 --> 00:24:43,000
+And those were the last two changes we did with the song.
+
+366
+00:24:43,000 --> 00:24:46,000
+A big shout out to Tier Kahoot as well,
+
+367
+00:24:46,000 --> 00:24:50,000
+who is Anna's recording artist.
+
+368
+00:24:50,000 --> 00:24:54,000
+And he recorded the vocals with us.
+
+369
+00:24:54,000 --> 00:24:57,000
+A really good engineer, really good producer as well.
+
+370
+00:24:57,000 --> 00:25:00,000
+So big up you, dude, for recording this.
+
+371
+00:25:00,000 --> 00:25:02,000
+And thanks for going back in a couple of times
+
+372
+00:25:02,000 --> 00:25:04,000
+with stuff I wasn't happy with.
+
+373
+00:25:04,000 --> 00:25:08,000
+And yeah, I'm super happy about all the extra recordings we did.
+
+374
+00:25:08,000 --> 00:25:11,000
+For instance, Anna sent me a whole bunch of
+
+375
+00:25:11,000 --> 00:25:15,000
+freestyled ad-libs of stuff like this.
+
+376
+00:25:18,000 --> 00:25:20,000
+That's a bit odd, but...
+
+377
+00:25:24,000 --> 00:25:27,000
+You know, stuff like this, ad-libs.
+
+378
+00:25:34,000 --> 00:25:37,000
+So all those, I told her to do another two or three takes
+
+379
+00:25:37,000 --> 00:25:39,000
+with just ad-lib stuff.
+
+380
+00:25:39,000 --> 00:25:41,000
+And that actually made the outro really cool,
+
+381
+00:25:41,000 --> 00:25:44,000
+as you remember, like this interpretation here.
+
+382
+00:25:56,000 --> 00:25:58,000
+So it's different to this.
+
+383
+00:26:00,000 --> 00:26:05,000
+So this is very linear and very, I would almost say,
+
+384
+00:26:05,000 --> 00:26:08,000
+very German bass, very scientifically correct.
+
+385
+00:26:08,000 --> 00:26:12,000
+And this in the outro, where the whole beat is more like a jam.
+
+386
+00:26:13,000 --> 00:26:17,000
+Sorry, where the instrument is very vulnerable as well.
+
+387
+00:26:17,000 --> 00:26:19,000
+It makes so much sense for the vocal
+
+388
+00:26:19,000 --> 00:26:22,000
+to be also playing around more.
+
+389
+00:26:22,000 --> 00:26:25,000
+Which is, yeah, I found a really great moment there.
+
+390
+00:26:26,000 --> 00:26:29,000
+And then the spoken whisper thing.
+
+391
+00:26:35,000 --> 00:26:37,000
+That's cool.
+
+392
+00:26:37,000 --> 00:26:39,000
+And then the whole syncopation is differently,
+
+393
+00:26:39,000 --> 00:26:42,000
+like it lands later on this held note,
+
+394
+00:26:42,000 --> 00:26:45,000
+which is a really cool moment I think.
+
+395
+00:26:51,000 --> 00:26:53,000
+Like all those notes here, just ad-libs,
+
+396
+00:26:53,000 --> 00:26:56,000
+Anna did on top of stuff and I cut it together
+
+397
+00:26:56,000 --> 00:27:00,000
+to give it one last epic sort of let's go moment.
+
+398
+00:27:05,000 --> 00:27:08,000
+And that's that.
+
+399
+00:27:08,000 --> 00:27:10,000
+Thanks for tuning in.
+
+400
+00:27:10,000 --> 00:27:14,000
+This is Matthews featuring Flona Stasier, Seneth.
+
+401
+00:27:14,000 --> 00:27:16,000
+This tune is out on Modus.
+
+402
+00:27:16,000 --> 00:27:18,000
+Let's go!
+

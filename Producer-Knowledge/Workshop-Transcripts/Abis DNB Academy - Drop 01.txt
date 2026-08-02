@@ -1,0 +1,659 @@
+Cool. So now we're going to go about building the drop.
+But first, I wanted to show you what my project template looks like.
+When I open a new project in Ableton,
+I have these four groups and channels or channels set up automatically.
+One is called Kick SC Trigger.
+The SC stands for Sidechain.
+I've already got a kick group set up
+with a serum in there.
+And this is one of the kicks.
+I just loaded one of the kicks, which we made earlier in that.
+I've also got a snare set up in there.
+A lot of the times I won't use this now.
+I'll just make a new one.
+But this is one of the ones we made earlier.
+And I've just added some additional bits to it.
+So.
+What I like to use for my sidechain
+is I like to have a group set up and I like to use LFO tool.
+So LFO tool.
+The way I've set up is it works whenever
+whenever a MIDI file from these
+these channels are triggered, it will initiate the LFO tool to duck down
+the salad, so very exactly the same way as a sidechain.
+But because it's an LFO tool, I've got a lot more control.
+I can make this a lot steeper, for example, a lot more flexibility.
+I know with general compression, you can use your attack and release,
+obviously, but this way I've found very, very useful over the over
+the last couple of months.
+So every time.
+This is triggered, so I've just got a very simple kick and snap in it.
+Every time that's triggered, it will
+trigger the LFO to turn the volume down.
+And I've got this sidechain set up on a sidechain group so I can load my bases
+in there and they'll automatically be sidechained.
+But it does it does determine where you put these MIDI files.
+Make a bit more sense as we go along.
+The other thing to quickly point out is I have a maximizer
+on my output, no particular settings here, nothing too fancy.
+I've also got a utility.
+What I like to do is give myself a little headroom.
+There's a couple of ways you can do this.
+You can turn the volume down of each channels or the groups.
+What I have always done, not necessarily the right way to go
+about this, is I just put the utility before the master and I'll just turn
+it down five decibels, so I give myself a little headroom.
+I don't want to be writing the tune
+and blasting everything into the limiter straight away.
+This part of the tune I like to really focus on later, when I'm writing the
+tune, I like to kind of have a little like kind of free palette.
+I don't want to get too bogged down with engineering too much.
+So
+so, yeah, I just leave this like this and try not to pay too much attention to it.
+Yeah.
+Cool. So let's go ahead and start constructing
+some things for the drop.
+I'm going to mute these vocals.
+And I'm going to start at bar 49.
+Cool. So let's make
+some drum and bass.
+Cool. So let's start with a kick.
+We know the tune is in F.
+Cool.
+All right. So the first thing we want to do is make a very simple beat.
+Let me arrange these MIDI files because they're looping.
+I'm also going to make these a bit longer.
+Cool.
+Change this to one bar and I'm just going to loop this.
+Cool.
+Now let's do my kick.
+Sorry, let's do my snare.
+This might not be the snare that I use, but
+what I want to do is get this down and then I can start writing.
+OK, that's obviously a very low snare.
+So in terms of tuning your drums, as you can see, I put the snare on F.
+So the kick and snare are both on F, but I don't always like to do that.
+So what I can do is choose like a C maybe, which I know is in scale to my tune
+because I've already looked at that before.
+Cool.
+So now what I want to do is start adding obviously some hi-hats
+or some kind of shaker kind of things.
+So I'm going to add an audio file.
+And what I'm going to do is just quickly rinse through my samples.
+So
+in this stage of the tune, I don't want to spend too much time engineering.
+I want to be able to put some samples in there and have an idea very quickly.
+I'm just going to reach for my hi-hats.
+These are all hi-hats I've made from making drums.
+So like we did previously, make lots
+of different drums and then I'll export all the hi-hat loops and put them in a
+folder, so I've got stuff like this.
+I want to go for something a bit techy, you know.
+So I want something short.
+Listen.
+So that could work.
+That's cool.
+Not bad.
+These are cool, actually.
+I actually made these sounds.
+So when I prepare for my DJ sets,
+obviously use Rekordbox, which is a library to organize your
+tunes on USB so they work in connection with the CDJ and other brands.
+And what I do is when I add my markers on Rekordbox, I'm constantly pulling
+the audio file back and forward and it always makes these crazy sounds.
+So like 10 minutes I've just recorded me shifting tunes, my own tunes.
+And then what I did,
+I put a 1-16 filter over them.
+So it's just like that and you get some really random sounds.
+Crazy sounds.
+So let's see if we can use those.
+I'm just going to loop one bar for now.
+And also
+what I'm going to do is not using that.
+I'm going to put my intro at the top.
+So I've got a bit more room to operate.
+So one thing I like to do is keep my snares and kicks free.
+So my snare is here and that's clashing with this sound.
+So I'm simply going to cut it up, put a fade in and a fade out.
+I'm not sure about the placement.
+Not sure about that sound just yet.
+This is also on the kick as well.
+So let's get rid of that.
+I can probably remove the fade in now.
+Quite a lot of low end in that.
+Let's go a bit easier on that.
+Better.
+Let's add some more bits.
+Bongo's.
+These are cool.
+Quite loud.
+I'm just going to stick another hi-hat in the middle from here, just to
+help us.
+Actually, let's extend this out and see what we've got.
+So again, even on the hi-hats, I'm going to put fade ins.
+I'm going to leave this free for now.
+I'm not sure this is great yet, but we'll keep going.
+Quite like that.
+If there was some complementary hi-hat after that would be good.
+Let's add some little bits.
+This is cool.
+This might work.
+OK, that's working cool.
+That section.
+You can already see I've cut the hi-hat out on the snare.
+This would have come from an old tune, which I never finished probably,
+but not on the kick.
+I'm not sure about this start now.
+Let's add another little section here, see what happens.
+That sounds quite cool, actually.
+Add another little section here and another little section there.
+So I'm just jamming away now.
+So now what I'm going to do is I'm going to go...
+What I want to hear is some kind of faster percussion elements in there.
+So I'm just going to go through some of my breaks, really, and see if I can
+find something.
+I like the hi-hats on that one.
+So.
+I've also got this project file saved, and if I wanted to, I could go in there,
+but I've got the audio file, so I may as well utilize it.
+I can just take the kick out.
+And because I made all these sounds
+myself, there's a big chance that they're all just going to just going to sound
+very similar and kind of gel with each other.
+So let's get rid of that.
+We do not want that kick.
+Do not want that sound.
+I'm putting a big fade on the snare.
+I might change that later, though.
+Some click somewhere.
+See how this sounds.
+Not bad.
+Still sounds very synthetic to me.
+Cool.
+So let's quickly go and have a look at this kick.
+How is this?
+Could be improved, I think.
+So let's try and exaggerate the transient.
+Probably want to make it a bit shorter as well.
+Let's try that.
+Cool.
+There is a tiny little hit before the kick here, which kind of
+which kind of puts me off a little bit.
+I think this might work.
+I'm going to leave it muted for now.
+I might come back to that later.
+Cool. So I'm just listening,
+analyzing everything, trying to think what could I improve?
+The snare could be a lot better.
+Let's see if we can improve that.
+So I've got a little clap there, a bit too much for me, so I'm going to get
+rid of that.
+This is my transient and fundamental layer.
+Let's see if I can improve that just by offsetting, maybe.
+Also take the attack off.
+So this is the white noise layer.
+I'm just going to shorten this up.
+I've made it longer.
+Maybe that sounds even better.
+See, this is the perfect example of why
+making your own sounds
+gives you such creativity and
+it enables you to literally fine tune everything to how you want it.
+So I can make that literally the tail if I wanted.
+If I wanted to go for that, perfect.
+I think we should go for something a bit more fine for this tune.
+Let's see what it sounds like.
+Also cool.
+That sounds dope.
+Cool.
+So let's now.
+We've got a rough
+template for a drum set out, going to group all the hi-hats and obviously
+call them hats.
+Oh, that's not how you spell hats.
+I'm going to bring my side chain down and I'm going to group all these now
+and call them.
+I'm going to group the side chain as well.
+So I'm going to call these drums.
+Nice.
+Alright, so the next thing I wanted to do
+is start adding some interesting bass sounds, which we made earlier.
+So let's get into that.
+Not sure why that duplicated, probably my fault.
+Cool. So in my user library,
+I have all the bass sounds which we
+made in the previous videos.
+So let's go through them.
+So obviously way too loud
+and it doesn't sound like the side chain is working.
+Or is it? Let's check.
+I don't think it is.
+Why isn't it working?
+Okay, give me a sec and I'll just try and find out what I'm doing wrong here.
+And I'll be back to you in a sec.
+Okay, so I found out what it was.
+Schoolboy error.
+My actual side chain triggers weren't turned on.
+So these are my MIDI files.
+So if I put them here, just play them without them.
+And then I'll put them back on.
+There you go.
+Cool.
+So let's go writing some tunes.
+Cool.
+So I kind of like that, but I don't like the hi-hat shuffles on this part.
+So maybe we can just do it rather than
+a really fast edit here.
+Perfect.
+Right. So now I want some open hi-hat on there.
+So I'm going to go back into my.
+I'm going to add a new
+track into my hi-hats and let's quickly get an open hi-hat from one of my.
+Maybe that will be good.
+Oh, kind of cool.
+These, I think this is these.
+But sure.
+Cool.
+Right. That's a good stop.
+Just double check with that intro.
+How we're doing.
+Cool thing that's going to work good.
+Cool. Yeah, I think that might work.
+Cool. I'm going to leave the intro on for now.
+Let's get rid of these bits in the engine.
+What's making that sound?
+OK, drone sound.
+So as you notice, and it might be a little frustrating for you,
+I have a habit when I want to analyze something.
+I literally
+press spacebar a lot because I'm just trying to re-trigger it.
+So I'll try and do that less if that's annoying.
+I want to check the harmonics here.
+That's an A, which isn't in scale.
+Might be able to change that.
+How did we do this again?
+Is it with this?
+OK, there's a massive A coming somewhere.
+Is it in the effects? No.
+OK, a little bit less resonant sounds cool.
+OK, the peak is coming from the FM.
+I should have remembered this.
+I only made them yesterday.
+So let's see if we can change that.
+So.
+I'm going to
+put another macro.
+Oh, that sounds a bit more
+C, absolutely
+perfect.
+We know that's in scale.
+And if I put this on the intro now, it should sound very good.
+That sounds very in tune.
+Maybe.
+We could have this here.
+So what I'm thinking is.
+And then to do to do to do.
+So let's go and do that.
+So another thing I want to mention to you guys is I'm quite
+I have a quite short attention span with working on some things.
+If I get an idea, I'll go and do it.
+So we were working on the drop,
+but I dropped that into the breakdown here or the build up,
+if you want to call that.
+And I heard something in my head.
+And when I heard that, I instead of leaving it to later, I was going to do it
+there and then so I think we can make something like this on the fly.
+So I'm going to open serum.
+That's obviously an audio track.
+Apologies.
+Cool, let's put this in the side chain.
+So I'm going to loop this and get my patent to do to do and then.
+I think it's this.
+Cool.
+Right, we need to turn this into a baseline.
+So.
+How are we going to do that?
+Let's see if we can use an existing table, which we used before,
+which one to be used, the dirt
+digital.
+This one, I think, or no, it was the distorted bass dropper.
+Cool, let's go one up, two down.
+Oh, almost there.
+Hey, that sounds cool.
+So, let's I'm just following my instinct here.
+Cool, that's going to be good.
+Let's turn the random off as well.
+I keep forgetting that goes.
+Cool, let's add some distortion.
+Let's try something over the top.
+Let's have a bit of fun, you know.
+Too much.
+Might work.
+Oh, that sounds good.
+Not too much.
+See how that sounds in the mix, should we?
+I'm not sure the pitching's right.
+Let's try and improve this.
+I just want to add a bit more.
+Let's keep the phase as it was.
+See what happens if we automate the FM.
+It might sound a bit crackly and stuff.
+Oh, cool.
+Put it to one bar.
+Not bad.
+Feels like I'm losing a lot of sub bass for some reason.
+And I think that's because
+that peak is so high.
+Let's turn this down a bit.
+It's had a bit of white noise as well.
+Cool.
+Right, now let's go back to our
+and drop and see, let's see if we can fit this in, shall we?
+So.
+OK, I could put this on here.
+Or I could try and make it a bit funky.
+OK, let's try and make a cooler melody out of this.
+Not bad.
+Cool, a bit underwhelmed by that sound now.
+Leave it in there for now.
+Let's add a few more of our bass sounds, which we made.
+So what was number two?
+Kind of forgotten what sounds we made now, but they'll come back to me.
+Oops, let's drag that over.
+What do we do here?
+This could be interesting.
+F, D.
+Let's try E, C.
+Let's see what happens if we do this.
+Kind of cool.
+Let's go one.
+I'm going to make this a bit shorter.
+That release is really annoying me.
+See if I can fix that.
+I quite like this sound and kind of the how it's working with the drums,
+but to me, it sounds like a sound which would be at the end of like every eight
+bars or every four bars, for example.
+So I'm going to try and work it for now.
+And if not, I'm going to leave it in there so we can fit it in later.
+The goal for me now is to try and fix this.
+This kind of release thing, I remember this bass.
+It was like a big peak in there, wasn't there?
+Yeah.
+Let's see what this sounds like.
+I want to go higher.
+Let's try something like this.
+That's cool.
+Again, the release is annoying the hell out of me.
+So I am going to do a workaround.
+This isn't fixing it, but it's definitely a workaround.
+I'm going to use the utility
+and I'm going to
+just turn it down just here.
+Done.
+I think the sound is cool, but I think it sounds so static.
+And the goal was to make something techy and funky.
+So this kind of just goes, no, no, no, like that.
+And I'm wondering if we can maybe add some cool LFO to it.
+Let's give it a go.
+No, don't like that.
+I'm going to change it.
+I'm going to change it.
+I'm going to change the fine tuning.
+Remember, this also relates to
+how quickly it phases.
+So it gives that kind of one, one, one LFO feeling.
+Let's see if I can go really fast.
+I think that might be better.
+The objective was to go faster,
+but I've gone slower and it may be sounding cooler.
+I want to make it shorter.
+I just want that.
+I think I wanted to stop here.
+Let's just try and use the utility for now.
+And then we will shorten this up.
+Oops.
+I'm not sure.
+And this, guys, is where
+you follow your own personal preference.
+I'm sure there'll be lots of you watching this thinking,
+oh, I would have done it this way.
+And that's cool because
+and that's cool because everyone has their own
+interpretation of what should things sound like.
+And you guys should really follow your instinct on that.
+OK, cool. I'm going to roll with that for now.
+Let's see
+if these work now.
+I like the placement of that sound isn't great.
+Cool. So that's really cool.
+So the first two bass sounds we've made,
+one and two in our previous sessions are just clicking in and working straight away.
+So happy about that so far.
+Let's add some more.
+We've already used the intro res, so that's kind of cool.
+We used one, two, three for now.
+Let's go with four.
+What do we have here?
+Oh,
+maybe this is a better answer.
+In the same scale as well.
+Oh, lots of options here.
+Too many.
+Oh,
+that is not bad.
+Keep hearing this.
+Do, do, do, do, do, do, do a lot.
+Let's see, can we get it to work?
+Right, so I'm extending the loop.
+Two bars have to be done.
+Now's the time.
+Let's go.
+What did I do there?
+It's not bad.
+Must be how to improve this.
+Let's add firstly, some like pitch and let's try and treat it like a kick.
+So it's got
+so it's a bit more punchy.
+So I'm going to use LFO four assigned to the master tune.
+Just like we do with a kick and snap
+trigger.
+They go.
+Let's also
+add this to it.
+Cool, that's much better.
+Let's remove this warp.
+Do, do, do, do, do, do, do, do, do, do, do.
+Right, I hear in my head, I'll try and sing it.
+I know my singing is terrible, which you've already found out.
+But let's
+let me try and sing it for you.
+No, no,
+do, do, do, do, do, do, do, do, do, do, do, do, do, do, do, do, do.
+So let's grab
+one of our sounds, which we made earlier.
+Use a library.
+There was a cool reason here somewhere.
+Cool.
+This might do the do the job.
+Just have a quick clean up.
+I'm going to duplicate all the drums for now.
+Did it work out?
+Oh, it did work out.
+Good.
+Cool.
+So that's the melody I had in my head, but it's quite underwhelming.
+Let's see if we put one of those vocals in there,
+see what that sounds like, shall we?
+Where were we?
+OK, let's try this, shall we?
+Awesome.
+OK, that's going to work great.
+And guys, putting that vocal over that bit is a direct result of working in a
+mode, in a scale, so we we know the keys and the and the notes we want to use
+and we know they're musically correct because they fit in a scale.
+So literally, any if I put anything in from the intro now,
+I mean, it should work up.
+There we go, see?
+And this is a really fun way to write.
+So let's utilize what we've got.
+So I'm going to want to take all the reverb off this.
+I could just make a render with the reverb.
+What's the best way?
+I think I'll do that. Yeah.
+And also a bit of annoying thing,
+I'll have to take out of the group, because if you remember,
+we put the reverb on the group, that's no problem.
+Let's get rid of that.
+Wow, sounds terrible.
+What does this sound like?
+Maybe we should mute this one.
+Right, I'm going to make a render with that reverb and cut it short.
+So let's do that.
+Let's use the resampling function in Ableton.
+Just cut a lot of that low end out.
+A bit much tighter, but not amazing.
+Where did my arp go?
+I think I want to take this section, to be honest.
+Let's have a little look.
+Nice.
+So basically, what I've written here now
+is my sketch.
+So I've got the idea, got the basic idea, the basic structure, basic intro.
+I'm all in scale because I wrote with the purpose of being in scale.
+Now what I'm going to do is when I get to this stage,
+I like to take a little 10 minute break.
+I'll get some fresh air, go for a quick walk.
+I'll come back and we'll deconstruct what doesn't sound good,
+what doesn't fit, and then we'll build out the tune.
+Another important thing which we need to do is this build up here.
+I also loved the sound of this on the intro.
+Maybe again.
+Let's duplicate that.
+See how it drops? Exciting.
+OK, so let's get back to it.
+I took a little break, so I'm going to quickly listen to it again.
+Cool. So what needs improvement?
+I can build out the rest of the tune now, but I think I've got enough.
+In this section here, in these two bars, to try and improve a few things.
+One thing I don't like is the drums yet.
+There's not much energy in the drums,
+so I'm going to go and try and improve those.
+Let's just isolate those for a sec.
+I think the kick could be better.
+Let's try and improve this kick.
+So.
+I'm going to try and change the tuning of this to see.
+It's in scale.
+Let's have a little listen.
+I like that much better, actually.
+I might change this one back to F.
+I want to kind of create a variation.
+I like that a lot, actually.
+I mean, if you listen to any real life drummer,
+the you know, the kick's always not going to be the same, so.
+What I will do, though, is I will split this up
+so the lower kicks can have their own channel.
+I'm going to rename this kick
+I'm going to rename this kick F.
+And this one kick C.
+Let's remove that first F.
+Sounding a lot better.
+A lot higher.
+So one thing I might try is putting a little bit of saturation
+on the whole drums.
+So I just want to kind of push them a little harder, to be honest.
+So I'm going to use a wave shaper.
+Let's see.
+So it just kind of pushes them a little bit.
+It gives them a little more energy to the mix.
+This kick's distorting a bit now.
+I wonder if I can fix that.
+The kick is getting a bit lost.
+Why is it getting a bit lost?
+Is it because of these?
+Okay, what I'm going to do is I'm going
+to kind of put a manual side chain on these things.
+That's better.
+So I'll just copy these over.
+Small details now, but what I want to do is have this set up.
+So when I copy this all over and actually build out my tune,
+everything's correct already. In Ableton, it's a bit awkward
+because you can't put fade ins on multiple files.
+You just have to copy them over.
+So my workflow for Ableton is to make sure I've got everything
+kind of as good as it can be and then move on from there.
+So let me try and bring back some of these
+percussion kind of sound.
+This might work.
+The drums are close, but they're still not, still not exactly what I want to hear.
+So now I'm just going to loop this.
+I'm sure, I'm sure we all know,
+we all know this,
+this process, it's looping and looping and looping and just trying to improve
+certain things and trying to improve certain things too.
+You go absolutely insane in your head.
+So you're going to have to bear with me a little bit.
+I need to.
+Just put these together.
+Let's get a bit organized here.
+It's an open hi-hat cymbal kind of thing at the top.
+Can't be low end out of these shuffles as well.
+Let's try it without the glitchy sounds.
+Sounds cleaner. Let's see what this sounds like.
+I like that much better.
+Cleaner.
+More energy.
+That's without as well.
+Right, there's one thing I want to mention about these shuffles
+and just shuffles in general.
+We talked about it when we were making the drums.
+And one of the coolest things I like to do with shuffles is literally just
+put them off time.
+A drummer in real life will never play hits exactly on grid.
+So it's good to try and keep a bit of funk in there.
+So this is the hi-hat loop.
+And what I'm going to do is just follow this basically.
+What's this? I wonder if that sounds good as well.
+We muted that earlier.
+I'm just going to review it again.
+If you notice, that's
+so far off the grid, but it gives a lot of funk.
+Let's see.
+Cool. Liking that.
+I think we should keep that in.
+Let me clean up this.
+So I'm going to listen to these hi-hats again, the first ones we put in.
+And if I don't like them this time, they're getting dumped.
+Good work.
+Gives it a
+gives a very acoustic feeling, which I like.
+I quite like that.
+It gives it a very open acoustic feeling.
+Let's see if we can make these work.
+I don't want to layer too much on top of each other.
+All right. One thing I'm going to get rid of is our glitchy record box things.
+If I need them, I'm going to come back to them later.
+Sounds weird.
+OK, I just want to make sure these are all.
+I like that a lot, but it's a bit too loud.
+I think
+I think I'm also going to take the attack off these hi-hats.
+I mean, I've got
+I like the fade in.
+I like the fade ins.
+It gives it a kind of off beat feel,
+which is cool.
+Right, let's turn these down.
+Right, that's sounding a lot better to me, a lot more energetic.
+Still something going on with the high end here.
+Let's just remove that low end.
+I think something going on a bit crazy here.
+I'm just going to take that out.
+Cool, let's check these.
+Lots of low end in this, I can hear.
+Let's put these up there, play these hi-hats together.
+Cool, they work.
+Let's mute these and see if we can do without them.
+Don't think we can.
+In this area here, it just gets a bit messy all of a sudden.
+I want to try and find out why.

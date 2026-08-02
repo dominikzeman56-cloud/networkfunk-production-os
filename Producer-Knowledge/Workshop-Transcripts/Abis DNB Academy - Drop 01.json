@@ -1,0 +1,3300 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.32,
+      "text": "Cool. So now we're going to go about building the drop."
+    },
+    {
+      "start": 3.52,
+      "end": 10.0,
+      "text": "But first, I wanted to show you what my project template looks like."
+    },
+    {
+      "start": 10.2,
+      "end": 12.44,
+      "text": "When I open a new project in Ableton,"
+    },
+    {
+      "start": 12.64,
+      "end": 19.72,
+      "text": "I have these four groups and channels or channels set up automatically."
+    },
+    {
+      "start": 19.92,
+      "end": 21.96,
+      "text": "One is called Kick SC Trigger."
+    },
+    {
+      "start": 22.16,
+      "end": 25.24,
+      "text": "The SC stands for Sidechain."
+    },
+    {
+      "start": 25.44,
+      "end": 29.4,
+      "text": "I've already got a kick group set up"
+    },
+    {
+      "start": 29.56,
+      "end": 31.48,
+      "text": "with a serum in there."
+    },
+    {
+      "start": 31.68,
+      "end": 33.24,
+      "text": "And this is one of the kicks."
+    },
+    {
+      "start": 33.44,
+      "end": 36.52,
+      "text": "I just loaded one of the kicks, which we made earlier in that."
+    },
+    {
+      "start": 36.72,
+      "end": 39.96,
+      "text": "I've also got a snare set up in there."
+    },
+    {
+      "start": 40.16,
+      "end": 41.88,
+      "text": "A lot of the times I won't use this now."
+    },
+    {
+      "start": 42.08,
+      "end": 43.76,
+      "text": "I'll just make a new one."
+    },
+    {
+      "start": 43.96,
+      "end": 46.88,
+      "text": "But this is one of the ones we made earlier."
+    },
+    {
+      "start": 47.08,
+      "end": 51.24,
+      "text": "And I've just added some additional bits to it."
+    },
+    {
+      "start": 52.44,
+      "end": 54.12,
+      "text": "So."
+    },
+    {
+      "start": 54.4,
+      "end": 57.16,
+      "text": "What I like to use for my sidechain"
+    },
+    {
+      "start": 57.36,
+      "end": 61.44,
+      "text": "is I like to have a group set up and I like to use LFO tool."
+    },
+    {
+      "start": 61.64,
+      "end": 64.32,
+      "text": "So LFO tool."
+    },
+    {
+      "start": 64.52,
+      "end": 69.12,
+      "text": "The way I've set up is it works whenever"
+    },
+    {
+      "start": 69.32,
+      "end": 74.2,
+      "text": "whenever a MIDI file from these"
+    },
+    {
+      "start": 74.4,
+      "end": 79.84,
+      "text": "these channels are triggered, it will initiate the LFO tool to duck down"
+    },
+    {
+      "start": 80.04,
+      "end": 84.88,
+      "text": "the salad, so very exactly the same way as a sidechain."
+    },
+    {
+      "start": 85.04,
+      "end": 88.24,
+      "text": "But because it's an LFO tool, I've got a lot more control."
+    },
+    {
+      "start": 88.44,
+      "end": 93.12,
+      "text": "I can make this a lot steeper, for example, a lot more flexibility."
+    },
+    {
+      "start": 93.32,
+      "end": 96.76,
+      "text": "I know with general compression, you can use your attack and release,"
+    },
+    {
+      "start": 96.96,
+      "end": 101.04,
+      "text": "obviously, but this way I've found very, very useful over the over"
+    },
+    {
+      "start": 101.24,
+      "end": 102.68,
+      "text": "the last couple of months."
+    },
+    {
+      "start": 102.88,
+      "end": 105.72,
+      "text": "So every time."
+    },
+    {
+      "start": 106.8,
+      "end": 113.28,
+      "text": "This is triggered, so I've just got a very simple kick and snap in it."
+    },
+    {
+      "start": 113.44,
+      "end": 116.16,
+      "text": "Every time that's triggered, it will"
+    },
+    {
+      "start": 116.36,
+      "end": 118.48,
+      "text": "trigger the LFO to turn the volume down."
+    },
+    {
+      "start": 118.68,
+      "end": 123.44,
+      "text": "And I've got this sidechain set up on a sidechain group so I can load my bases"
+    },
+    {
+      "start": 123.64,
+      "end": 127.6,
+      "text": "in there and they'll automatically be sidechained."
+    },
+    {
+      "start": 127.8,
+      "end": 131.92,
+      "text": "But it does it does determine where you put these MIDI files."
+    },
+    {
+      "start": 132.12,
+      "end": 136.08,
+      "text": "Make a bit more sense as we go along."
+    },
+    {
+      "start": 136.28,
+      "end": 143.24,
+      "text": "The other thing to quickly point out is I have a maximizer"
+    },
+    {
+      "start": 143.76,
+      "end": 150.0,
+      "text": "on my output, no particular settings here, nothing too fancy."
+    },
+    {
+      "start": 150.2,
+      "end": 152.4,
+      "text": "I've also got a utility."
+    },
+    {
+      "start": 152.6,
+      "end": 155.2,
+      "text": "What I like to do is give myself a little headroom."
+    },
+    {
+      "start": 155.4,
+      "end": 158.4,
+      "text": "There's a couple of ways you can do this."
+    },
+    {
+      "start": 158.92,
+      "end": 162.4,
+      "text": "You can turn the volume down of each channels or the groups."
+    },
+    {
+      "start": 162.6,
+      "end": 166.68,
+      "text": "What I have always done, not necessarily the right way to go"
+    },
+    {
+      "start": 166.88,
+      "end": 170.92,
+      "text": "about this, is I just put the utility before the master and I'll just turn"
+    },
+    {
+      "start": 170.92,
+      "end": 174.28,
+      "text": "it down five decibels, so I give myself a little headroom."
+    },
+    {
+      "start": 174.48,
+      "end": 177.04,
+      "text": "I don't want to be writing the tune"
+    },
+    {
+      "start": 177.24,
+      "end": 181.16,
+      "text": "and blasting everything into the limiter straight away."
+    },
+    {
+      "start": 181.36,
+      "end": 186.8,
+      "text": "This part of the tune I like to really focus on later, when I'm writing the"
+    },
+    {
+      "start": 187.0,
+      "end": 190.08,
+      "text": "tune, I like to kind of have a little like kind of free palette."
+    },
+    {
+      "start": 190.28,
+      "end": 194.16,
+      "text": "I don't want to get too bogged down with engineering too much."
+    },
+    {
+      "start": 194.36,
+      "end": 195.76,
+      "text": "So"
+    },
+    {
+      "start": 196.56,
+      "end": 200.28,
+      "text": "so, yeah, I just leave this like this and try not to pay too much attention to it."
+    },
+    {
+      "start": 200.32,
+      "end": 201.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 201.68,
+      "end": 206.96,
+      "text": "Cool. So let's go ahead and start constructing"
+    },
+    {
+      "start": 207.16,
+      "end": 209.92,
+      "text": "some things for the drop."
+    },
+    {
+      "start": 211.12,
+      "end": 214.76,
+      "text": "I'm going to mute these vocals."
+    },
+    {
+      "start": 217.68,
+      "end": 223.2,
+      "text": "And I'm going to start at bar 49."
+    },
+    {
+      "start": 223.4,
+      "end": 227.4,
+      "text": "Cool. So let's make"
+    },
+    {
+      "start": 227.6,
+      "end": 229.76,
+      "text": "some drum and bass."
+    },
+    {
+      "start": 230.72,
+      "end": 233.4,
+      "text": "Cool. So let's start with a kick."
+    },
+    {
+      "start": 233.6,
+      "end": 236.96,
+      "text": "We know the tune is in F."
+    },
+    {
+      "start": 238.2,
+      "end": 239.68,
+      "text": "Cool."
+    },
+    {
+      "start": 243.72,
+      "end": 248.56,
+      "text": "All right. So the first thing we want to do is make a very simple beat."
+    },
+    {
+      "start": 250.92,
+      "end": 255.28,
+      "text": "Let me arrange these MIDI files because they're looping."
+    },
+    {
+      "start": 258.4,
+      "end": 261.88,
+      "text": "I'm also going to make these a bit longer."
+    },
+    {
+      "start": 264.08,
+      "end": 265.4,
+      "text": "Cool."
+    },
+    {
+      "start": 270.04,
+      "end": 275.2,
+      "text": "Change this to one bar and I'm just going to loop this."
+    },
+    {
+      "start": 279.24,
+      "end": 280.6,
+      "text": "Cool."
+    },
+    {
+      "start": 281.96,
+      "end": 284.0,
+      "text": "Now let's do my kick."
+    },
+    {
+      "start": 284.2,
+      "end": 286.0,
+      "text": "Sorry, let's do my snare."
+    },
+    {
+      "start": 286.2,
+      "end": 289.68,
+      "text": "This might not be the snare that I use, but"
+    },
+    {
+      "start": 289.88,
+      "end": 295.72,
+      "text": "what I want to do is get this down and then I can start writing."
+    },
+    {
+      "start": 299.04,
+      "end": 302.96,
+      "text": "OK, that's obviously a very low snare."
+    },
+    {
+      "start": 308.84,
+      "end": 315.08,
+      "text": "So in terms of tuning your drums, as you can see, I put the snare on F."
+    },
+    {
+      "start": 315.84,
+      "end": 319.8,
+      "text": "So the kick and snare are both on F, but I don't always like to do that."
+    },
+    {
+      "start": 320.0,
+      "end": 326.12,
+      "text": "So what I can do is choose like a C maybe, which I know is in scale to my tune"
+    },
+    {
+      "start": 326.32,
+      "end": 329.68,
+      "text": "because I've already looked at that before."
+    },
+    {
+      "start": 332.2,
+      "end": 333.48,
+      "text": "Cool."
+    },
+    {
+      "start": 338.64,
+      "end": 343.56,
+      "text": "So now what I want to do is start adding obviously some hi-hats"
+    },
+    {
+      "start": 343.76,
+      "end": 347.04,
+      "text": "or some kind of shaker kind of things."
+    },
+    {
+      "start": 347.24,
+      "end": 350.08,
+      "text": "So I'm going to add an audio file."
+    },
+    {
+      "start": 350.28,
+      "end": 354.12,
+      "text": "And what I'm going to do is just quickly rinse through my samples."
+    },
+    {
+      "start": 354.32,
+      "end": 355.84,
+      "text": "So"
+    },
+    {
+      "start": 356.04,
+      "end": 360.24,
+      "text": "in this stage of the tune, I don't want to spend too much time engineering."
+    },
+    {
+      "start": 360.24,
+      "end": 363.68,
+      "text": "I want to be able to put some samples in there and have an idea very quickly."
+    },
+    {
+      "start": 363.88,
+      "end": 366.16,
+      "text": "I'm just going to reach for my hi-hats."
+    },
+    {
+      "start": 366.36,
+      "end": 369.52,
+      "text": "These are all hi-hats I've made from making drums."
+    },
+    {
+      "start": 369.72,
+      "end": 371.8,
+      "text": "So like we did previously, make lots"
+    },
+    {
+      "start": 371.8,
+      "end": 375.76,
+      "text": "of different drums and then I'll export all the hi-hat loops and put them in a"
+    },
+    {
+      "start": 375.96,
+      "end": 379.48,
+      "text": "folder, so I've got stuff like this."
+    },
+    {
+      "start": 379.52,
+      "end": 381.28,
+      "text": "I want to go for something a bit techy, you know."
+    },
+    {
+      "start": 381.48,
+      "end": 385.4,
+      "text": "So I want something short."
+    },
+    {
+      "start": 386.6,
+      "end": 388.0,
+      "text": "Listen."
+    },
+    {
+      "start": 391.4,
+      "end": 393.56,
+      "text": "So that could work."
+    },
+    {
+      "start": 393.56,
+      "end": 395.72,
+      "text": "That's cool."
+    },
+    {
+      "start": 408.52,
+      "end": 410.24,
+      "text": "Not bad."
+    },
+    {
+      "start": 414.16,
+      "end": 416.24,
+      "text": "These are cool, actually."
+    },
+    {
+      "start": 418.8,
+      "end": 421.4,
+      "text": "I actually made these sounds."
+    },
+    {
+      "start": 421.6,
+      "end": 423.56,
+      "text": "So when I prepare for my DJ sets,"
+    },
+    {
+      "start": 423.76,
+      "end": 428.48,
+      "text": "obviously use Rekordbox, which is a library to organize your"
+    },
+    {
+      "start": 428.68,
+      "end": 433.44,
+      "text": "tunes on USB so they work in connection with the CDJ and other brands."
+    },
+    {
+      "start": 433.64,
+      "end": 438.28,
+      "text": "And what I do is when I add my markers on Rekordbox, I'm constantly pulling"
+    },
+    {
+      "start": 438.48,
+      "end": 442.08,
+      "text": "the audio file back and forward and it always makes these crazy sounds."
+    },
+    {
+      "start": 442.28,
+      "end": 447.92,
+      "text": "So like 10 minutes I've just recorded me shifting tunes, my own tunes."
+    },
+    {
+      "start": 448.12,
+      "end": 450.32,
+      "text": "And then what I did,"
+    },
+    {
+      "start": 450.64,
+      "end": 453.44,
+      "text": "I put a 1-16 filter over them."
+    },
+    {
+      "start": 453.64,
+      "end": 458.56,
+      "text": "So it's just like that and you get some really random sounds."
+    },
+    {
+      "start": 461.88,
+      "end": 462.92,
+      "text": "Crazy sounds."
+    },
+    {
+      "start": 463.12,
+      "end": 465.76,
+      "text": "So let's see if we can use those."
+    },
+    {
+      "start": 474.84,
+      "end": 476.36,
+      "text": "I'm just going to loop one bar for now."
+    },
+    {
+      "start": 476.48,
+      "end": 478.2,
+      "text": "And also"
+    },
+    {
+      "start": 478.4,
+      "end": 482.04,
+      "text": "what I'm going to do is not using that."
+    },
+    {
+      "start": 482.04,
+      "end": 483.68,
+      "text": "I'm going to put my intro at the top."
+    },
+    {
+      "start": 483.88,
+      "end": 487.0,
+      "text": "So I've got a bit more room to operate."
+    },
+    {
+      "start": 488.12,
+      "end": 492.56,
+      "text": "So one thing I like to do is keep my snares and kicks free."
+    },
+    {
+      "start": 492.76,
+      "end": 497.12,
+      "text": "So my snare is here and that's clashing with this sound."
+    },
+    {
+      "start": 497.32,
+      "end": 502.48,
+      "text": "So I'm simply going to cut it up, put a fade in and a fade out."
+    },
+    {
+      "start": 503.48,
+      "end": 505.64,
+      "text": "I'm not sure about the placement."
+    },
+    {
+      "start": 512.52,
+      "end": 515.8,
+      "text": "Not sure about that sound just yet."
+    },
+    {
+      "start": 516.0,
+      "end": 517.64,
+      "text": "This is also on the kick as well."
+    },
+    {
+      "start": 517.84,
+      "end": 519.72,
+      "text": "So let's get rid of that."
+    },
+    {
+      "start": 521.72,
+      "end": 524.84,
+      "text": "I can probably remove the fade in now."
+    },
+    {
+      "start": 527.76,
+      "end": 530.24,
+      "text": "Quite a lot of low end in that."
+    },
+    {
+      "start": 530.48,
+      "end": 533.32,
+      "text": "Let's go a bit easier on that."
+    },
+    {
+      "start": 537.04,
+      "end": 538.0,
+      "text": "Better."
+    },
+    {
+      "start": 538.2,
+      "end": 540.08,
+      "text": "Let's add some more bits."
+    },
+    {
+      "start": 541.36,
+      "end": 543.12,
+      "text": "Bongo's."
+    },
+    {
+      "start": 544.84,
+      "end": 546.44,
+      "text": "These are cool."
+    },
+    {
+      "start": 553.76,
+      "end": 555.4,
+      "text": "Quite loud."
+    },
+    {
+      "start": 555.4,
+      "end": 564.52,
+      "text": "I'm just going to stick another hi-hat in the middle from here, just to"
+    },
+    {
+      "start": 564.72,
+      "end": 566.6,
+      "text": "help us."
+    },
+    {
+      "start": 575.0,
+      "end": 578.88,
+      "text": "Actually, let's extend this out and see what we've got."
+    },
+    {
+      "start": 579.08,
+      "end": 583.12,
+      "text": "So again, even on the hi-hats, I'm going to put fade ins."
+    },
+    {
+      "start": 585.4,
+      "end": 597.6,
+      "text": "I'm going to leave this free for now."
+    },
+    {
+      "start": 597.8,
+      "end": 604.64,
+      "text": "I'm not sure this is great yet, but we'll keep going."
+    },
+    {
+      "start": 609.76,
+      "end": 610.6,
+      "text": "Quite like that."
+    },
+    {
+      "start": 610.8,
+      "end": 614.28,
+      "text": "If there was some complementary hi-hat after that would be good."
+    },
+    {
+      "start": 614.48,
+      "end": 616.64,
+      "text": "Let's add some little bits."
+    },
+    {
+      "start": 621.16,
+      "end": 622.0,
+      "text": "This is cool."
+    },
+    {
+      "start": 622.2,
+      "end": 623.84,
+      "text": "This might work."
+    },
+    {
+      "start": 626.52,
+      "end": 627.68,
+      "text": "OK, that's working cool."
+    },
+    {
+      "start": 627.88,
+      "end": 629.36,
+      "text": "That section."
+    },
+    {
+      "start": 633.6,
+      "end": 636.8,
+      "text": "You can already see I've cut the hi-hat out on the snare."
+    },
+    {
+      "start": 637.0,
+      "end": 640.64,
+      "text": "This would have come from an old tune, which I never finished probably,"
+    },
+    {
+      "start": 640.84,
+      "end": 642.88,
+      "text": "but not on the kick."
+    },
+    {
+      "start": 644.28,
+      "end": 654.16,
+      "text": "I'm not sure about this start now."
+    },
+    {
+      "start": 660.48,
+      "end": 664.64,
+      "text": "Let's add another little section here, see what happens."
+    },
+    {
+      "start": 667.6,
+      "end": 670.68,
+      "text": "That sounds quite cool, actually."
+    },
+    {
+      "start": 671.48,
+      "end": 676.12,
+      "text": "Add another little section here and another little section there."
+    },
+    {
+      "start": 676.32,
+      "end": 679.72,
+      "text": "So I'm just jamming away now."
+    },
+    {
+      "start": 691.44,
+      "end": 695.68,
+      "text": "So now what I'm going to do is I'm going to go..."
+    },
+    {
+      "start": 695.88,
+      "end": 700.48,
+      "text": "What I want to hear is some kind of faster percussion elements in there."
+    },
+    {
+      "start": 700.68,
+      "end": 704.6,
+      "text": "So I'm just going to go through some of my breaks, really, and see if I can"
+    },
+    {
+      "start": 704.8,
+      "end": 706.64,
+      "text": "find something."
+    },
+    {
+      "start": 721.4,
+      "end": 724.48,
+      "text": "I like the hi-hats on that one."
+    },
+    {
+      "start": 725.48,
+      "end": 726.84,
+      "text": "So."
+    },
+    {
+      "start": 729.6,
+      "end": 733.8,
+      "text": "I've also got this project file saved, and if I wanted to, I could go in there,"
+    },
+    {
+      "start": 734.0,
+      "end": 737.36,
+      "text": "but I've got the audio file, so I may as well utilize it."
+    },
+    {
+      "start": 737.56,
+      "end": 740.16,
+      "text": "I can just take the kick out."
+    },
+    {
+      "start": 741.36,
+      "end": 742.76,
+      "text": "And because I made all these sounds"
+    },
+    {
+      "start": 742.96,
+      "end": 746.28,
+      "text": "myself, there's a big chance that they're all just going to just going to sound"
+    },
+    {
+      "start": 746.48,
+      "end": 749.32,
+      "text": "very similar and kind of gel with each other."
+    },
+    {
+      "start": 749.52,
+      "end": 753.08,
+      "text": "So let's get rid of that."
+    },
+    {
+      "start": 753.24,
+      "end": 755.2,
+      "text": "We do not want that kick."
+    },
+    {
+      "start": 755.4,
+      "end": 756.12,
+      "text": "Do not want that sound."
+    },
+    {
+      "start": 756.32,
+      "end": 757.48,
+      "text": "I'm putting a big fade on the snare."
+    },
+    {
+      "start": 757.68,
+      "end": 760.28,
+      "text": "I might change that later, though."
+    },
+    {
+      "start": 763.32,
+      "end": 765.64,
+      "text": "Some click somewhere."
+    },
+    {
+      "start": 774.96,
+      "end": 776.96,
+      "text": "See how this sounds."
+    },
+    {
+      "start": 779.36,
+      "end": 780.8,
+      "text": "Not bad."
+    },
+    {
+      "start": 783.84,
+      "end": 787.84,
+      "text": "Still sounds very synthetic to me."
+    },
+    {
+      "start": 809.84,
+      "end": 810.2,
+      "text": "Cool."
+    },
+    {
+      "start": 810.2,
+      "end": 814.72,
+      "text": "So let's quickly go and have a look at this kick."
+    },
+    {
+      "start": 815.64,
+      "end": 817.36,
+      "text": "How is this?"
+    },
+    {
+      "start": 817.56,
+      "end": 820.36,
+      "text": "Could be improved, I think."
+    },
+    {
+      "start": 823.48,
+      "end": 827.4,
+      "text": "So let's try and exaggerate the transient."
+    },
+    {
+      "start": 836.6,
+      "end": 839.72,
+      "text": "Probably want to make it a bit shorter as well."
+    },
+    {
+      "start": 839.76,
+      "end": 841.44,
+      "text": "Let's try that."
+    },
+    {
+      "start": 842.96,
+      "end": 844.24,
+      "text": "Cool."
+    },
+    {
+      "start": 848.28,
+      "end": 853.88,
+      "text": "There is a tiny little hit before the kick here, which kind of"
+    },
+    {
+      "start": 855.28,
+      "end": 858.56,
+      "text": "which kind of puts me off a little bit."
+    },
+    {
+      "start": 865.0,
+      "end": 866.2,
+      "text": "I think this might work."
+    },
+    {
+      "start": 866.4,
+      "end": 867.4,
+      "text": "I'm going to leave it muted for now."
+    },
+    {
+      "start": 867.4,
+      "end": 869.92,
+      "text": "I might come back to that later."
+    },
+    {
+      "start": 880.08,
+      "end": 881.56,
+      "text": "Cool. So I'm just listening,"
+    },
+    {
+      "start": 881.76,
+      "end": 885.32,
+      "text": "analyzing everything, trying to think what could I improve?"
+    },
+    {
+      "start": 885.52,
+      "end": 887.96,
+      "text": "The snare could be a lot better."
+    },
+    {
+      "start": 889.64,
+      "end": 891.92,
+      "text": "Let's see if we can improve that."
+    },
+    {
+      "start": 893.08,
+      "end": 895.68,
+      "text": "So I've got a little clap there, a bit too much for me, so I'm going to get"
+    },
+    {
+      "start": 895.68,
+      "end": 897.24,
+      "text": "rid of that."
+    },
+    {
+      "start": 900.48,
+      "end": 903.4,
+      "text": "This is my transient and fundamental layer."
+    },
+    {
+      "start": 903.6,
+      "end": 908.08,
+      "text": "Let's see if I can improve that just by offsetting, maybe."
+    },
+    {
+      "start": 908.6,
+      "end": 911.24,
+      "text": "Also take the attack off."
+    },
+    {
+      "start": 925.68,
+      "end": 933.44,
+      "text": "So this is the white noise layer."
+    },
+    {
+      "start": 933.64,
+      "end": 935.84,
+      "text": "I'm just going to shorten this up."
+    },
+    {
+      "start": 935.84,
+      "end": 954.8,
+      "text": "I've made it longer."
+    },
+    {
+      "start": 955.0,
+      "end": 957.32,
+      "text": "Maybe that sounds even better."
+    },
+    {
+      "start": 961.8,
+      "end": 964.96,
+      "text": "See, this is the perfect example of why"
+    },
+    {
+      "start": 965.16,
+      "end": 967.96,
+      "text": "making your own sounds"
+    },
+    {
+      "start": 968.4,
+      "end": 972.28,
+      "text": "gives you such creativity and"
+    },
+    {
+      "start": 972.48,
+      "end": 978.08,
+      "text": "it enables you to literally fine tune everything to how you want it."
+    },
+    {
+      "start": 979.08,
+      "end": 983.96,
+      "text": "So I can make that literally the tail if I wanted."
+    },
+    {
+      "start": 987.32,
+      "end": 990.36,
+      "text": "If I wanted to go for that, perfect."
+    },
+    {
+      "start": 991.36,
+      "end": 995.96,
+      "text": "I think we should go for something a bit more fine for this tune."
+    },
+    {
+      "start": 1000.36,
+      "end": 1003.04,
+      "text": "Let's see what it sounds like."
+    },
+    {
+      "start": 1005.0,
+      "end": 1006.72,
+      "text": "Also cool."
+    },
+    {
+      "start": 1015.72,
+      "end": 1017.72,
+      "text": "That sounds dope."
+    },
+    {
+      "start": 1020.36,
+      "end": 1025.56,
+      "text": "Cool."
+    },
+    {
+      "start": 1025.76,
+      "end": 1028.16,
+      "text": "So let's now."
+    },
+    {
+      "start": 1028.96,
+      "end": 1031.72,
+      "text": "We've got a rough"
+    },
+    {
+      "start": 1031.92,
+      "end": 1035.56,
+      "text": "template for a drum set out, going to group all the hi-hats and obviously"
+    },
+    {
+      "start": 1035.76,
+      "end": 1037.88,
+      "text": "call them hats."
+    },
+    {
+      "start": 1039.0,
+      "end": 1042.12,
+      "text": "Oh, that's not how you spell hats."
+    },
+    {
+      "start": 1044.24,
+      "end": 1047.32,
+      "text": "I'm going to bring my side chain down and I'm going to group all these now"
+    },
+    {
+      "start": 1047.36,
+      "end": 1048.92,
+      "text": "and call them."
+    },
+    {
+      "start": 1049.12,
+      "end": 1051.24,
+      "text": "I'm going to group the side chain as well."
+    },
+    {
+      "start": 1051.44,
+      "end": 1055.16,
+      "text": "So I'm going to call these drums."
+    },
+    {
+      "start": 1059.64,
+      "end": 1060.92,
+      "text": "Nice."
+    },
+    {
+      "start": 1061.12,
+      "end": 1064.6,
+      "text": "Alright, so the next thing I wanted to do"
+    },
+    {
+      "start": 1064.8,
+      "end": 1070.72,
+      "text": "is start adding some interesting bass sounds, which we made earlier."
+    },
+    {
+      "start": 1070.92,
+      "end": 1072.72,
+      "text": "So let's get into that."
+    },
+    {
+      "start": 1073.8,
+      "end": 1077.04,
+      "text": "Not sure why that duplicated, probably my fault."
+    },
+    {
+      "start": 1077.84,
+      "end": 1080.36,
+      "text": "Cool. So in my user library,"
+    },
+    {
+      "start": 1080.56,
+      "end": 1084.2,
+      "text": "I have all the bass sounds which we"
+    },
+    {
+      "start": 1084.4,
+      "end": 1086.64,
+      "text": "made in the previous videos."
+    },
+    {
+      "start": 1086.84,
+      "end": 1089.08,
+      "text": "So let's go through them."
+    },
+    {
+      "start": 1101.68,
+      "end": 1104.8,
+      "text": "So obviously way too loud"
+    },
+    {
+      "start": 1105.04,
+      "end": 1108.48,
+      "text": "and it doesn't sound like the side chain is working."
+    },
+    {
+      "start": 1112.0,
+      "end": 1114.16,
+      "text": "Or is it? Let's check."
+    },
+    {
+      "start": 1114.36,
+      "end": 1116.24,
+      "text": "I don't think it is."
+    },
+    {
+      "start": 1117.16,
+      "end": 1119.44,
+      "text": "Why isn't it working?"
+    },
+    {
+      "start": 1134.8,
+      "end": 1144.2,
+      "text": "Okay, give me a sec and I'll just try and find out what I'm doing wrong here."
+    },
+    {
+      "start": 1144.4,
+      "end": 1145.32,
+      "text": "And I'll be back to you in a sec."
+    },
+    {
+      "start": 1145.52,
+      "end": 1148.0,
+      "text": "Okay, so I found out what it was."
+    },
+    {
+      "start": 1148.2,
+      "end": 1149.32,
+      "text": "Schoolboy error."
+    },
+    {
+      "start": 1149.52,
+      "end": 1153.28,
+      "text": "My actual side chain triggers weren't turned on."
+    },
+    {
+      "start": 1153.48,
+      "end": 1155.8,
+      "text": "So these are my MIDI files."
+    },
+    {
+      "start": 1156.0,
+      "end": 1160.2,
+      "text": "So if I put them here, just play them without them."
+    },
+    {
+      "start": 1161.0,
+      "end": 1164.72,
+      "text": "And then I'll put them back on."
+    },
+    {
+      "start": 1165.8,
+      "end": 1168.12,
+      "text": "There you go."
+    },
+    {
+      "start": 1168.32,
+      "end": 1169.32,
+      "text": "Cool."
+    },
+    {
+      "start": 1169.52,
+      "end": 1172.8,
+      "text": "So let's go writing some tunes."
+    },
+    {
+      "start": 1177.8,
+      "end": 1178.8,
+      "text": "Cool."
+    },
+    {
+      "start": 1179.0,
+      "end": 1185.96,
+      "text": "So I kind of like that, but I don't like the hi-hat shuffles on this part."
+    },
+    {
+      "start": 1186.16,
+      "end": 1192.8,
+      "text": "So maybe we can just do it rather than"
+    },
+    {
+      "start": 1193.6,
+      "end": 1197.12,
+      "text": "a really fast edit here."
+    },
+    {
+      "start": 1198.96,
+      "end": 1200.08,
+      "text": "Perfect."
+    },
+    {
+      "start": 1200.28,
+      "end": 1205.28,
+      "text": "Right. So now I want some open hi-hat on there."
+    },
+    {
+      "start": 1205.48,
+      "end": 1208.4,
+      "text": "So I'm going to go back into my."
+    },
+    {
+      "start": 1210.0,
+      "end": 1211.96,
+      "text": "I'm going to add a new"
+    },
+    {
+      "start": 1212.16,
+      "end": 1220.48,
+      "text": "track into my hi-hats and let's quickly get an open hi-hat from one of my."
+    },
+    {
+      "start": 1220.68,
+      "end": 1222.72,
+      "text": "Maybe that will be good."
+    },
+    {
+      "start": 1223.8,
+      "end": 1227.28,
+      "text": "Oh, kind of cool."
+    },
+    {
+      "start": 1231.84,
+      "end": 1237.4,
+      "text": "These, I think this is these."
+    },
+    {
+      "start": 1239.68,
+      "end": 1241.44,
+      "text": "But sure."
+    },
+    {
+      "start": 1251.16,
+      "end": 1251.92,
+      "text": "Cool."
+    },
+    {
+      "start": 1252.08,
+      "end": 1254.28,
+      "text": "Right. That's a good stop."
+    },
+    {
+      "start": 1255.92,
+      "end": 1258.76,
+      "text": "Just double check with that intro."
+    },
+    {
+      "start": 1258.96,
+      "end": 1260.76,
+      "text": "How we're doing."
+    },
+    {
+      "start": 1266.12,
+      "end": 1269.32,
+      "text": "Cool thing that's going to work good."
+    },
+    {
+      "start": 1275.88,
+      "end": 1277.36,
+      "text": "Cool. Yeah, I think that might work."
+    },
+    {
+      "start": 1277.36,
+      "end": 1279.08,
+      "text": "Cool. I'm going to leave the intro on for now."
+    },
+    {
+      "start": 1279.12,
+      "end": 1282.24,
+      "text": "Let's get rid of these bits in the engine."
+    },
+    {
+      "start": 1282.44,
+      "end": 1284.16,
+      "text": "What's making that sound?"
+    },
+    {
+      "start": 1284.36,
+      "end": 1286.52,
+      "text": "OK, drone sound."
+    },
+    {
+      "start": 1293.12,
+      "end": 1297.76,
+      "text": "So as you notice, and it might be a little frustrating for you,"
+    },
+    {
+      "start": 1297.96,
+      "end": 1302.08,
+      "text": "I have a habit when I want to analyze something."
+    },
+    {
+      "start": 1302.28,
+      "end": 1304.08,
+      "text": "I literally"
+    },
+    {
+      "start": 1304.28,
+      "end": 1308.6,
+      "text": "press spacebar a lot because I'm just trying to re-trigger it."
+    },
+    {
+      "start": 1308.8,
+      "end": 1312.76,
+      "text": "So I'll try and do that less if that's annoying."
+    },
+    {
+      "start": 1315.96,
+      "end": 1320.04,
+      "text": "I want to check the harmonics here."
+    },
+    {
+      "start": 1322.2,
+      "end": 1326.52,
+      "text": "That's an A, which isn't in scale."
+    },
+    {
+      "start": 1327.52,
+      "end": 1330.04,
+      "text": "Might be able to change that."
+    },
+    {
+      "start": 1331.36,
+      "end": 1335.44,
+      "text": "How did we do this again?"
+    },
+    {
+      "start": 1339.6,
+      "end": 1341.36,
+      "text": "Is it with this?"
+    },
+    {
+      "start": 1350.36,
+      "end": 1352.4,
+      "text": "OK, there's a massive A coming somewhere."
+    },
+    {
+      "start": 1352.6,
+      "end": 1354.96,
+      "text": "Is it in the effects? No."
+    },
+    {
+      "start": 1368.6,
+      "end": 1381.8,
+      "text": "OK, a little bit less resonant sounds cool."
+    },
+    {
+      "start": 1385.2,
+      "end": 1388.6,
+      "text": "OK, the peak is coming from the FM."
+    },
+    {
+      "start": 1388.8,
+      "end": 1389.84,
+      "text": "I should have remembered this."
+    },
+    {
+      "start": 1390.04,
+      "end": 1392.48,
+      "text": "I only made them yesterday."
+    },
+    {
+      "start": 1395.6,
+      "end": 1397.72,
+      "text": "So let's see if we can change that."
+    },
+    {
+      "start": 1397.76,
+      "end": 1399.52,
+      "text": "So."
+    },
+    {
+      "start": 1406.32,
+      "end": 1408.16,
+      "text": "I'm going to"
+    },
+    {
+      "start": 1408.68,
+      "end": 1410.88,
+      "text": "put another macro."
+    },
+    {
+      "start": 1413.8,
+      "end": 1416.48,
+      "text": "Oh, that sounds a bit more"
+    },
+    {
+      "start": 1416.68,
+      "end": 1420.12,
+      "text": "C, absolutely"
+    },
+    {
+      "start": 1420.32,
+      "end": 1421.36,
+      "text": "perfect."
+    },
+    {
+      "start": 1421.56,
+      "end": 1423.92,
+      "text": "We know that's in scale."
+    },
+    {
+      "start": 1424.44,
+      "end": 1431.32,
+      "text": "And if I put this on the intro now, it should sound very good."
+    },
+    {
+      "start": 1432.52,
+      "end": 1436.72,
+      "text": "That sounds very in tune."
+    },
+    {
+      "start": 1441.0,
+      "end": 1443.52,
+      "text": "Maybe."
+    },
+    {
+      "start": 1443.72,
+      "end": 1447.12,
+      "text": "We could have this here."
+    },
+    {
+      "start": 1454.56,
+      "end": 1458.08,
+      "text": "So what I'm thinking is."
+    },
+    {
+      "start": 1458.28,
+      "end": 1460.68,
+      "text": "And then to do to do to do."
+    },
+    {
+      "start": 1460.88,
+      "end": 1462.76,
+      "text": "So let's go and do that."
+    },
+    {
+      "start": 1462.96,
+      "end": 1469.0,
+      "text": "So another thing I want to mention to you guys is I'm quite"
+    },
+    {
+      "start": 1469.2,
+      "end": 1472.68,
+      "text": "I have a quite short attention span with working on some things."
+    },
+    {
+      "start": 1472.88,
+      "end": 1475.68,
+      "text": "If I get an idea, I'll go and do it."
+    },
+    {
+      "start": 1475.88,
+      "end": 1478.4,
+      "text": "So we were working on the drop,"
+    },
+    {
+      "start": 1478.6,
+      "end": 1481.64,
+      "text": "but I dropped that into the breakdown here or the build up,"
+    },
+    {
+      "start": 1481.64,
+      "end": 1482.4,
+      "text": "if you want to call that."
+    },
+    {
+      "start": 1482.6,
+      "end": 1484.4,
+      "text": "And I heard something in my head."
+    },
+    {
+      "start": 1484.6,
+      "end": 1490.6,
+      "text": "And when I heard that, I instead of leaving it to later, I was going to do it"
+    },
+    {
+      "start": 1490.8,
+      "end": 1494.68,
+      "text": "there and then so I think we can make something like this on the fly."
+    },
+    {
+      "start": 1494.88,
+      "end": 1497.16,
+      "text": "So I'm going to open serum."
+    },
+    {
+      "start": 1505.52,
+      "end": 1507.12,
+      "text": "That's obviously an audio track."
+    },
+    {
+      "start": 1507.32,
+      "end": 1509.0,
+      "text": "Apologies."
+    },
+    {
+      "start": 1512.08,
+      "end": 1515.16,
+      "text": "Cool, let's put this in the side chain."
+    },
+    {
+      "start": 1526.8,
+      "end": 1532.12,
+      "text": "So I'm going to loop this and get my patent to do to do and then."
+    },
+    {
+      "start": 1542.64,
+      "end": 1544.76,
+      "text": "I think it's this."
+    },
+    {
+      "start": 1546.84,
+      "end": 1548.24,
+      "text": "Cool."
+    },
+    {
+      "start": 1556.64,
+      "end": 1559.0,
+      "text": "Right, we need to turn this into a baseline."
+    },
+    {
+      "start": 1559.2,
+      "end": 1561.0,
+      "text": "So."
+    },
+    {
+      "start": 1561.2,
+      "end": 1562.6,
+      "text": "How are we going to do that?"
+    },
+    {
+      "start": 1562.8,
+      "end": 1568.52,
+      "text": "Let's see if we can use an existing table, which we used before,"
+    },
+    {
+      "start": 1568.6,
+      "end": 1571.72,
+      "text": "which one to be used, the dirt"
+    },
+    {
+      "start": 1571.92,
+      "end": 1573.84,
+      "text": "digital."
+    },
+    {
+      "start": 1574.72,
+      "end": 1580.52,
+      "text": "This one, I think, or no, it was the distorted bass dropper."
+    },
+    {
+      "start": 1580.72,
+      "end": 1583.16,
+      "text": "Cool, let's go one up, two down."
+    },
+    {
+      "start": 1585.28,
+      "end": 1587.32,
+      "text": "Oh, almost there."
+    },
+    {
+      "start": 1594.6,
+      "end": 1596.48,
+      "text": "Hey, that sounds cool."
+    },
+    {
+      "start": 1599.2,
+      "end": 1603.36,
+      "text": "So, let's I'm just following my instinct here."
+    },
+    {
+      "start": 1607.48,
+      "end": 1609.56,
+      "text": "Cool, that's going to be good."
+    },
+    {
+      "start": 1609.76,
+      "end": 1611.24,
+      "text": "Let's turn the random off as well."
+    },
+    {
+      "start": 1611.44,
+      "end": 1613.72,
+      "text": "I keep forgetting that goes."
+    },
+    {
+      "start": 1613.92,
+      "end": 1618.52,
+      "text": "Cool, let's add some distortion."
+    },
+    {
+      "start": 1619.4,
+      "end": 1622.36,
+      "text": "Let's try something over the top."
+    },
+    {
+      "start": 1622.56,
+      "end": 1624.92,
+      "text": "Let's have a bit of fun, you know."
+    },
+    {
+      "start": 1629.4,
+      "end": 1631.24,
+      "text": "Too much."
+    },
+    {
+      "start": 1631.44,
+      "end": 1634.44,
+      "text": "Might work."
+    },
+    {
+      "start": 1634.64,
+      "end": 1636.88,
+      "text": "Oh, that sounds good."
+    },
+    {
+      "start": 1637.08,
+      "end": 1638.92,
+      "text": "Not too much."
+    },
+    {
+      "start": 1645.12,
+      "end": 1647.92,
+      "text": "See how that sounds in the mix, should we?"
+    },
+    {
+      "start": 1659.52,
+      "end": 1663.2,
+      "text": "I'm not sure the pitching's right."
+    },
+    {
+      "start": 1682.68,
+      "end": 1686.08,
+      "text": "Let's try and improve this."
+    },
+    {
+      "start": 1688.76,
+      "end": 1691.6,
+      "text": "I just want to add a bit more."
+    },
+    {
+      "start": 1705.72,
+      "end": 1708.72,
+      "text": "Let's keep the phase as it was."
+    },
+    {
+      "start": 1712.0,
+      "end": 1714.08,
+      "text": "See what happens if we automate the FM."
+    },
+    {
+      "start": 1714.28,
+      "end": 1718.32,
+      "text": "It might sound a bit crackly and stuff."
+    },
+    {
+      "start": 1718.52,
+      "end": 1720.32,
+      "text": "Oh, cool."
+    },
+    {
+      "start": 1732.12,
+      "end": 1734.12,
+      "text": "Put it to one bar."
+    },
+    {
+      "start": 1734.12,
+      "end": 1736.12,
+      "text": "Not bad."
+    },
+    {
+      "start": 1752.12,
+      "end": 1755.72,
+      "text": "Feels like I'm losing a lot of sub bass for some reason."
+    },
+    {
+      "start": 1755.92,
+      "end": 1758.24,
+      "text": "And I think that's because"
+    },
+    {
+      "start": 1758.44,
+      "end": 1761.36,
+      "text": "that peak is so high."
+    },
+    {
+      "start": 1764.84,
+      "end": 1767.2,
+      "text": "Let's turn this down a bit."
+    },
+    {
+      "start": 1768.92,
+      "end": 1771.8,
+      "text": "It's had a bit of white noise as well."
+    },
+    {
+      "start": 1782.0,
+      "end": 1783.4,
+      "text": "Cool."
+    },
+    {
+      "start": 1785.72,
+      "end": 1788.4,
+      "text": "Right, now let's go back to our"
+    },
+    {
+      "start": 1789.52,
+      "end": 1794.04,
+      "text": "and drop and see, let's see if we can fit this in, shall we?"
+    },
+    {
+      "start": 1794.44,
+      "end": 1796.2,
+      "text": "So."
+    },
+    {
+      "start": 1806.04,
+      "end": 1808.48,
+      "text": "OK, I could put this on here."
+    },
+    {
+      "start": 1810.48,
+      "end": 1814.04,
+      "text": "Or I could try and make it a bit funky."
+    },
+    {
+      "start": 1824.12,
+      "end": 1828.0,
+      "text": "OK, let's try and make a cooler melody out of this."
+    },
+    {
+      "start": 1854.52,
+      "end": 1856.32,
+      "text": "Not bad."
+    },
+    {
+      "start": 1861.32,
+      "end": 1865.32,
+      "text": "Cool, a bit underwhelmed by that sound now."
+    },
+    {
+      "start": 1865.52,
+      "end": 1866.72,
+      "text": "Leave it in there for now."
+    },
+    {
+      "start": 1866.92,
+      "end": 1870.88,
+      "text": "Let's add a few more of our bass sounds, which we made."
+    },
+    {
+      "start": 1871.08,
+      "end": 1873.64,
+      "text": "So what was number two?"
+    },
+    {
+      "start": 1876.84,
+      "end": 1882.92,
+      "text": "Kind of forgotten what sounds we made now, but they'll come back to me."
+    },
+    {
+      "start": 1884.8,
+      "end": 1888.2,
+      "text": "Oops, let's drag that over."
+    },
+    {
+      "start": 1888.4,
+      "end": 1890.72,
+      "text": "What do we do here?"
+    },
+    {
+      "start": 1894.44,
+      "end": 1897.04,
+      "text": "This could be interesting."
+    },
+    {
+      "start": 1903.24,
+      "end": 1906.28,
+      "text": "F, D."
+    },
+    {
+      "start": 1908.8,
+      "end": 1912.52,
+      "text": "Let's try E, C."
+    },
+    {
+      "start": 1914.96,
+      "end": 1919.64,
+      "text": "Let's see what happens if we do this."
+    },
+    {
+      "start": 1926.92,
+      "end": 1928.72,
+      "text": "Kind of cool."
+    },
+    {
+      "start": 1928.92,
+      "end": 1930.52,
+      "text": "Let's go one."
+    },
+    {
+      "start": 1944.12,
+      "end": 1947.44,
+      "text": "I'm going to make this a bit shorter."
+    },
+    {
+      "start": 1951.24,
+      "end": 1955.04,
+      "text": "That release is really annoying me."
+    },
+    {
+      "start": 1955.24,
+      "end": 1957.6,
+      "text": "See if I can fix that."
+    },
+    {
+      "start": 1974.12,
+      "end": 1988.28,
+      "text": "I quite like this sound and kind of the how it's working with the drums,"
+    },
+    {
+      "start": 1988.48,
+      "end": 1993.48,
+      "text": "but to me, it sounds like a sound which would be at the end of like every eight"
+    },
+    {
+      "start": 1993.48,
+      "end": 1995.64,
+      "text": "bars or every four bars, for example."
+    },
+    {
+      "start": 1995.64,
+      "end": 1997.4,
+      "text": "So I'm going to try and work it for now."
+    },
+    {
+      "start": 1997.6,
+      "end": 2001.4,
+      "text": "And if not, I'm going to leave it in there so we can fit it in later."
+    },
+    {
+      "start": 2001.6,
+      "end": 2005.2,
+      "text": "The goal for me now is to try and fix this."
+    },
+    {
+      "start": 2006.68,
+      "end": 2011.6,
+      "text": "This kind of release thing, I remember this bass."
+    },
+    {
+      "start": 2011.8,
+      "end": 2015.92,
+      "text": "It was like a big peak in there, wasn't there?"
+    },
+    {
+      "start": 2016.12,
+      "end": 2017.52,
+      "text": "Yeah."
+    },
+    {
+      "start": 2018.96,
+      "end": 2021.12,
+      "text": "Let's see what this sounds like."
+    },
+    {
+      "start": 2024.4,
+      "end": 2026.88,
+      "text": "I want to go higher."
+    },
+    {
+      "start": 2031.4,
+      "end": 2035.76,
+      "text": "Let's try something like this."
+    },
+    {
+      "start": 2051.96,
+      "end": 2053.28,
+      "text": "That's cool."
+    },
+    {
+      "start": 2053.48,
+      "end": 2056.16,
+      "text": "Again, the release is annoying the hell out of me."
+    },
+    {
+      "start": 2056.4,
+      "end": 2061.44,
+      "text": "So I am going to do a workaround."
+    },
+    {
+      "start": 2061.64,
+      "end": 2065.2,
+      "text": "This isn't fixing it, but it's definitely a workaround."
+    },
+    {
+      "start": 2065.4,
+      "end": 2067.68,
+      "text": "I'm going to use the utility"
+    },
+    {
+      "start": 2068.28,
+      "end": 2070.72,
+      "text": "and I'm going to"
+    },
+    {
+      "start": 2071.32,
+      "end": 2075.0,
+      "text": "just turn it down just here."
+    },
+    {
+      "start": 2075.8,
+      "end": 2077.2,
+      "text": "Done."
+    },
+    {
+      "start": 2086.16,
+      "end": 2097.48,
+      "text": "I think the sound is cool, but I think it sounds so static."
+    },
+    {
+      "start": 2097.68,
+      "end": 2100.12,
+      "text": "And the goal was to make something techy and funky."
+    },
+    {
+      "start": 2100.32,
+      "end": 2104.08,
+      "text": "So this kind of just goes, no, no, no, like that."
+    },
+    {
+      "start": 2104.28,
+      "end": 2111.64,
+      "text": "And I'm wondering if we can maybe add some cool LFO to it."
+    },
+    {
+      "start": 2111.64,
+      "end": 2114.32,
+      "text": "Let's give it a go."
+    },
+    {
+      "start": 2132.52,
+      "end": 2135.52,
+      "text": "No, don't like that."
+    },
+    {
+      "start": 2135.72,
+      "end": 2137.72,
+      "text": "I'm going to change it."
+    },
+    {
+      "start": 2137.92,
+      "end": 2139.96,
+      "text": "I'm going to change it."
+    },
+    {
+      "start": 2140.04,
+      "end": 2142.88,
+      "text": "I'm going to change the fine tuning."
+    },
+    {
+      "start": 2143.08,
+      "end": 2145.96,
+      "text": "Remember, this also relates to"
+    },
+    {
+      "start": 2146.16,
+      "end": 2147.68,
+      "text": "how quickly it phases."
+    },
+    {
+      "start": 2147.88,
+      "end": 2150.8,
+      "text": "So it gives that kind of one, one, one LFO feeling."
+    },
+    {
+      "start": 2151.0,
+      "end": 2154.04,
+      "text": "Let's see if I can go really fast."
+    },
+    {
+      "start": 2154.04,
+      "end": 2171.08,
+      "text": "I think that might be better."
+    },
+    {
+      "start": 2171.28,
+      "end": 2172.88,
+      "text": "The objective was to go faster,"
+    },
+    {
+      "start": 2173.08,
+      "end": 2177.84,
+      "text": "but I've gone slower and it may be sounding cooler."
+    },
+    {
+      "start": 2179.32,
+      "end": 2180.88,
+      "text": "I want to make it shorter."
+    },
+    {
+      "start": 2181.08,
+      "end": 2182.96,
+      "text": "I just want that."
+    },
+    {
+      "start": 2183.12,
+      "end": 2184.44,
+      "text": "I think I wanted to stop here."
+    },
+    {
+      "start": 2184.64,
+      "end": 2187.24,
+      "text": "Let's just try and use the utility for now."
+    },
+    {
+      "start": 2187.44,
+      "end": 2191.4,
+      "text": "And then we will shorten this up."
+    },
+    {
+      "start": 2191.6,
+      "end": 2193.0,
+      "text": "Oops."
+    },
+    {
+      "start": 2213.96,
+      "end": 2222.48,
+      "text": "I'm not sure."
+    },
+    {
+      "start": 2222.68,
+      "end": 2225.64,
+      "text": "And this, guys, is where"
+    },
+    {
+      "start": 2225.84,
+      "end": 2228.84,
+      "text": "you follow your own personal preference."
+    },
+    {
+      "start": 2229.04,
+      "end": 2232.36,
+      "text": "I'm sure there'll be lots of you watching this thinking,"
+    },
+    {
+      "start": 2232.36,
+      "end": 2233.56,
+      "text": "oh, I would have done it this way."
+    },
+    {
+      "start": 2233.76,
+      "end": 2236.36,
+      "text": "And that's cool because"
+    },
+    {
+      "start": 2238.48,
+      "end": 2240.6,
+      "text": "and that's cool because everyone has their own"
+    },
+    {
+      "start": 2240.64,
+      "end": 2243.0,
+      "text": "interpretation of what should things sound like."
+    },
+    {
+      "start": 2243.0,
+      "end": 2247.2,
+      "text": "And you guys should really follow your instinct on that."
+    },
+    {
+      "start": 2248.96,
+      "end": 2250.6,
+      "text": "OK, cool. I'm going to roll with that for now."
+    },
+    {
+      "start": 2250.8,
+      "end": 2253.36,
+      "text": "Let's see"
+    },
+    {
+      "start": 2255.56,
+      "end": 2258.32,
+      "text": "if these work now."
+    },
+    {
+      "start": 2270.6,
+      "end": 2282.08,
+      "text": "I like the placement of that sound isn't great."
+    },
+    {
+      "start": 2293.68,
+      "end": 2295.92,
+      "text": "Cool. So that's really cool."
+    },
+    {
+      "start": 2296.12,
+      "end": 2298.72,
+      "text": "So the first two bass sounds we've made,"
+    },
+    {
+      "start": 2298.92,
+      "end": 2304.24,
+      "text": "one and two in our previous sessions are just clicking in and working straight away."
+    },
+    {
+      "start": 2304.44,
+      "end": 2306.24,
+      "text": "So happy about that so far."
+    },
+    {
+      "start": 2306.44,
+      "end": 2308.8,
+      "text": "Let's add some more."
+    },
+    {
+      "start": 2309.0,
+      "end": 2311.16,
+      "text": "We've already used the intro res, so that's kind of cool."
+    },
+    {
+      "start": 2311.36,
+      "end": 2314.0,
+      "text": "We used one, two, three for now."
+    },
+    {
+      "start": 2314.2,
+      "end": 2316.44,
+      "text": "Let's go with four."
+    },
+    {
+      "start": 2316.64,
+      "end": 2318.88,
+      "text": "What do we have here?"
+    },
+    {
+      "start": 2328.76,
+      "end": 2330.04,
+      "text": "Oh,"
+    },
+    {
+      "start": 2332.76,
+      "end": 2336.16,
+      "text": "maybe this is a better answer."
+    },
+    {
+      "start": 2340.08,
+      "end": 2342.92,
+      "text": "In the same scale as well."
+    },
+    {
+      "start": 2349.48,
+      "end": 2351.12,
+      "text": "Oh, lots of options here."
+    },
+    {
+      "start": 2351.32,
+      "end": 2352.88,
+      "text": "Too many."
+    },
+    {
+      "start": 2358.92,
+      "end": 2360.2,
+      "text": "Oh,"
+    },
+    {
+      "start": 2374.64,
+      "end": 2376.56,
+      "text": "that is not bad."
+    },
+    {
+      "start": 2381.08,
+      "end": 2382.04,
+      "text": "Keep hearing this."
+    },
+    {
+      "start": 2382.24,
+      "end": 2385.48,
+      "text": "Do, do, do, do, do, do, do a lot."
+    },
+    {
+      "start": 2385.72,
+      "end": 2388.8,
+      "text": "Let's see, can we get it to work?"
+    },
+    {
+      "start": 2389.0,
+      "end": 2390.52,
+      "text": "Right, so I'm extending the loop."
+    },
+    {
+      "start": 2390.72,
+      "end": 2393.28,
+      "text": "Two bars have to be done."
+    },
+    {
+      "start": 2393.48,
+      "end": 2395.48,
+      "text": "Now's the time."
+    },
+    {
+      "start": 2396.16,
+      "end": 2397.88,
+      "text": "Let's go."
+    },
+    {
+      "start": 2399.32,
+      "end": 2401.44,
+      "text": "What did I do there?"
+    },
+    {
+      "start": 2415.72,
+      "end": 2418.08,
+      "text": "It's not bad."
+    },
+    {
+      "start": 2423.4,
+      "end": 2426.12,
+      "text": "Must be how to improve this."
+    },
+    {
+      "start": 2428.16,
+      "end": 2435.04,
+      "text": "Let's add firstly, some like pitch and let's try and treat it like a kick."
+    },
+    {
+      "start": 2435.32,
+      "end": 2436.64,
+      "text": "So it's got"
+    },
+    {
+      "start": 2436.92,
+      "end": 2438.12,
+      "text": "so it's a bit more punchy."
+    },
+    {
+      "start": 2438.32,
+      "end": 2445.08,
+      "text": "So I'm going to use LFO four assigned to the master tune."
+    },
+    {
+      "start": 2445.72,
+      "end": 2449.2,
+      "text": "Just like we do with a kick and snap"
+    },
+    {
+      "start": 2450.08,
+      "end": 2451.56,
+      "text": "trigger."
+    },
+    {
+      "start": 2451.96,
+      "end": 2453.48,
+      "text": "They go."
+    },
+    {
+      "start": 2457.2,
+      "end": 2458.92,
+      "text": "Let's also"
+    },
+    {
+      "start": 2459.72,
+      "end": 2461.44,
+      "text": "add this to it."
+    },
+    {
+      "start": 2466.0,
+      "end": 2468.2,
+      "text": "Cool, that's much better."
+    },
+    {
+      "start": 2468.4,
+      "end": 2471.68,
+      "text": "Let's remove this warp."
+    },
+    {
+      "start": 2475.56,
+      "end": 2477.4,
+      "text": "Do, do, do, do, do, do, do, do, do, do, do."
+    },
+    {
+      "start": 2477.6,
+      "end": 2481.32,
+      "text": "Right, I hear in my head, I'll try and sing it."
+    },
+    {
+      "start": 2481.52,
+      "end": 2484.44,
+      "text": "I know my singing is terrible, which you've already found out."
+    },
+    {
+      "start": 2484.64,
+      "end": 2486.36,
+      "text": "But let's"
+    },
+    {
+      "start": 2486.56,
+      "end": 2489.72,
+      "text": "let me try and sing it for you."
+    },
+    {
+      "start": 2490.68,
+      "end": 2493.08,
+      "text": "No, no,"
+    },
+    {
+      "start": 2493.28,
+      "end": 2497.76,
+      "text": "do, do, do, do, do, do, do, do, do, do, do, do, do, do, do, do, do."
+    },
+    {
+      "start": 2497.96,
+      "end": 2501.24,
+      "text": "So let's grab"
+    },
+    {
+      "start": 2501.44,
+      "end": 2503.72,
+      "text": "one of our sounds, which we made earlier."
+    },
+    {
+      "start": 2503.92,
+      "end": 2505.36,
+      "text": "Use a library."
+    },
+    {
+      "start": 2505.56,
+      "end": 2508.92,
+      "text": "There was a cool reason here somewhere."
+    },
+    {
+      "start": 2516.88,
+      "end": 2518.64,
+      "text": "Cool."
+    },
+    {
+      "start": 2518.84,
+      "end": 2522.4,
+      "text": "This might do the do the job."
+    },
+    {
+      "start": 2525.68,
+      "end": 2528.36,
+      "text": "Just have a quick clean up."
+    },
+    {
+      "start": 2529.36,
+      "end": 2534.92,
+      "text": "I'm going to duplicate all the drums for now."
+    },
+    {
+      "start": 2537.12,
+      "end": 2539.0,
+      "text": "Did it work out?"
+    },
+    {
+      "start": 2539.2,
+      "end": 2540.36,
+      "text": "Oh, it did work out."
+    },
+    {
+      "start": 2540.56,
+      "end": 2541.88,
+      "text": "Good."
+    },
+    {
+      "start": 2558.68,
+      "end": 2559.68,
+      "text": "Cool."
+    },
+    {
+      "start": 2571.04,
+      "end": 2575.76,
+      "text": "So that's the melody I had in my head, but it's quite underwhelming."
+    },
+    {
+      "start": 2575.96,
+      "end": 2578.24,
+      "text": "Let's see if we put one of those vocals in there,"
+    },
+    {
+      "start": 2578.44,
+      "end": 2581.04,
+      "text": "see what that sounds like, shall we?"
+    },
+    {
+      "start": 2581.24,
+      "end": 2583.12,
+      "text": "Where were we?"
+    },
+    {
+      "start": 2589.16,
+      "end": 2592.84,
+      "text": "OK, let's try this, shall we?"
+    },
+    {
+      "start": 2596.28,
+      "end": 2597.2,
+      "text": "Awesome."
+    },
+    {
+      "start": 2597.4,
+      "end": 2599.0,
+      "text": "OK, that's going to work great."
+    },
+    {
+      "start": 2599.2,
+      "end": 2604.52,
+      "text": "And guys, putting that vocal over that bit is a direct result of working in a"
+    },
+    {
+      "start": 2604.72,
+      "end": 2613.12,
+      "text": "mode, in a scale, so we we know the keys and the and the notes we want to use"
+    },
+    {
+      "start": 2613.32,
+      "end": 2616.76,
+      "text": "and we know they're musically correct because they fit in a scale."
+    },
+    {
+      "start": 2616.76,
+      "end": 2620.48,
+      "text": "So literally, any if I put anything in from the intro now,"
+    },
+    {
+      "start": 2620.68,
+      "end": 2625.0,
+      "text": "I mean, it should work up."
+    },
+    {
+      "start": 2632.88,
+      "end": 2634.8,
+      "text": "There we go, see?"
+    },
+    {
+      "start": 2635.88,
+      "end": 2637.96,
+      "text": "And this is a really fun way to write."
+    },
+    {
+      "start": 2638.16,
+      "end": 2640.96,
+      "text": "So let's utilize what we've got."
+    },
+    {
+      "start": 2640.96,
+      "end": 2649.2,
+      "text": "So I'm going to want to take all the reverb off this."
+    },
+    {
+      "start": 2649.4,
+      "end": 2654.6,
+      "text": "I could just make a render with the reverb."
+    },
+    {
+      "start": 2656.0,
+      "end": 2657.08,
+      "text": "What's the best way?"
+    },
+    {
+      "start": 2657.28,
+      "end": 2659.36,
+      "text": "I think I'll do that. Yeah."
+    },
+    {
+      "start": 2660.12,
+      "end": 2662.12,
+      "text": "And also a bit of annoying thing,"
+    },
+    {
+      "start": 2662.32,
+      "end": 2667.52,
+      "text": "I'll have to take out of the group, because if you remember,"
+    },
+    {
+      "start": 2667.72,
+      "end": 2670.6,
+      "text": "we put the reverb on the group, that's no problem."
+    },
+    {
+      "start": 2670.64,
+      "end": 2672.4,
+      "text": "Let's get rid of that."
+    },
+    {
+      "start": 2680.44,
+      "end": 2683.16,
+      "text": "Wow, sounds terrible."
+    },
+    {
+      "start": 2692.0,
+      "end": 2694.4,
+      "text": "What does this sound like?"
+    },
+    {
+      "start": 2700.6,
+      "end": 2707.28,
+      "text": "Maybe we should mute this one."
+    },
+    {
+      "start": 2724.8,
+      "end": 2729.08,
+      "text": "Right, I'm going to make a render with that reverb and cut it short."
+    },
+    {
+      "start": 2729.28,
+      "end": 2730.52,
+      "text": "So let's do that."
+    },
+    {
+      "start": 2730.6,
+      "end": 2739.12,
+      "text": "Let's use the resampling function in Ableton."
+    },
+    {
+      "start": 2739.12,
+      "end": 2759.56,
+      "text": "Just cut a lot of that low end out."
+    },
+    {
+      "start": 2770.12,
+      "end": 2776.64,
+      "text": "A bit much tighter, but not amazing."
+    },
+    {
+      "start": 2777.64,
+      "end": 2780.36,
+      "text": "Where did my arp go?"
+    },
+    {
+      "start": 2787.44,
+      "end": 2790.72,
+      "text": "I think I want to take this section, to be honest."
+    },
+    {
+      "start": 2790.92,
+      "end": 2793.92,
+      "text": "Let's have a little look."
+    },
+    {
+      "start": 2799.28,
+      "end": 2801.2,
+      "text": "Nice."
+    },
+    {
+      "start": 2812.24,
+      "end": 2816.12,
+      "text": "So basically, what I've written here now"
+    },
+    {
+      "start": 2816.32,
+      "end": 2817.88,
+      "text": "is my sketch."
+    },
+    {
+      "start": 2818.08,
+      "end": 2823.16,
+      "text": "So I've got the idea, got the basic idea, the basic structure, basic intro."
+    },
+    {
+      "start": 2823.36,
+      "end": 2828.72,
+      "text": "I'm all in scale because I wrote with the purpose of being in scale."
+    },
+    {
+      "start": 2828.88,
+      "end": 2831.84,
+      "text": "Now what I'm going to do is when I get to this stage,"
+    },
+    {
+      "start": 2831.84,
+      "end": 2833.36,
+      "text": "I like to take a little 10 minute break."
+    },
+    {
+      "start": 2833.56,
+      "end": 2835.48,
+      "text": "I'll get some fresh air, go for a quick walk."
+    },
+    {
+      "start": 2835.68,
+      "end": 2840.12,
+      "text": "I'll come back and we'll deconstruct what doesn't sound good,"
+    },
+    {
+      "start": 2840.32,
+      "end": 2843.12,
+      "text": "what doesn't fit, and then we'll build out the tune."
+    },
+    {
+      "start": 2843.32,
+      "end": 2848.12,
+      "text": "Another important thing which we need to do is this build up here."
+    },
+    {
+      "start": 2848.32,
+      "end": 2854.32,
+      "text": "I also loved the sound of this on the intro."
+    },
+    {
+      "start": 2859.68,
+      "end": 2861.8,
+      "text": "Maybe again."
+    },
+    {
+      "start": 2866.88,
+      "end": 2869.28,
+      "text": "Let's duplicate that."
+    },
+    {
+      "start": 2881.88,
+      "end": 2885.52,
+      "text": "See how it drops? Exciting."
+    },
+    {
+      "start": 2888.72,
+      "end": 2893.2,
+      "text": "OK, so let's get back to it."
+    },
+    {
+      "start": 2893.4,
+      "end": 2897.68,
+      "text": "I took a little break, so I'm going to quickly listen to it again."
+    },
+    {
+      "start": 2906.36,
+      "end": 2910.04,
+      "text": "Cool. So what needs improvement?"
+    },
+    {
+      "start": 2910.24,
+      "end": 2915.56,
+      "text": "I can build out the rest of the tune now, but I think I've got enough."
+    },
+    {
+      "start": 2915.6,
+      "end": 2921.64,
+      "text": "In this section here, in these two bars, to try and improve a few things."
+    },
+    {
+      "start": 2921.84,
+      "end": 2927.0,
+      "text": "One thing I don't like is the drums yet."
+    },
+    {
+      "start": 2929.92,
+      "end": 2931.76,
+      "text": "There's not much energy in the drums,"
+    },
+    {
+      "start": 2931.96,
+      "end": 2935.56,
+      "text": "so I'm going to go and try and improve those."
+    },
+    {
+      "start": 2935.76,
+      "end": 2938.88,
+      "text": "Let's just isolate those for a sec."
+    },
+    {
+      "start": 2945.76,
+      "end": 2950.24,
+      "text": "I think the kick could be better."
+    },
+    {
+      "start": 2957.8,
+      "end": 2960.12,
+      "text": "Let's try and improve this kick."
+    },
+    {
+      "start": 2965.32,
+      "end": 2966.88,
+      "text": "So."
+    },
+    {
+      "start": 2969.56,
+      "end": 2973.96,
+      "text": "I'm going to try and change the tuning of this to see."
+    },
+    {
+      "start": 2974.76,
+      "end": 2976.68,
+      "text": "It's in scale."
+    },
+    {
+      "start": 2977.68,
+      "end": 2979.56,
+      "text": "Let's have a little listen."
+    },
+    {
+      "start": 2987.8,
+      "end": 2991.36,
+      "text": "I like that much better, actually."
+    },
+    {
+      "start": 2993.72,
+      "end": 2995.96,
+      "text": "I might change this one back to F."
+    },
+    {
+      "start": 2996.16,
+      "end": 3000.4,
+      "text": "I want to kind of create a variation."
+    },
+    {
+      "start": 3000.56,
+      "end": 3003.36,
+      "text": "I like that a lot, actually."
+    },
+    {
+      "start": 3004.84,
+      "end": 3007.32,
+      "text": "I mean, if you listen to any real life drummer,"
+    },
+    {
+      "start": 3007.52,
+      "end": 3011.6,
+      "text": "the you know, the kick's always not going to be the same, so."
+    },
+    {
+      "start": 3014.6,
+      "end": 3018.8,
+      "text": "What I will do, though, is I will split this up"
+    },
+    {
+      "start": 3019.0,
+      "end": 3023.24,
+      "text": "so the lower kicks can have their own channel."
+    },
+    {
+      "start": 3025.76,
+      "end": 3028.24,
+      "text": "I'm going to rename this kick"
+    },
+    {
+      "start": 3028.64,
+      "end": 3032.92,
+      "text": "I'm going to rename this kick F."
+    },
+    {
+      "start": 3035.12,
+      "end": 3039.76,
+      "text": "And this one kick C."
+    },
+    {
+      "start": 3039.96,
+      "end": 3043.04,
+      "text": "Let's remove that first F."
+    },
+    {
+      "start": 3051.2,
+      "end": 3053.2,
+      "text": "Sounding a lot better."
+    },
+    {
+      "start": 3054.08,
+      "end": 3055.8,
+      "text": "A lot higher."
+    },
+    {
+      "start": 3059.24,
+      "end": 3064.52,
+      "text": "So one thing I might try is putting a little bit of saturation"
+    },
+    {
+      "start": 3066.12,
+      "end": 3068.32,
+      "text": "on the whole drums."
+    },
+    {
+      "start": 3068.52,
+      "end": 3074.0,
+      "text": "So I just want to kind of push them a little harder, to be honest."
+    },
+    {
+      "start": 3074.2,
+      "end": 3075.72,
+      "text": "So I'm going to use a wave shaper."
+    },
+    {
+      "start": 3075.92,
+      "end": 3077.32,
+      "text": "Let's see."
+    },
+    {
+      "start": 3088.88,
+      "end": 3092.16,
+      "text": "So it just kind of pushes them a little bit."
+    },
+    {
+      "start": 3092.36,
+      "end": 3095.44,
+      "text": "It gives them a little more energy to the mix."
+    },
+    {
+      "start": 3097.16,
+      "end": 3099.76,
+      "text": "This kick's distorting a bit now."
+    },
+    {
+      "start": 3099.96,
+      "end": 3102.04,
+      "text": "I wonder if I can fix that."
+    },
+    {
+      "start": 3118.24,
+      "end": 3123.84,
+      "text": "The kick is getting a bit lost."
+    },
+    {
+      "start": 3124.04,
+      "end": 3126.84,
+      "text": "Why is it getting a bit lost?"
+    },
+    {
+      "start": 3128.6,
+      "end": 3130.92,
+      "text": "Is it because of these?"
+    },
+    {
+      "start": 3149.24,
+      "end": 3151.32,
+      "text": "Okay, what I'm going to do is I'm going"
+    },
+    {
+      "start": 3151.52,
+      "end": 3155.44,
+      "text": "to kind of put a manual side chain on these things."
+    },
+    {
+      "start": 3158.64,
+      "end": 3159.68,
+      "text": "That's better."
+    },
+    {
+      "start": 3159.88,
+      "end": 3162.32,
+      "text": "So I'll just copy these over."
+    },
+    {
+      "start": 3163.2,
+      "end": 3168.6,
+      "text": "Small details now, but what I want to do is have this set up."
+    },
+    {
+      "start": 3168.8,
+      "end": 3172.08,
+      "text": "So when I copy this all over and actually build out my tune,"
+    },
+    {
+      "start": 3172.28,
+      "end": 3175.96,
+      "text": "everything's correct already. In Ableton, it's a bit awkward"
+    },
+    {
+      "start": 3176.0,
+      "end": 3179.28,
+      "text": "because you can't put fade ins on multiple files."
+    },
+    {
+      "start": 3179.48,
+      "end": 3180.92,
+      "text": "You just have to copy them over."
+    },
+    {
+      "start": 3181.12,
+      "end": 3185.72,
+      "text": "So my workflow for Ableton is to make sure I've got everything"
+    },
+    {
+      "start": 3185.92,
+      "end": 3190.04,
+      "text": "kind of as good as it can be and then move on from there."
+    },
+    {
+      "start": 3190.24,
+      "end": 3194.08,
+      "text": "So let me try and bring back some of these"
+    },
+    {
+      "start": 3194.28,
+      "end": 3196.88,
+      "text": "percussion kind of sound."
+    },
+    {
+      "start": 3197.08,
+      "end": 3198.8,
+      "text": "This might work."
+    },
+    {
+      "start": 3198.8,
+      "end": 3213.36,
+      "text": "The drums are close, but they're still not, still not exactly what I want to hear."
+    },
+    {
+      "start": 3220.52,
+      "end": 3221.92,
+      "text": "So now I'm just going to loop this."
+    },
+    {
+      "start": 3222.12,
+      "end": 3224.52,
+      "text": "I'm sure, I'm sure we all know,"
+    },
+    {
+      "start": 3224.56,
+      "end": 3226.72,
+      "text": "we all know this,"
+    },
+    {
+      "start": 3228.08,
+      "end": 3232.56,
+      "text": "this process, it's looping and looping and looping and just trying to improve"
+    },
+    {
+      "start": 3232.56,
+      "end": 3234.6,
+      "text": "certain things and trying to improve certain things too."
+    },
+    {
+      "start": 3234.6,
+      "end": 3236.12,
+      "text": "You go absolutely insane in your head."
+    },
+    {
+      "start": 3236.12,
+      "end": 3238.88,
+      "text": "So you're going to have to bear with me a little bit."
+    },
+    {
+      "start": 3240.6,
+      "end": 3242.48,
+      "text": "I need to."
+    },
+    {
+      "start": 3250.68,
+      "end": 3252.84,
+      "text": "Just put these together."
+    },
+    {
+      "start": 3253.04,
+      "end": 3254.24,
+      "text": "Let's get a bit organized here."
+    },
+    {
+      "start": 3254.44,
+      "end": 3258.6,
+      "text": "It's an open hi-hat cymbal kind of thing at the top."
+    },
+    {
+      "start": 3262.88,
+      "end": 3266.32,
+      "text": "Can't be low end out of these shuffles as well."
+    },
+    {
+      "start": 3273.24,
+      "end": 3277.12,
+      "text": "Let's try it without the glitchy sounds."
+    },
+    {
+      "start": 3279.04,
+      "end": 3282.24,
+      "text": "Sounds cleaner. Let's see what this sounds like."
+    },
+    {
+      "start": 3283.84,
+      "end": 3287.52,
+      "text": "I like that much better."
+    },
+    {
+      "start": 3288.28,
+      "end": 3289.8,
+      "text": "Cleaner."
+    },
+    {
+      "start": 3291.96,
+      "end": 3293.76,
+      "text": "More energy."
+    },
+    {
+      "start": 3295.6,
+      "end": 3297.2,
+      "text": "That's without as well."
+    },
+    {
+      "start": 3297.4,
+      "end": 3300.48,
+      "text": "Right, there's one thing I want to mention about these shuffles"
+    },
+    {
+      "start": 3300.68,
+      "end": 3303.2,
+      "text": "and just shuffles in general."
+    },
+    {
+      "start": 3303.4,
+      "end": 3306.4,
+      "text": "We talked about it when we were making the drums."
+    },
+    {
+      "start": 3306.6,
+      "end": 3311.88,
+      "text": "And one of the coolest things I like to do with shuffles is literally just"
+    },
+    {
+      "start": 3311.92,
+      "end": 3313.56,
+      "text": "put them off time."
+    },
+    {
+      "start": 3313.76,
+      "end": 3319.76,
+      "text": "A drummer in real life will never play hits exactly on grid."
+    },
+    {
+      "start": 3319.96,
+      "end": 3323.28,
+      "text": "So it's good to try and keep a bit of funk in there."
+    },
+    {
+      "start": 3323.48,
+      "end": 3326.96,
+      "text": "So this is the hi-hat loop."
+    },
+    {
+      "start": 3327.8,
+      "end": 3332.52,
+      "text": "And what I'm going to do is just follow this basically."
+    },
+    {
+      "start": 3332.72,
+      "end": 3335.88,
+      "text": "What's this? I wonder if that sounds good as well."
+    },
+    {
+      "start": 3336.08,
+      "end": 3337.36,
+      "text": "We muted that earlier."
+    },
+    {
+      "start": 3337.56,
+      "end": 3339.84,
+      "text": "I'm just going to review it again."
+    },
+    {
+      "start": 3339.88,
+      "end": 3341.8,
+      "text": "If you notice, that's"
+    },
+    {
+      "start": 3342.0,
+      "end": 3344.96,
+      "text": "so far off the grid, but it gives a lot of funk."
+    },
+    {
+      "start": 3345.16,
+      "end": 3346.64,
+      "text": "Let's see."
+    },
+    {
+      "start": 3352.16,
+      "end": 3353.2,
+      "text": "Cool. Liking that."
+    },
+    {
+      "start": 3353.4,
+      "end": 3355.52,
+      "text": "I think we should keep that in."
+    },
+    {
+      "start": 3356.88,
+      "end": 3361.0,
+      "text": "Let me clean up this."
+    },
+    {
+      "start": 3363.52,
+      "end": 3368.36,
+      "text": "So I'm going to listen to these hi-hats again, the first ones we put in."
+    },
+    {
+      "start": 3368.36,
+      "end": 3372.64,
+      "text": "And if I don't like them this time, they're getting dumped."
+    },
+    {
+      "start": 3375.16,
+      "end": 3376.84,
+      "text": "Good work."
+    },
+    {
+      "start": 3377.04,
+      "end": 3378.88,
+      "text": "Gives it a"
+    },
+    {
+      "start": 3380.12,
+      "end": 3384.52,
+      "text": "gives a very acoustic feeling, which I like."
+    },
+    {
+      "start": 3399.36,
+      "end": 3400.28,
+      "text": "I quite like that."
+    },
+    {
+      "start": 3400.48,
+      "end": 3405.4,
+      "text": "It gives it a very open acoustic feeling."
+    },
+    {
+      "start": 3410.8,
+      "end": 3413.2,
+      "text": "Let's see if we can make these work."
+    },
+    {
+      "start": 3413.4,
+      "end": 3416.2,
+      "text": "I don't want to layer too much on top of each other."
+    },
+    {
+      "start": 3416.4,
+      "end": 3419.88,
+      "text": "All right. One thing I'm going to get rid of is our glitchy record box things."
+    },
+    {
+      "start": 3419.88,
+      "end": 3423.24,
+      "text": "If I need them, I'm going to come back to them later."
+    },
+    {
+      "start": 3425.84,
+      "end": 3427.52,
+      "text": "Sounds weird."
+    },
+    {
+      "start": 3428.36,
+      "end": 3435.8,
+      "text": "OK, I just want to make sure these are all."
+    },
+    {
+      "start": 3441.6,
+      "end": 3444.2,
+      "text": "I like that a lot, but it's a bit too loud."
+    },
+    {
+      "start": 3444.4,
+      "end": 3445.68,
+      "text": "I think"
+    },
+    {
+      "start": 3446.68,
+      "end": 3450.52,
+      "text": "I think I'm also going to take the attack off these hi-hats."
+    },
+    {
+      "start": 3450.72,
+      "end": 3452.6,
+      "text": "I mean, I've got"
+    },
+    {
+      "start": 3458.68,
+      "end": 3459.84,
+      "text": "I like the fade in."
+    },
+    {
+      "start": 3460.04,
+      "end": 3460.84,
+      "text": "I like the fade ins."
+    },
+    {
+      "start": 3461.04,
+      "end": 3465.8,
+      "text": "It gives it a kind of off beat feel,"
+    },
+    {
+      "start": 3467.04,
+      "end": 3468.92,
+      "text": "which is cool."
+    },
+    {
+      "start": 3469.68,
+      "end": 3471.84,
+      "text": "Right, let's turn these down."
+    },
+    {
+      "start": 3475.16,
+      "end": 3480.8,
+      "text": "Right, that's sounding a lot better to me, a lot more energetic."
+    },
+    {
+      "start": 3482.92,
+      "end": 3486.44,
+      "text": "Still something going on with the high end here."
+    },
+    {
+      "start": 3486.64,
+      "end": 3489.44,
+      "text": "Let's just remove that low end."
+    },
+    {
+      "start": 3498.08,
+      "end": 3500.44,
+      "text": "I think something going on a bit crazy here."
+    },
+    {
+      "start": 3500.64,
+      "end": 3502.76,
+      "text": "I'm just going to take that out."
+    },
+    {
+      "start": 3506.4,
+      "end": 3508.68,
+      "text": "Cool, let's check these."
+    },
+    {
+      "start": 3513.52,
+      "end": 3516.36,
+      "text": "Lots of low end in this, I can hear."
+    },
+    {
+      "start": 3516.44,
+      "end": 3525.92,
+      "text": "Let's put these up there, play these hi-hats together."
+    },
+    {
+      "start": 3528.12,
+      "end": 3530.08,
+      "text": "Cool, they work."
+    },
+    {
+      "start": 3536.4,
+      "end": 3540.6,
+      "text": "Let's mute these and see if we can do without them."
+    },
+    {
+      "start": 3542.32,
+      "end": 3544.52,
+      "text": "Don't think we can."
+    },
+    {
+      "start": 3547.44,
+      "end": 3552.92,
+      "text": "In this area here, it just gets a bit messy all of a sudden."
+    },
+    {
+      "start": 3553.12,
+      "end": 3554.44,
+      "text": "I want to try and find out why."
+    }
+  ]
+}

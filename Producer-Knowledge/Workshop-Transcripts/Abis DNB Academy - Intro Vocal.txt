@@ -1,0 +1,156 @@
+Okay, so I've just gone and recorded a vocal. It's very rubbish. I am by no means a singer.
+But I wanted to give you a perspective in that even if you can't sing that well, you
+can still open the mic, record something and make it fit in and create something unique,
+you know. So let me quickly play you I recorded do not judge because I'm not a
+singer. So lots of that kind of stuff, no lyrics. Sounds like a dying animal. So I've
+got a few things here I can utilize. When I was playing the tune and I was
+recording, I also did like a breath kind of thing to set the tone. So let me put
+that at the intro first. Let's see how we get along with that. Sounds a bit cheesy,
+but let's maybe turn this into like some kind of impact. Let's maybe do it here instead. So I'm
+going to use some reverb. Let's use the Halla Shimmer, which is great. Just going to put it
+like I'm just going to put the reverb on almost 100% I think. I don't need Melodyne on that one.
+Just take some low end out of it.
+That's cool. It really fits the scene. Right, let's try and write happy with that so far.
+Might put that at the start.
+Right, so let's try one of my dying animal suffering vocals.
+Kind of really sounds in tune, surprisingly. So what I'm going to do is I've got Melodyne
+loaded up on this channel and what I want to do is just going to focus on this one for now.
+So if you haven't used Melodyne, Melodyne is basically a tool which helps you correctly tune
+vocals and you transfer in and then you can select what notes the vocals are hitting.
+And because we already know our scale, F harmonic minor, it makes our life a lot easier.
+So I'm going to transfer this in.
+Didn't hit transfer. Let's do that again.
+Pick your pardon. Third time lucky.
+Cool. Let's work on this one. So let me record that in again.
+If you bet with me a second, I'm going to restart Melodyne.
+Great. Let's transfer this in.
+There we go. So you can see I start on F sharp, which isn't right. So I can do it, can select
+these and then I can physically correct the pitch center. So as you can see, they shift.
+So listen. Sounds a bit better. Great. So now what I can do is I can freeze this track.
+I know the pitch is good.
+And now if I just drop this audiophile, it will copy whatever I'm working.
+Cool. So let's try and get this sounding good.
+So I'm just going to move over a bit.
+Cool. Let's take some low end out. Let's add some reverb and a bit of vocal processing.
+If you've got something like isotope nectar, they'll work great. You just want to add some
+saturation, some reverbs and delay. I kind of want to make this, kind of want to turn this
+into like a pad, but I still want the listener to hear that it's a vocal. So I'm going to
+add a little bit of distortion actually, see what happens. Just a mild isotope trash, something
+like clip control setting.
+Okay, too much distortion.
+Cool. That sounds great. It's also got some really cool high end to it for some reason.
+It's like, I really like that. Sounds like rain.
+The last bit is terrible.
+Cool. That's very cool. So again, we can go a bit crazy with this. We can add some modulation.
+Another thing we could do is let's duplicate this.
+Let's pitch it down 12.
+Gonna have more function. See what happens with this.
+Cool. Quite like that. So now what I'm going to try and do is I'm going to go back into
+melody. I've got this here. Let's unfreeze this track. Right, so we know our scale. Let's see
+if I can make a harmony. So if I go C, C sharp. Sounds terrible.
+Right, there's a bit of kind of distortion going on, but I'm just going to look over that for now.
+So what I'm going to do next is let's again flatten this.
+And then I'm going to put this on a separate channel. So I've got that there.
+And then after that I am going to process the rest of the vocals just as I've done like this.
+So let me create a new audio channel. Drag this there.
+Oops, I think I, cool.
+So I'm going to use the same plugins. You could also set up a groove for this.
+So lots of distortion.
+Right, I think I'm going to remove the saturation on every one. It's getting a little bit too distorted for me.
+I'm going to put these in a group. So if you're using any other DAW, you can use sends for this.
+Or you can put them in patch if you're using FL or something.
+I want to add some chorus to the whole thing.
+It's kind of giving me that 80s vibe, you know.
+Right, cool. I'm really happy with that.
+Maybe the placing is not correct, but we can fix that in a second.
+I think I'm going to start these here.
+Let's check this chorus.
+It gives a lot of stereo width, which is good.
+Cool.
+Right, so offline.
+I am going to go through the rest of these audio files, put them in Melodyne, and then I'll be back to you in a second.
+Okay, so I've taken a couple of clips of my terrible singing, put them in Melodyne, which has improved it a little bit.
+A couple of the vocals aren't Melodyne that great like this.
+It still doesn't sound great, but I think we can live with that, especially for this type.
+If I was singing words, which I probably wouldn't be able to do anyway, then it would be a lot different.
+So I've got my vocal group going to call this Vocals.
+Let's see if we can get these to work as well.
+Let's dump this into the vocals and what I'm also going to do instead of using different reverbs on different channels.
+I'm just going to put this on the group for now.
+So let's take the reverbs off, save me a bit of CPU.
+Great.
+I want to take the chorus off, I'm not a big fan of it.
+That last bit sounds great, you know.
+Let's see how that sounds in the tune.
+Cool.
+Let's see, I've got a second one here.
+You can kind of hear this auto-tuney thing.
+That kind of improves it, maybe we can use the breath instead just to kind of mask it.
+Cool.
+Check the second one now.
+I can't really hear it.
+Let me turn the audio file up.
+Not sure what that big peak is.
+Okay, I'm just saying like you know or something.
+I think it should, it should jotch there like that, something.
+Let's see if we can get this to work.
+Cool, I think that is going to work.
+So this is a really easy way to make unique tunes.
+I mean no one, no one is going to have this sample, you've literally just recorded it and even if you can't sing please just give it a go.
+I was always really scared to do it and then I did it a couple of times and it worked out great.
+So for stuff like this it's literally perfect.
+Right, so let's get a bit organized.
+This is my breath here.
+So I'm going to also take the reverb off that and put this into the vocals group.
+Cool, so let's have a little listen.
+Nice.
+So I'm listening and organizing at the same time.
+Cool, I'm really happy with that so far.
+What I want to do next is try and work on this part and this is the part where I want to make a switch.
+I want to be able to tell the listener something evil and then energetic is coming here.
+So I want some energy, I want it to be dark, I want some kind of tension in that.
+So let's have a look.
+There is a possibility to use the bass from the actual tune when we go and ride that in a second in this section.
+So it might be worth putting a few ideas together first and seeing what we could do from there.
+Firstly, I just want to put some placeholders down for myself.
+So I've got my idea in my head.
+I know I want to switch it here and make it very intense and lots of tension because I want to paint a picture for what's coming next, i.e. the drop.
+So what I'm going to do is I'm just going to quickly run through my samples with you and see if we can find some really tension-based strings or something.
+I might be able to use them as a placeholder.
+So again, this is my small sample library from sounds I've made all over the place.
+This might be cool.
+So loud.
+Might work, be underwhelming.
+Leave it in there for now.
+Horror pad. That sounds right.
+Okay, that's way too detuned.
+Just going to quickly flick through these to see if we can find something.
+Maybe that might change it. See, I know it's D-sharp, so D-sharp, E, F.
+Okay, let's turn this menacing sound.
+Definitely add something.
+I think I'm going to take the reset as well because we might switch it from there.
+Not sure about.
+Not sure about this sound either.
+Oh, maybe we could actually use the breath on here as well. Now I'm hearing that.
+Cool.
+See what else we've got.
+These are the ones we already used in the intro.
+Hey, this might be good.
+Rise that style.
+Let's go with that. Perfect.
+Cool.
+I know something's coming now, you know?
+But we need some elements from the drop to make it familiar to the listener.
+So when the listener hears the drop, it's not just sounds coming out of nowhere
+which they haven't been suggested before.
+That is also a cool way of doing things, but I think in this instance
+we want to suggest what's coming next.
+Cool.
+So I think the next stage for us to do is try and construct some beats.
+So what I'm going to do is I'm going to group all these together.
+And I'm going to call these intro sounds or just let's call it just intro.
+And I've got these ready to roll.
+So now I'm going to move on to the drop.
+And also I'm going to first talk a little bit about how my project file is set up.
+Cool.
+So I'll be back with you in a second.

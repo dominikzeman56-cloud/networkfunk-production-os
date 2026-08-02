@@ -1,0 +1,908 @@
+1
+00:00:00,000 --> 00:00:12,859
+Okay so now I want to talk about how you go about making your own wavetables in
+
+2
+00:00:12,859 --> 00:00:21,800
+Serum and firstly I wanted to talk about understanding how Serum works and the
+
+3
+00:00:21,800 --> 00:00:29,679
+actual harmonics involved. So before I started using Serum I used to use FM8
+
+4
+00:00:29,679 --> 00:00:35,759
+a lot which is a frequency modulation synthesizer and things work a little bit
+
+5
+00:00:35,759 --> 00:00:46,299
+differently in that aspect so instead of... where's Serum? Serum oscillators they
+
+6
+00:00:46,299 --> 00:00:52,439
+have obviously what we talked about the octave and the semitones and obviously
+
+7
+00:00:52,439 --> 00:00:57,159
+you can pitch that in relation to the musical scale. With frequency
+
+8
+00:00:57,160 --> 00:01:01,880
+modulation it works a little bit different. Instead of having octaves and
+
+9
+00:01:01,880 --> 00:01:06,600
+semitones it has frequencies based on the fundamental frequency you're
+
+10
+00:01:06,600 --> 00:01:11,640
+physically playing in your DAW. Now that might sound a little bit confusing
+
+11
+00:01:11,640 --> 00:01:16,080
+but it should make a little more sense. So the first thing I
+
+12
+00:01:16,080 --> 00:01:20,920
+wanted to do is talk about this section of Serum which is the table
+
+13
+00:01:21,519 --> 00:01:29,680
+So across here you can see lots of vertical bars and in Serum they're
+
+14
+00:01:29,680 --> 00:01:36,280
+called bins. So if I select bin 1 let me just quickly draw in a MIDI file
+
+15
+00:01:36,280 --> 00:01:53,400
+I'm gonna put that a little lower so we've got a kind of subby sound. Now I'm
+
+16
+00:01:53,400 --> 00:02:01,400
+gonna open up my frequency analyzer and as you can see I put the note on D
+
+17
+00:02:01,400 --> 00:02:09,520
+sharp and it's playing one single sine wave at D sharp. Now if I go back to my
+
+18
+00:02:09,520 --> 00:02:14,680
+editor if you click on this button here it will translate the actual
+
+19
+00:02:14,680 --> 00:02:22,480
+waveform to its harmonic so if you click here cool. Now if I press or if
+
+20
+00:02:22,480 --> 00:02:28,759
+I select bin 2 and I press play and look at my frequency analyzer again
+
+21
+00:02:28,799 --> 00:02:35,639
+I've got my existing sine wave at D sharp and then there's another harmonic
+
+22
+00:02:35,639 --> 00:02:44,120
+which is also D sharp. Now what happens if I go 3? Now if you're not familiar
+
+23
+00:02:44,120 --> 00:02:51,280
+with how harmonic distribution works in terms of Serum and frequency
+
+24
+00:02:51,280 --> 00:02:57,639
+modulation this may be a bit confusing so maybe a lot of people would
+
+25
+00:02:57,640 --> 00:03:04,920
+expect if I selected three it would be three semitones higher which would also
+
+26
+00:03:04,920 --> 00:03:10,080
+be a D sharp but it isn't so if I play this now so I've got my first one D
+
+27
+00:03:10,080 --> 00:03:16,320
+sharp I've got my second harmonic D sharp again and then my third one is
+
+28
+00:03:16,320 --> 00:03:25,440
+an A sharp. Now why is that? So instead of this working with semitones
+
+29
+00:03:25,479 --> 00:03:35,280
+and octaves this works in actual multiplication of your fundamental
+
+30
+00:03:35,280 --> 00:03:41,599
+frequency. So now I've set this to D sharp as you've just seen I'm gonna
+
+31
+00:03:41,599 --> 00:03:48,840
+take away my extra harmonics so what I like to use a lot when I first
+
+32
+00:03:48,879 --> 00:03:55,759
+started getting into synthesis I started using some like helpers so I've made a
+
+33
+00:03:55,759 --> 00:04:01,199
+really crude spreadsheet for myself which I'll quickly show you now. So this
+
+34
+00:04:01,199 --> 00:04:05,280
+is kind of my helper spreadsheet I've got lots of different little bits on
+
+35
+00:04:05,280 --> 00:04:08,840
+there which if I need them I can just open the spreadsheet and get the
+
+36
+00:04:08,840 --> 00:04:18,120
+information. So I've got my first harmonic selected which as we know is
+
+37
+00:04:18,160 --> 00:04:29,920
+a D sharp so if I go back to D sharp and the one I'm playing is this one so
+
+38
+00:04:29,920 --> 00:04:36,840
+on this on this little sheet here it says the note you're playing it says
+
+39
+00:04:36,840 --> 00:04:41,720
+the frequency range and the length of the waveform you can ignore the second
+
+40
+00:04:41,720 --> 00:04:46,639
+one for now it's not relevant for this particular subject. So we are
+
+41
+00:04:46,680 --> 00:04:56,599
+hitting at 77.7 Hertz to be correct which is if you look here which is
+
+42
+00:04:56,599 --> 00:05:04,959
+about right cool now if I press the second one it's a D sharp but it's a
+
+43
+00:05:04,959 --> 00:05:13,479
+hundred and fifty six Hertz so if I go to D sharp here and just show you
+
+44
+00:05:13,520 --> 00:05:21,759
+D sharp three I think yeah hundred and fifty five Hertz great so now if I
+
+45
+00:05:21,759 --> 00:05:31,720
+select three like I did before we have an A sharp which is
+
+46
+00:05:32,879 --> 00:05:39,879
+two hundred and thirty three now so why is it why is it doing that so if
+
+47
+00:05:39,879 --> 00:05:46,159
+I go back to my fundamental I'm gonna get out my calculator and show you
+
+48
+00:05:46,159 --> 00:05:51,639
+exactly why it's doing that and why behaves that way so if I take my
+
+49
+00:05:51,639 --> 00:05:59,439
+fundamental frequency I'm playing 77.78 Hertz now if I put this in my
+
+50
+00:05:59,439 --> 00:06:04,560
+calculator and times this by two I get a hundred and fifty five point five
+
+51
+00:06:04,560 --> 00:06:13,519
+six which is a D sharp again great now if I go here if I times this now by
+
+52
+00:06:13,519 --> 00:06:22,360
+three I get two hundred and thirty three which is an A sharp so what
+
+53
+00:06:22,360 --> 00:06:27,040
+this is physically doing in serum it's taking your fundamental frequency so
+
+54
+00:06:27,040 --> 00:06:38,360
+bin 1 and bin 2 bin 3 bin 4 bin 5 etc are timesing from your fundamental
+
+55
+00:06:38,360 --> 00:06:44,920
+frequency so for example bin 5 will be five times the frequency of your
+
+56
+00:06:44,920 --> 00:06:52,360
+fundamental so let's give that a test so if I go back to my fundamental
+
+57
+00:06:52,360 --> 00:06:58,319
+frequency which is 77.78 D sharp that's why I've selected in my door
+
+58
+00:06:58,319 --> 00:07:09,600
+times it by five I've got 388 which is which isn't right it's somewhere in
+
+59
+00:07:09,600 --> 00:07:19,240
+between there for some reason okay so 388 is G let's say it's G it's close
+
+60
+00:07:19,240 --> 00:07:27,680
+enough now if I select bin 5 and let's analyze this on a frequency spectrum
+
+61
+00:07:27,680 --> 00:07:35,319
+I've got a G right so that's the basics of how the table editor works
+
+62
+00:07:35,319 --> 00:07:40,560
+in serum and that's also the basics of how frequency modulation works in
+
+63
+00:07:40,560 --> 00:07:46,240
+terms of selecting the harmonic in your in your synthesizer so if any of
+
+64
+00:07:46,240 --> 00:07:52,360
+you have used FMA or I think there's citrus I think it's called in FL those
+
+65
+00:07:52,360 --> 00:07:57,280
+are good examples of frequency modulation right so how can you use
+
+66
+00:07:57,280 --> 00:08:02,500
+this in your music and what I wanted to show you was I quickly made a
+
+67
+00:08:02,500 --> 00:08:10,040
+baseline before this I'll quickly play this now so you can see it's very
+
+68
+00:08:10,160 --> 00:08:19,280
+harmonically rich loud and if we look in a spectrum analyzer you'll see here
+
+69
+00:08:19,280 --> 00:08:24,240
+frequency D sharp and I've got this massive peak around this area so let's
+
+70
+00:08:24,240 --> 00:08:31,360
+have a look okay so again that's hitting a G that's pretty pretty
+
+71
+00:08:31,360 --> 00:08:37,080
+similar to what we just did in serum now if I wanted to go and if I if
+
+72
+00:08:37,080 --> 00:08:44,040
+I wanted to go and literally recreate this sound for whatever purpose I could
+
+73
+00:08:44,040 --> 00:08:50,480
+go into serum I'm gonna select two oscillators I'll have one as my
+
+74
+00:08:50,480 --> 00:08:54,560
+fundamental so I have a bit more control over that obviously gonna turn
+
+75
+00:08:54,560 --> 00:09:02,879
+the randoms down and the only thing I'm gonna select on here is harmonic
+
+76
+00:09:02,919 --> 00:09:13,039
+5 which is bin 5 so let's have a little listen to what that sounds like okay I'm
+
+77
+00:09:13,039 --> 00:09:23,639
+gonna turn this down an octave so we have D sharp and I'm gonna turn this
+
+78
+00:09:23,639 --> 00:09:26,720
+down an octave as well
+
+79
+00:09:27,440 --> 00:09:34,519
+let's quickly analyze that again I think it was one octave higher let's
+
+80
+00:09:34,519 --> 00:09:36,920
+check
+
+81
+00:09:37,759 --> 00:09:50,879
+yeah so it's 300 around 300 Hertz cool so that can go one octave right so
+
+82
+00:09:50,879 --> 00:09:54,600
+obviously there's a lot of modulation going on in that sound so what I'm
+
+83
+00:09:54,639 --> 00:09:58,840
+gonna do is I'm just gonna try and really roughly recreate that so the
+
+84
+00:09:58,840 --> 00:10:03,240
+first thing I can hear is there's a lot more harmonics it's a lot richer and
+
+85
+00:10:03,240 --> 00:10:08,720
+the reason for that is probably because of distortion so let's go to
+
+86
+00:10:08,720 --> 00:10:18,000
+my distortion and let's add this mega group mega distortion group so in
+
+87
+00:10:18,000 --> 00:10:27,919
+here I've got let's have a look I've got a chain with amplitude I've got a
+
+88
+00:10:27,919 --> 00:10:31,759
+chain with a wave shaper I'll quickly go through these a bit more in detail
+
+89
+00:10:31,759 --> 00:10:38,559
+in a second I have a guitar rig which we used earlier and I've just
+
+90
+00:10:38,560 --> 00:10:45,000
+got some trash on the end all right let's take a listen to how this sounds
+
+91
+00:10:45,000 --> 00:10:54,880
+right and let me put my just close this let me put this after the
+
+92
+00:10:54,880 --> 00:11:02,200
+distortion now so you can see it's a lot richer but we're adding lots of
+
+93
+00:11:02,200 --> 00:11:07,400
+lots of extra lots of extra harmonics in there and obviously the
+
+94
+00:11:07,439 --> 00:11:12,639
+distortion is creating that so let's add a little bit of modulation and see
+
+95
+00:11:12,639 --> 00:11:21,559
+where we get so what I'm gonna do is literally just put some volume
+
+96
+00:11:21,559 --> 00:11:33,480
+automation on this on my fundamental frequency so what's happening the only
+
+97
+00:11:33,480 --> 00:11:38,120
+thing I've done here is I'm turning down the actual sub when I say the sub
+
+98
+00:11:38,120 --> 00:11:44,720
+I mean the fundamental this note here and what's happening is because it's
+
+99
+00:11:44,720 --> 00:11:49,920
+being pushed so hard into into so much distortion like as I just showed
+
+100
+00:11:49,920 --> 00:11:53,399
+you there's two guitar amps there there's a wave shaper and there's an
+
+101
+00:11:53,399 --> 00:11:57,700
+isotope trash as well it's quite a lot because I'm pushing it so hard the
+
+102
+00:11:57,700 --> 00:12:00,759
+distortion is changing and compensating for that so if I turn
+
+103
+00:12:00,759 --> 00:12:11,919
+this down I get very harsh sound now we can utilize that effect so to speak now if I
+
+104
+00:12:11,919 --> 00:12:22,080
+put an LFO on this let's make a bit more interesting so the higher I go let
+
+105
+00:12:22,080 --> 00:12:25,360
+me just turn this around
+
+106
+00:12:39,360 --> 00:12:49,400
+there you go so that's a really really really simple way of understanding how
+
+107
+00:12:49,399 --> 00:12:54,879
+your harmonics work in serum and it's a really simple and effective way to
+
+108
+00:12:54,879 --> 00:13:01,159
+create a really cool baseline very quickly so let's see what happens if I
+
+109
+00:13:01,159 --> 00:13:09,039
+change harmonics so now we were on bin 5 so if I quickly go back to my
+
+110
+00:13:09,039 --> 00:13:17,159
+sheet being five so I could do the calculation here or you could not do
+
+111
+00:13:17,199 --> 00:13:23,199
+it at all it's completely up to you and it's completely it depends on how far
+
+112
+00:13:23,199 --> 00:13:27,360
+you want to take this I love doing this type of stuff because it really gives
+
+113
+00:13:27,360 --> 00:13:32,879
+me a mental vision of what I'm trying to achieve the more you understand the
+
+114
+00:13:32,879 --> 00:13:38,919
+more fun it is and easier is so instead of using a calculator to
+
+115
+00:13:38,919 --> 00:13:43,480
+calculate all these I've made a little very crude sheet here these are
+
+116
+00:13:43,480 --> 00:13:55,159
+my bins harmonics so if I select so if I've got D sharp and I've got bin 5 I
+
+117
+00:13:55,159 --> 00:14:00,200
+know that's a G so let's try bin 6 see what that sounds like and that'll
+
+118
+00:14:00,200 --> 00:14:24,080
+be in a sharp also sounds very cool let's try bin 7 also very cool and let's
+
+119
+00:14:24,080 --> 00:14:32,200
+try 8 and as you'll notice here 8 is again a D sharp because if you times
+
+120
+00:14:32,200 --> 00:14:38,560
+obviously because it's an odd number if you times it oh sorry even if you
+
+121
+00:14:38,560 --> 00:14:45,240
+times it with a fundamental you always get a D sharp so let's try that in
+
+122
+00:14:45,240 --> 00:14:53,640
+8 so you can hear it's like a D sharp on a D sharp but it feels like
+
+123
+00:14:53,679 --> 00:15:03,559
+it's peaching up which is very cool effect and secondly you can have a big
+
+124
+00:15:03,559 --> 00:15:05,840
+mix of them
+
+125
+00:15:17,399 --> 00:15:21,960
+which also sounds very cool and then we can obviously take this further and
+
+126
+00:15:21,960 --> 00:15:31,040
+develop the sound a bit more so we can add some unison there and now because
+
+127
+00:15:31,040 --> 00:15:36,440
+I'm adding unison with a detune it's very similar to what the effect we had
+
+128
+00:15:36,440 --> 00:15:40,040
+when we made the recess when we detune and we've actually phased them
+
+129
+00:15:40,040 --> 00:15:47,920
+out you can see it's almost giving a kind of LFO effect but very cool and
+
+130
+00:15:47,920 --> 00:15:54,320
+very interesting to listen to let's extend this a little bit longer take
+
+131
+00:15:54,320 --> 00:16:03,720
+that loop off I'm gonna turn this down a bit because a bit loud
+
+132
+00:16:17,920 --> 00:16:34,440
+that kind of works I could definitely use that in a tune so I'm gonna save
+
+133
+00:16:34,440 --> 00:16:44,960
+that great so I want to show you a couple more examples of how I like to
+
+134
+00:16:45,000 --> 00:16:53,080
+use wavetables so let's duplicate this serum and let's try and develop this
+
+135
+00:16:53,080 --> 00:17:04,600
+into something a bit more now so if I go to my or if I go to oscillate one
+
+136
+00:17:04,600 --> 00:17:10,680
+where I've put where I've put the harmonics in selected them myself now
+
+137
+00:17:10,680 --> 00:17:17,279
+what I can do is I can gradually automate the levels on this sound so I
+
+138
+00:17:17,279 --> 00:17:26,519
+can select frame 2 and then I can make some edits let's go with 3 something
+
+139
+00:17:26,519 --> 00:17:31,720
+like that and now when I change my wavetable position
+
+140
+00:17:31,720 --> 00:17:52,440
+I get some really interesting cool things going on there that's sounding
+
+141
+00:17:52,440 --> 00:18:15,039
+pretty cool now let's see what happens if I FM this so very loud kind of
+
+142
+00:18:15,039 --> 00:18:21,240
+bassy sound very over-the-top and I'm sure you can all imagine what type of
+
+143
+00:18:21,240 --> 00:18:30,960
+tune this would work in cool so developing that a bit more from there
+
+144
+00:18:30,960 --> 00:18:34,359
+something like that which is a little more interesting a little more
+
+145
+00:18:34,359 --> 00:18:37,599
+interesting in the tone as well and the reason why is because it's
+
+146
+00:18:37,599 --> 00:18:45,599
+changing this one's very static which could work in a tune but now I've got
+
+147
+00:18:45,640 --> 00:18:51,840
+another option which is great so this is a really cool way to make wavetables
+
+148
+00:18:51,840 --> 00:18:57,000
+in serum make your own wavetables and soon in a very simple way the next
+
+149
+00:18:57,000 --> 00:19:03,040
+thing I want to show you is how to make very creative wavetables in serum
+
+150
+00:19:03,040 --> 00:19:06,600
+by using samples so I'm going to take a quick break and then we'll get to
+
+151
+00:19:06,600 --> 00:19:14,600
+that in a second okay so another really cool option with serum because
+
+152
+00:19:14,920 --> 00:19:20,400
+it can because what I showed you before with harmonics in the wavetable serum
+
+153
+00:19:20,400 --> 00:19:26,640
+enables you to actually load any sample you want into any oscillator and what
+
+154
+00:19:26,640 --> 00:19:32,000
+it will do is will calculate those harmonics for you so you can get some
+
+155
+00:19:32,000 --> 00:19:37,440
+really interesting sounds by just using kind of random random samples
+
+156
+00:19:37,440 --> 00:19:42,520
+basically so I wanted to quickly give that a go on the fly and see if we
+
+157
+00:19:42,519 --> 00:19:48,519
+can create something cool so I just quickly went through my sample foley
+
+158
+00:19:48,519 --> 00:19:58,960
+library and I found this jet sound which is kind of cool sounding could
+
+159
+00:19:58,960 --> 00:20:05,079
+just use in a tune like that actually but what I wanted to do is you have
+
+160
+00:20:05,079 --> 00:20:19,279
+an option in serum so if I don't let me go back to where it was if I take this
+
+161
+00:20:19,279 --> 00:20:26,559
+jet sound and then if I drop it into if I drop it into an oscillator I have
+
+162
+00:20:26,559 --> 00:20:30,599
+all these three options now what I normally do is import normal dynamic
+
+163
+00:20:30,600 --> 00:20:42,480
+pit drain zero snap and then it will give a few minutes at cool so now this
+
+164
+00:20:42,480 --> 00:20:49,960
+jet sound has been loaded in so let me activate that I have a MIDI file being
+
+165
+00:20:49,960 --> 00:20:57,120
+triggered on that serum patch so if I play you can't hear anything and the
+
+166
+00:20:57,120 --> 00:21:00,680
+reason why you can't hear anything is because this is flat and set zero so we
+
+167
+00:21:00,680 --> 00:21:07,400
+need to do a bit of editing so if I open up my wavetable if I scroll along
+
+168
+00:21:07,400 --> 00:21:16,000
+a few frames here you can see all of a sudden start to get some sound so I
+
+169
+00:21:16,000 --> 00:21:22,240
+just need to clean this up a bit so I'm gonna select to about here go to
+
+170
+00:21:22,240 --> 00:21:29,680
+the start if you go to add and remove remove current index and it will take
+
+171
+00:21:29,680 --> 00:21:37,720
+you to start that didn't work very well let's do that again remove
+
+172
+00:21:37,720 --> 00:21:44,839
+multi-section that was the one so if you select remove multi-section what
+
+173
+00:21:44,839 --> 00:21:48,759
+they'll do is remove all the frames with nothing in them so as you can
+
+174
+00:21:48,759 --> 00:21:56,519
+see here now I've just got this kind of flimsy tone so what I can do now is
+
+175
+00:21:56,519 --> 00:22:01,359
+because serum has split that sound which I imported into lots of different
+
+176
+00:22:01,359 --> 00:22:06,920
+frames if I change the wavetable position it will go frame frame by
+
+177
+00:22:06,920 --> 00:22:12,400
+frame through that sound so if we put an LFO on here set this to something
+
+178
+00:22:12,400 --> 00:22:20,160
+slow like two bars what it's doing is it's literally flicking through that
+
+179
+00:22:20,160 --> 00:22:27,920
+wavetable so let's make this a bit shorter okay there's something cool
+
+180
+00:22:27,920 --> 00:22:35,200
+going on in this section so what I can do if I like that section I can just
+
+181
+00:22:35,240 --> 00:22:46,519
+go it's about halfway I think it's kind of cool it's very low I'm gonna put an
+
+182
+00:22:46,519 --> 00:22:59,840
+octave higher just gonna see if I can improve this see what happens if we
+
+183
+00:22:59,839 --> 00:23:10,399
+make it faster bit random cool so now what I'm gonna do is I'm going to back
+
+184
+00:23:10,399 --> 00:23:18,079
+this up with some standard wavetable so I'm gonna use a sine wave I'm gonna
+
+185
+00:23:18,079 --> 00:23:24,839
+put this an octave lower so some sub in there and what I'm gonna do is
+
+186
+00:23:24,839 --> 00:23:29,559
+I'm just gonna try and match these two together and try and complete try
+
+187
+00:23:30,240 --> 00:23:35,919
+make a complete sound so the goal here is to create something which you
+
+188
+00:23:35,919 --> 00:23:39,839
+necessarily wouldn't be able to create in a synthesizer because we have such
+
+189
+00:23:39,839 --> 00:23:46,720
+a crazy and erratic set of harmonics going on here it gives us something
+
+190
+00:23:46,720 --> 00:23:56,559
+really unique so let's first automate the level of this something like
+
+191
+00:23:56,559 --> 00:24:04,879
+something with a bit more groove to it again let's turn these randoms down not
+
+192
+00:24:04,879 --> 00:24:23,519
+bad I am going to FM from a find a sweet spot too much cool that's got
+
+193
+00:24:23,519 --> 00:24:32,440
+something cool about it maybe I could put this an octave higher I'm gonna turn
+
+194
+00:24:32,440 --> 00:24:38,720
+this sub down a little bit let's add some distortion I've already got trash
+
+195
+00:24:38,720 --> 00:24:56,440
+up a bit better let's try and add some unison to this okay cool that's a lot
+
+196
+00:24:56,440 --> 00:25:00,759
+more interesting what I want to do is look at my frequency spectrum here to
+
+197
+00:25:00,759 --> 00:25:19,680
+see what's happening give it a bit of room cool so let's add some different
+
+198
+00:25:19,680 --> 00:25:25,400
+effects to it and see if we can improve this very phasey I'm not sure about
+
+199
+00:25:25,400 --> 00:25:40,560
+that that's a cool sound but it's very very again phasey I'm gonna try
+
+200
+00:25:40,560 --> 00:25:47,360
+and counteract that by adding another sub using the sub oscillator gonna use
+
+201
+00:25:47,360 --> 00:25:54,840
+exactly the same wavetable exactly the same automation but I'm gonna put this
+
+202
+00:25:54,840 --> 00:26:15,200
+direct out let's go an octave down I think I want to take some low end out
+
+203
+00:26:15,319 --> 00:26:20,720
+of this sound now with the filter section you can obviously select which
+
+204
+00:26:20,720 --> 00:26:26,360
+oscillator you want to filter so I'm only going to select a and I'm going
+
+205
+00:26:26,360 --> 00:26:36,080
+to use a high 12 let's isolate this I'm gonna put some automation on this
+
+206
+00:26:36,279 --> 00:27:00,319
+let's add a bit of drive to it obviously too much way too much drive cool that's
+
+207
+00:27:00,319 --> 00:27:07,799
+not bad with these type of sounds it's very reliant on what sounds you're
+
+208
+00:27:07,799 --> 00:27:11,919
+putting into serum and how serum deals with that a lot some sounds I'll put
+
+209
+00:27:11,919 --> 00:27:15,960
+in and they really won't work at all some sounds I'll drop in and
+
+210
+00:27:15,960 --> 00:27:22,099
+literally you'll have an instant base so if you guys have a spare hour to
+
+211
+00:27:22,099 --> 00:27:26,359
+be creative and try and make sounds like that give it a go because this
+
+212
+00:27:26,360 --> 00:27:31,560
+is a really fun way to to utilize serum and also you'll get a much better
+
+213
+00:27:31,560 --> 00:27:36,600
+understanding on how this how the wavetables work in serum it will set
+
+214
+00:27:36,600 --> 00:27:41,360
+you up so when you are working in your tunes later you have a much
+
+215
+00:27:41,360 --> 00:27:49,160
+stronger mental image of what the sounds physically doing cool so I've got
+
+216
+00:27:49,160 --> 00:27:54,680
+a nice selection of bass sounds and effects here and I've got a nice
+
+217
+00:27:54,720 --> 00:28:00,160
+selection of drums as well so I can almost start writing my tune what I want
+
+218
+00:28:00,160 --> 00:28:07,680
+to cover next is my approach to actually physically writing a tune and
+
+219
+00:28:07,680 --> 00:28:12,920
+what I do or what I like to do a lot is actually start with a melody I
+
+220
+00:28:12,920 --> 00:28:18,240
+really love melody in my tunes I mean we're musicians so let's write
+
+221
+00:28:18,240 --> 00:28:23,799
+music even if some of my tunes are really pushed and really distorted I
+
+222
+00:28:23,839 --> 00:28:28,000
+still love to have a musical element in there somewhere so what we're gonna do
+
+223
+00:28:28,000 --> 00:28:34,079
+is we are going to look at how scales and melodies work in music and then
+
+224
+00:28:34,079 --> 00:28:38,720
+apply that to writing an intro for our tune and then from the intro we're
+
+225
+00:28:38,720 --> 00:28:44,279
+gonna build the tune to whatever we feel will fit the intro and this is
+
+226
+00:28:44,279 --> 00:28:50,399
+fundamental for me because it's like right writing music so so yeah I'm
+
+227
+00:28:50,400 --> 00:28:55,240
+really excited and and I'll see you in the next one
+

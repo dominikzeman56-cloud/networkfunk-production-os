@@ -1,0 +1,624 @@
+1
+00:00:00,000 --> 00:00:16,880
+Okay, so I've just gone and recorded a vocal. It's very rubbish. I am by no means a singer.
+
+2
+00:00:16,880 --> 00:00:22,200
+But I wanted to give you a perspective in that even if you can't sing that well, you
+
+3
+00:00:22,200 --> 00:00:27,560
+can still open the mic, record something and make it fit in and create something unique,
+
+4
+00:00:27,560 --> 00:00:32,880
+you know. So let me quickly play you I recorded do not judge because I'm not a
+
+5
+00:00:32,880 --> 00:00:47,880
+singer. So lots of that kind of stuff, no lyrics. Sounds like a dying animal. So I've
+
+6
+00:00:47,880 --> 00:00:52,520
+got a few things here I can utilize. When I was playing the tune and I was
+
+7
+00:00:52,520 --> 00:01:01,760
+recording, I also did like a breath kind of thing to set the tone. So let me put
+
+8
+00:01:01,760 --> 00:01:15,200
+that at the intro first. Let's see how we get along with that. Sounds a bit cheesy,
+
+9
+00:01:15,200 --> 00:01:33,720
+but let's maybe turn this into like some kind of impact. Let's maybe do it here instead. So I'm
+
+10
+00:01:33,720 --> 00:01:42,760
+going to use some reverb. Let's use the Halla Shimmer, which is great. Just going to put it
+
+11
+00:01:42,800 --> 00:01:50,760
+like I'm just going to put the reverb on almost 100% I think. I don't need Melodyne on that one.
+
+12
+00:01:54,760 --> 00:01:56,360
+Just take some low end out of it.
+
+13
+00:02:05,360 --> 00:02:10,480
+That's cool. It really fits the scene. Right, let's try and write happy with that so far.
+
+14
+00:02:11,480 --> 00:02:13,080
+Might put that at the start.
+
+15
+00:02:19,800 --> 00:02:25,800
+Right, so let's try one of my dying animal suffering vocals.
+
+16
+00:02:25,800 --> 00:02:47,920
+Kind of really sounds in tune, surprisingly. So what I'm going to do is I've got Melodyne
+
+17
+00:02:47,920 --> 00:02:58,600
+loaded up on this channel and what I want to do is just going to focus on this one for now.
+
+18
+00:02:58,600 --> 00:03:07,160
+So if you haven't used Melodyne, Melodyne is basically a tool which helps you correctly tune
+
+19
+00:03:07,160 --> 00:03:13,240
+vocals and you transfer in and then you can select what notes the vocals are hitting.
+
+20
+00:03:13,680 --> 00:03:19,600
+And because we already know our scale, F harmonic minor, it makes our life a lot easier.
+
+21
+00:03:19,600 --> 00:03:20,840
+So I'm going to transfer this in.
+
+22
+00:03:27,840 --> 00:03:29,840
+Didn't hit transfer. Let's do that again.
+
+23
+00:03:33,240 --> 00:03:35,800
+Pick your pardon. Third time lucky.
+
+24
+00:03:43,240 --> 00:04:11,440
+Cool. Let's work on this one. So let me record that in again.
+
+25
+00:04:12,440 --> 00:04:17,240
+If you bet with me a second, I'm going to restart Melodyne.
+
+26
+00:04:17,240 --> 00:04:43,040
+Great. Let's transfer this in.
+
+27
+00:04:47,240 --> 00:05:06,440
+There we go. So you can see I start on F sharp, which isn't right. So I can do it, can select
+
+28
+00:05:06,440 --> 00:05:13,040
+these and then I can physically correct the pitch center. So as you can see, they shift.
+
+29
+00:05:13,040 --> 00:05:36,240
+So listen. Sounds a bit better. Great. So now what I can do is I can freeze this track.
+
+30
+00:05:37,240 --> 00:05:38,440
+I know the pitch is good.
+
+31
+00:05:48,040 --> 00:05:55,040
+And now if I just drop this audiophile, it will copy whatever I'm working.
+
+32
+00:05:56,040 --> 00:06:04,840
+Cool. So let's try and get this sounding good.
+
+33
+00:06:10,840 --> 00:06:12,840
+So I'm just going to move over a bit.
+
+34
+00:06:14,840 --> 00:06:22,840
+Cool. Let's take some low end out. Let's add some reverb and a bit of vocal processing.
+
+35
+00:06:23,840 --> 00:06:30,440
+If you've got something like isotope nectar, they'll work great. You just want to add some
+
+36
+00:06:30,440 --> 00:06:36,440
+saturation, some reverbs and delay. I kind of want to make this, kind of want to turn this
+
+37
+00:06:36,440 --> 00:06:45,240
+into like a pad, but I still want the listener to hear that it's a vocal. So I'm going to
+
+38
+00:06:45,240 --> 00:06:53,440
+add a little bit of distortion actually, see what happens. Just a mild isotope trash, something
+
+39
+00:06:53,440 --> 00:06:54,840
+like clip control setting.
+
+40
+00:07:00,840 --> 00:07:02,240
+Okay, too much distortion.
+
+41
+00:07:15,240 --> 00:07:26,240
+Cool. That sounds great. It's also got some really cool high end to it for some reason.
+
+42
+00:07:26,240 --> 00:07:30,240
+It's like, I really like that. Sounds like rain.
+
+43
+00:07:34,240 --> 00:07:36,240
+The last bit is terrible.
+
+44
+00:07:37,240 --> 00:07:48,240
+Cool. That's very cool. So again, we can go a bit crazy with this. We can add some modulation.
+
+45
+00:07:48,240 --> 00:07:53,240
+Another thing we could do is let's duplicate this.
+
+46
+00:07:57,240 --> 00:07:59,240
+Let's pitch it down 12.
+
+47
+00:07:59,240 --> 00:08:15,240
+Gonna have more function. See what happens with this.
+
+48
+00:08:29,240 --> 00:08:55,240
+Cool. Quite like that. So now what I'm going to try and do is I'm going to go back into
+
+49
+00:08:55,240 --> 00:09:06,240
+melody. I've got this here. Let's unfreeze this track. Right, so we know our scale. Let's see
+
+50
+00:09:06,240 --> 00:09:22,240
+if I can make a harmony. So if I go C, C sharp. Sounds terrible.
+
+51
+00:09:36,240 --> 00:09:40,240
+Right, there's a bit of kind of distortion going on, but I'm just going to look over that for now.
+
+52
+00:09:40,240 --> 00:09:46,240
+So what I'm going to do next is let's again flatten this.
+
+53
+00:09:51,240 --> 00:09:56,240
+And then I'm going to put this on a separate channel. So I've got that there.
+
+54
+00:09:56,240 --> 00:10:03,240
+And then after that I am going to process the rest of the vocals just as I've done like this.
+
+55
+00:10:03,240 --> 00:10:09,240
+So let me create a new audio channel. Drag this there.
+
+56
+00:10:09,240 --> 00:10:12,240
+Oops, I think I, cool.
+
+57
+00:10:16,240 --> 00:10:25,240
+So I'm going to use the same plugins. You could also set up a groove for this.
+
+58
+00:10:26,240 --> 00:10:28,240
+So lots of distortion.
+
+59
+00:10:33,240 --> 00:10:57,240
+Right, I think I'm going to remove the saturation on every one. It's getting a little bit too distorted for me.
+
+60
+00:11:04,240 --> 00:11:15,240
+I'm going to put these in a group. So if you're using any other DAW, you can use sends for this.
+
+61
+00:11:15,240 --> 00:11:21,240
+Or you can put them in patch if you're using FL or something.
+
+62
+00:11:21,240 --> 00:11:26,240
+I want to add some chorus to the whole thing.
+
+63
+00:11:27,240 --> 00:11:33,240
+It's kind of giving me that 80s vibe, you know.
+
+64
+00:11:42,240 --> 00:11:44,240
+Right, cool. I'm really happy with that.
+
+65
+00:11:44,240 --> 00:11:51,240
+Maybe the placing is not correct, but we can fix that in a second.
+
+66
+00:11:51,240 --> 00:11:54,240
+I think I'm going to start these here.
+
+67
+00:11:56,240 --> 00:12:05,240
+Let's check this chorus.
+
+68
+00:12:07,240 --> 00:12:10,240
+It gives a lot of stereo width, which is good.
+
+69
+00:12:16,240 --> 00:12:17,240
+Cool.
+
+70
+00:12:17,240 --> 00:12:19,240
+Right, so offline.
+
+71
+00:12:19,240 --> 00:12:26,240
+I am going to go through the rest of these audio files, put them in Melodyne, and then I'll be back to you in a second.
+
+72
+00:12:26,240 --> 00:12:35,240
+Okay, so I've taken a couple of clips of my terrible singing, put them in Melodyne, which has improved it a little bit.
+
+73
+00:12:36,240 --> 00:12:44,240
+A couple of the vocals aren't Melodyne that great like this.
+
+74
+00:12:48,240 --> 00:12:53,240
+It still doesn't sound great, but I think we can live with that, especially for this type.
+
+75
+00:12:53,240 --> 00:12:59,240
+If I was singing words, which I probably wouldn't be able to do anyway, then it would be a lot different.
+
+76
+00:12:59,240 --> 00:13:03,240
+So I've got my vocal group going to call this Vocals.
+
+77
+00:13:06,240 --> 00:13:09,240
+Let's see if we can get these to work as well.
+
+78
+00:13:09,240 --> 00:13:21,240
+Let's dump this into the vocals and what I'm also going to do instead of using different reverbs on different channels.
+
+79
+00:13:21,240 --> 00:13:24,240
+I'm just going to put this on the group for now.
+
+80
+00:13:25,240 --> 00:13:28,240
+So let's take the reverbs off, save me a bit of CPU.
+
+81
+00:13:33,240 --> 00:13:34,240
+Great.
+
+82
+00:13:38,240 --> 00:13:41,240
+I want to take the chorus off, I'm not a big fan of it.
+
+83
+00:13:43,240 --> 00:13:46,240
+That last bit sounds great, you know.
+
+84
+00:13:47,240 --> 00:13:49,240
+Let's see how that sounds in the tune.
+
+85
+00:13:55,240 --> 00:13:56,240
+Cool.
+
+86
+00:14:01,240 --> 00:14:03,240
+Let's see, I've got a second one here.
+
+87
+00:14:05,240 --> 00:14:11,240
+You can kind of hear this auto-tuney thing.
+
+88
+00:14:15,240 --> 00:14:20,240
+That kind of improves it, maybe we can use the breath instead just to kind of mask it.
+
+89
+00:14:20,240 --> 00:14:21,240
+Cool.
+
+90
+00:14:29,240 --> 00:14:30,240
+Check the second one now.
+
+91
+00:14:35,240 --> 00:14:36,240
+I can't really hear it.
+
+92
+00:14:38,240 --> 00:14:40,240
+Let me turn the audio file up.
+
+93
+00:14:41,240 --> 00:14:42,240
+Not sure what that big peak is.
+
+94
+00:14:43,240 --> 00:14:47,240
+Okay, I'm just saying like you know or something.
+
+95
+00:14:50,240 --> 00:14:55,240
+I think it should, it should jotch there like that, something.
+
+96
+00:14:56,240 --> 00:14:58,240
+Let's see if we can get this to work.
+
+97
+00:15:13,240 --> 00:15:15,240
+Cool, I think that is going to work.
+
+98
+00:15:16,240 --> 00:15:20,240
+So this is a really easy way to make unique tunes.
+
+99
+00:15:20,240 --> 00:15:27,240
+I mean no one, no one is going to have this sample, you've literally just recorded it and even if you can't sing please just give it a go.
+
+100
+00:15:29,240 --> 00:15:33,240
+I was always really scared to do it and then I did it a couple of times and it worked out great.
+
+101
+00:15:33,240 --> 00:15:37,240
+So for stuff like this it's literally perfect.
+
+102
+00:15:37,240 --> 00:15:39,240
+Right, so let's get a bit organized.
+
+103
+00:15:42,240 --> 00:15:44,240
+This is my breath here.
+
+104
+00:15:44,240 --> 00:15:52,240
+So I'm going to also take the reverb off that and put this into the vocals group.
+
+105
+00:15:53,240 --> 00:15:56,240
+Cool, so let's have a little listen.
+
+106
+00:15:56,240 --> 00:15:57,240
+Nice.
+
+107
+00:16:09,240 --> 00:16:12,240
+So I'm listening and organizing at the same time.
+
+108
+00:16:26,240 --> 00:16:46,240
+Cool, I'm really happy with that so far.
+
+109
+00:16:46,240 --> 00:16:53,240
+What I want to do next is try and work on this part and this is the part where I want to make a switch.
+
+110
+00:16:53,240 --> 00:16:58,240
+I want to be able to tell the listener something evil and then energetic is coming here.
+
+111
+00:16:58,240 --> 00:17:04,240
+So I want some energy, I want it to be dark, I want some kind of tension in that.
+
+112
+00:17:04,240 --> 00:17:06,240
+So let's have a look.
+
+113
+00:17:13,240 --> 00:17:21,240
+There is a possibility to use the bass from the actual tune when we go and ride that in a second in this section.
+
+114
+00:17:22,240 --> 00:17:30,240
+So it might be worth putting a few ideas together first and seeing what we could do from there.
+
+115
+00:17:30,240 --> 00:17:35,240
+Firstly, I just want to put some placeholders down for myself.
+
+116
+00:17:35,240 --> 00:17:37,240
+So I've got my idea in my head.
+
+117
+00:17:37,240 --> 00:17:48,240
+I know I want to switch it here and make it very intense and lots of tension because I want to paint a picture for what's coming next, i.e. the drop.
+
+118
+00:17:48,240 --> 00:17:59,240
+So what I'm going to do is I'm just going to quickly run through my samples with you and see if we can find some really tension-based strings or something.
+
+119
+00:17:59,240 --> 00:18:04,240
+I might be able to use them as a placeholder.
+
+120
+00:18:04,240 --> 00:18:12,240
+So again, this is my small sample library from sounds I've made all over the place.
+
+121
+00:18:14,240 --> 00:18:16,240
+This might be cool.
+
+122
+00:18:19,240 --> 00:18:24,240
+So loud.
+
+123
+00:18:28,240 --> 00:18:30,240
+Might work, be underwhelming.
+
+124
+00:18:30,240 --> 00:18:32,240
+Leave it in there for now.
+
+125
+00:18:39,240 --> 00:18:41,240
+Horror pad. That sounds right.
+
+126
+00:18:42,240 --> 00:18:48,240
+Okay, that's way too detuned.
+
+127
+00:18:56,240 --> 00:18:59,240
+Just going to quickly flick through these to see if we can find something.
+
+128
+00:19:04,240 --> 00:19:10,240
+Maybe that might change it. See, I know it's D-sharp, so D-sharp, E, F.
+
+129
+00:19:12,240 --> 00:19:15,240
+Okay, let's turn this menacing sound.
+
+130
+00:19:22,240 --> 00:19:25,240
+Definitely add something.
+
+131
+00:19:30,240 --> 00:19:35,240
+I think I'm going to take the reset as well because we might switch it from there.
+
+132
+00:19:39,240 --> 00:19:40,240
+Not sure about.
+
+133
+00:19:41,240 --> 00:19:43,240
+Not sure about this sound either.
+
+134
+00:19:43,240 --> 00:19:48,240
+Oh, maybe we could actually use the breath on here as well. Now I'm hearing that.
+
+135
+00:19:50,240 --> 00:19:51,240
+Cool.
+
+136
+00:19:53,240 --> 00:19:55,240
+See what else we've got.
+
+137
+00:20:01,240 --> 00:20:04,240
+These are the ones we already used in the intro.
+
+138
+00:20:05,240 --> 00:20:10,240
+Hey, this might be good.
+
+139
+00:20:10,240 --> 00:20:12,240
+Rise that style.
+
+140
+00:20:12,240 --> 00:20:14,240
+Let's go with that. Perfect.
+
+141
+00:20:19,240 --> 00:20:20,240
+Cool.
+
+142
+00:20:22,240 --> 00:20:25,240
+I know something's coming now, you know?
+
+143
+00:20:25,240 --> 00:20:32,240
+But we need some elements from the drop to make it familiar to the listener.
+
+144
+00:20:32,240 --> 00:20:37,240
+So when the listener hears the drop, it's not just sounds coming out of nowhere
+
+145
+00:20:37,240 --> 00:20:39,240
+which they haven't been suggested before.
+
+146
+00:20:39,240 --> 00:20:42,240
+That is also a cool way of doing things, but I think in this instance
+
+147
+00:20:42,240 --> 00:20:45,240
+we want to suggest what's coming next.
+
+148
+00:20:45,240 --> 00:20:46,240
+Cool.
+
+149
+00:20:46,240 --> 00:20:51,240
+So I think the next stage for us to do is try and construct some beats.
+
+150
+00:20:51,240 --> 00:20:58,240
+So what I'm going to do is I'm going to group all these together.
+
+151
+00:21:03,240 --> 00:21:10,240
+And I'm going to call these intro sounds or just let's call it just intro.
+
+152
+00:21:10,240 --> 00:21:12,240
+And I've got these ready to roll.
+
+153
+00:21:12,240 --> 00:21:15,240
+So now I'm going to move on to the drop.
+
+154
+00:21:15,240 --> 00:21:23,240
+And also I'm going to first talk a little bit about how my project file is set up.
+
+155
+00:21:23,240 --> 00:21:24,240
+Cool.
+
+156
+00:21:24,240 --> 00:21:26,240
+So I'll be back with you in a second.
+

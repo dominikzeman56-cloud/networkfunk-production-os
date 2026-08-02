@@ -1,0 +1,2424 @@
+1
+00:00:00,000 --> 00:00:14,120
+Okay, so let's talk about making bass sounds. So what I like to do a lot is I like to make
+
+2
+00:00:14,120 --> 00:00:20,359
+sessions for myself where I just make bass lines. I'll make all different types. Sometimes
+
+3
+00:00:20,359 --> 00:00:25,839
+I'll have a general idea about what I want to make or sometimes I'll just open up
+
+4
+00:00:25,839 --> 00:00:33,320
+Serum and just see where the sound develops. And what I like to do is I like to do these
+
+5
+00:00:33,320 --> 00:00:39,759
+isolated sessions. What do I mean with that is instead of actually working on bass lines
+
+6
+00:00:39,759 --> 00:00:45,439
+in a tune, what I'll do is I'll make, for instance, I'll spend three days making like
+
+7
+00:00:45,439 --> 00:00:51,079
+literally a hundred presets for myself. There will be a few in there which won't cut the
+
+8
+00:00:51,640 --> 00:01:00,119
+speak. But I guarantee that if you do spend a couple of days just isolating yourself and
+
+9
+00:01:00,119 --> 00:01:06,039
+just making bass sounds, then you'll definitely make something very unique in that process.
+
+10
+00:01:06,039 --> 00:01:15,079
+So what I want to do is I want to set myself up. So after this session,
+
+11
+00:01:15,359 --> 00:01:24,759
+I'm going to basically write a tune, put an idea together. So I want to be able to use these
+
+12
+00:01:24,759 --> 00:01:30,480
+bass sounds that I'm going to make now and try and fit them in a tune. So I'm going to
+
+13
+00:01:30,480 --> 00:01:36,400
+try a few different approaches. The first approach, what I'm going to do is I'm going
+
+14
+00:01:36,400 --> 00:01:43,000
+to try and make a kind of reese sounding bass. There's a couple of ways you can do
+
+15
+00:01:43,000 --> 00:01:51,960
+this. So I'm going to go through them. So what I like to use is serum. I used to use FM8 a lot,
+
+16
+00:01:51,960 --> 00:02:01,840
+but serum is kind of my go-to synth now. So with reeses, there's tons and tons of
+
+17
+00:02:01,840 --> 00:02:07,840
+different ways you can make them. But I'm going to do really the classic kind of reese
+
+18
+00:02:07,840 --> 00:02:14,840
+way. Just before I start going ahead and doing this, I just want to say I haven't planned anything
+
+19
+00:02:14,840 --> 00:02:23,960
+here and there's a reason why. It's because I really wanted to give you guys and show you a
+
+20
+00:02:23,960 --> 00:02:31,400
+kind of insight about how you should be doing it as well at home or in your studio. I mean,
+
+21
+00:02:31,400 --> 00:02:34,879
+it's all well and good me just loading up a couple of presets that I've already made,
+
+22
+00:02:34,919 --> 00:02:39,759
+but I really wanted to take you on that journey and that process on how you kind of work with
+
+23
+00:02:39,759 --> 00:02:44,719
+raw sound and turn it into something that will fit into a tune and that's got weight and
+
+24
+00:02:44,719 --> 00:03:01,359
+interest. Cool. So let me just get this set up. What I'm going to do is actually use
+
+25
+00:03:01,360 --> 00:03:09,400
+saw waves. Now, this is kind of a really classic way of making a reese. I'm going to actually use
+
+26
+00:03:09,400 --> 00:03:21,800
+phase to create an interesting sound. So I've loaded two saw waves up and as I mentioned
+
+27
+00:03:21,800 --> 00:03:27,720
+before, like with making kicks and snares, I always want to have this random phase set to
+
+28
+00:03:27,759 --> 00:03:32,759
+zero. I want to be able to control where they start and that'll make a bit more sense in a
+
+29
+00:03:32,759 --> 00:03:41,159
+second. So if I just play this, you can hear it sounds very static. It's got a nice warm,
+
+30
+00:03:41,159 --> 00:03:47,199
+familiar harmonic distribution about it because it's a saw wave. I'm more familiar with that,
+
+31
+00:03:47,199 --> 00:03:53,479
+but it's very static. Just so what I want to do is try and create some movement in there
+
+32
+00:03:53,480 --> 00:04:00,120
+and I can do that by actually detuning the saw waves. So I'm going to show you a quick
+
+33
+00:04:00,120 --> 00:04:08,280
+example of how this works. So I'm just going to use Ableton's resample function to record this
+
+34
+00:04:08,280 --> 00:04:20,120
+in. Why isn't that working? Oh, sorry. I'm actually recording on the channel. Okay, cool.
+
+35
+00:04:20,199 --> 00:04:21,879
+I want this one resample.
+
+36
+00:04:29,079 --> 00:04:33,000
+Right, so if we look at this waveform, you can actually see it's a saw
+
+37
+00:04:37,079 --> 00:04:44,840
+and it's literally just static. So there's no movement. You can see no movement in the
+
+38
+00:04:44,840 --> 00:04:56,200
+waveform. So I'm just going to put this over here for now. Now, if I start to just detune
+
+39
+00:04:56,200 --> 00:05:00,680
+each one, and what I mean with that is literally physically change the tuning.
+
+40
+00:05:01,400 --> 00:05:05,800
+And when I mean change the tuning, I don't mean like a semitone. I mean just fine tuning.
+
+41
+00:05:05,879 --> 00:05:15,879
+So if we start changing this, let me actually play the serum.
+
+42
+00:05:22,840 --> 00:05:26,280
+Now let's record that back in again and see the difference.
+
+43
+00:05:27,000 --> 00:05:39,320
+So if we zoom in, you can see here it's like almost getting louder and softer. And why is
+
+44
+00:05:39,320 --> 00:05:50,920
+that? It's literally because we've phased them. So what do I mean by that? So let me give you
+
+45
+00:05:50,920 --> 00:05:55,160
+a quick example with this audio file. I'm going to take this audio file.
+
+46
+00:05:56,120 --> 00:06:01,800
+I'm going to duplicate this audio file. And if I play them together, it will literally double
+
+47
+00:06:01,800 --> 00:06:13,560
+the sound. So if I just solo those so you can hear they're both exactly the same audio file.
+
+48
+00:06:13,639 --> 00:06:22,680
+Now, if I take this and then I flip it, flip the phase around, so that point would literally
+
+49
+00:06:22,680 --> 00:06:29,319
+be there. What is going to happen? So I'm just going to do that with the utility,
+
+50
+00:06:30,360 --> 00:06:37,399
+which is here. So if I flip the phase around, you can see something's happening,
+
+51
+00:06:37,480 --> 00:06:46,440
+but we have no sound. Now, why is that? So this is to do with the physical nature of how
+
+52
+00:06:46,440 --> 00:06:56,040
+actual speakers work. So on this line, what you're seeing here, that's a middle ground.
+
+53
+00:06:56,040 --> 00:07:02,600
+And if you go above that, that's what we call a positive amplitude. And if you go below that,
+
+54
+00:07:03,560 --> 00:07:10,439
+that's what we call a negative amplitude. So physically, from this point on is the actual
+
+55
+00:07:10,439 --> 00:07:17,560
+speaker pulsating outwards. And then when this comes back in, it's pulsating inwards.
+
+56
+00:07:18,760 --> 00:07:23,960
+So this is that your physical nature of how a speaker works. We've all looked at a speaker.
+
+57
+00:07:25,640 --> 00:07:29,400
+We've all seen the actual cone moving very, very fast.
+
+58
+00:07:30,120 --> 00:07:35,320
+And so this is the actual physical interpretation of looking at a waveform
+
+59
+00:07:35,320 --> 00:07:39,160
+and translating it into the actual physics of how a speaker works.
+
+60
+00:07:40,200 --> 00:07:47,240
+So if I play the same sample and I flip the phase on one of them using the utility,
+
+61
+00:07:48,280 --> 00:07:55,080
+the reason we're not hearing any sound is because the same information
+
+62
+00:07:55,879 --> 00:08:02,759
+is being sent to the speaker, but in conflicting terms. So instead of
+
+63
+00:08:03,879 --> 00:08:08,599
+this being pushed out, the exact same information is telling the speaker to push in.
+
+64
+00:08:09,399 --> 00:08:16,039
+So the speaker physically has no information to read and it's not going to move. It's like
+
+65
+00:08:18,039 --> 00:08:24,919
+pushing and pulling effect. It's like a tug of war. So that speaker cone will stay static.
+
+66
+00:08:25,639 --> 00:08:32,679
+So just to prove, if I now un-solo this, so one of them is muted, you should be able to hear the
+
+67
+00:08:32,679 --> 00:08:47,399
+sound. And if I take the utility off. Perfect. Right. So that is the theory into detuning
+
+68
+00:08:47,480 --> 00:08:54,279
+recess. And this is why you start to get, let me just get rid of these.
+
+69
+00:08:55,319 --> 00:09:00,840
+And this is why you start to get that kind of really familiar kind of LFO sound.
+
+70
+00:09:04,840 --> 00:09:10,039
+Cool. So let's try and develop this a bit further. I'm just going to
+
+71
+00:09:13,879 --> 00:09:16,120
+first make a quick melody for myself.
+
+72
+00:09:17,399 --> 00:09:28,360
+Obviously wants to go an octave lower.
+
+73
+00:09:31,399 --> 00:09:38,120
+And obviously I want to change serum, the voicing to mono and legato.
+
+74
+00:09:41,079 --> 00:09:44,439
+Cool. So do
+
+75
+00:09:48,120 --> 00:09:48,840
+something like this.
+
+76
+00:09:52,519 --> 00:10:02,199
+Cool. Let's just do these two bars for now. Cool. So now what I'm going to do
+
+77
+00:10:02,199 --> 00:10:08,360
+is I'm literally just going to jam away. I'm going to add lots of distortion. I'm going to
+
+78
+00:10:08,360 --> 00:10:14,919
+add some more modulation. What I'm trying to do is I'm trying to test the plugin to see what
+
+79
+00:10:14,919 --> 00:10:20,360
+kind of characteristics it's giving. If I feel attached to that sound, then I'll move on,
+
+80
+00:10:20,360 --> 00:10:24,519
+try and progress it even more. And I'll just keep going until I'm satisfied,
+
+81
+00:10:25,159 --> 00:10:33,159
+which could be a really long time. Cool. So let's firstly add a bit of distortion.
+
+82
+00:10:33,879 --> 00:10:37,959
+So in Ableton, what I like to do is I've got my collections here and I've got a little
+
+83
+00:10:38,680 --> 00:10:43,879
+few different favourites of kind of distortion. I've also set up a couple of
+
+84
+00:10:46,840 --> 00:10:51,160
+a couple of group settings, which I like to use. I've got this one called mega distort,
+
+85
+00:10:51,160 --> 00:10:55,480
+which is utilising lots of distortions.
+
+86
+00:10:58,680 --> 00:11:00,120
+Let's see what this sounds like.
+
+87
+00:11:00,120 --> 00:11:11,320
+Not bad. Maybe it's a bit over the top. So that's also, if you find something,
+
+88
+00:11:11,320 --> 00:11:15,080
+if you create a distortion rack, which you're happy with, just save it, create
+
+89
+00:11:15,639 --> 00:11:18,519
+cool little folders. You want to be able to create these kind of helpers for you,
+
+90
+00:11:18,519 --> 00:11:21,080
+which will set you up to be able to create something really cool.
+
+91
+00:11:22,600 --> 00:11:26,919
+So in this instance, I'm going to use a guitar rig vibes by Native Instruments,
+
+92
+00:11:27,479 --> 00:11:33,399
+very, very old guitar amp simulator, which I really love to use still.
+
+93
+00:11:35,719 --> 00:11:42,519
+Important thing to remember is to keep it in stereo. So you can just change the in left
+
+94
+00:11:42,519 --> 00:11:48,039
+and right. And what I like to do is I've set up a preset for myself called best amps.
+
+95
+00:11:49,479 --> 00:11:52,839
+And I've just labeled it zero one. So if I just flick on the preset name,
+
+96
+00:11:52,840 --> 00:11:55,800
+it will come to the top. So if I double click on that,
+
+97
+00:11:57,080 --> 00:12:04,280
+it's literally a collection of guitar amp heads, which I like to use.
+
+98
+00:12:05,560 --> 00:12:09,240
+I'm not going to use them all in one go, obviously, but it just gives me,
+
+99
+00:12:09,240 --> 00:12:12,120
+it just sets me up. So what I can do now is something like this,
+
+100
+00:12:12,120 --> 00:12:31,480
+just flick through whatever I like the sound of. So that's got something cool about it.
+
+101
+00:12:34,360 --> 00:12:35,159
+It's very loud.
+
+102
+00:12:37,879 --> 00:12:41,960
+Cool. So we might be able to use a combination of the both.
+
+103
+00:12:42,120 --> 00:12:46,120
+That could be cool.
+
+104
+00:12:51,560 --> 00:12:53,720
+Let's try another one. Just see what happens. You never know.
+
+105
+00:13:00,120 --> 00:13:01,480
+That's pretty cool.
+
+106
+00:13:07,480 --> 00:13:11,080
+It's actually funny because I don't think I've ever made a bass sound with this many
+
+107
+00:13:11,480 --> 00:13:20,600
+amps activated. But it sounds cool. It has some kind of character and it sounds like it's
+
+108
+00:13:20,600 --> 00:13:26,840
+really being pushed. What I'm hearing at the moment is the high end is still a bit boring.
+
+109
+00:13:27,960 --> 00:13:32,440
+There's not enough modulation in there, but I'm going to go back and amend that in a second.
+
+110
+00:13:33,160 --> 00:13:39,080
+I just wanted to quickly show you one thing on these cabinet overheads. So
+
+111
+00:13:41,400 --> 00:13:45,879
+if I, if you press this X, they kind of fold out and you've got some settings here,
+
+112
+00:13:45,879 --> 00:13:52,200
+which you can play with. There's also another setting if you press this little arrow here
+
+113
+00:13:52,200 --> 00:13:55,160
+and there's a stereo button here. So if you want to make
+
+114
+00:14:11,080 --> 00:14:37,160
+a bass sound, so if you want to make stereo basses, it's really crucial that this is
+
+115
+00:14:37,159 --> 00:14:41,719
+checked. And I've got them already checked on each, each individual cabinet. Again,
+
+116
+00:14:41,719 --> 00:14:46,360
+this is why it's so nice just to have that set up. See how quickly I just put that together
+
+117
+00:14:46,360 --> 00:14:50,759
+in a couple of minutes. If I wasn't talking, that would have been 30 seconds and already
+
+118
+00:14:50,759 --> 00:14:57,399
+already been moving on to my next interesting, next interesting path to creating,
+
+119
+00:14:58,360 --> 00:15:01,240
+developing this sound basically. So yeah, get yourself set up.
+
+120
+00:15:01,240 --> 00:15:11,399
+Cool. So let's move on. I might try and add something to bring out the high a little bit.
+
+121
+00:15:13,080 --> 00:15:20,200
+I'm also obviously working on headphones now, and that's not something I use a lot for making
+
+122
+00:15:20,200 --> 00:15:26,200
+basses. I like to kind of have the, I like to kind of make them in my room with my
+
+123
+00:15:26,200 --> 00:15:31,000
+monitors. I'm in actually in a Trita studio, so it's really nice for making bass sounds.
+
+124
+00:15:32,920 --> 00:15:36,920
+Cool. So let's go back to my distortion. Erosion would be cool.
+
+125
+00:15:37,560 --> 00:15:40,120
+This is an Ableton filter. It's kind of got a white noise.
+
+126
+00:15:51,080 --> 00:15:53,000
+Cool. So that kind of gives it a really
+
+127
+00:15:56,200 --> 00:15:59,480
+like really kind of peaky.
+
+128
+00:16:03,560 --> 00:16:07,879
+Just brings a bit of crunch to the top end. Cool. So what I'm going to do is I'm going to go
+
+129
+00:16:07,879 --> 00:16:11,800
+now go back in Serum and start trying to add some different kind of filtering.
+
+130
+00:16:13,240 --> 00:16:19,400
+One thing I like to use is a band pass. So let's see what that sounds like.
+
+131
+00:16:19,399 --> 00:16:26,600
+This can become messy very quickly.
+
+132
+00:16:39,879 --> 00:16:41,159
+That tone is very cool.
+
+133
+00:16:41,959 --> 00:16:50,439
+So whenever I hear something cool, I make a render of it. That's kind of my my my the thing
+
+134
+00:16:50,439 --> 00:16:57,480
+I like to do. What it will do it will kind of you'll literally create this huge sample library
+
+135
+00:16:57,480 --> 00:17:03,480
+of kind of one shot sounds. And they're fantastic if you want to write a tune quickly.
+
+136
+00:17:03,480 --> 00:17:09,480
+The only problem is that because you're it's quite destructive, you're going to have to
+
+137
+00:17:09,480 --> 00:17:13,720
+because you're it's quite destructive because you're creating an audio file.
+
+138
+00:17:13,720 --> 00:17:18,279
+There's no way to kind of get it back. But I'm quite happy dealing with that way.
+
+139
+00:17:18,279 --> 00:17:22,279
+You can save the patches, but sometimes I'll make literally like 50 or
+
+140
+00:17:22,279 --> 00:17:28,759
+different audio files of the bass sound. And having 50 patches, I don't think is
+
+141
+00:17:29,480 --> 00:17:34,759
+very productive. I think things will get messy very quickly. Cool. So let's make a quick
+
+142
+00:17:34,759 --> 00:17:41,799
+render. I might just have one note.
+
+143
+00:17:49,640 --> 00:17:53,000
+I might be able to use that for something cool later. Cool edit, something like that.
+
+144
+00:17:54,759 --> 00:17:59,319
+Really cool tone. So we just leave that there and then we'll go back and move this.
+
+145
+00:18:04,759 --> 00:18:13,960
+Okay, so why is that? I quite like that. That's sounding quite cool and interesting,
+
+146
+00:18:13,960 --> 00:18:20,119
+very messy, very messy. But there's some really cool tones to it. And I think it's
+
+147
+00:18:20,759 --> 00:18:26,920
+good to try and understand why that tone is being introduced. Literally all I'm doing
+
+148
+00:18:27,880 --> 00:18:38,600
+is sending a big peak on the actual spectrum. So I'm literally doing this.
+
+149
+00:18:40,279 --> 00:18:42,840
+So I'm going to put it before the distortion.
+
+150
+00:18:42,839 --> 00:18:57,240
+I'm literally doing something like that. The bandpass filter sounds way better.
+
+151
+00:18:57,240 --> 00:19:17,799
+Actually, so maybe we can automate this, but I have a feeling it might be a bit too much.
+
+152
+00:19:22,039 --> 00:19:25,160
+That might be quite interesting in like an edit in a tune.
+
+153
+00:19:27,240 --> 00:19:36,359
+Yeah, that might be quite cool. Let's render that one.
+
+154
+00:19:36,360 --> 00:19:56,280
+Okay, try. Let's try something else.
+
+155
+00:19:56,279 --> 00:20:07,000
+I just want to try and add some stereo imaging to it there.
+
+156
+00:20:14,279 --> 00:20:19,240
+So in this particular stage of just jamming away and making basses,
+
+157
+00:20:20,200 --> 00:20:26,680
+I'm not really too bothered if I've got stereo sub or any kind of or I'm breaking any
+
+158
+00:20:27,240 --> 00:20:32,599
+any crazy rules during bass production rules, because I know I'll probably have to fix that
+
+159
+00:20:32,599 --> 00:20:38,200
+later. Really, that kind of comes with knowledge. And the more you produce and the
+
+160
+00:20:38,200 --> 00:20:44,519
+more you kind of understand the physics of music and sound, you'll be able to kind of
+
+161
+00:20:44,519 --> 00:20:52,599
+fix things later. Or sometimes I'll just have a really stereo sub. I mean, nowadays,
+
+162
+00:20:52,599 --> 00:20:59,960
+it is possible. The club sound systems are getting better, etc. So and we're obviously
+
+163
+00:20:59,960 --> 00:21:03,639
+not pressing on vinyl that much anymore. So we can be a bit more creative.
+
+164
+00:21:06,519 --> 00:21:09,559
+Let's try a bit of FM. So FM from B.
+
+165
+00:21:14,680 --> 00:21:18,920
+That could be cool in the gym.
+
+166
+00:21:29,000 --> 00:21:30,839
+I could probably use this.
+
+167
+00:21:36,920 --> 00:21:42,279
+Some reason it's gone a little bit static, the sound it's lost the the movement.
+
+168
+00:21:43,160 --> 00:21:49,480
+And what I'm going to do is I really like that setting and it's working. The harmonics are
+
+169
+00:21:49,480 --> 00:21:57,240
+working well. If you look at the spectrum analyzer here, I'm just going to put a macro
+
+170
+00:21:57,240 --> 00:22:06,839
+on this. A really easy way to not screw things up too much is to put a macro on something and
+
+171
+00:22:06,839 --> 00:22:11,559
+then put it to zero. So you just leave it there. I know it's sounding cool there. I
+
+172
+00:22:11,559 --> 00:22:18,679
+don't want to tweak it. So if you look on the spectrum analyzer, you can see it's like
+
+173
+00:22:18,679 --> 00:22:26,039
+almost a very steady, like a steady slope. And then when we change this,
+
+174
+00:22:31,639 --> 00:22:39,399
+getting this huge peak, which I quite like. Let's see if we can develop this a bit more.
+
+175
+00:22:39,480 --> 00:22:46,600
+Let's see if we can get some movement back into it. So we might be able to use an LFO.
+
+176
+00:22:49,960 --> 00:22:50,759
+Let's see.
+
+177
+00:22:55,000 --> 00:23:00,680
+Let's use just a low pass. So I'm just going to assign LFO 1 to the cutoff.
+
+178
+00:23:00,680 --> 00:23:04,680
+It's sounding very dubstepy.
+
+179
+00:23:07,400 --> 00:23:09,960
+Let's slow this down.
+
+180
+00:23:09,960 --> 00:23:30,279
+That's not bad. I think I might be able to use this sound in a whole tune.
+
+181
+00:23:33,160 --> 00:23:37,559
+So when I get to this stage, I'm like, okay, that sounds cool. I can literally picture,
+
+182
+00:23:37,799 --> 00:23:43,240
+I can picture this being in a tune, like before I drop, really big and loud, then
+
+183
+00:23:43,879 --> 00:23:49,319
+suck it into something a bit more deep, maybe. So I'm already starting to paint a kind of picture
+
+184
+00:23:49,319 --> 00:23:53,960
+in my head of where I can go with the sounds. And when I'm doing that, you've got two options.
+
+185
+00:23:53,960 --> 00:24:01,720
+You can either go ahead and do it straight away, or the second thing is just that thought
+
+186
+00:24:02,680 --> 00:24:10,200
+process of being able to hear it already in a tune means that it probably will work in a tune.
+
+187
+00:24:11,079 --> 00:24:16,600
+So save the preset. So I'm going to make a little folder for myself.
+
+188
+00:24:18,680 --> 00:24:24,440
+I haven't prepared this and there's a reason, as I said before, because I want to show you
+
+189
+00:24:24,440 --> 00:24:28,839
+this whole process of how I go about doing this. So I'm going to make a new little
+
+190
+00:24:28,839 --> 00:24:36,519
+folder for myself. I'm going to call it bass sounds master class
+
+191
+00:24:41,480 --> 00:24:47,159
+00. So it goes at the top. And you can see here, I've got a whole selection of
+
+192
+00:24:48,039 --> 00:24:54,199
+kind of interesting things I've made and saved, which I can use sometime. So let's have a quick
+
+193
+00:24:54,200 --> 00:25:00,120
+quick look at the waveform. It's so cool.
+
+194
+00:25:02,519 --> 00:25:10,279
+It's like being in the sea or something. Yeah. So basically this is just a massive peak,
+
+195
+00:25:10,279 --> 00:25:16,279
+which is being swept, but creating a lot of interest.
+
+196
+00:25:17,160 --> 00:25:19,880
+Let's listen to without the distortion, which is quite funny.
+
+197
+00:25:24,680 --> 00:25:25,400
+So cheesy.
+
+198
+00:25:28,600 --> 00:25:34,840
+So yeah, obviously way over the top, but that's fine for now. Cool. So I'm going to mute this
+
+199
+00:25:37,240 --> 00:25:43,880
+and save it. And then what I'll do is I will do exactly the same process again.
+
+200
+00:25:45,160 --> 00:25:49,799
+So again, I'm going to get serum in. It's very tempting just to duplicate
+
+201
+00:25:49,879 --> 00:25:58,039
+this sound, which I just made. But you literally, what I find with myself is I literally just make
+
+202
+00:25:58,039 --> 00:26:04,919
+the same sound over and over and over and over again, which is fine. If you're trying to
+
+203
+00:26:04,919 --> 00:26:09,799
+achieve this one sound and you really want to nail it, then that's fine. But in this instance,
+
+204
+00:26:09,799 --> 00:26:14,599
+I'm literally just creating a massive palette of sounds for me to utilize when I go and write
+
+205
+00:26:15,560 --> 00:26:22,840
+the tune. Right. So let's go through this same process. I'll take this one. I think
+
+206
+00:26:35,320 --> 00:26:36,600
+I'm just making a quick melody.
+
+207
+00:26:36,600 --> 00:26:49,240
+And while the melody is running, I'll just make the sound. So again, two saw waves distortion,
+
+208
+00:26:49,240 --> 00:26:50,760
+two saw waves detuning.
+
+209
+00:26:56,280 --> 00:26:58,600
+Take the round above.
+
+210
+00:27:07,560 --> 00:27:10,600
+Sounding very underwhelming.
+
+211
+00:27:32,680 --> 00:27:36,280
+Cool. That's really got a question and answer feel to it, that melody.
+
+212
+00:27:36,600 --> 00:27:46,600
+I can hear it's going to change after that. It's suggesting something to me, that melody,
+
+213
+00:27:46,600 --> 00:27:53,960
+which is good. Okay, so now I'm going to try and turn this into a big bad reason.
+
+214
+00:27:54,760 --> 00:27:57,880
+So again, I'm going to go into my distortion. Let's try something else this time.
+
+215
+00:27:58,840 --> 00:28:01,480
+Let's try some trash.
+
+216
+00:28:07,640 --> 00:28:09,160
+See what this is.
+
+217
+00:28:28,360 --> 00:28:34,360
+Okay, so this is just about trying to find something.
+
+218
+00:28:37,800 --> 00:28:45,160
+Okay, I'm not liking any of those. So get rid of you. Let's try AmpliTube.
+
+219
+00:28:46,760 --> 00:28:51,160
+AmpliTube again is a guitar emulator.
+
+220
+00:28:58,600 --> 00:29:01,160
+It's giving me a cooler sound.
+
+221
+00:29:14,840 --> 00:29:16,360
+Again, I want more distortion though.
+
+222
+00:29:17,400 --> 00:29:23,160
+Just going to notice I haven't got that many, I haven't got loads of distortions on here.
+
+223
+00:29:27,880 --> 00:29:39,160
+Okay, adding a little bit more. Let's add a wave shaper.
+
+224
+00:29:39,160 --> 00:29:58,279
+Let's try square mode instead. Wave shapers are great tools,
+
+225
+00:29:58,279 --> 00:30:00,440
+great easy tools for you to get quick sounds with.
+
+226
+00:30:04,360 --> 00:30:07,640
+And what I like about the melder stuff is it's got a random button.
+
+227
+00:30:09,160 --> 00:30:34,759
+So what I'm just checking here, I'm just checking to see how much it changes as I turn it down.
+
+228
+00:30:35,720 --> 00:30:42,680
+You have to remember with things like distortion, how distortion works is it basically takes the
+
+229
+00:30:42,680 --> 00:30:49,480
+harmonics, the sound that's being fed into it and distributes harmonics based on that harmonic
+
+230
+00:30:49,480 --> 00:30:57,799
+which is being fed into it. That was a mouthful. So just by turning down the
+
+231
+00:30:57,799 --> 00:31:02,279
+volume sometimes it makes a massive difference. For example, if I cut the bass out of this,
+
+232
+00:31:03,240 --> 00:31:04,759
+watch how the sound changes.
+
+233
+00:31:19,079 --> 00:31:26,119
+This is huge, huge kind of golf in sound which is really interesting.
+
+234
+00:31:26,119 --> 00:31:30,440
+If you can control it, it's great. But this actually gave me an idea doing this.
+
+235
+00:31:31,400 --> 00:31:37,640
+I really like that peak in some places. And serum has a pretty cool function.
+
+236
+00:31:42,519 --> 00:31:51,720
+You can use the actual note as automation. So if I put this on the frequency,
+
+237
+00:31:51,720 --> 00:32:00,759
+basically, this is basically tuning to whatever MIDI note is playing.
+
+238
+00:32:02,600 --> 00:32:04,279
+So if I move this up now,
+
+239
+00:32:10,360 --> 00:32:13,799
+as you can see, I've actually put it out of tune. So it's making a kind of
+
+240
+00:32:14,839 --> 00:32:19,880
+harmonic which is not connected to the fundamental. So this is playing an F at the start
+
+241
+00:32:20,680 --> 00:32:26,040
+and let's have a look on our spectrum analyzer.
+
+242
+00:32:32,760 --> 00:32:38,600
+Which I quite like the sound of. I'm not sure what the release is doing.
+
+243
+00:32:41,640 --> 00:32:48,920
+I think just because it's destroyed so much that it's literally blowing up the whole tail,
+
+244
+00:32:48,920 --> 00:32:57,320
+I think. So that top one's a bit too much. Where was that?
+
+245
+00:33:05,400 --> 00:33:09,080
+That's not bad.
+
+246
+00:33:19,080 --> 00:33:24,440
+You might be able to use one of those somewhere. Just somewhere.
+
+247
+00:33:29,080 --> 00:33:35,080
+The release distortion is way over the top. Let's see if we can find what that is.
+
+248
+00:33:35,080 --> 00:33:48,760
+Let's see what happens if instead of me pressing stop, if we just let it play out.
+
+249
+00:33:50,840 --> 00:33:55,160
+Okay, cool. So that's okay. I think that's a little bug in serum. Actually,
+
+250
+00:33:55,160 --> 00:34:01,880
+whenever you press stop, I think you can probably hear me pressing space bar.
+
+251
+00:34:02,600 --> 00:34:07,640
+It kind of goes to like zero hertz or whatever that is. Very low frequency.
+
+252
+00:34:11,640 --> 00:34:13,800
+But I think in the tune we'll be okay because
+
+253
+00:34:18,200 --> 00:34:19,400
+it's okay. Good.
+
+254
+00:34:23,160 --> 00:34:27,400
+Cool. I definitely think we can use that for something. I'm going to save this as well.
+
+255
+00:34:28,360 --> 00:34:32,119
+I just remembered I didn't even save my other patch so I'll do that as well.
+
+256
+00:34:37,480 --> 00:34:45,800
+Cool. So that wasn't your typical reese but I started off doing that process and I just
+
+257
+00:34:45,800 --> 00:34:52,519
+kind of followed my instinct and followed what I was hearing in my ear. It's very important
+
+258
+00:34:52,519 --> 00:34:58,759
+to kind of, it's very important to trust your instinct and trust your ear with these things.
+
+259
+00:34:58,759 --> 00:35:02,360
+Everyone has their own preference and if everyone just does the same thing,
+
+260
+00:35:02,360 --> 00:35:07,800
+then we'll all literally sound the same and in drum bass it's already saturated enough so
+
+261
+00:35:08,840 --> 00:35:14,759
+I would encourage everyone to really try and develop their own sound and this is a perfect
+
+262
+00:35:14,759 --> 00:35:20,119
+way to do that. Using old techniques, following your instinct, putting your own twist
+
+263
+00:35:20,119 --> 00:35:27,480
+on it. Cool. So let's give these a save. So I'll go to my user library. I'm sure everyone
+
+264
+00:35:29,960 --> 00:35:33,880
+or every door has kind of this option.
+
+265
+00:35:36,279 --> 00:35:43,239
+So 001, 002. Right. So they are ready to go now. What happened there?
+
+266
+00:35:43,240 --> 00:35:51,800
+Okay for some reason it's overwriting it which is a bit weird.
+
+267
+00:35:55,800 --> 00:35:58,120
+Okay I'm not sure why it's doing that but I'll fix it in a bit.
+
+268
+00:36:00,440 --> 00:36:07,480
+So yeah let's move on. Another thing I like to do in my tunes is
+
+269
+00:36:08,440 --> 00:36:17,320
+have low-passed reeses in the intro. Let me load up serum again.
+
+270
+00:36:20,760 --> 00:36:28,199
+So one of the things that I like in drum bass is very melodic intros
+
+271
+00:36:28,920 --> 00:36:33,800
+and I love to have these kind of low-pass reeses doing a lot of the kind of moody,
+
+272
+00:36:33,800 --> 00:36:40,440
+very moody bassy work of the tune. So I'm just going to show you something along those lines.
+
+273
+00:36:40,440 --> 00:36:45,640
+What I'm going to do is I'm going to put a kind of pad in here just to kind of set the scene.
+
+274
+00:36:47,480 --> 00:36:55,800
+I just want to try and make it clear, make my idea clear. So let's just take something random.
+
+275
+00:36:59,880 --> 00:37:01,720
+Let's look for something a bit more melodic.
+
+276
+00:37:03,800 --> 00:37:21,080
+Cool that will do. So I know it's D sharp so I'm just going to take a little low end out of this as well because
+
+277
+00:37:24,120 --> 00:37:28,519
+cool. Alright so I'm going to mute that for a second. I forgot my little clip.
+
+278
+00:37:29,480 --> 00:37:35,480
+So low-pass reese, no it's a D sharp so let's start on that.
+
+279
+00:37:46,280 --> 00:37:49,239
+I'm just going to quickly get the reese up and then I'll make a melody.
+
+280
+00:37:54,199 --> 00:37:55,960
+I'm just going to punch that in for now.
+
+281
+00:37:58,519 --> 00:38:02,039
+Right let's go.
+
+282
+00:38:08,599 --> 00:38:11,480
+So again I'm going to turn the random off, low-pass.
+
+283
+00:38:15,480 --> 00:38:20,039
+So you can get the idea right that it's very moody.
+
+284
+00:38:20,440 --> 00:38:29,960
+How quickly was that? I mean I love, I love making reeses like this because you can get results very
+
+285
+00:38:29,960 --> 00:38:35,559
+quickly. Cool so let's go back to our old, the old and faithful.
+
+286
+00:38:40,360 --> 00:38:43,559
+I think I'm going to do the low-pass after.
+
+287
+00:38:50,360 --> 00:38:51,880
+Cool.
+
+288
+00:38:55,239 --> 00:38:57,559
+Probably want to go to the octave as well.
+
+289
+00:39:06,840 --> 00:39:10,599
+And I'm just going to extend them so they're legato.
+
+290
+00:39:15,639 --> 00:39:17,320
+Obviously need to do that in serum as well.
+
+291
+00:39:21,000 --> 00:39:23,559
+Right so now I'm going to control this with an LFO.
+
+292
+00:39:25,480 --> 00:39:29,239
+I'm going to use LFO tool. There's lots of different options you can use.
+
+293
+00:39:31,880 --> 00:39:32,599
+Wrong channel.
+
+294
+00:39:38,199 --> 00:39:43,159
+Right so let's set this up low-pass 24.
+
+295
+00:39:50,599 --> 00:39:55,639
+Lots of clicking though so maybe smooth that out.
+
+296
+00:39:58,599 --> 00:40:00,279
+Probably want to take this off as well.
+
+297
+00:40:05,079 --> 00:40:12,440
+So now I can just automate this. So I'm going to set my rate to, normally I would actually
+
+298
+00:40:13,320 --> 00:40:18,039
+physically draw the automation in but just for this example let's
+
+299
+00:40:20,039 --> 00:40:24,360
+so I want to go all the way down.
+
+300
+00:40:25,880 --> 00:40:29,480
+Oh big part and this is actually controlling the volume. Let me fix that.
+
+301
+00:40:41,480 --> 00:40:44,840
+Cool I'm gonna put a little bit more movement in there I think.
+
+302
+00:40:51,000 --> 00:40:55,480
+Cool now let's add a little bit of reverb.
+
+303
+00:40:55,480 --> 00:41:00,360
+I'm just going to use the vintage reverb. I'm just going to use a very crude.
+
+304
+00:41:03,639 --> 00:41:04,360
+Sounds cool.
+
+305
+00:41:15,079 --> 00:41:16,519
+Don't like that reverb. Let's see.
+
+306
+00:41:20,360 --> 00:41:23,000
+I'm not sure I like the gated style. Let's try some.
+
+307
+00:41:29,480 --> 00:41:32,360
+Cool that's a bit better. I'm going to put a bit of low cut on this.
+
+308
+00:41:42,679 --> 00:41:44,360
+Right let's see what it sounds like with my little clip.
+
+309
+00:41:50,039 --> 00:41:58,360
+So let me change the melody to fit. Just to give you an example.
+
+310
+00:42:20,679 --> 00:42:24,360
+What note is that? G sharp.
+
+311
+00:42:43,079 --> 00:42:48,519
+So something along these lines I'm trying to achieve. Give a really really moody intro.
+
+312
+00:42:49,480 --> 00:42:53,719
+What I would do when I'm in the tune, I would actually physically draw the automation in.
+
+313
+00:42:53,719 --> 00:42:56,840
+Like I said because I'm not sure this is great.
+
+314
+00:42:56,840 --> 00:43:19,320
+Great that's fitting perfectly.
+
+315
+00:43:20,920 --> 00:43:24,280
+Cool so that is the introduction for these style of recess.
+
+316
+00:43:25,000 --> 00:43:29,720
+Now I'm going to take a little break which is very very important with bass sounds in
+
+317
+00:43:29,720 --> 00:43:34,040
+my opinion or with most sounds. So I'm going to take a little five minute break.
+
+318
+00:43:34,840 --> 00:43:37,960
+Get some fresh air and then come back in and make some more bass sounds.
+
+319
+00:43:37,960 --> 00:43:38,760
+So I'll see you in a sec.
+
+320
+00:43:39,880 --> 00:43:44,840
+So I took a little break. Back at it again. Ready to go.
+
+321
+00:43:45,720 --> 00:43:51,720
+One of the reasons I like taking a break every hour, every couple of hours completely
+
+322
+00:43:51,720 --> 00:43:56,040
+up to you, is I just started to think about kind of the process I was just doing.
+
+323
+00:43:58,120 --> 00:44:03,160
+When I was thinking about the basses I just made I was thinking hey I could turn this into
+
+324
+00:44:03,160 --> 00:44:10,680
+something a bit different. So what I wanted to do is I wanted to kind of make a reesee type
+
+325
+00:44:10,680 --> 00:44:18,360
+of sound but with lots of modulation in it. Like lots of sounds you would hear in the kind
+
+326
+00:44:18,360 --> 00:44:27,320
+of neuro type of tunes or something with a lot of movement. So I'm going to do kind of the
+
+327
+00:44:27,320 --> 00:44:33,320
+same process before but this time I want to talk about wave tables instead of using saw
+
+328
+00:44:33,320 --> 00:44:42,039
+waves. So I'm going to load up a serum again. I'm going to put a little melody in there.
+
+329
+00:44:42,039 --> 00:44:49,559
+Let's just see what we can build.
+
+330
+00:44:57,559 --> 00:45:00,759
+Okay cool. So again mono legato.
+
+331
+00:45:01,560 --> 00:45:13,400
+Cool. So now the first thing I want to do is use some different wave tables and for the sake of
+
+332
+00:45:13,400 --> 00:45:20,440
+this video I want to show you how quickly you can get a very cool sound by just using the stock
+
+333
+00:45:20,440 --> 00:45:28,760
+wave tables. So there's a couple I like. Most of them are pretty good. This one's just jumped
+
+334
+00:45:28,760 --> 00:45:35,640
+out to me now MB triangle in brackets metal. Not sure what that means but
+
+335
+00:45:38,280 --> 00:45:43,880
+so the cool thing with using the stock wave tables and I will talk about making your own
+
+336
+00:45:43,880 --> 00:45:49,240
+wave tables in a second but the cool thing with using the stock wave tables is
+
+337
+00:45:52,200 --> 00:45:58,200
+you can create a very quick modulating sound by just automating the wave table position
+
+338
+00:45:58,760 --> 00:46:02,600
+and as I slowly move this you can see the wave table starts changing.
+
+339
+00:46:04,520 --> 00:46:13,880
+So let me show you if I load up my EQ and what I'm going to do is
+
+340
+00:46:16,440 --> 00:46:21,400
+slow I'm going to play this and slowly slowly change the wave table.
+
+341
+00:46:21,400 --> 00:46:32,840
+So if you just look at this frequency spectrum analyzer here
+
+342
+00:46:42,119 --> 00:46:45,320
+you can see the the harmonics are changing and that's
+
+343
+00:46:46,119 --> 00:46:50,680
+creating a very interesting sound to my ear so we're going to roll with something like this
+
+344
+00:46:51,480 --> 00:46:56,039
+I haven't really got an idea in my head of what sound I want to make
+
+345
+00:46:56,039 --> 00:46:59,559
+so I'm just going to keep adding until I'm satisfied basically
+
+346
+00:47:02,599 --> 00:47:12,840
+so that's cool but it's very standard I want to try and
+
+347
+00:47:16,280 --> 00:47:16,840
+let's try
+
+348
+00:47:21,559 --> 00:47:24,680
+that's pretty cool
+
+349
+00:47:27,240 --> 00:47:34,599
+so my goal here is just to literally make this sound as interesting as I can
+
+350
+00:47:35,320 --> 00:47:39,800
+so what I'm going to do is I'm going to FM oscillator A
+
+351
+00:47:43,079 --> 00:47:46,840
+from B
+
+352
+00:47:52,200 --> 00:47:56,440
+let's see what if we put the same LFO see what
+
+353
+00:48:01,720 --> 00:48:02,200
+not bad
+
+354
+00:48:07,400 --> 00:48:11,639
+again I want to turn these random off which I forgot and the sound might completely change it
+
+355
+00:48:12,599 --> 00:48:15,879
+nope we're good
+
+356
+00:48:23,559 --> 00:48:29,879
+also I think I want to actually go an octave down
+
+357
+00:48:29,880 --> 00:48:40,920
+um I really like the tone of
+
+358
+00:48:45,000 --> 00:48:48,519
+I really like the tone of that sound but there's no sub in it
+
+359
+00:48:48,519 --> 00:48:51,240
+what can we do about that just add the sub oscillator
+
+360
+00:48:52,760 --> 00:48:56,119
+so obviously we want to go one octave below oscillator
+
+361
+00:48:56,119 --> 00:49:11,159
+so what we can do now is maybe add just an LFO to the level of this
+
+362
+00:49:12,599 --> 00:49:16,359
+I'm going to use the same rate which is half a bar
+
+363
+00:49:16,360 --> 00:49:29,720
+okay I'm going to turn it off as well so it doesn't re-trigger every time
+
+364
+00:49:32,680 --> 00:49:35,320
+let's see if we add a little bit of unison to this
+
+365
+00:49:42,680 --> 00:49:44,920
+so you can see it's not sound very detuning
+
+366
+00:49:46,360 --> 00:49:49,960
+very interesting
+
+367
+00:49:55,720 --> 00:49:57,720
+cool so let's add some distortion to it now
+
+368
+00:50:01,320 --> 00:50:04,120
+it already sounds quite harmonically rich so
+
+369
+00:50:04,120 --> 00:50:08,840
+maybe a guitar rig might be a little bit too much but let's see where we get to
+
+370
+00:50:08,840 --> 00:50:14,600
+yep way over the top
+
+371
+00:50:19,240 --> 00:50:25,079
+okay okay so you can already tell that's going to be way too much and this is where
+
+372
+00:50:26,360 --> 00:50:32,200
+knowing your plugins and what they're capable of comes in handy I know Isotope Trash is not
+
+373
+00:50:32,200 --> 00:50:37,320
+going to recreate that same level of distortion it's going to be a lot milder and tamer so
+
+374
+00:50:37,320 --> 00:50:43,080
+I'll go for that let's see how they sound
+
+375
+00:50:51,720 --> 00:50:57,080
+the dents are certainly quite cool let's see how far we can push it
+
+376
+00:50:57,079 --> 00:51:08,840
+I want to get rid of that click as well
+
+377
+00:51:21,079 --> 00:51:26,599
+that's also kind of cool it's not exactly what I wanted it to do but it's
+
+378
+00:51:27,079 --> 00:51:35,400
+okay I'm not sure where the click's coming from yet but I'll kind of try and un-hear it for now
+
+379
+00:51:35,400 --> 00:51:42,759
+and come back to it later cool so let's add some filtering to it and we're going to do that
+
+380
+00:51:42,840 --> 00:51:49,960
+pre-distortion I'm going to try let's try some random random filters
+
+381
+00:52:01,560 --> 00:52:05,720
+I think the click is coming from Isotope Trash
+
+382
+00:52:12,920 --> 00:52:18,920
+I think the click is coming from Isotope Trash
+
+383
+00:52:25,320 --> 00:52:27,960
+cool so let's put a little bit of automation on this
+
+384
+00:52:32,600 --> 00:52:33,400
+way too fast
+
+385
+00:52:33,559 --> 00:52:42,920
+and I've obviously lost the whole sound here so what I want to do is take the mix down
+
+386
+00:52:50,440 --> 00:52:52,280
+just a little bit of
+
+387
+00:52:58,920 --> 00:53:00,599
+a little bit of movement which is cool
+
+388
+00:53:01,480 --> 00:53:10,599
+so let's add some serum OTT compression I'm sure everyone's heard of OTT it's well
+
+389
+00:53:10,599 --> 00:53:17,079
+well talked about well talked about compression style
+
+390
+00:53:17,079 --> 00:53:36,279
+the problem with OTT is that or one it's not necessarily a problem the the fact OTT is it
+
+391
+00:53:37,079 --> 00:53:44,199
+limits and compresses so hard that it will actually rebalance the the harmonic content
+
+392
+00:53:44,200 --> 00:53:49,960
+of your tune and to get things loud normally the first thing that's compromised is bass
+
+393
+00:53:51,080 --> 00:53:55,720
+because that's normally loudest part of the frequency so it's eating up all your headroom
+
+394
+00:53:57,800 --> 00:54:01,800
+so as you can see lost all the bass
+
+395
+00:54:08,360 --> 00:54:10,280
+so I'm going to try and do this a different way
+
+396
+00:54:10,280 --> 00:54:13,240
+anyway let's just
+
+397
+00:54:17,560 --> 00:54:24,680
+cool quite like that effect but I only like it in some places so again I'll put a little bit of
+
+398
+00:54:25,320 --> 00:54:29,080
+automation or I'll put a little bit of LFO on it
+
+399
+00:54:31,400 --> 00:54:34,440
+let's go all the way down see what happens
+
+400
+00:54:40,760 --> 00:54:49,320
+I don't think that sounds great so I'm going to dump that
+
+401
+00:54:56,600 --> 00:55:00,920
+that that first stab like that I could probably use that in the
+
+402
+00:55:02,680 --> 00:55:04,440
+the tail of it doesn't sound great to me
+
+403
+00:55:05,320 --> 00:55:16,440
+so let's try a few more different processing techniques I've also got this section here
+
+404
+00:55:16,440 --> 00:55:22,200
+called modulation with lots of different like flangers and choruses that I like to use
+
+405
+00:55:22,920 --> 00:55:28,200
+let's try a chorus see what that sounds like classic chorus sound
+
+406
+00:55:34,760 --> 00:55:43,400
+so making lots and lots of interesting detail in the in the stereo field as you can see
+
+407
+00:55:46,440 --> 00:55:53,000
+so say say I wanted to create um this bass sound with a very um
+
+408
+00:55:54,760 --> 00:55:57,400
+very wide sound which is caused by the chorus but
+
+409
+00:55:58,360 --> 00:56:01,160
+problem with the chorus it's going to kind of phase the low end
+
+410
+00:56:02,039 --> 00:56:12,280
+which won't always work in your favor so what we can do is I can literally put this in a group
+
+411
+00:56:14,440 --> 00:56:20,519
+and duplicate the sound so that's original just name this
+
+412
+00:56:21,320 --> 00:56:27,639
+if I could spell I'm going to call this chorus
+
+413
+00:56:36,360 --> 00:56:40,119
+I'm going to take a bit of low end out of this as well this might change the phase though
+
+414
+00:56:40,119 --> 00:56:41,639
+so I have to be very careful here
+
+415
+00:56:50,519 --> 00:56:55,639
+so
+
+416
+00:56:59,239 --> 00:57:04,599
+sounds a little bit distorty not great but not terrible either
+
+417
+00:57:07,880 --> 00:57:11,239
+so what I wanted to do here is try and marry these sounds together
+
+418
+00:57:12,599 --> 00:57:14,360
+I'm wondering if we just take the low
+
+419
+00:57:14,760 --> 00:57:20,920
+it's not sounding great to me
+
+420
+00:57:24,120 --> 00:57:28,920
+so I'm going to leave that for now um let's see what more modulation will do
+
+421
+00:57:29,800 --> 00:57:34,200
+vocoder works sometimes good but it's also probably way over the top so let's double check
+
+422
+00:57:35,240 --> 00:57:38,760
+yep I'm just going to keep it easy and have four bands
+
+423
+00:57:44,599 --> 00:57:50,760
+so
+
+424
+00:57:55,400 --> 00:58:04,760
+do get quite nice texture in that top end
+
+425
+00:58:04,760 --> 00:58:07,160
+so
+
+426
+00:58:10,280 --> 00:58:17,160
+so I'm just revisiting serum now see if I can improve anything here
+
+427
+00:58:25,800 --> 00:58:31,160
+so maybe something like this would work for me in tune
+
+428
+00:58:34,760 --> 00:58:37,960
+has it got a long release on it yeah let's cut
+
+429
+00:58:42,440 --> 00:58:45,160
+cool that's not bad
+
+430
+00:59:01,400 --> 00:59:03,720
+okay maybe I want to go a little bit higher with the FM
+
+431
+00:59:05,560 --> 00:59:09,720
+cool so that's sounds a lot more interesting to me
+
+432
+00:59:13,720 --> 00:59:15,160
+I could definitely use that in a tune
+
+433
+00:59:25,160 --> 00:59:28,680
+cool not bad okay what I'm going to do is I'm going to save this leave this
+
+434
+00:59:29,480 --> 00:59:35,640
+and this time I'm going to save all my presets after the session I want to move on I want to
+
+435
+00:59:35,640 --> 00:59:41,720
+try and create something more interesting again so I'm going to open serum again I'm going to
+
+436
+00:59:41,720 --> 00:59:49,960
+choose a different wavetable this time let's have a look in the digital
+
+437
+00:59:50,920 --> 00:59:58,920
+cool there's one cool distort dropper I think yeah distort bass dropper which is
+
+438
+01:00:00,119 --> 01:00:02,039
+has a very interesting tone to it
+
+439
+01:00:04,840 --> 01:00:07,240
+not like that it doesn't
+
+440
+01:00:07,240 --> 01:00:10,520
+have
+
+441
+01:00:17,160 --> 01:00:20,840
+so yeah this sounds very familiar to me I'm sure lots lots oops
+
+442
+01:00:21,560 --> 01:00:25,240
+I'm sure lots of people have used this wavetable in tunes
+
+443
+01:00:29,880 --> 01:00:34,520
+I mean even that could work in a tune again I'm going to turn random off
+
+444
+01:00:37,800 --> 01:00:39,880
+okay let's make
+
+445
+01:00:45,000 --> 01:00:46,120
+let's try and make a
+
+446
+01:00:52,440 --> 01:00:54,520
+cool so let's work with this modulation
+
+447
+01:01:04,840 --> 01:01:06,440
+let's try some dotted should we
+
+448
+01:01:07,240 --> 01:01:18,040
+try the other way around maybe
+
+449
+01:01:21,560 --> 01:01:27,880
+oh I liked it
+
+450
+01:01:38,120 --> 01:01:41,000
+so
+
+451
+01:01:43,960 --> 01:01:49,320
+just trying to look for something for some reason serum has decided to stop working
+
+452
+01:01:50,760 --> 01:01:56,840
+let's open and close it again okay cool let's dump that and start again
+
+453
+01:02:00,840 --> 01:02:02,920
+okay I think serum may have a problem
+
+454
+01:02:03,559 --> 01:02:08,920
+it doesn't look promising which I've never seen before so
+
+455
+01:02:11,559 --> 01:02:15,480
+cool so let's go to digital again
+
+456
+01:02:25,240 --> 01:02:27,480
+let's go to my dotted which was quite cool
+
+457
+01:02:33,880 --> 01:02:37,880
+I extended that
+
+458
+01:02:42,680 --> 01:02:48,760
+cool I just like it like this actually cool so let's start adding some saturation and see where
+
+459
+01:02:48,760 --> 01:02:56,599
+we get let's try um some um effects from serum this time so let's open up the distortion
+
+460
+01:02:56,599 --> 01:03:06,279
+as you can see all the all the detail in the top end is lost now pushed it way too hard
+
+461
+01:03:06,280 --> 01:03:15,960
+so
+
+462
+01:03:22,840 --> 01:03:29,960
+okay maybe we could automate this as well because it's because it's destroying
+
+463
+01:03:33,240 --> 01:03:35,400
+okay I think it's a bit too static for me now
+
+464
+01:03:36,280 --> 01:03:45,960
+so let's try something else
+
+465
+01:03:46,840 --> 01:03:53,639
+so
+
+466
+01:04:05,400 --> 01:04:07,639
+what sure is
+
+467
+01:04:09,639 --> 01:04:11,639
+this sounds cool
+
+468
+01:04:16,840 --> 01:04:22,920
+this could work actually so if we automate this into a very slow pan like I was just
+
+469
+01:04:25,000 --> 01:04:30,679
+that's cool okay so this is by adding these small things what you're doing is you're
+
+470
+01:04:30,679 --> 01:04:36,519
+developing the sound over a longer period so if that bass is playing for one whole bar
+
+471
+01:04:37,079 --> 01:04:41,400
+it's not just literally the same sound being triggered going no no no no no
+
+472
+01:04:41,400 --> 01:04:43,400
+you know there's a lot more variation in the sound
+
+473
+01:04:46,199 --> 01:04:51,079
+cool so now we need a bit of top end in there because sounding very plain
+
+474
+01:04:52,280 --> 01:05:05,639
+as I mentioned before the compressor is actually a cool tool for that
+
+475
+01:05:09,079 --> 01:05:13,639
+the top end is very dirty though
+
+476
+01:05:15,960 --> 01:05:28,440
+cool and I'm not sure we'll be able to fix that let's see this also sounds quite cool like this
+
+477
+01:05:28,440 --> 01:05:37,960
+actually I mean if if I was if I wanted to work on a kind of deep deep techy tune
+
+478
+01:05:38,679 --> 01:05:40,039
+this would be absolutely perfect
+
+479
+01:05:40,039 --> 01:05:46,519
+for example I can already see in the tune and then coming to a bar
+
+480
+01:05:49,880 --> 01:05:54,039
+just a little kind of automation there so I might save this one
+
+481
+01:05:55,239 --> 01:05:59,480
+let's see let's just see what it sounds like
+
+482
+01:06:07,159 --> 01:06:08,840
+let's extend this loop a bit more
+
+483
+01:06:10,039 --> 01:06:20,039
+so
+
+484
+01:06:33,559 --> 01:06:34,039
+kind of cool
+
+485
+01:06:34,039 --> 01:06:44,039
+cool
+
+486
+01:06:44,840 --> 01:06:52,039
+so
+
+487
+01:06:59,559 --> 01:07:03,239
+cool let's try an FM let's see if we're gonna add even more character
+
+488
+01:07:04,279 --> 01:07:06,039
+don't wanna do it from the noise
+
+489
+01:07:14,039 --> 01:07:24,039
+so
+
+490
+01:07:35,079 --> 01:07:41,559
+so what I could do is I'm not sure I would use this in a tune like that but it definitely
+
+491
+01:07:41,559 --> 01:07:47,559
+made my ears prick and that's exciting so I'm gonna give myself an option remember I'm gonna
+
+492
+01:07:47,559 --> 01:07:51,880
+save this patch and when I'm working on a tune I'll probably dump this in dump this preset
+
+493
+01:07:51,880 --> 01:07:56,279
+in somewhere and I want to be able to work quickly when I'm working in the tune I don't
+
+494
+01:07:56,279 --> 01:08:00,519
+want to be fiddling things fiddling around and creating sounds too long I'm going to get
+
+495
+01:08:00,519 --> 01:08:06,920
+the idea down get a solid idea and then be able to develop it from there so I'm gonna
+
+496
+01:08:06,920 --> 01:08:13,800
+set up a macro for this for the FM from B and also the actual level because I was liking
+
+497
+01:08:13,800 --> 01:08:16,359
+the sound of that so when I'm in the tune I'll be able to
+
+498
+01:08:22,039 --> 01:08:23,800
+maybe let's take this an octave down
+
+499
+01:08:25,480 --> 01:08:28,840
+and I probably also want to turn the random off both I will keep forgetting that
+
+500
+01:08:36,920 --> 01:08:39,640
+so
+
+501
+01:08:39,640 --> 01:08:44,520
+okay there's lots of interesting detail going in there right let's add a bit of
+
+502
+01:08:44,520 --> 01:08:47,640
+distortion just to try and blow the sound up a bit
+
+503
+01:09:07,319 --> 01:09:09,640
+bit too much
+
+504
+01:09:14,279 --> 01:09:19,399
+cool let's add some more distortion I want to try and bring this top end out a bit more I
+
+505
+01:09:19,399 --> 01:09:27,640
+know I've taken it down before but let's have a look so erosion is good for that
+
+506
+01:09:37,800 --> 01:09:40,520
+let's open an EQ and see if we can just boost it that way
+
+507
+01:09:45,079 --> 01:09:47,640
+let's do it before the erosion
+
+508
+01:09:59,560 --> 01:10:01,640
+not bad
+
+509
+01:10:01,800 --> 01:10:10,760
+let's try and add some filtering to it let's try something a bit random
+
+510
+01:10:23,320 --> 01:10:24,360
+crazy alien noise
+
+511
+01:10:32,039 --> 01:10:33,800
+could be cool
+
+512
+01:10:42,039 --> 01:10:44,360
+okay let's see what else let's add another filter
+
+513
+01:10:45,640 --> 01:10:49,800
+let's do this in effects I might come back to that reverb filter in a sec it sounded
+
+514
+01:10:49,800 --> 01:10:52,920
+had some nice things to it let's see if we can use a screen
+
+515
+01:10:52,920 --> 01:11:01,960
+I'm going to do this before the distortion
+
+516
+01:11:15,880 --> 01:11:18,440
+so I'm just going to flick through the filters see if we can
+
+517
+01:11:22,920 --> 01:11:25,960
+do this
+
+518
+01:11:52,920 --> 01:11:54,920
+Cool, I think I made it sound worse.
+
+519
+01:12:06,920 --> 01:12:10,920
+Cool, so I don't think I'm improving it that much by adding filtering.
+
+520
+01:12:10,920 --> 01:12:12,920
+So I could do a couple of things.
+
+521
+01:12:12,920 --> 01:12:20,920
+Typically if I was working in the studio I would probably spend about two hours on this sound if I thought it had potential.
+
+522
+01:12:20,920 --> 01:12:22,920
+And it deserved that amount of time.
+
+523
+01:12:22,920 --> 01:12:26,920
+Otherwise I would just stop now, save it and move on to the next one.
+
+524
+01:12:26,920 --> 01:12:29,920
+So let's give that a go.
+
+525
+01:12:30,920 --> 01:12:32,920
+Right, so I'm going to load up a new Serum.
+
+526
+01:12:38,920 --> 01:12:40,920
+Let's try a different wavetable this time.
+
+527
+01:12:41,920 --> 01:12:43,920
+Let's try this here.
+
+528
+01:12:50,920 --> 01:12:52,920
+Should I make a quick melody?
+
+529
+01:13:13,920 --> 01:13:17,920
+Cool, so again follow the same patterns as before.
+
+530
+01:13:20,920 --> 01:13:23,920
+Cool, hitting in the right frequencies.
+
+531
+01:13:50,920 --> 01:13:56,920
+Cool.
+
+532
+01:14:01,920 --> 01:14:04,920
+Cool, let's try and add some distortion.
+
+533
+01:14:04,920 --> 01:14:10,920
+I'm going to try my go-to guitar cabinet.
+
+534
+01:14:10,920 --> 01:14:12,920
+Guitar Rig, best amps.
+
+535
+01:14:14,920 --> 01:14:15,920
+Wow.
+
+536
+01:14:21,920 --> 01:14:23,920
+It's not bad.
+
+537
+01:14:23,920 --> 01:14:29,920
+Okay, I'm going to try and use a low-passed, sorry a band-passed filter here.
+
+538
+01:14:29,920 --> 01:14:31,920
+Because I want it...
+
+539
+01:14:34,920 --> 01:14:35,920
+Cool.
+
+540
+01:14:35,920 --> 01:14:37,920
+So let's go a bit crazy with that.
+
+541
+01:14:43,920 --> 01:14:45,920
+Let's put it back to one bar, shall we?
+
+542
+01:14:50,920 --> 01:15:05,920
+Not bad.
+
+543
+01:15:05,920 --> 01:15:06,920
+Let's try that.
+
+544
+01:15:19,920 --> 01:15:21,920
+Okay, I want to turn my...
+
+545
+01:15:22,920 --> 01:15:24,920
+There we go, stereo.
+
+546
+01:15:24,920 --> 01:15:35,920
+Okay, what do I need to do to this sound to make it sound way more interesting?
+
+547
+01:15:35,920 --> 01:15:37,920
+Let's try the compressor again.
+
+548
+01:15:37,920 --> 01:15:39,920
+How does that react?
+
+549
+01:15:46,920 --> 01:15:48,920
+Bit over the top again.
+
+550
+01:15:54,920 --> 01:16:04,920
+Cool, let's try some EQ, some automation.
+
+551
+01:16:16,920 --> 01:16:18,920
+Too much, let's try the other way.
+
+552
+01:16:18,920 --> 01:16:19,920
+Dipping.
+
+553
+01:16:25,920 --> 01:16:27,920
+Let's try and do that with a filter instead.
+
+554
+01:16:51,920 --> 01:16:52,920
+I like that ending.
+
+555
+01:16:55,920 --> 01:17:01,920
+So I feel it needs a bit more high or something.
+
+556
+01:17:09,920 --> 01:17:10,920
+Oops.
+
+557
+01:17:12,920 --> 01:17:14,920
+Okay, let's open this one.
+
+558
+01:17:24,920 --> 01:17:25,920
+Cool.
+
+559
+01:17:36,920 --> 01:17:39,920
+Just wanted to quickly flick between them to see if I was missing something.
+
+560
+01:17:42,920 --> 01:17:45,920
+Okay, let's try a bit of modulation stuff.
+
+561
+01:17:45,920 --> 01:17:47,920
+So let's try the Coder again.
+
+562
+01:17:49,920 --> 01:17:50,920
+Ouch.
+
+563
+01:17:50,920 --> 01:17:51,920
+Apologies.
+
+564
+01:17:55,920 --> 01:17:59,920
+It's a crazy sound actually, isn't it?
+
+565
+01:18:02,920 --> 01:18:04,920
+Some sound effect.
+
+566
+01:18:25,920 --> 01:18:29,920
+It's adding some kind of strange harmonics to the high end.
+
+567
+01:18:30,920 --> 01:18:32,920
+Which I'm not sure if I like yet.
+
+568
+01:18:37,920 --> 01:18:39,920
+Let's try FMing this again.
+
+569
+01:18:41,920 --> 01:18:42,920
+FM from B.
+
+570
+01:18:48,920 --> 01:18:51,920
+Let's just try a sine wave instead.
+
+571
+01:18:54,920 --> 01:18:55,920
+Cool.
+
+572
+01:19:06,920 --> 01:19:09,920
+Cool, no that doesn't sound great.
+
+573
+01:19:18,920 --> 01:19:20,920
+Sounds like elephant.
+
+574
+01:19:21,920 --> 01:19:23,920
+That might sound cool in some.
+
+575
+01:19:24,920 --> 01:19:27,920
+In some way though, so I would probably render this off.
+
+576
+01:19:30,920 --> 01:19:32,920
+Or maybe I'm just hearing it.
+
+577
+01:19:36,920 --> 01:19:38,920
+Okay, cool, that sounds a bit better.
+
+578
+01:19:45,920 --> 01:19:52,920
+What I'm going to do is I'm going to put this down and I'm going to add some extra harmonics to it.
+
+579
+01:19:52,920 --> 01:19:56,920
+I'm going to cover this table edit in the next section.
+
+580
+01:20:18,920 --> 01:20:20,920
+Just trying to add some more harmonics.
+
+581
+01:20:22,920 --> 01:20:23,920
+Cool.
+
+582
+01:20:40,920 --> 01:20:42,920
+Cool, not bad.
+
+583
+01:20:44,920 --> 01:20:48,920
+Let's see if we can calm it down a bit more.
+
+584
+01:20:49,920 --> 01:20:53,920
+Cool, so something like this.
+
+585
+01:21:00,920 --> 01:21:02,920
+Cool, something like that would work cool I think.
+
+586
+01:21:02,920 --> 01:21:04,920
+Now there's a couple of things we can do.
+
+587
+01:21:04,920 --> 01:21:07,920
+We can literally just press record and go shh, shh, shh like that.
+
+588
+01:21:07,920 --> 01:21:13,920
+So let's give that a go or maybe it's even easier to just draw it in.
+
+589
+01:21:15,920 --> 01:21:17,920
+See how we go with that.
+
+590
+01:21:19,920 --> 01:21:23,920
+Okay, number six.
+
+591
+01:21:28,920 --> 01:21:30,920
+Okay, let's put that back.
+
+592
+01:21:49,920 --> 01:21:51,920
+Cool.
+
+593
+01:21:58,920 --> 01:22:00,920
+Oops, too much.
+
+594
+01:22:07,920 --> 01:22:09,920
+Not bad.
+
+595
+01:22:11,920 --> 01:22:17,920
+Might be a couple of cool interesting notes I could use in there.
+
+596
+01:22:17,920 --> 01:22:19,920
+Like this one.
+
+597
+01:22:22,920 --> 01:22:24,920
+Really don't like that big peak at the end.
+
+598
+01:22:24,920 --> 01:22:26,920
+It makes it sound very cheesy.
+
+599
+01:22:29,920 --> 01:22:30,920
+Cool.
+
+600
+01:22:30,920 --> 01:22:32,920
+Okay, cool.
+
+601
+01:22:32,920 --> 01:22:35,920
+So then after that we move on to the next one.
+
+602
+01:22:35,920 --> 01:22:39,920
+But what I'm going to do now is I'm going to again take a little break.
+
+603
+01:22:39,920 --> 01:22:44,920
+Come back, have a listen to these, save all the patches offline.
+
+604
+01:22:45,920 --> 01:22:54,920
+And then what I'm going to do is I'm going to spend a couple of minutes finding a few of my favourite bass lines from different artists or maybe my own tunes.
+
+605
+01:22:54,920 --> 01:23:04,920
+And then I'm going to show you how you can almost recreate the same tone of that bass line in Serum by using the harmonic section, the table edit.
+
+606
+01:23:04,920 --> 01:23:06,920
+Cool, so see you in a second.
+

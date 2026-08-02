@@ -1,0 +1,2636 @@
+1
+00:00:00,000 --> 00:00:03,320
+Cool. So now we're going to go about building the drop.
+
+2
+00:00:03,520 --> 00:00:10,000
+But first, I wanted to show you what my project template looks like.
+
+3
+00:00:10,200 --> 00:00:12,439
+When I open a new project in Ableton,
+
+4
+00:00:12,640 --> 00:00:19,719
+I have these four groups and channels or channels set up automatically.
+
+5
+00:00:19,920 --> 00:00:21,960
+One is called Kick SC Trigger.
+
+6
+00:00:22,160 --> 00:00:25,240
+The SC stands for Sidechain.
+
+7
+00:00:25,440 --> 00:00:29,400
+I've already got a kick group set up
+
+8
+00:00:29,560 --> 00:00:31,480
+with a serum in there.
+
+9
+00:00:31,680 --> 00:00:33,240
+And this is one of the kicks.
+
+10
+00:00:33,440 --> 00:00:36,520
+I just loaded one of the kicks, which we made earlier in that.
+
+11
+00:00:36,719 --> 00:00:39,960
+I've also got a snare set up in there.
+
+12
+00:00:40,160 --> 00:00:41,880
+A lot of the times I won't use this now.
+
+13
+00:00:42,079 --> 00:00:43,760
+I'll just make a new one.
+
+14
+00:00:43,960 --> 00:00:46,880
+But this is one of the ones we made earlier.
+
+15
+00:00:47,079 --> 00:00:51,240
+And I've just added some additional bits to it.
+
+16
+00:00:52,439 --> 00:00:54,120
+So.
+
+17
+00:00:54,400 --> 00:00:57,160
+What I like to use for my sidechain
+
+18
+00:00:57,360 --> 00:01:01,440
+is I like to have a group set up and I like to use LFO tool.
+
+19
+00:01:01,640 --> 00:01:04,320
+So LFO tool.
+
+20
+00:01:04,520 --> 00:01:09,120
+The way I've set up is it works whenever
+
+21
+00:01:09,320 --> 00:01:14,200
+whenever a MIDI file from these
+
+22
+00:01:14,400 --> 00:01:19,840
+these channels are triggered, it will initiate the LFO tool to duck down
+
+23
+00:01:20,040 --> 00:01:24,879
+the salad, so very exactly the same way as a sidechain.
+
+24
+00:01:25,039 --> 00:01:28,239
+But because it's an LFO tool, I've got a lot more control.
+
+25
+00:01:28,439 --> 00:01:33,119
+I can make this a lot steeper, for example, a lot more flexibility.
+
+26
+00:01:33,319 --> 00:01:36,759
+I know with general compression, you can use your attack and release,
+
+27
+00:01:36,959 --> 00:01:41,039
+obviously, but this way I've found very, very useful over the over
+
+28
+00:01:41,239 --> 00:01:42,679
+the last couple of months.
+
+29
+00:01:42,879 --> 00:01:45,719
+So every time.
+
+30
+00:01:46,799 --> 00:01:53,280
+This is triggered, so I've just got a very simple kick and snap in it.
+
+31
+00:01:53,439 --> 00:01:56,159
+Every time that's triggered, it will
+
+32
+00:01:56,359 --> 00:01:58,480
+trigger the LFO to turn the volume down.
+
+33
+00:01:58,680 --> 00:02:03,439
+And I've got this sidechain set up on a sidechain group so I can load my bases
+
+34
+00:02:03,640 --> 00:02:07,599
+in there and they'll automatically be sidechained.
+
+35
+00:02:07,799 --> 00:02:11,920
+But it does it does determine where you put these MIDI files.
+
+36
+00:02:12,120 --> 00:02:16,080
+Make a bit more sense as we go along.
+
+37
+00:02:16,280 --> 00:02:23,240
+The other thing to quickly point out is I have a maximizer
+
+38
+00:02:23,759 --> 00:02:30,000
+on my output, no particular settings here, nothing too fancy.
+
+39
+00:02:30,199 --> 00:02:32,400
+I've also got a utility.
+
+40
+00:02:32,599 --> 00:02:35,199
+What I like to do is give myself a little headroom.
+
+41
+00:02:35,400 --> 00:02:38,400
+There's a couple of ways you can do this.
+
+42
+00:02:38,920 --> 00:02:42,400
+You can turn the volume down of each channels or the groups.
+
+43
+00:02:42,599 --> 00:02:46,680
+What I have always done, not necessarily the right way to go
+
+44
+00:02:46,879 --> 00:02:50,920
+about this, is I just put the utility before the master and I'll just turn
+
+45
+00:02:50,920 --> 00:02:54,280
+it down five decibels, so I give myself a little headroom.
+
+46
+00:02:54,480 --> 00:02:57,040
+I don't want to be writing the tune
+
+47
+00:02:57,240 --> 00:03:01,160
+and blasting everything into the limiter straight away.
+
+48
+00:03:01,360 --> 00:03:06,800
+This part of the tune I like to really focus on later, when I'm writing the
+
+49
+00:03:07,000 --> 00:03:10,080
+tune, I like to kind of have a little like kind of free palette.
+
+50
+00:03:10,280 --> 00:03:14,160
+I don't want to get too bogged down with engineering too much.
+
+51
+00:03:14,360 --> 00:03:15,760
+So
+
+52
+00:03:16,560 --> 00:03:20,280
+so, yeah, I just leave this like this and try not to pay too much attention to it.
+
+53
+00:03:20,319 --> 00:03:21,479
+Yeah.
+
+54
+00:03:21,680 --> 00:03:26,960
+Cool. So let's go ahead and start constructing
+
+55
+00:03:27,159 --> 00:03:29,920
+some things for the drop.
+
+56
+00:03:31,120 --> 00:03:34,759
+I'm going to mute these vocals.
+
+57
+00:03:37,680 --> 00:03:43,199
+And I'm going to start at bar 49.
+
+58
+00:03:43,400 --> 00:03:47,400
+Cool. So let's make
+
+59
+00:03:47,599 --> 00:03:49,760
+some drum and bass.
+
+60
+00:03:50,719 --> 00:03:53,400
+Cool. So let's start with a kick.
+
+61
+00:03:53,599 --> 00:03:56,960
+We know the tune is in F.
+
+62
+00:03:58,200 --> 00:03:59,680
+Cool.
+
+63
+00:04:03,719 --> 00:04:08,560
+All right. So the first thing we want to do is make a very simple beat.
+
+64
+00:04:10,920 --> 00:04:15,280
+Let me arrange these MIDI files because they're looping.
+
+65
+00:04:18,399 --> 00:04:21,879
+I'm also going to make these a bit longer.
+
+66
+00:04:24,079 --> 00:04:25,399
+Cool.
+
+67
+00:04:30,039 --> 00:04:35,199
+Change this to one bar and I'm just going to loop this.
+
+68
+00:04:39,239 --> 00:04:40,599
+Cool.
+
+69
+00:04:41,959 --> 00:04:44,000
+Now let's do my kick.
+
+70
+00:04:44,199 --> 00:04:46,000
+Sorry, let's do my snare.
+
+71
+00:04:46,199 --> 00:04:49,680
+This might not be the snare that I use, but
+
+72
+00:04:49,879 --> 00:04:55,720
+what I want to do is get this down and then I can start writing.
+
+73
+00:04:59,040 --> 00:05:02,959
+OK, that's obviously a very low snare.
+
+74
+00:05:08,839 --> 00:05:15,079
+So in terms of tuning your drums, as you can see, I put the snare on F.
+
+75
+00:05:15,839 --> 00:05:19,800
+So the kick and snare are both on F, but I don't always like to do that.
+
+76
+00:05:20,000 --> 00:05:26,120
+So what I can do is choose like a C maybe, which I know is in scale to my tune
+
+77
+00:05:26,319 --> 00:05:29,680
+because I've already looked at that before.
+
+78
+00:05:32,199 --> 00:05:33,479
+Cool.
+
+79
+00:05:38,639 --> 00:05:43,560
+So now what I want to do is start adding obviously some hi-hats
+
+80
+00:05:43,759 --> 00:05:47,040
+or some kind of shaker kind of things.
+
+81
+00:05:47,240 --> 00:05:50,079
+So I'm going to add an audio file.
+
+82
+00:05:50,280 --> 00:05:54,120
+And what I'm going to do is just quickly rinse through my samples.
+
+83
+00:05:54,319 --> 00:05:55,840
+So
+
+84
+00:05:56,040 --> 00:06:00,240
+in this stage of the tune, I don't want to spend too much time engineering.
+
+85
+00:06:00,240 --> 00:06:03,680
+I want to be able to put some samples in there and have an idea very quickly.
+
+86
+00:06:03,879 --> 00:06:06,160
+I'm just going to reach for my hi-hats.
+
+87
+00:06:06,360 --> 00:06:09,519
+These are all hi-hats I've made from making drums.
+
+88
+00:06:09,720 --> 00:06:11,800
+So like we did previously, make lots
+
+89
+00:06:11,800 --> 00:06:15,759
+of different drums and then I'll export all the hi-hat loops and put them in a
+
+90
+00:06:15,960 --> 00:06:19,480
+folder, so I've got stuff like this.
+
+91
+00:06:19,520 --> 00:06:21,280
+I want to go for something a bit techy, you know.
+
+92
+00:06:21,480 --> 00:06:25,400
+So I want something short.
+
+93
+00:06:26,600 --> 00:06:28,000
+Listen.
+
+94
+00:06:31,400 --> 00:06:33,560
+So that could work.
+
+95
+00:06:33,560 --> 00:06:35,720
+That's cool.
+
+96
+00:06:48,519 --> 00:06:50,240
+Not bad.
+
+97
+00:06:54,160 --> 00:06:56,240
+These are cool, actually.
+
+98
+00:06:58,800 --> 00:07:01,399
+I actually made these sounds.
+
+99
+00:07:01,600 --> 00:07:03,560
+So when I prepare for my DJ sets,
+
+100
+00:07:03,760 --> 00:07:08,480
+obviously use Rekordbox, which is a library to organize your
+
+101
+00:07:08,680 --> 00:07:13,440
+tunes on USB so they work in connection with the CDJ and other brands.
+
+102
+00:07:13,640 --> 00:07:18,280
+And what I do is when I add my markers on Rekordbox, I'm constantly pulling
+
+103
+00:07:18,480 --> 00:07:22,080
+the audio file back and forward and it always makes these crazy sounds.
+
+104
+00:07:22,280 --> 00:07:27,920
+So like 10 minutes I've just recorded me shifting tunes, my own tunes.
+
+105
+00:07:28,120 --> 00:07:30,320
+And then what I did,
+
+106
+00:07:30,639 --> 00:07:33,439
+I put a 1-16 filter over them.
+
+107
+00:07:33,639 --> 00:07:38,560
+So it's just like that and you get some really random sounds.
+
+108
+00:07:41,879 --> 00:07:42,920
+Crazy sounds.
+
+109
+00:07:43,120 --> 00:07:45,759
+So let's see if we can use those.
+
+110
+00:07:54,839 --> 00:07:56,360
+I'm just going to loop one bar for now.
+
+111
+00:07:56,480 --> 00:07:58,199
+And also
+
+112
+00:07:58,400 --> 00:08:02,040
+what I'm going to do is not using that.
+
+113
+00:08:02,040 --> 00:08:03,680
+I'm going to put my intro at the top.
+
+114
+00:08:03,879 --> 00:08:07,000
+So I've got a bit more room to operate.
+
+115
+00:08:08,120 --> 00:08:12,560
+So one thing I like to do is keep my snares and kicks free.
+
+116
+00:08:12,759 --> 00:08:17,120
+So my snare is here and that's clashing with this sound.
+
+117
+00:08:17,319 --> 00:08:22,480
+So I'm simply going to cut it up, put a fade in and a fade out.
+
+118
+00:08:23,480 --> 00:08:25,640
+I'm not sure about the placement.
+
+119
+00:08:32,519 --> 00:08:35,800
+Not sure about that sound just yet.
+
+120
+00:08:36,000 --> 00:08:37,639
+This is also on the kick as well.
+
+121
+00:08:37,840 --> 00:08:39,720
+So let's get rid of that.
+
+122
+00:08:41,720 --> 00:08:44,840
+I can probably remove the fade in now.
+
+123
+00:08:47,759 --> 00:08:50,240
+Quite a lot of low end in that.
+
+124
+00:08:50,480 --> 00:08:53,320
+Let's go a bit easier on that.
+
+125
+00:08:57,039 --> 00:08:58,000
+Better.
+
+126
+00:08:58,200 --> 00:09:00,080
+Let's add some more bits.
+
+127
+00:09:01,360 --> 00:09:03,120
+Bongo's.
+
+128
+00:09:04,840 --> 00:09:06,440
+These are cool.
+
+129
+00:09:13,759 --> 00:09:15,399
+Quite loud.
+
+130
+00:09:15,399 --> 00:09:24,519
+I'm just going to stick another hi-hat in the middle from here, just to
+
+131
+00:09:24,720 --> 00:09:26,600
+help us.
+
+132
+00:09:35,000 --> 00:09:38,879
+Actually, let's extend this out and see what we've got.
+
+133
+00:09:39,079 --> 00:09:43,120
+So again, even on the hi-hats, I'm going to put fade ins.
+
+134
+00:09:45,399 --> 00:09:57,600
+I'm going to leave this free for now.
+
+135
+00:09:57,799 --> 00:10:04,639
+I'm not sure this is great yet, but we'll keep going.
+
+136
+00:10:09,759 --> 00:10:10,600
+Quite like that.
+
+137
+00:10:10,799 --> 00:10:14,279
+If there was some complementary hi-hat after that would be good.
+
+138
+00:10:14,480 --> 00:10:16,639
+Let's add some little bits.
+
+139
+00:10:21,159 --> 00:10:22,000
+This is cool.
+
+140
+00:10:22,199 --> 00:10:23,839
+This might work.
+
+141
+00:10:26,519 --> 00:10:27,679
+OK, that's working cool.
+
+142
+00:10:27,879 --> 00:10:29,360
+That section.
+
+143
+00:10:33,600 --> 00:10:36,799
+You can already see I've cut the hi-hat out on the snare.
+
+144
+00:10:37,000 --> 00:10:40,639
+This would have come from an old tune, which I never finished probably,
+
+145
+00:10:40,839 --> 00:10:42,879
+but not on the kick.
+
+146
+00:10:44,279 --> 00:10:54,159
+I'm not sure about this start now.
+
+147
+00:11:00,480 --> 00:11:04,639
+Let's add another little section here, see what happens.
+
+148
+00:11:07,600 --> 00:11:10,679
+That sounds quite cool, actually.
+
+149
+00:11:11,480 --> 00:11:16,120
+Add another little section here and another little section there.
+
+150
+00:11:16,320 --> 00:11:19,720
+So I'm just jamming away now.
+
+151
+00:11:31,440 --> 00:11:35,680
+So now what I'm going to do is I'm going to go...
+
+152
+00:11:35,880 --> 00:11:40,480
+What I want to hear is some kind of faster percussion elements in there.
+
+153
+00:11:40,680 --> 00:11:44,600
+So I'm just going to go through some of my breaks, really, and see if I can
+
+154
+00:11:44,800 --> 00:11:46,640
+find something.
+
+155
+00:12:01,400 --> 00:12:04,480
+I like the hi-hats on that one.
+
+156
+00:12:05,480 --> 00:12:06,840
+So.
+
+157
+00:12:09,600 --> 00:12:13,800
+I've also got this project file saved, and if I wanted to, I could go in there,
+
+158
+00:12:14,000 --> 00:12:17,360
+but I've got the audio file, so I may as well utilize it.
+
+159
+00:12:17,560 --> 00:12:20,159
+I can just take the kick out.
+
+160
+00:12:21,360 --> 00:12:22,759
+And because I made all these sounds
+
+161
+00:12:22,960 --> 00:12:26,279
+myself, there's a big chance that they're all just going to just going to sound
+
+162
+00:12:26,480 --> 00:12:29,320
+very similar and kind of gel with each other.
+
+163
+00:12:29,519 --> 00:12:33,080
+So let's get rid of that.
+
+164
+00:12:33,240 --> 00:12:35,200
+We do not want that kick.
+
+165
+00:12:35,400 --> 00:12:36,120
+Do not want that sound.
+
+166
+00:12:36,320 --> 00:12:37,480
+I'm putting a big fade on the snare.
+
+167
+00:12:37,680 --> 00:12:40,280
+I might change that later, though.
+
+168
+00:12:43,320 --> 00:12:45,639
+Some click somewhere.
+
+169
+00:12:54,960 --> 00:12:56,960
+See how this sounds.
+
+170
+00:12:59,360 --> 00:13:00,800
+Not bad.
+
+171
+00:13:03,840 --> 00:13:07,840
+Still sounds very synthetic to me.
+
+172
+00:13:29,840 --> 00:13:30,200
+Cool.
+
+173
+00:13:30,200 --> 00:13:34,720
+So let's quickly go and have a look at this kick.
+
+174
+00:13:35,640 --> 00:13:37,360
+How is this?
+
+175
+00:13:37,560 --> 00:13:40,360
+Could be improved, I think.
+
+176
+00:13:43,480 --> 00:13:47,400
+So let's try and exaggerate the transient.
+
+177
+00:13:56,600 --> 00:13:59,720
+Probably want to make it a bit shorter as well.
+
+178
+00:13:59,759 --> 00:14:01,440
+Let's try that.
+
+179
+00:14:02,960 --> 00:14:04,240
+Cool.
+
+180
+00:14:08,279 --> 00:14:13,879
+There is a tiny little hit before the kick here, which kind of
+
+181
+00:14:15,279 --> 00:14:18,560
+which kind of puts me off a little bit.
+
+182
+00:14:25,000 --> 00:14:26,200
+I think this might work.
+
+183
+00:14:26,399 --> 00:14:27,399
+I'm going to leave it muted for now.
+
+184
+00:14:27,399 --> 00:14:29,919
+I might come back to that later.
+
+185
+00:14:40,079 --> 00:14:41,559
+Cool. So I'm just listening,
+
+186
+00:14:41,759 --> 00:14:45,319
+analyzing everything, trying to think what could I improve?
+
+187
+00:14:45,519 --> 00:14:47,959
+The snare could be a lot better.
+
+188
+00:14:49,639 --> 00:14:51,919
+Let's see if we can improve that.
+
+189
+00:14:53,079 --> 00:14:55,679
+So I've got a little clap there, a bit too much for me, so I'm going to get
+
+190
+00:14:55,680 --> 00:14:57,240
+rid of that.
+
+191
+00:15:00,480 --> 00:15:03,400
+This is my transient and fundamental layer.
+
+192
+00:15:03,600 --> 00:15:08,080
+Let's see if I can improve that just by offsetting, maybe.
+
+193
+00:15:08,600 --> 00:15:11,240
+Also take the attack off.
+
+194
+00:15:25,680 --> 00:15:33,440
+So this is the white noise layer.
+
+195
+00:15:33,640 --> 00:15:35,840
+I'm just going to shorten this up.
+
+196
+00:15:35,840 --> 00:15:54,800
+I've made it longer.
+
+197
+00:15:55,000 --> 00:15:57,320
+Maybe that sounds even better.
+
+198
+00:16:01,800 --> 00:16:04,960
+See, this is the perfect example of why
+
+199
+00:16:05,160 --> 00:16:07,960
+making your own sounds
+
+200
+00:16:08,400 --> 00:16:12,280
+gives you such creativity and
+
+201
+00:16:12,480 --> 00:16:18,080
+it enables you to literally fine tune everything to how you want it.
+
+202
+00:16:19,080 --> 00:16:23,960
+So I can make that literally the tail if I wanted.
+
+203
+00:16:27,320 --> 00:16:30,360
+If I wanted to go for that, perfect.
+
+204
+00:16:31,360 --> 00:16:35,960
+I think we should go for something a bit more fine for this tune.
+
+205
+00:16:40,360 --> 00:16:43,039
+Let's see what it sounds like.
+
+206
+00:16:45,000 --> 00:16:46,720
+Also cool.
+
+207
+00:16:55,720 --> 00:16:57,720
+That sounds dope.
+
+208
+00:17:00,360 --> 00:17:05,559
+Cool.
+
+209
+00:17:05,759 --> 00:17:08,160
+So let's now.
+
+210
+00:17:08,960 --> 00:17:11,720
+We've got a rough
+
+211
+00:17:11,920 --> 00:17:15,559
+template for a drum set out, going to group all the hi-hats and obviously
+
+212
+00:17:15,759 --> 00:17:17,880
+call them hats.
+
+213
+00:17:19,000 --> 00:17:22,120
+Oh, that's not how you spell hats.
+
+214
+00:17:24,240 --> 00:17:27,319
+I'm going to bring my side chain down and I'm going to group all these now
+
+215
+00:17:27,359 --> 00:17:28,919
+and call them.
+
+216
+00:17:29,119 --> 00:17:31,240
+I'm going to group the side chain as well.
+
+217
+00:17:31,439 --> 00:17:35,159
+So I'm going to call these drums.
+
+218
+00:17:39,639 --> 00:17:40,919
+Nice.
+
+219
+00:17:41,119 --> 00:17:44,599
+Alright, so the next thing I wanted to do
+
+220
+00:17:44,799 --> 00:17:50,720
+is start adding some interesting bass sounds, which we made earlier.
+
+221
+00:17:50,919 --> 00:17:52,720
+So let's get into that.
+
+222
+00:17:53,799 --> 00:17:57,039
+Not sure why that duplicated, probably my fault.
+
+223
+00:17:57,839 --> 00:18:00,359
+Cool. So in my user library,
+
+224
+00:18:00,559 --> 00:18:04,200
+I have all the bass sounds which we
+
+225
+00:18:04,399 --> 00:18:06,639
+made in the previous videos.
+
+226
+00:18:06,839 --> 00:18:09,079
+So let's go through them.
+
+227
+00:18:21,680 --> 00:18:24,799
+So obviously way too loud
+
+228
+00:18:25,039 --> 00:18:28,480
+and it doesn't sound like the side chain is working.
+
+229
+00:18:32,000 --> 00:18:34,159
+Or is it? Let's check.
+
+230
+00:18:34,359 --> 00:18:36,240
+I don't think it is.
+
+231
+00:18:37,159 --> 00:18:39,440
+Why isn't it working?
+
+232
+00:18:54,799 --> 00:19:04,200
+Okay, give me a sec and I'll just try and find out what I'm doing wrong here.
+
+233
+00:19:04,399 --> 00:19:05,319
+And I'll be back to you in a sec.
+
+234
+00:19:05,519 --> 00:19:08,000
+Okay, so I found out what it was.
+
+235
+00:19:08,200 --> 00:19:09,319
+Schoolboy error.
+
+236
+00:19:09,519 --> 00:19:13,279
+My actual side chain triggers weren't turned on.
+
+237
+00:19:13,480 --> 00:19:15,799
+So these are my MIDI files.
+
+238
+00:19:16,000 --> 00:19:20,200
+So if I put them here, just play them without them.
+
+239
+00:19:21,000 --> 00:19:24,720
+And then I'll put them back on.
+
+240
+00:19:25,799 --> 00:19:28,119
+There you go.
+
+241
+00:19:28,319 --> 00:19:29,319
+Cool.
+
+242
+00:19:29,519 --> 00:19:32,799
+So let's go writing some tunes.
+
+243
+00:19:37,799 --> 00:19:38,799
+Cool.
+
+244
+00:19:39,000 --> 00:19:45,960
+So I kind of like that, but I don't like the hi-hat shuffles on this part.
+
+245
+00:19:46,159 --> 00:19:52,799
+So maybe we can just do it rather than
+
+246
+00:19:53,599 --> 00:19:57,119
+a really fast edit here.
+
+247
+00:19:58,960 --> 00:20:00,079
+Perfect.
+
+248
+00:20:00,279 --> 00:20:05,279
+Right. So now I want some open hi-hat on there.
+
+249
+00:20:05,480 --> 00:20:08,399
+So I'm going to go back into my.
+
+250
+00:20:10,000 --> 00:20:11,960
+I'm going to add a new
+
+251
+00:20:12,159 --> 00:20:20,480
+track into my hi-hats and let's quickly get an open hi-hat from one of my.
+
+252
+00:20:20,680 --> 00:20:22,720
+Maybe that will be good.
+
+253
+00:20:23,799 --> 00:20:27,279
+Oh, kind of cool.
+
+254
+00:20:31,839 --> 00:20:37,399
+These, I think this is these.
+
+255
+00:20:39,680 --> 00:20:41,440
+But sure.
+
+256
+00:20:51,159 --> 00:20:51,919
+Cool.
+
+257
+00:20:52,080 --> 00:20:54,279
+Right. That's a good stop.
+
+258
+00:20:55,920 --> 00:20:58,759
+Just double check with that intro.
+
+259
+00:20:58,960 --> 00:21:00,759
+How we're doing.
+
+260
+00:21:06,120 --> 00:21:09,320
+Cool thing that's going to work good.
+
+261
+00:21:15,880 --> 00:21:17,360
+Cool. Yeah, I think that might work.
+
+262
+00:21:17,360 --> 00:21:19,080
+Cool. I'm going to leave the intro on for now.
+
+263
+00:21:19,119 --> 00:21:22,240
+Let's get rid of these bits in the engine.
+
+264
+00:21:22,439 --> 00:21:24,159
+What's making that sound?
+
+265
+00:21:24,359 --> 00:21:26,519
+OK, drone sound.
+
+266
+00:21:33,119 --> 00:21:37,759
+So as you notice, and it might be a little frustrating for you,
+
+267
+00:21:37,960 --> 00:21:42,079
+I have a habit when I want to analyze something.
+
+268
+00:21:42,279 --> 00:21:44,079
+I literally
+
+269
+00:21:44,279 --> 00:21:48,599
+press spacebar a lot because I'm just trying to re-trigger it.
+
+270
+00:21:48,800 --> 00:21:52,760
+So I'll try and do that less if that's annoying.
+
+271
+00:21:55,960 --> 00:22:00,040
+I want to check the harmonics here.
+
+272
+00:22:02,200 --> 00:22:06,520
+That's an A, which isn't in scale.
+
+273
+00:22:07,520 --> 00:22:10,040
+Might be able to change that.
+
+274
+00:22:11,360 --> 00:22:15,440
+How did we do this again?
+
+275
+00:22:19,600 --> 00:22:21,360
+Is it with this?
+
+276
+00:22:30,360 --> 00:22:32,400
+OK, there's a massive A coming somewhere.
+
+277
+00:22:32,600 --> 00:22:34,960
+Is it in the effects? No.
+
+278
+00:22:48,600 --> 00:23:01,800
+OK, a little bit less resonant sounds cool.
+
+279
+00:23:05,200 --> 00:23:08,600
+OK, the peak is coming from the FM.
+
+280
+00:23:08,800 --> 00:23:09,840
+I should have remembered this.
+
+281
+00:23:10,040 --> 00:23:12,480
+I only made them yesterday.
+
+282
+00:23:15,600 --> 00:23:17,720
+So let's see if we can change that.
+
+283
+00:23:17,759 --> 00:23:19,519
+So.
+
+284
+00:23:26,319 --> 00:23:28,160
+I'm going to
+
+285
+00:23:28,680 --> 00:23:30,880
+put another macro.
+
+286
+00:23:33,799 --> 00:23:36,480
+Oh, that sounds a bit more
+
+287
+00:23:36,680 --> 00:23:40,120
+C, absolutely
+
+288
+00:23:40,319 --> 00:23:41,360
+perfect.
+
+289
+00:23:41,559 --> 00:23:43,920
+We know that's in scale.
+
+290
+00:23:44,440 --> 00:23:51,320
+And if I put this on the intro now, it should sound very good.
+
+291
+00:23:52,519 --> 00:23:56,720
+That sounds very in tune.
+
+292
+00:24:01,000 --> 00:24:03,519
+Maybe.
+
+293
+00:24:03,720 --> 00:24:07,120
+We could have this here.
+
+294
+00:24:14,560 --> 00:24:18,080
+So what I'm thinking is.
+
+295
+00:24:18,279 --> 00:24:20,680
+And then to do to do to do.
+
+296
+00:24:20,880 --> 00:24:22,759
+So let's go and do that.
+
+297
+00:24:22,960 --> 00:24:29,000
+So another thing I want to mention to you guys is I'm quite
+
+298
+00:24:29,200 --> 00:24:32,680
+I have a quite short attention span with working on some things.
+
+299
+00:24:32,880 --> 00:24:35,680
+If I get an idea, I'll go and do it.
+
+300
+00:24:35,880 --> 00:24:38,400
+So we were working on the drop,
+
+301
+00:24:38,600 --> 00:24:41,640
+but I dropped that into the breakdown here or the build up,
+
+302
+00:24:41,640 --> 00:24:42,400
+if you want to call that.
+
+303
+00:24:42,600 --> 00:24:44,400
+And I heard something in my head.
+
+304
+00:24:44,600 --> 00:24:50,600
+And when I heard that, I instead of leaving it to later, I was going to do it
+
+305
+00:24:50,800 --> 00:24:54,680
+there and then so I think we can make something like this on the fly.
+
+306
+00:24:54,880 --> 00:24:57,160
+So I'm going to open serum.
+
+307
+00:25:05,520 --> 00:25:07,120
+That's obviously an audio track.
+
+308
+00:25:07,320 --> 00:25:09,000
+Apologies.
+
+309
+00:25:12,080 --> 00:25:15,160
+Cool, let's put this in the side chain.
+
+310
+00:25:26,800 --> 00:25:32,120
+So I'm going to loop this and get my patent to do to do and then.
+
+311
+00:25:42,640 --> 00:25:44,759
+I think it's this.
+
+312
+00:25:46,840 --> 00:25:48,240
+Cool.
+
+313
+00:25:56,640 --> 00:25:59,000
+Right, we need to turn this into a baseline.
+
+314
+00:25:59,200 --> 00:26:01,000
+So.
+
+315
+00:26:01,200 --> 00:26:02,600
+How are we going to do that?
+
+316
+00:26:02,800 --> 00:26:08,520
+Let's see if we can use an existing table, which we used before,
+
+317
+00:26:08,599 --> 00:26:11,720
+which one to be used, the dirt
+
+318
+00:26:11,920 --> 00:26:13,839
+digital.
+
+319
+00:26:14,720 --> 00:26:20,519
+This one, I think, or no, it was the distorted bass dropper.
+
+320
+00:26:20,720 --> 00:26:23,160
+Cool, let's go one up, two down.
+
+321
+00:26:25,279 --> 00:26:27,319
+Oh, almost there.
+
+322
+00:26:34,599 --> 00:26:36,480
+Hey, that sounds cool.
+
+323
+00:26:39,200 --> 00:26:43,359
+So, let's I'm just following my instinct here.
+
+324
+00:26:47,480 --> 00:26:49,559
+Cool, that's going to be good.
+
+325
+00:26:49,759 --> 00:26:51,240
+Let's turn the random off as well.
+
+326
+00:26:51,440 --> 00:26:53,720
+I keep forgetting that goes.
+
+327
+00:26:53,920 --> 00:26:58,519
+Cool, let's add some distortion.
+
+328
+00:26:59,400 --> 00:27:02,359
+Let's try something over the top.
+
+329
+00:27:02,559 --> 00:27:04,920
+Let's have a bit of fun, you know.
+
+330
+00:27:09,400 --> 00:27:11,240
+Too much.
+
+331
+00:27:11,440 --> 00:27:14,440
+Might work.
+
+332
+00:27:14,639 --> 00:27:16,879
+Oh, that sounds good.
+
+333
+00:27:17,079 --> 00:27:18,920
+Not too much.
+
+334
+00:27:25,119 --> 00:27:27,920
+See how that sounds in the mix, should we?
+
+335
+00:27:39,519 --> 00:27:43,200
+I'm not sure the pitching's right.
+
+336
+00:28:02,680 --> 00:28:06,079
+Let's try and improve this.
+
+337
+00:28:08,759 --> 00:28:11,599
+I just want to add a bit more.
+
+338
+00:28:25,720 --> 00:28:28,720
+Let's keep the phase as it was.
+
+339
+00:28:32,000 --> 00:28:34,079
+See what happens if we automate the FM.
+
+340
+00:28:34,279 --> 00:28:38,319
+It might sound a bit crackly and stuff.
+
+341
+00:28:38,519 --> 00:28:40,319
+Oh, cool.
+
+342
+00:28:52,119 --> 00:28:54,119
+Put it to one bar.
+
+343
+00:28:54,120 --> 00:28:56,120
+Not bad.
+
+344
+00:29:12,120 --> 00:29:15,720
+Feels like I'm losing a lot of sub bass for some reason.
+
+345
+00:29:15,920 --> 00:29:18,240
+And I think that's because
+
+346
+00:29:18,440 --> 00:29:21,360
+that peak is so high.
+
+347
+00:29:24,840 --> 00:29:27,200
+Let's turn this down a bit.
+
+348
+00:29:28,920 --> 00:29:31,800
+It's had a bit of white noise as well.
+
+349
+00:29:42,000 --> 00:29:43,400
+Cool.
+
+350
+00:29:45,720 --> 00:29:48,400
+Right, now let's go back to our
+
+351
+00:29:49,520 --> 00:29:54,040
+and drop and see, let's see if we can fit this in, shall we?
+
+352
+00:29:54,440 --> 00:29:56,200
+So.
+
+353
+00:30:06,040 --> 00:30:08,480
+OK, I could put this on here.
+
+354
+00:30:10,480 --> 00:30:14,040
+Or I could try and make it a bit funky.
+
+355
+00:30:24,120 --> 00:30:28,000
+OK, let's try and make a cooler melody out of this.
+
+356
+00:30:54,520 --> 00:30:56,320
+Not bad.
+
+357
+00:31:01,320 --> 00:31:05,320
+Cool, a bit underwhelmed by that sound now.
+
+358
+00:31:05,520 --> 00:31:06,720
+Leave it in there for now.
+
+359
+00:31:06,920 --> 00:31:10,880
+Let's add a few more of our bass sounds, which we made.
+
+360
+00:31:11,080 --> 00:31:13,640
+So what was number two?
+
+361
+00:31:16,840 --> 00:31:22,920
+Kind of forgotten what sounds we made now, but they'll come back to me.
+
+362
+00:31:24,800 --> 00:31:28,200
+Oops, let's drag that over.
+
+363
+00:31:28,400 --> 00:31:30,720
+What do we do here?
+
+364
+00:31:34,440 --> 00:31:37,040
+This could be interesting.
+
+365
+00:31:43,240 --> 00:31:46,280
+F, D.
+
+366
+00:31:48,800 --> 00:31:52,520
+Let's try E, C.
+
+367
+00:31:54,960 --> 00:31:59,640
+Let's see what happens if we do this.
+
+368
+00:32:06,920 --> 00:32:08,720
+Kind of cool.
+
+369
+00:32:08,920 --> 00:32:10,520
+Let's go one.
+
+370
+00:32:24,120 --> 00:32:27,440
+I'm going to make this a bit shorter.
+
+371
+00:32:31,240 --> 00:32:35,040
+That release is really annoying me.
+
+372
+00:32:35,240 --> 00:32:37,600
+See if I can fix that.
+
+373
+00:32:54,120 --> 00:33:08,280
+I quite like this sound and kind of the how it's working with the drums,
+
+374
+00:33:08,480 --> 00:33:13,480
+but to me, it sounds like a sound which would be at the end of like every eight
+
+375
+00:33:13,480 --> 00:33:15,640
+bars or every four bars, for example.
+
+376
+00:33:15,640 --> 00:33:17,400
+So I'm going to try and work it for now.
+
+377
+00:33:17,600 --> 00:33:21,400
+And if not, I'm going to leave it in there so we can fit it in later.
+
+378
+00:33:21,600 --> 00:33:25,200
+The goal for me now is to try and fix this.
+
+379
+00:33:26,680 --> 00:33:31,600
+This kind of release thing, I remember this bass.
+
+380
+00:33:31,800 --> 00:33:35,920
+It was like a big peak in there, wasn't there?
+
+381
+00:33:36,120 --> 00:33:37,519
+Yeah.
+
+382
+00:33:38,960 --> 00:33:41,120
+Let's see what this sounds like.
+
+383
+00:33:44,400 --> 00:33:46,880
+I want to go higher.
+
+384
+00:33:51,400 --> 00:33:55,759
+Let's try something like this.
+
+385
+00:34:11,960 --> 00:34:13,280
+That's cool.
+
+386
+00:34:13,480 --> 00:34:16,160
+Again, the release is annoying the hell out of me.
+
+387
+00:34:16,399 --> 00:34:21,440
+So I am going to do a workaround.
+
+388
+00:34:21,639 --> 00:34:25,199
+This isn't fixing it, but it's definitely a workaround.
+
+389
+00:34:25,399 --> 00:34:27,679
+I'm going to use the utility
+
+390
+00:34:28,279 --> 00:34:30,719
+and I'm going to
+
+391
+00:34:31,319 --> 00:34:35,000
+just turn it down just here.
+
+392
+00:34:35,799 --> 00:34:37,199
+Done.
+
+393
+00:34:46,159 --> 00:34:57,480
+I think the sound is cool, but I think it sounds so static.
+
+394
+00:34:57,679 --> 00:35:00,119
+And the goal was to make something techy and funky.
+
+395
+00:35:00,319 --> 00:35:04,079
+So this kind of just goes, no, no, no, like that.
+
+396
+00:35:04,279 --> 00:35:11,639
+And I'm wondering if we can maybe add some cool LFO to it.
+
+397
+00:35:11,639 --> 00:35:14,319
+Let's give it a go.
+
+398
+00:35:32,519 --> 00:35:35,519
+No, don't like that.
+
+399
+00:35:35,719 --> 00:35:37,719
+I'm going to change it.
+
+400
+00:35:37,920 --> 00:35:39,960
+I'm going to change it.
+
+401
+00:35:40,039 --> 00:35:42,880
+I'm going to change the fine tuning.
+
+402
+00:35:43,079 --> 00:35:45,960
+Remember, this also relates to
+
+403
+00:35:46,159 --> 00:35:47,679
+how quickly it phases.
+
+404
+00:35:47,880 --> 00:35:50,800
+So it gives that kind of one, one, one LFO feeling.
+
+405
+00:35:51,000 --> 00:35:54,039
+Let's see if I can go really fast.
+
+406
+00:35:54,039 --> 00:36:11,079
+I think that might be better.
+
+407
+00:36:11,279 --> 00:36:12,880
+The objective was to go faster,
+
+408
+00:36:13,079 --> 00:36:17,840
+but I've gone slower and it may be sounding cooler.
+
+409
+00:36:19,320 --> 00:36:20,880
+I want to make it shorter.
+
+410
+00:36:21,079 --> 00:36:22,960
+I just want that.
+
+411
+00:36:23,119 --> 00:36:24,440
+I think I wanted to stop here.
+
+412
+00:36:24,639 --> 00:36:27,240
+Let's just try and use the utility for now.
+
+413
+00:36:27,440 --> 00:36:31,400
+And then we will shorten this up.
+
+414
+00:36:31,599 --> 00:36:33,000
+Oops.
+
+415
+00:36:53,960 --> 00:37:02,480
+I'm not sure.
+
+416
+00:37:02,679 --> 00:37:05,639
+And this, guys, is where
+
+417
+00:37:05,840 --> 00:37:08,840
+you follow your own personal preference.
+
+418
+00:37:09,039 --> 00:37:12,360
+I'm sure there'll be lots of you watching this thinking,
+
+419
+00:37:12,360 --> 00:37:13,559
+oh, I would have done it this way.
+
+420
+00:37:13,760 --> 00:37:16,360
+And that's cool because
+
+421
+00:37:18,480 --> 00:37:20,599
+and that's cool because everyone has their own
+
+422
+00:37:20,639 --> 00:37:23,000
+interpretation of what should things sound like.
+
+423
+00:37:23,000 --> 00:37:27,199
+And you guys should really follow your instinct on that.
+
+424
+00:37:28,960 --> 00:37:30,599
+OK, cool. I'm going to roll with that for now.
+
+425
+00:37:30,799 --> 00:37:33,360
+Let's see
+
+426
+00:37:35,559 --> 00:37:38,319
+if these work now.
+
+427
+00:37:50,599 --> 00:38:02,079
+I like the placement of that sound isn't great.
+
+428
+00:38:13,679 --> 00:38:15,920
+Cool. So that's really cool.
+
+429
+00:38:16,119 --> 00:38:18,719
+So the first two bass sounds we've made,
+
+430
+00:38:18,920 --> 00:38:24,240
+one and two in our previous sessions are just clicking in and working straight away.
+
+431
+00:38:24,440 --> 00:38:26,240
+So happy about that so far.
+
+432
+00:38:26,440 --> 00:38:28,800
+Let's add some more.
+
+433
+00:38:29,000 --> 00:38:31,160
+We've already used the intro res, so that's kind of cool.
+
+434
+00:38:31,360 --> 00:38:34,000
+We used one, two, three for now.
+
+435
+00:38:34,200 --> 00:38:36,440
+Let's go with four.
+
+436
+00:38:36,640 --> 00:38:38,880
+What do we have here?
+
+437
+00:38:48,760 --> 00:38:50,040
+Oh,
+
+438
+00:38:52,760 --> 00:38:56,160
+maybe this is a better answer.
+
+439
+00:39:00,080 --> 00:39:02,920
+In the same scale as well.
+
+440
+00:39:09,480 --> 00:39:11,120
+Oh, lots of options here.
+
+441
+00:39:11,320 --> 00:39:12,880
+Too many.
+
+442
+00:39:18,920 --> 00:39:20,200
+Oh,
+
+443
+00:39:34,640 --> 00:39:36,560
+that is not bad.
+
+444
+00:39:41,080 --> 00:39:42,040
+Keep hearing this.
+
+445
+00:39:42,240 --> 00:39:45,480
+Do, do, do, do, do, do, do a lot.
+
+446
+00:39:45,719 --> 00:39:48,800
+Let's see, can we get it to work?
+
+447
+00:39:49,000 --> 00:39:50,519
+Right, so I'm extending the loop.
+
+448
+00:39:50,719 --> 00:39:53,280
+Two bars have to be done.
+
+449
+00:39:53,480 --> 00:39:55,480
+Now's the time.
+
+450
+00:39:56,159 --> 00:39:57,880
+Let's go.
+
+451
+00:39:59,320 --> 00:40:01,440
+What did I do there?
+
+452
+00:40:15,719 --> 00:40:18,079
+It's not bad.
+
+453
+00:40:23,400 --> 00:40:26,119
+Must be how to improve this.
+
+454
+00:40:28,159 --> 00:40:35,039
+Let's add firstly, some like pitch and let's try and treat it like a kick.
+
+455
+00:40:35,320 --> 00:40:36,639
+So it's got
+
+456
+00:40:36,920 --> 00:40:38,119
+so it's a bit more punchy.
+
+457
+00:40:38,320 --> 00:40:45,079
+So I'm going to use LFO four assigned to the master tune.
+
+458
+00:40:45,719 --> 00:40:49,199
+Just like we do with a kick and snap
+
+459
+00:40:50,079 --> 00:40:51,559
+trigger.
+
+460
+00:40:51,960 --> 00:40:53,480
+They go.
+
+461
+00:40:57,199 --> 00:40:58,920
+Let's also
+
+462
+00:40:59,719 --> 00:41:01,440
+add this to it.
+
+463
+00:41:06,000 --> 00:41:08,199
+Cool, that's much better.
+
+464
+00:41:08,400 --> 00:41:11,679
+Let's remove this warp.
+
+465
+00:41:15,559 --> 00:41:17,400
+Do, do, do, do, do, do, do, do, do, do, do.
+
+466
+00:41:17,599 --> 00:41:21,320
+Right, I hear in my head, I'll try and sing it.
+
+467
+00:41:21,519 --> 00:41:24,440
+I know my singing is terrible, which you've already found out.
+
+468
+00:41:24,639 --> 00:41:26,360
+But let's
+
+469
+00:41:26,559 --> 00:41:29,719
+let me try and sing it for you.
+
+470
+00:41:30,679 --> 00:41:33,079
+No, no,
+
+471
+00:41:33,280 --> 00:41:37,760
+do, do, do, do, do, do, do, do, do, do, do, do, do, do, do, do, do.
+
+472
+00:41:37,960 --> 00:41:41,240
+So let's grab
+
+473
+00:41:41,440 --> 00:41:43,720
+one of our sounds, which we made earlier.
+
+474
+00:41:43,920 --> 00:41:45,360
+Use a library.
+
+475
+00:41:45,560 --> 00:41:48,920
+There was a cool reason here somewhere.
+
+476
+00:41:56,880 --> 00:41:58,640
+Cool.
+
+477
+00:41:58,840 --> 00:42:02,400
+This might do the do the job.
+
+478
+00:42:05,680 --> 00:42:08,360
+Just have a quick clean up.
+
+479
+00:42:09,360 --> 00:42:14,920
+I'm going to duplicate all the drums for now.
+
+480
+00:42:17,120 --> 00:42:19,000
+Did it work out?
+
+481
+00:42:19,200 --> 00:42:20,360
+Oh, it did work out.
+
+482
+00:42:20,559 --> 00:42:21,880
+Good.
+
+483
+00:42:38,680 --> 00:42:39,680
+Cool.
+
+484
+00:42:51,039 --> 00:42:55,760
+So that's the melody I had in my head, but it's quite underwhelming.
+
+485
+00:42:55,960 --> 00:42:58,240
+Let's see if we put one of those vocals in there,
+
+486
+00:42:58,440 --> 00:43:01,039
+see what that sounds like, shall we?
+
+487
+00:43:01,240 --> 00:43:03,120
+Where were we?
+
+488
+00:43:09,160 --> 00:43:12,840
+OK, let's try this, shall we?
+
+489
+00:43:16,280 --> 00:43:17,200
+Awesome.
+
+490
+00:43:17,400 --> 00:43:19,000
+OK, that's going to work great.
+
+491
+00:43:19,200 --> 00:43:24,519
+And guys, putting that vocal over that bit is a direct result of working in a
+
+492
+00:43:24,720 --> 00:43:33,120
+mode, in a scale, so we we know the keys and the and the notes we want to use
+
+493
+00:43:33,320 --> 00:43:36,760
+and we know they're musically correct because they fit in a scale.
+
+494
+00:43:36,760 --> 00:43:40,480
+So literally, any if I put anything in from the intro now,
+
+495
+00:43:40,680 --> 00:43:45,000
+I mean, it should work up.
+
+496
+00:43:52,880 --> 00:43:54,800
+There we go, see?
+
+497
+00:43:55,880 --> 00:43:57,960
+And this is a really fun way to write.
+
+498
+00:43:58,160 --> 00:44:00,960
+So let's utilize what we've got.
+
+499
+00:44:00,960 --> 00:44:09,199
+So I'm going to want to take all the reverb off this.
+
+500
+00:44:09,400 --> 00:44:14,599
+I could just make a render with the reverb.
+
+501
+00:44:16,000 --> 00:44:17,079
+What's the best way?
+
+502
+00:44:17,280 --> 00:44:19,360
+I think I'll do that. Yeah.
+
+503
+00:44:20,119 --> 00:44:22,119
+And also a bit of annoying thing,
+
+504
+00:44:22,320 --> 00:44:27,519
+I'll have to take out of the group, because if you remember,
+
+505
+00:44:27,720 --> 00:44:30,599
+we put the reverb on the group, that's no problem.
+
+506
+00:44:30,639 --> 00:44:32,400
+Let's get rid of that.
+
+507
+00:44:40,440 --> 00:44:43,159
+Wow, sounds terrible.
+
+508
+00:44:52,000 --> 00:44:54,400
+What does this sound like?
+
+509
+00:45:00,599 --> 00:45:07,279
+Maybe we should mute this one.
+
+510
+00:45:24,799 --> 00:45:29,079
+Right, I'm going to make a render with that reverb and cut it short.
+
+511
+00:45:29,279 --> 00:45:30,519
+So let's do that.
+
+512
+00:45:30,599 --> 00:45:39,119
+Let's use the resampling function in Ableton.
+
+513
+00:45:39,119 --> 00:45:59,559
+Just cut a lot of that low end out.
+
+514
+00:46:10,119 --> 00:46:16,639
+A bit much tighter, but not amazing.
+
+515
+00:46:17,639 --> 00:46:20,359
+Where did my arp go?
+
+516
+00:46:27,440 --> 00:46:30,719
+I think I want to take this section, to be honest.
+
+517
+00:46:30,920 --> 00:46:33,920
+Let's have a little look.
+
+518
+00:46:39,279 --> 00:46:41,199
+Nice.
+
+519
+00:46:52,239 --> 00:46:56,119
+So basically, what I've written here now
+
+520
+00:46:56,319 --> 00:46:57,880
+is my sketch.
+
+521
+00:46:58,079 --> 00:47:03,159
+So I've got the idea, got the basic idea, the basic structure, basic intro.
+
+522
+00:47:03,359 --> 00:47:08,719
+I'm all in scale because I wrote with the purpose of being in scale.
+
+523
+00:47:08,880 --> 00:47:11,840
+Now what I'm going to do is when I get to this stage,
+
+524
+00:47:11,840 --> 00:47:13,360
+I like to take a little 10 minute break.
+
+525
+00:47:13,560 --> 00:47:15,480
+I'll get some fresh air, go for a quick walk.
+
+526
+00:47:15,680 --> 00:47:20,120
+I'll come back and we'll deconstruct what doesn't sound good,
+
+527
+00:47:20,320 --> 00:47:23,120
+what doesn't fit, and then we'll build out the tune.
+
+528
+00:47:23,320 --> 00:47:28,120
+Another important thing which we need to do is this build up here.
+
+529
+00:47:28,320 --> 00:47:34,320
+I also loved the sound of this on the intro.
+
+530
+00:47:39,680 --> 00:47:41,800
+Maybe again.
+
+531
+00:47:46,880 --> 00:47:49,280
+Let's duplicate that.
+
+532
+00:48:01,880 --> 00:48:05,520
+See how it drops? Exciting.
+
+533
+00:48:08,720 --> 00:48:13,200
+OK, so let's get back to it.
+
+534
+00:48:13,400 --> 00:48:17,680
+I took a little break, so I'm going to quickly listen to it again.
+
+535
+00:48:26,360 --> 00:48:30,040
+Cool. So what needs improvement?
+
+536
+00:48:30,240 --> 00:48:35,560
+I can build out the rest of the tune now, but I think I've got enough.
+
+537
+00:48:35,599 --> 00:48:41,639
+In this section here, in these two bars, to try and improve a few things.
+
+538
+00:48:41,840 --> 00:48:47,000
+One thing I don't like is the drums yet.
+
+539
+00:48:49,920 --> 00:48:51,759
+There's not much energy in the drums,
+
+540
+00:48:51,960 --> 00:48:55,559
+so I'm going to go and try and improve those.
+
+541
+00:48:55,759 --> 00:48:58,880
+Let's just isolate those for a sec.
+
+542
+00:49:05,759 --> 00:49:10,239
+I think the kick could be better.
+
+543
+00:49:17,799 --> 00:49:20,119
+Let's try and improve this kick.
+
+544
+00:49:25,320 --> 00:49:26,880
+So.
+
+545
+00:49:29,559 --> 00:49:33,960
+I'm going to try and change the tuning of this to see.
+
+546
+00:49:34,760 --> 00:49:36,679
+It's in scale.
+
+547
+00:49:37,679 --> 00:49:39,559
+Let's have a little listen.
+
+548
+00:49:47,800 --> 00:49:51,360
+I like that much better, actually.
+
+549
+00:49:53,720 --> 00:49:55,960
+I might change this one back to F.
+
+550
+00:49:56,159 --> 00:50:00,400
+I want to kind of create a variation.
+
+551
+00:50:00,559 --> 00:50:03,360
+I like that a lot, actually.
+
+552
+00:50:04,840 --> 00:50:07,320
+I mean, if you listen to any real life drummer,
+
+553
+00:50:07,519 --> 00:50:11,599
+the you know, the kick's always not going to be the same, so.
+
+554
+00:50:14,599 --> 00:50:18,800
+What I will do, though, is I will split this up
+
+555
+00:50:19,000 --> 00:50:23,240
+so the lower kicks can have their own channel.
+
+556
+00:50:25,760 --> 00:50:28,240
+I'm going to rename this kick
+
+557
+00:50:28,640 --> 00:50:32,920
+I'm going to rename this kick F.
+
+558
+00:50:35,120 --> 00:50:39,760
+And this one kick C.
+
+559
+00:50:39,960 --> 00:50:43,040
+Let's remove that first F.
+
+560
+00:50:51,200 --> 00:50:53,200
+Sounding a lot better.
+
+561
+00:50:54,080 --> 00:50:55,800
+A lot higher.
+
+562
+00:50:59,240 --> 00:51:04,520
+So one thing I might try is putting a little bit of saturation
+
+563
+00:51:06,120 --> 00:51:08,320
+on the whole drums.
+
+564
+00:51:08,520 --> 00:51:14,000
+So I just want to kind of push them a little harder, to be honest.
+
+565
+00:51:14,200 --> 00:51:15,720
+So I'm going to use a wave shaper.
+
+566
+00:51:15,920 --> 00:51:17,320
+Let's see.
+
+567
+00:51:28,880 --> 00:51:32,160
+So it just kind of pushes them a little bit.
+
+568
+00:51:32,360 --> 00:51:35,440
+It gives them a little more energy to the mix.
+
+569
+00:51:37,160 --> 00:51:39,760
+This kick's distorting a bit now.
+
+570
+00:51:39,960 --> 00:51:42,040
+I wonder if I can fix that.
+
+571
+00:51:58,240 --> 00:52:03,840
+The kick is getting a bit lost.
+
+572
+00:52:04,040 --> 00:52:06,840
+Why is it getting a bit lost?
+
+573
+00:52:08,600 --> 00:52:10,920
+Is it because of these?
+
+574
+00:52:29,240 --> 00:52:31,320
+Okay, what I'm going to do is I'm going
+
+575
+00:52:31,520 --> 00:52:35,440
+to kind of put a manual side chain on these things.
+
+576
+00:52:38,640 --> 00:52:39,680
+That's better.
+
+577
+00:52:39,880 --> 00:52:42,320
+So I'll just copy these over.
+
+578
+00:52:43,200 --> 00:52:48,600
+Small details now, but what I want to do is have this set up.
+
+579
+00:52:48,800 --> 00:52:52,080
+So when I copy this all over and actually build out my tune,
+
+580
+00:52:52,280 --> 00:52:55,960
+everything's correct already. In Ableton, it's a bit awkward
+
+581
+00:52:56,000 --> 00:52:59,280
+because you can't put fade ins on multiple files.
+
+582
+00:52:59,480 --> 00:53:00,920
+You just have to copy them over.
+
+583
+00:53:01,119 --> 00:53:05,720
+So my workflow for Ableton is to make sure I've got everything
+
+584
+00:53:05,920 --> 00:53:10,039
+kind of as good as it can be and then move on from there.
+
+585
+00:53:10,240 --> 00:53:14,079
+So let me try and bring back some of these
+
+586
+00:53:14,280 --> 00:53:16,880
+percussion kind of sound.
+
+587
+00:53:17,079 --> 00:53:18,800
+This might work.
+
+588
+00:53:18,800 --> 00:53:33,360
+The drums are close, but they're still not, still not exactly what I want to hear.
+
+589
+00:53:40,519 --> 00:53:41,920
+So now I'm just going to loop this.
+
+590
+00:53:42,120 --> 00:53:44,519
+I'm sure, I'm sure we all know,
+
+591
+00:53:44,559 --> 00:53:46,719
+we all know this,
+
+592
+00:53:48,079 --> 00:53:52,559
+this process, it's looping and looping and looping and just trying to improve
+
+593
+00:53:52,559 --> 00:53:54,599
+certain things and trying to improve certain things too.
+
+594
+00:53:54,599 --> 00:53:56,119
+You go absolutely insane in your head.
+
+595
+00:53:56,119 --> 00:53:58,880
+So you're going to have to bear with me a little bit.
+
+596
+00:54:00,599 --> 00:54:02,480
+I need to.
+
+597
+00:54:10,679 --> 00:54:12,840
+Just put these together.
+
+598
+00:54:13,039 --> 00:54:14,240
+Let's get a bit organized here.
+
+599
+00:54:14,440 --> 00:54:18,600
+It's an open hi-hat cymbal kind of thing at the top.
+
+600
+00:54:22,880 --> 00:54:26,320
+Can't be low end out of these shuffles as well.
+
+601
+00:54:33,240 --> 00:54:37,120
+Let's try it without the glitchy sounds.
+
+602
+00:54:39,039 --> 00:54:42,240
+Sounds cleaner. Let's see what this sounds like.
+
+603
+00:54:43,840 --> 00:54:47,519
+I like that much better.
+
+604
+00:54:48,280 --> 00:54:49,800
+Cleaner.
+
+605
+00:54:51,960 --> 00:54:53,760
+More energy.
+
+606
+00:54:55,600 --> 00:54:57,200
+That's without as well.
+
+607
+00:54:57,400 --> 00:55:00,480
+Right, there's one thing I want to mention about these shuffles
+
+608
+00:55:00,680 --> 00:55:03,200
+and just shuffles in general.
+
+609
+00:55:03,400 --> 00:55:06,400
+We talked about it when we were making the drums.
+
+610
+00:55:06,600 --> 00:55:11,880
+And one of the coolest things I like to do with shuffles is literally just
+
+611
+00:55:11,920 --> 00:55:13,559
+put them off time.
+
+612
+00:55:13,760 --> 00:55:19,760
+A drummer in real life will never play hits exactly on grid.
+
+613
+00:55:19,960 --> 00:55:23,280
+So it's good to try and keep a bit of funk in there.
+
+614
+00:55:23,480 --> 00:55:26,960
+So this is the hi-hat loop.
+
+615
+00:55:27,800 --> 00:55:32,519
+And what I'm going to do is just follow this basically.
+
+616
+00:55:32,720 --> 00:55:35,880
+What's this? I wonder if that sounds good as well.
+
+617
+00:55:36,079 --> 00:55:37,360
+We muted that earlier.
+
+618
+00:55:37,559 --> 00:55:39,840
+I'm just going to review it again.
+
+619
+00:55:39,880 --> 00:55:41,800
+If you notice, that's
+
+620
+00:55:42,000 --> 00:55:44,960
+so far off the grid, but it gives a lot of funk.
+
+621
+00:55:45,160 --> 00:55:46,640
+Let's see.
+
+622
+00:55:52,160 --> 00:55:53,200
+Cool. Liking that.
+
+623
+00:55:53,400 --> 00:55:55,519
+I think we should keep that in.
+
+624
+00:55:56,880 --> 00:56:01,000
+Let me clean up this.
+
+625
+00:56:03,519 --> 00:56:08,360
+So I'm going to listen to these hi-hats again, the first ones we put in.
+
+626
+00:56:08,360 --> 00:56:12,640
+And if I don't like them this time, they're getting dumped.
+
+627
+00:56:15,160 --> 00:56:16,840
+Good work.
+
+628
+00:56:17,039 --> 00:56:18,880
+Gives it a
+
+629
+00:56:20,120 --> 00:56:24,519
+gives a very acoustic feeling, which I like.
+
+630
+00:56:39,360 --> 00:56:40,280
+I quite like that.
+
+631
+00:56:40,480 --> 00:56:45,400
+It gives it a very open acoustic feeling.
+
+632
+00:56:50,800 --> 00:56:53,200
+Let's see if we can make these work.
+
+633
+00:56:53,400 --> 00:56:56,200
+I don't want to layer too much on top of each other.
+
+634
+00:56:56,400 --> 00:56:59,880
+All right. One thing I'm going to get rid of is our glitchy record box things.
+
+635
+00:56:59,880 --> 00:57:03,240
+If I need them, I'm going to come back to them later.
+
+636
+00:57:05,840 --> 00:57:07,519
+Sounds weird.
+
+637
+00:57:08,360 --> 00:57:15,800
+OK, I just want to make sure these are all.
+
+638
+00:57:21,599 --> 00:57:24,200
+I like that a lot, but it's a bit too loud.
+
+639
+00:57:24,400 --> 00:57:25,680
+I think
+
+640
+00:57:26,680 --> 00:57:30,519
+I think I'm also going to take the attack off these hi-hats.
+
+641
+00:57:30,720 --> 00:57:32,599
+I mean, I've got
+
+642
+00:57:38,680 --> 00:57:39,840
+I like the fade in.
+
+643
+00:57:40,039 --> 00:57:40,840
+I like the fade ins.
+
+644
+00:57:41,039 --> 00:57:45,800
+It gives it a kind of off beat feel,
+
+645
+00:57:47,039 --> 00:57:48,920
+which is cool.
+
+646
+00:57:49,680 --> 00:57:51,840
+Right, let's turn these down.
+
+647
+00:57:55,160 --> 00:58:00,800
+Right, that's sounding a lot better to me, a lot more energetic.
+
+648
+00:58:02,920 --> 00:58:06,440
+Still something going on with the high end here.
+
+649
+00:58:06,639 --> 00:58:09,440
+Let's just remove that low end.
+
+650
+00:58:18,079 --> 00:58:20,440
+I think something going on a bit crazy here.
+
+651
+00:58:20,639 --> 00:58:22,760
+I'm just going to take that out.
+
+652
+00:58:26,400 --> 00:58:28,679
+Cool, let's check these.
+
+653
+00:58:33,519 --> 00:58:36,360
+Lots of low end in this, I can hear.
+
+654
+00:58:36,440 --> 00:58:45,920
+Let's put these up there, play these hi-hats together.
+
+655
+00:58:48,119 --> 00:58:50,079
+Cool, they work.
+
+656
+00:58:56,400 --> 00:59:00,599
+Let's mute these and see if we can do without them.
+
+657
+00:59:02,320 --> 00:59:04,519
+Don't think we can.
+
+658
+00:59:07,440 --> 00:59:12,920
+In this area here, it just gets a bit messy all of a sudden.
+
+659
+00:59:13,119 --> 00:59:14,440
+I want to try and find out why.
+
